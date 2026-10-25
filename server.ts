@@ -556,7 +556,7 @@ function loadState(): AppState {
       const isOldToken =
         !savedToken ||
         savedToken === '8748812150:AAFcmCRr_BmSu9chg1HHdlcjXDX7PMj_gnk' ||
-        savedToken === '8916390079:AAHYxZSMhqO9ZI1C4v5x0whtrOkWTzliLtw' || savedToken === '8832808711:AAHU16Bek02Jzsln3jcsIPUzNpz7qH2D9SE';
+        savedToken === '8916390079:AAHYxZSMhqO9ZI1C4v5x0whtrOkWTzliLtw' || savedToken === '8832808711:AAHU16Bek02Jzsln3jcsIPUzNpz7qH2D9SE' || savedToken === '8916390079:AAHYxZSMhqO9ZI1C4v5x0whtrOkWTzliLtw' || savedToken === '8832808711:AAHU16Bek02Jzsln3jcsIPUzNpz7qH2D9SE';
       const activeBotToken = isOldToken ? NEW_BOT_TOKEN : savedToken;
 
       const hasOldPlans =
@@ -2771,6 +2771,29 @@ function renderBotLiveLocationView(user: UserProfile, notice?: string) {
     reply_markup: { inline_keyboard: keyboard },
     withMedia: false,
   };
+}
+
+function cleanMapQueryFromRecord(rec: any, areaLabel: string): { displayAddress: string; mapUrl: string } {
+  const rawAddr = String(rec?.address || areaLabel || '').replace(/!/g, ', ');
+  const circle = String(rec?.circle || '').trim();
+  const pName = String(rec?.name || '').trim();
+  const fName = String(rec?.fatherName || '').trim();
+  const parts = rawAddr.split(/[,;|\n]+/).map((p) => p.trim()).filter(Boolean);
+  const cleaned: string[] = [];
+  for (let p of parts) {
+    p = p.replace(/\b(S\/O|W\/O|D\/O|C\/O|H\/O|F\/O|M\/O)\b[^,]*/gi, '').trim();
+    if (pName && pName !== 'Not found' && p.toLowerCase() === pName.toLowerCase()) continue;
+    if (fName && fName !== 'Not found' && p.toLowerCase() === fName.toLowerCase()) continue;
+    p = p.replace(/^(H\.?\s*NO\.?|HOUSE\s*NO\.?|FLAT\s*NO\.?|PLOT\s*NO\.?|WARD\s*NO\.?)\s*[-:#.]?\s*[A-Z0-9/-]+\s*/i, '').trim();
+    if (p.length >= 2 && !cleaned.some((c) => c.toLowerCase() === p.toLowerCase())) cleaned.push(p);
+  }
+  if (circle && circle !== 'Not found' && !cleaned.some((c) => c.toLowerCase().includes(circle.toLowerCase()))) {
+    cleaned.push(circle);
+  }
+  const displayAddress = cleaned.join(', ') || areaLabel || 'India';
+  const query = cleaned.slice(-4).join(', ') || displayAddress;
+  const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query + ', India')}`;
+  return { displayAddress, mapUrl };
 }
 
 function cleanMapQueryFromRecord(rec: any, areaLabel: string): { displayAddress: string; mapUrl: string } {
