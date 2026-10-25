@@ -182,20 +182,43 @@
     "1672440707": {
       "id": 1672440707,
       "firstName": "Jaat",
-      "credits": 1,
+      "credits": 0,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 1,
-      "totalLookups": 1,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 2,
       "referralCode": "HEX440707",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T11:21:10.507Z",
-      "lastActiveAt": "2026-10-25T11:23:08.875Z",
+      "lastActiveAt": "2026-10-25T11:25:42.387Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "f513234e-3c81-4c7b-8c59-0513fc477c55",
+          "queryNumber": "8279624785",
+          "timestamp": "2026-10-25T11:23:46.760Z",
+          "source": "bot",
+          "userId": 1672440707,
+          "userName": "Jaat",
+          "resultSummary": {
+            "name": "Tapendra",
+            "truecallerName": "Vaibhav",
+            "fatherName": "Yogendra",
+            "mobile": "8279624785",
+            "altMobile": "9536729247",
+            "circle": "JIO UPW",
+            "idNumber": "658910047992",
+            "email": "Not found",
+            "address": "muradpur pavti, PavatiHapur, Uttar Pradesh, 245205",
+            "totalRecords": 2,
+            "lat": 28.77492,
+            "lng": 78.07337,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=muradpur%20pavti%2C%20PavatiHapur%2C%20Uttar%20Pradesh%2C%20245205%2C%20India"
+          }
+        },
         {
           "id": "57d21fe2-7ad3-4fd9-ae6f-7a4d8b73147d",
           "queryNumber": "6397026324",
@@ -221,8 +244,8 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9190,
-      "lastBotMessageHasPhoto": true,
+      "lastBotMessageId": 9195,
+      "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25"
     },
@@ -612,6 +635,29 @@
   },
   "globalHistory": [
     {
+      "id": "f513234e-3c81-4c7b-8c59-0513fc477c55",
+      "queryNumber": "8279624785",
+      "timestamp": "2026-10-25T11:23:46.760Z",
+      "source": "bot",
+      "userId": 1672440707,
+      "userName": "Jaat",
+      "resultSummary": {
+        "name": "Tapendra",
+        "truecallerName": "Vaibhav",
+        "fatherName": "Yogendra",
+        "mobile": "8279624785",
+        "altMobile": "9536729247",
+        "circle": "JIO UPW",
+        "idNumber": "658910047992",
+        "email": "Not found",
+        "address": "muradpur pavti, PavatiHapur, Uttar Pradesh, 245205",
+        "totalRecords": 2,
+        "lat": 28.77492,
+        "lng": 78.07337,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=muradpur%20pavti%2C%20PavatiHapur%2C%20Uttar%20Pradesh%2C%20245205%2C%20India"
+      }
+    },
+    {
       "id": "57d21fe2-7ad3-4fd9-ae6f-7a4d8b73147d",
       "queryNumber": "6397026324",
       "timestamp": "2026-10-25T11:21:37.435Z",
@@ -889,6 +935,22 @@
     }
   ],
   "logs": [
+    {
+      "id": "a03ffc27-b0e5-49ee-9229-c673803eda36",
+      "timestamp": "2026-10-25T11:25:42.734Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1672440707,
+      "userName": "Jaat",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "f2ba9671-9a6a-470f-80d9-0759ea9ff758",
+      "timestamp": "2026-10-25T11:23:46.761Z",
+      "type": "LOOKUP",
+      "userId": 1672440707,
+      "userName": "Jaat",
+      "summary": "Number Lookup 8279624785 (Tapendra)"
+    },
     {
       "id": "d1049ae7-a89e-4014-a4c3-d7b5b4eeb418",
       "timestamp": "2026-10-25T11:23:03.315Z",
@@ -1186,6 +1248,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810585,
+  "lastTelegramUpdateId": 168810599,
   "usedEmailIds": []
 }
