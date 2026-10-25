@@ -942,20 +942,43 @@
       "id": 7183197265,
       "firstName": "OG",
       "username": "OGxMANSURI",
-      "credits": 1,
+      "credits": 0,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 1,
-      "totalLookups": 1,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 2,
       "referralCode": "HEX197265",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:33:05.153Z",
-      "lastActiveAt": "2026-10-25T12:33:19.797Z",
+      "lastActiveAt": "2026-10-25T12:34:53.944Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "ed2b7024-b56d-4c71-b0c1-87544a8bfd57",
+          "queryNumber": "9174040900",
+          "timestamp": "2026-10-25T12:34:02.931Z",
+          "source": "bot",
+          "userId": 7183197265,
+          "userName": "OG",
+          "resultSummary": {
+            "name": "ANANWAR KHAN",
+            "truecallerName": "Anwar Bhai Tent -Home",
+            "fatherName": "MOHAMMAD KHAN",
+            "mobile": "9174040900",
+            "altMobile": "9174040240",
+            "circle": "VI MP",
+            "idNumber": "953547789874",
+            "email": "Not found",
+            "address": "SASTRI COLONY NARSULLAGANJ, Nasrllaganj Nasrullaganj tarun vidha MANDIR ke pas, NASRULLAGANJ-SEHORE, MP, 466331",
+            "totalRecords": 1,
+            "lat": 22.68496,
+            "lng": 77.27083,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nasrllaganj%20Nasrullaganj%20tarun%20vidha%20MANDIR%20ke%20pas%2C%20NASRULLAGANJ-SEHORE%2C%20MP%2C%20466331%2C%20India"
+          }
+        },
         {
           "id": "723996a4-5ce1-40b8-b276-b1fecb0fbe95",
           "queryNumber": "8959301342",
@@ -980,9 +1003,10 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9270,
+      "lastBotMessageId": 9275,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-10-25"
+      "lastLookupDate": "2026-10-25",
+      "awaitingRedeemCode": false
     }
   },
   "orders": {
@@ -1032,9 +1056,56 @@
       "createdAt": "2026-10-25T12:03:50.582Z",
       "expiresAt": "2026-10-25T12:13:50.582Z",
       "botQrMessageId": 9229
+    },
+    "HEX8HBE7265": {
+      "orderId": "HEX8HBE7265",
+      "famOrderId": "HEX8HBE7265",
+      "userId": 7183197265,
+      "userName": "OG",
+      "userUsername": "OGxMANSURI",
+      "planId": "plan_7d",
+      "planName": "1 Week Pass",
+      "amount": 29,
+      "payableAmount": "29",
+      "qrImageUrl": "https://hexx-locate.ai.studio/api/qr/HEX8HBE7265",
+      "qrDataUrl": "data:image/png;base64,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",
+      "lastImapScanAt": 0,
+      "credits": 0,
+      "days": 7,
+      "status": "PENDING",
+      "paymentUrl": "https://hexx-locate.ai.studio/?order=HEX8HBE7265",
+      "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX8HBE7265&tr=HEX8HBE7265",
+      "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX8HBE7265&tr=HEX8HBE7265",
+      "gatewaySource": "direct_gmail",
+      "createdAt": "2026-10-25T12:34:49.130Z",
+      "expiresAt": "2026-10-25T12:44:49.130Z",
+      "botQrMessageId": 9274
     }
   },
   "globalHistory": [
+    {
+      "id": "ed2b7024-b56d-4c71-b0c1-87544a8bfd57",
+      "queryNumber": "9174040900",
+      "timestamp": "2026-10-25T12:34:02.931Z",
+      "source": "bot",
+      "userId": 7183197265,
+      "userName": "OG",
+      "resultSummary": {
+        "name": "ANANWAR KHAN",
+        "truecallerName": "Anwar Bhai Tent -Home",
+        "fatherName": "MOHAMMAD KHAN",
+        "mobile": "9174040900",
+        "altMobile": "9174040240",
+        "circle": "VI MP",
+        "idNumber": "953547789874",
+        "email": "Not found",
+        "address": "SASTRI COLONY NARSULLAGANJ, Nasrllaganj Nasrullaganj tarun vidha MANDIR ke pas, NASRULLAGANJ-SEHORE, MP, 466331",
+        "totalRecords": 1,
+        "lat": 22.68496,
+        "lng": 77.27083,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nasrllaganj%20Nasrullaganj%20tarun%20vidha%20MANDIR%20ke%20pas%2C%20NASRULLAGANJ-SEHORE%2C%20MP%2C%20466331%2C%20India"
+      }
+    },
     {
       "id": "723996a4-5ce1-40b8-b276-b1fecb0fbe95",
       "queryNumber": "8959301342",
@@ -1589,6 +1660,22 @@
   ],
   "logs": [
     {
+      "id": "21683591-d16c-4e6c-83d1-8b99a213c496",
+      "timestamp": "2026-10-25T12:34:49.158Z",
+      "type": "PAYMENT",
+      "userId": 7183197265,
+      "userName": "OG",
+      "summary": "Created Auto-QR Order HEX8HBE7265 (₹29 for 7 Days VIP)"
+    },
+    {
+      "id": "7bd70635-2acd-45ab-89a7-9fd54e0fb785",
+      "timestamp": "2026-10-25T12:34:02.931Z",
+      "type": "LOOKUP",
+      "userId": 7183197265,
+      "userName": "OG",
+      "summary": "Number Lookup 9174040900 (ANANWAR KHAN)"
+    },
+    {
       "id": "955f6f42-002c-4f31-808c-a003a8f02b59",
       "timestamp": "2026-10-25T12:33:20.878Z",
       "type": "LOOKUP",
@@ -2117,6 +2204,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810669,
+  "lastTelegramUpdateId": 168810675,
   "usedEmailIds": []
 }
