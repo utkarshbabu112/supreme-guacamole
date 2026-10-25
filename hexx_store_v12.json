@@ -1055,6 +1055,53 @@
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-25",
       "awaitingRedeemCode": false
+    },
+    "8389339993": {
+      "id": 8389339993,
+      "firstName": "Alex",
+      "username": "Alex0xelA0",
+      "credits": 1,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
+      "referralCode": "HEX339993",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T13:10:18.241Z",
+      "lastActiveAt": "2026-10-25T13:11:00.839Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "e752d92f-27a2-4be7-9640-8a85c545ceed",
+          "queryNumber": "8976290501",
+          "timestamp": "2026-10-25T13:10:20.403Z",
+          "source": "bot",
+          "userId": 8389339993,
+          "userName": "Alex",
+          "resultSummary": {
+            "name": "50463067 SABEER ALAM FLEXI",
+            "truecallerName": "50463067 SABEER ALAM FLEXI",
+            "fatherName": "Not found",
+            "mobile": "8976290501",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastLookupDate": "2026-10-25",
+      "lastBotMessageId": 9284,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -1131,6 +1178,29 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "e752d92f-27a2-4be7-9640-8a85c545ceed",
+      "queryNumber": "8976290501",
+      "timestamp": "2026-10-25T13:10:20.403Z",
+      "source": "bot",
+      "userId": 8389339993,
+      "userName": "Alex",
+      "resultSummary": {
+        "name": "50463067 SABEER ALAM FLEXI",
+        "truecallerName": "50463067 SABEER ALAM FLEXI",
+        "fatherName": "Not found",
+        "mobile": "8976290501",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "ed8ebe2a-0aa8-498c-8a54-3a3480210df1",
       "queryNumber": "9675033923",
@@ -1731,6 +1801,14 @@
   ],
   "logs": [
     {
+      "id": "5a97c1af-93c8-4ef0-b69d-cd2a7f92015b",
+      "timestamp": "2026-10-25T13:10:20.403Z",
+      "type": "LOOKUP",
+      "userId": 8389339993,
+      "userName": "Alex",
+      "summary": "Number Lookup 8976290501 (50463067 SABEER ALAM FLEXI)"
+    },
+    {
       "id": "9b3354d9-ed77-4de6-80e3-b32e999b4e7b",
       "timestamp": "2026-10-25T12:47:26.509Z",
       "type": "LOOKUP",
@@ -2291,6 +2369,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810680,
+  "lastTelegramUpdateId": 168810683,
   "usedEmailIds": []
 }
