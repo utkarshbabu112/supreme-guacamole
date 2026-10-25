@@ -937,6 +937,52 @@
       "lastBotMessageId": 9262,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-25"
+    },
+    "7183197265": {
+      "id": 7183197265,
+      "firstName": "OG",
+      "username": "OGxMANSURI",
+      "credits": 1,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
+      "referralCode": "HEX197265",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T12:33:05.153Z",
+      "lastActiveAt": "2026-10-25T12:33:19.797Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "723996a4-5ce1-40b8-b276-b1fecb0fbe95",
+          "queryNumber": "8959301342",
+          "timestamp": "2026-10-25T12:33:20.878Z",
+          "source": "bot",
+          "userId": 7183197265,
+          "userName": "OG",
+          "resultSummary": {
+            "name": "MR SHAFIK AHMAD",
+            "fatherName": "Imam Khan Ahmad",
+            "mobile": "8959301342",
+            "altMobile": "8959202815",
+            "circle": "VI MP",
+            "idNumber": "465688657025",
+            "email": "Not found",
+            "address": "Bhopal BHOPAL, BHOPAL, Barkheda Yakub BHOPAL, Madhya Pradesh, 463111",
+            "totalRecords": 1,
+            "lat": 23.69617,
+            "lng": 77.57837,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BHOPAL%2C%20Barkheda%20Yakub%20BHOPAL%2C%20Madhya%20Pradesh%2C%20463111%2C%20India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9270,
+      "lastBotMessageHasPhoto": false,
+      "lastLookupDate": "2026-10-25"
     }
   },
   "orders": {
@@ -989,6 +1035,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "723996a4-5ce1-40b8-b276-b1fecb0fbe95",
+      "queryNumber": "8959301342",
+      "timestamp": "2026-10-25T12:33:20.878Z",
+      "source": "bot",
+      "userId": 7183197265,
+      "userName": "OG",
+      "resultSummary": {
+        "name": "MR SHAFIK AHMAD",
+        "fatherName": "Imam Khan Ahmad",
+        "mobile": "8959301342",
+        "altMobile": "8959202815",
+        "circle": "VI MP",
+        "idNumber": "465688657025",
+        "email": "Not found",
+        "address": "Bhopal BHOPAL, BHOPAL, Barkheda Yakub BHOPAL, Madhya Pradesh, 463111",
+        "totalRecords": 1,
+        "lat": 23.69617,
+        "lng": 77.57837,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BHOPAL%2C%20Barkheda%20Yakub%20BHOPAL%2C%20Madhya%20Pradesh%2C%20463111%2C%20India"
+      }
+    },
     {
       "id": "f17c956b-afe4-4835-a3e0-62c6e4fc912b",
       "queryNumber": "9006540977",
@@ -1521,6 +1589,22 @@
   ],
   "logs": [
     {
+      "id": "955f6f42-002c-4f31-808c-a003a8f02b59",
+      "timestamp": "2026-10-25T12:33:20.878Z",
+      "type": "LOOKUP",
+      "userId": 7183197265,
+      "userName": "OG",
+      "summary": "Number Lookup 8959301342 (MR SHAFIK AHMAD)"
+    },
+    {
+      "id": "6141124d-d8cb-44c2-8921-9f5905bc0deb",
+      "timestamp": "2026-10-25T12:33:05.836Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7183197265,
+      "userName": "OG",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "c192b36d-34af-4d97-b1e0-6eb786f72c28",
       "timestamp": "2026-10-25T12:27:50.095Z",
       "type": "BOT_MESSAGE",
@@ -2033,6 +2117,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810667,
+  "lastTelegramUpdateId": 168810669,
   "usedEmailIds": []
 }
