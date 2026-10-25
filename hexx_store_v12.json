@@ -1,1 +1,329 @@
-{}
+{
+  "config": {
+    "botName": "HEX OSINT",
+    "botUsername": "HexxOsint_bot",
+    "botToken": "8832808711:AAGMurZKiF6oxX2uOCqD7CoqZzfwkp6AVrA",
+    "miniAppUrl": "https://ais-pre-wjgc6ech6tjeb4fxmiq54f-739805761259.asia-southeast1.run.app",
+    "websiteUrl": "https://ais-pre-wjgc6ech6tjeb4fxmiq54f-739805761259.asia-southeast1.run.app",
+    "channelUrl": "https://t.me/HexxOsint_bot",
+    "channelButtonLabel": "📢 My Channel",
+    "groupUrl": "https://t.me/HexxOsint_bot",
+    "groupButtonLabel": "💬 My Group",
+    "adminPassword": "ZX10R",
+    "famGatewayUrl": "https://famgateway.in",
+    "famGatewayApiKey": "fam_d145abd40300ea43eaa81a7187a34a0f1fd4bf1f",
+    "merchantUpiId": "8252464080@fam",
+    "merchantName": "Hexx OSINT Bot",
+    "gmailUser": "vashudevx1451@gmail.com",
+    "gmailAppPassword": "ztxkbsoywmnuhthm",
+    "autoVerifyPayment": true,
+    "pollIntervalSeconds": 3,
+    "defaultTrialCredits": 2,
+    "dailyLookupLimit": 2,
+    "liveLocationLifetimeLimit": 1,
+    "referralBonusCredits": 2,
+    "referralsForFreePremiumDay": 3,
+    "freePremiumDaysReward": 1,
+    "maintenanceMode": false,
+    "bannerEnabled": false,
+    "responseImageEnabled": false,
+    "mediaType": "photo",
+    "bannerUrl": "https://i.ibb.co/jYGMmcb/file-000000000dc881faa92e8495635ad610.png",
+    "bannerVideoUrl": "https://cdn.pixabay.com/video/2020/04/18/36466-410654192_large.mp4",
+    "bannerTitle": "HEX OSINT",
+    "bannerSubtitle": "HEX OSINT & LIVE GPS",
+    "bannerBadge": "2 DAILY • 1 LIVE TRIAL",
+    "bannerFooter": "GOOGLE MAPS • LIVE GPS • 24/7",
+    "bannerTheme": "blue",
+    "headerPrefix": "❖",
+    "welcomeText": "<b>❤️ Hello {name}</b>\n\nWelcome to Hexx OSINT Bot\nSend any 10-digit mobile number in chat to trace its location & Google Maps pin.\n\n<b>Ex:</b> 9876543210",
+    "aboutText": "Hexx OSINT Bot provides instant Indian mobile number location with Google Maps pin (2/Day Free) and Live GPS Location tracking (1 Lifetime Free Trial, Unlimited for VIP).",
+    "supportHandle": "@HexxOsint_bot",
+    "lookupPromptTitle": "Number To Location",
+    "lookupPromptSubtext": "Send any 10-digit mobile number (Ex: 9876543210) in chat.",
+    "resultHeaderTitle": "Location & Info Report",
+    "resultFooterText": "Powered by Hexx OSINT Bot",
+    "noCreditMessage": "Your 2 Free Daily Number-to-Location lookups are finished. Unlock a Premium Pass for unlimited location & live GPS tracking.",
+    "osintApiUrl": "https://ftosint.world/api/number",
+    "osintApiKey": "tsneww-num2info",
+    "showFieldName": true,
+    "showFieldFather": true,
+    "showFieldMobile": true,
+    "showFieldAltMobile": true,
+    "showFieldCircle": true,
+    "showFieldIdNumber": true,
+    "showFieldEmail": true,
+    "showFieldAddress": true,
+    "showExtraRecords": true,
+    "maxExtraRecords": 5,
+    "maxAddressLength": 2000,
+    "labelFieldName": "Name",
+    "labelFieldFather": "Father",
+    "labelFieldMobile": "Mobile",
+    "labelFieldAltMobile": "Alt No",
+    "labelFieldCircle": "Circle",
+    "labelFieldIdNumber": "ID No",
+    "labelFieldEmail": "Email",
+    "labelFieldAddress": "Address",
+    "btnBackLabel": "« Back",
+    "btnBuyPlansLabel": "👑 Get Premium",
+    "btnHistoryLabel": "📜 History",
+    "btnClearHistoryLabel": "✕ Clear History",
+    "btnReferLabel": "🎁 Refer & Earn",
+    "btnMiniAppLabel": "📢 My Channel",
+    "forceJoinEnabled": false,
+    "forceJoinChannel": "@HexxUpdates",
+    "forceJoinUrl": "https://t.me/HexxUpdates",
+    "inlineButtons": [
+      {
+        "id": "btn_pricing",
+        "label": "👑 Get Premium",
+        "callbackData": "nav_pricing",
+        "style": "success",
+        "enabled": true,
+        "row": 1
+      },
+      {
+        "id": "btn_profile",
+        "label": "👤 My Profile",
+        "callbackData": "nav_profile",
+        "style": "primary",
+        "enabled": true,
+        "row": 1
+      },
+      {
+        "id": "btn_num_info",
+        "label": "📍 Number to Location",
+        "callbackData": "nav_num_info",
+        "style": "primary",
+        "enabled": true,
+        "row": 2
+      },
+      {
+        "id": "btn_live_loc",
+        "label": "🛰️ Live Location",
+        "callbackData": "nav_live_loc",
+        "style": "success",
+        "enabled": true,
+        "row": 3
+      },
+      {
+        "id": "btn_group",
+        "label": "💬 My Group",
+        "callbackData": "nav_group",
+        "style": "success",
+        "enabled": true,
+        "row": 4,
+        "url": "https://t.me/HexxOsint_bot"
+      },
+      {
+        "id": "btn_history",
+        "label": "📜 History",
+        "callbackData": "nav_history",
+        "style": "danger",
+        "enabled": true,
+        "row": 4
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_7d",
+        "name": "1 Week Pass",
+        "price": 29,
+        "days": 7,
+        "credits": 0,
+        "badge": "1 WEEK",
+        "description": "Unlimited Number to Location & Live Location for 7 Days",
+        "buttonStyle": "primary"
+      },
+      {
+        "id": "plan_30d",
+        "name": "1 Month Pass",
+        "price": 49,
+        "days": 30,
+        "credits": 0,
+        "badge": "POPULAR",
+        "description": "Unlimited Number to Location & Live Location for 30 Days",
+        "popular": true,
+        "buttonStyle": "success"
+      },
+      {
+        "id": "plan_365d",
+        "name": "1 Year Pass",
+        "price": 119,
+        "days": 365,
+        "credits": 0,
+        "badge": "BEST VALUE",
+        "description": "Unlimited Number to Location & Live Location for 365 Days",
+        "buttonStyle": "danger"
+      }
+    ],
+    "redeemCodes": [
+      {
+        "code": "LOCATE2",
+        "credits": 2,
+        "vipDays": 0,
+        "maxUses": 100,
+        "usedBy": [],
+        "createdAt": "2026-10-25T04:07:01.294Z"
+      },
+      {
+        "code": "VIP7DAY",
+        "credits": 0,
+        "vipDays": 7,
+        "maxUses": 50,
+        "usedBy": [],
+        "createdAt": "2026-10-25T04:07:01.294Z"
+      }
+    ],
+    "telegramFileId": "AgACAgQAAxkDAAIil2rdgJuSRDIqiIuAqie4FSZLv5R9AAJmD2sb3iGsUuvpp_StfsSaAQADAgADdwADPQQ"
+  },
+  "users": {
+    "6672896116": {
+      "id": 6672896116,
+      "firstName": "UHTKARSH",
+      "username": "Uhtkarshh",
+      "credits": 2,
+      "liveLocationUsed": 1,
+      "liveLocationLimit": 1,
+      "isPremium": true,
+      "premiumUntil": "2026-11-01T04:07:01.294Z",
+      "lastPlanName": "1 Week Pass",
+      "totalSpent": 29,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
+      "referralCode": "HEX667289",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T04:07:01.294Z",
+      "lastActiveAt": "2026-10-25T04:11:39.059Z",
+      "isBanned": false,
+      "isAdminUnlocked": true,
+      "history": [
+        {
+          "id": "15c4f986-ab18-4687-a23d-fbe03446183e",
+          "queryNumber": "9708398593",
+          "timestamp": "2026-10-25T04:11:32.280Z",
+          "source": "bot",
+          "userId": 6672896116,
+          "userName": "UHTKARSH",
+          "resultSummary": {
+            "name": "PRAMILA DEVI",
+            "truecallerName": "nisha rajapakar",
+            "fatherName": "JAYVIR KUMAR",
+            "mobile": "9708398593",
+            "altMobile": "Not found",
+            "circle": "VODA BHR&JHR",
+            "idNumber": "365308179342",
+            "email": "Not found",
+            "address": "W/O Jayvir Kumar, W/O Jayvir Kumar ward no 02, Rajapakar kali mandir, Rajapakar Raja Pakar , RAJA PAKAR-VAISHALI, BR, 844124",
+            "totalRecords": 1,
+            "lat": 25.75603,
+            "lng": 85.30739,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%2FO%20Jayvir%20Kumar%2C%20W%2FO%20Jayvir%20Kumar%20ward%20no%2002%2C%20Rajapakar%20kali%20mandir%2C%20Rajapakar%20Raja%20Pakar%20%2C%20RAJA%20PAKAR-VAISHALI%2C%20BR%2C%20844124%2C%20India"
+          }
+        }
+      ],
+      "lastBotMessageId": 8877,
+      "lastBotMessageHasPhoto": false,
+      "lookupMode": "info",
+      "lastLookupDate": "2026-10-25",
+      "activeTrackToken": "LOC611696TH"
+    }
+  },
+  "orders": {},
+  "globalHistory": [
+    {
+      "id": "15c4f986-ab18-4687-a23d-fbe03446183e",
+      "queryNumber": "9708398593",
+      "timestamp": "2026-10-25T04:11:32.280Z",
+      "source": "bot",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "resultSummary": {
+        "name": "PRAMILA DEVI",
+        "truecallerName": "nisha rajapakar",
+        "fatherName": "JAYVIR KUMAR",
+        "mobile": "9708398593",
+        "altMobile": "Not found",
+        "circle": "VODA BHR&JHR",
+        "idNumber": "365308179342",
+        "email": "Not found",
+        "address": "W/O Jayvir Kumar, W/O Jayvir Kumar ward no 02, Rajapakar kali mandir, Rajapakar Raja Pakar , RAJA PAKAR-VAISHALI, BR, 844124",
+        "totalRecords": 1,
+        "lat": 25.75603,
+        "lng": 85.30739,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%2FO%20Jayvir%20Kumar%2C%20W%2FO%20Jayvir%20Kumar%20ward%20no%2002%2C%20Rajapakar%20kali%20mandir%2C%20Rajapakar%20Raja%20Pakar%20%2C%20RAJA%20PAKAR-VAISHALI%2C%20BR%2C%20844124%2C%20India"
+      }
+    }
+  ],
+  "logs": [
+    {
+      "id": "8b706d4b-ff71-4e73-a975-4a4e1cbf6cc7",
+      "timestamp": "2026-10-25T04:11:32.280Z",
+      "type": "LOOKUP",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Number to Location 9708398593 (PRAMILA DEVI)"
+    },
+    {
+      "id": "1b4876f0-a06f-4d11-a8fd-85f32eb3d169",
+      "timestamp": "2026-10-25T04:11:29.094Z",
+      "type": "LOOKUP",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Generated Live Location Link (LOC611696TH)"
+    },
+    {
+      "id": "b7d0b8f0-90ea-4c3d-afcf-9d031ffc8240",
+      "timestamp": "2026-10-25T04:11:20.401Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "fabc32a6-22b4-437b-aef2-7f5dab9ba0d4",
+      "timestamp": "2026-10-25T04:11:11.569Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "42070171-b5e7-4d3e-8402-0f3fbfdff9bd",
+      "timestamp": "2026-10-25T04:10:48.827Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "a934aebb-67ed-4876-98af-82e0f4758a76",
+      "timestamp": "2026-10-25T04:10:32.052Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "c97d52dd-b370-40cf-bf9a-bb7a4adf45c1",
+      "timestamp": "2026-10-25T04:07:59.296Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "09596209-1a03-47b8-b4b6-6a23c9a658e2",
+      "timestamp": "2026-10-25T04:07:55.515Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    }
+  ],
+  "lastTelegramUpdateId": 168810206,
+  "usedEmailIds": []
+}
