@@ -564,7 +564,7 @@
     },
     "8758294363": {
       "id": 8758294363,
-      "firstName": "Anil",
+      "firstName": "Naveen",
       "credits": 0,
       "isPremium": false,
       "premiumUntil": null,
@@ -576,7 +576,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T10:59:17.085Z",
-      "lastActiveAt": "2026-10-25T11:00:33.843Z",
+      "lastActiveAt": "2026-10-25T13:42:05.392Z",
       "isBanned": false,
       "history": [
         {
@@ -627,7 +627,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9183,
+      "lastBotMessageId": 9314,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25"
@@ -2643,6 +2643,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810721,
+  "lastTelegramUpdateId": 168810722,
   "usedEmailIds": []
 }
