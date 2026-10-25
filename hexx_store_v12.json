@@ -5,7 +5,7 @@
     "botToken": "8832808711:AAGMurZKiF6oxX2uOCqD7CoqZzfwkp6AVrA",
     "miniAppUrl": "https://hexx-locate.ai.studio",
     "websiteUrl": "https://hexx-locate.ai.studio",
-    "channelUrl": "https://t.me/HexxOsint_bot",
+    "channelUrl": "https://t.me/followxpresss",
     "channelButtonLabel": "📢 My Channel",
     "groupUrl": "https://t.me/HexxOsint_bot",
     "groupButtonLabel": "💬 My Group",
@@ -876,16 +876,85 @@
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 2,
-      "totalLookups": 2,
+      "dailyLookupsUsed": 5,
+      "totalLookups": 5,
       "referralCode": "HEX071078",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-10-25T12:09:54.955Z",
+      "lastActiveAt": "2026-10-25T13:38:19.669Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "0109cc97-699b-433e-b036-cfa9075ae306",
+          "queryNumber": "8651729302",
+          "timestamp": "2026-10-25T13:38:22.397Z",
+          "source": "bot",
+          "userId": 8968071078,
+          "userName": "Aura",
+          "resultSummary": {
+            "name": "Nilam Kumari",
+            "truecallerName": "Mantu",
+            "fatherName": "W/O Anil Kumar",
+            "mobile": "8651729302",
+            "altMobile": "8578865967",
+            "circle": "VODA BHR&JHR",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "banbira, Vaishali, BASANTPUR B O - VSLI, BIHAR, VODA BHR&JHR, 844504",
+            "totalRecords": 1,
+            "lat": 25.67303,
+            "lng": 85.40363,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BASANTPUR%20B%20O%20-%20VSLI%2C%20BIHAR%2C%20VODA%20BHR%26JHR%2C%20844504%2C%20India"
+          }
+        },
+        {
+          "id": "ccdf57c6-00ce-4542-81c3-8b7084acbb22",
+          "queryNumber": "9507578036",
+          "timestamp": "2026-10-25T13:37:32.469Z",
+          "source": "bot",
+          "userId": 8968071078,
+          "userName": "Aura",
+          "resultSummary": {
+            "name": "Manoj Kumar",
+            "truecallerName": "Banty Rajapakar",
+            "fatherName": "lal babu singh",
+            "mobile": "9507578036",
+            "altMobile": "9801063746",
+            "circle": "BIHAR JIO",
+            "idNumber": "695988817359",
+            "email": "Not found",
+            "address": "Raja Pakar, vaishali, Bihar, 844124",
+            "totalRecords": 2,
+            "lat": 25.73722,
+            "lng": 85.34856,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Raja%20Pakar%2C%20vaishali%2C%20Bihar%2C%20844124%2C%20India"
+          }
+        },
+        {
+          "id": "6ccd2200-af56-41db-b3a6-5420e3b5b30e",
+          "queryNumber": "8298191845",
+          "timestamp": "2026-10-25T13:36:56.084Z",
+          "source": "bot",
+          "userId": 8968071078,
+          "userName": "Aura",
+          "resultSummary": {
+            "name": "Nilam Kumari",
+            "truecallerName": "Manoj(tuku",
+            "fatherName": "W/O Anil Kumar",
+            "mobile": "8298191845",
+            "altMobile": "8092503276",
+            "circle": "VODA BHR&JHR",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "banbira, Vaishali, BASANTPUR B O - VSLI, BIHAR, VODA BHR&JHR, 844504",
+            "totalRecords": 1,
+            "lat": 25.67303,
+            "lng": 85.40363,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BASANTPUR%20B%20O%20-%20VSLI%2C%20BIHAR%2C%20VODA%20BHR%26JHR%2C%20844504%2C%20India"
+          }
+        },
         {
           "id": "05473f7e-b77e-44ac-b028-8bcfa7487a19",
           "queryNumber": "7061224270",
@@ -934,11 +1003,12 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9264,
+      "lastBotMessageId": 9312,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25",
-      "isAdminUnlocked": true
+      "isAdminUnlocked": true,
+      "dailyLimit": 5
     },
     "8877490186": {
       "id": 8877490186,
@@ -1226,6 +1296,75 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "0109cc97-699b-433e-b036-cfa9075ae306",
+      "queryNumber": "8651729302",
+      "timestamp": "2026-10-25T13:38:22.397Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "Nilam Kumari",
+        "truecallerName": "Mantu",
+        "fatherName": "W/O Anil Kumar",
+        "mobile": "8651729302",
+        "altMobile": "8578865967",
+        "circle": "VODA BHR&JHR",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "banbira, Vaishali, BASANTPUR B O - VSLI, BIHAR, VODA BHR&JHR, 844504",
+        "totalRecords": 1,
+        "lat": 25.67303,
+        "lng": 85.40363,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BASANTPUR%20B%20O%20-%20VSLI%2C%20BIHAR%2C%20VODA%20BHR%26JHR%2C%20844504%2C%20India"
+      }
+    },
+    {
+      "id": "ccdf57c6-00ce-4542-81c3-8b7084acbb22",
+      "queryNumber": "9507578036",
+      "timestamp": "2026-10-25T13:37:32.469Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "Manoj Kumar",
+        "truecallerName": "Banty Rajapakar",
+        "fatherName": "lal babu singh",
+        "mobile": "9507578036",
+        "altMobile": "9801063746",
+        "circle": "BIHAR JIO",
+        "idNumber": "695988817359",
+        "email": "Not found",
+        "address": "Raja Pakar, vaishali, Bihar, 844124",
+        "totalRecords": 2,
+        "lat": 25.73722,
+        "lng": 85.34856,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Raja%20Pakar%2C%20vaishali%2C%20Bihar%2C%20844124%2C%20India"
+      }
+    },
+    {
+      "id": "6ccd2200-af56-41db-b3a6-5420e3b5b30e",
+      "queryNumber": "8298191845",
+      "timestamp": "2026-10-25T13:36:56.084Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "Nilam Kumari",
+        "truecallerName": "Manoj(tuku",
+        "fatherName": "W/O Anil Kumar",
+        "mobile": "8298191845",
+        "altMobile": "8092503276",
+        "circle": "VODA BHR&JHR",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "banbira, Vaishali, BASANTPUR B O - VSLI, BIHAR, VODA BHR&JHR, 844504",
+        "totalRecords": 1,
+        "lat": 25.67303,
+        "lng": 85.40363,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BASANTPUR%20B%20O%20-%20VSLI%2C%20BIHAR%2C%20VODA%20BHR%26JHR%2C%20844504%2C%20India"
+      }
+    },
     {
       "id": "10de7f72-ee60-4c26-bcd3-143e340be646",
       "queryNumber": "8178531201",
@@ -1872,6 +2011,54 @@
   ],
   "logs": [
     {
+      "id": "052d7fe7-ff42-42b5-9ff1-79a7667859aa",
+      "timestamp": "2026-10-25T13:38:22.397Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 8651729302 (Nilam Kumari)"
+    },
+    {
+      "id": "0cde520c-f822-4d54-83f4-1e92f3d05842",
+      "timestamp": "2026-10-25T13:37:32.469Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 9507578036 (Manoj Kumar)"
+    },
+    {
+      "id": "53a777f2-9caf-4249-b220-e94e1c123bb8",
+      "timestamp": "2026-10-25T13:36:56.084Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 8298191845 (Nilam Kumari)"
+    },
+    {
+      "id": "6449fa2e-d86a-4d1a-924e-5b24eda6582a",
+      "timestamp": "2026-10-25T13:35:27.785Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "32e85282-a0d5-40a1-8f61-81f552126726",
+      "timestamp": "2026-10-25T13:35:07.018Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "7f8674ba-dd7a-4501-a5a7-b5f5bd20f305",
+      "timestamp": "2026-10-25T13:33:45.948Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "387f3948-7e89-4acb-bfe2-fe164b7b9148",
       "timestamp": "2026-10-25T13:15:05.384Z",
       "type": "LOOKUP",
@@ -2456,6 +2643,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810689,
+  "lastTelegramUpdateId": 168810721,
   "usedEmailIds": []
 }
