@@ -276,10 +276,125 @@
       "lookupMode": "location",
       "lastLookupDate": "2026-10-25",
       "activeTrackToken": "LOC611696TH"
+    },
+    "6247554367": {
+      "id": 6247554367,
+      "firstName": "Divya",
+      "username": "Divyarani123a",
+      "credits": 0,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 2,
+      "referralCode": "HEX554367",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T04:29:05.466Z",
+      "lastActiveAt": "2026-10-25T04:29:40.745Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "5d7197b3-ea9c-4848-ad73-38d3af6f6c4a",
+          "queryNumber": "9939621521",
+          "timestamp": "2026-10-25T04:29:24.387Z",
+          "source": "bot",
+          "userId": 6247554367,
+          "userName": "Divya",
+          "resultSummary": {
+            "name": "Shambhu Saw",
+            "truecallerName": "Shambhu Sir",
+            "fatherName": "hulash saw",
+            "mobile": "9939621521",
+            "altMobile": "6203673886",
+            "circle": "JIO BHR&JHR",
+            "idNumber": "212669773909",
+            "email": "Not found",
+            "address": "s/o hulash saw, Khambhwa, dharmpur khambhwa, dharampur Bishungarh, hazaribag, Jharkhand, 825313",
+            "totalRecords": 2,
+            "lat": 23.3325,
+            "lng": 85.2956,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=s%2Fo%20hulash%20saw%2C%20Khambhwa%2C%20dharmpur%20khambhwa%2C%20dharampur%20Bishungarh%2C%20hazaribag%2C%20Jharkhand%2C%20825313%2C%20India"
+          }
+        },
+        {
+          "id": "9af9d159-2774-4462-8544-fe36350b944e",
+          "queryNumber": "9939137060",
+          "timestamp": "2026-10-25T04:29:07.191Z",
+          "source": "bot",
+          "userId": 6247554367,
+          "userName": "Divya",
+          "resultSummary": {
+            "name": "Mukesh Kumar Saw",
+            "truecallerName": "Mukesh Sir",
+            "fatherName": "Hulash Saw",
+            "mobile": "9939137060",
+            "altMobile": "9939137060",
+            "circle": "JIO BHR&JHR",
+            "idNumber": "740384840307",
+            "email": "Not found",
+            "address": "S/O Hulash Saw, Khambhwa, NA, dharampur, Dharampur Bishungarh Hazaribag, NA, Jharkhand, 825313",
+            "totalRecords": 1,
+            "lat": 23.3481,
+            "lng": 85.3176,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=S%2FO%20Hulash%20Saw%2C%20Khambhwa%2C%20NA%2C%20dharampur%2C%20Dharampur%20Bishungarh%20Hazaribag%2C%20NA%2C%20Jharkhand%2C%20825313%2C%20India"
+          }
+        }
+      ],
+      "lastLookupDate": "2026-10-25",
+      "lastBotMessageId": 8900,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {},
   "globalHistory": [
+    {
+      "id": "5d7197b3-ea9c-4848-ad73-38d3af6f6c4a",
+      "queryNumber": "9939621521",
+      "timestamp": "2026-10-25T04:29:24.387Z",
+      "source": "bot",
+      "userId": 6247554367,
+      "userName": "Divya",
+      "resultSummary": {
+        "name": "Shambhu Saw",
+        "truecallerName": "Shambhu Sir",
+        "fatherName": "hulash saw",
+        "mobile": "9939621521",
+        "altMobile": "6203673886",
+        "circle": "JIO BHR&JHR",
+        "idNumber": "212669773909",
+        "email": "Not found",
+        "address": "s/o hulash saw, Khambhwa, dharmpur khambhwa, dharampur Bishungarh, hazaribag, Jharkhand, 825313",
+        "totalRecords": 2,
+        "lat": 23.3325,
+        "lng": 85.2956,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=s%2Fo%20hulash%20saw%2C%20Khambhwa%2C%20dharmpur%20khambhwa%2C%20dharampur%20Bishungarh%2C%20hazaribag%2C%20Jharkhand%2C%20825313%2C%20India"
+      }
+    },
+    {
+      "id": "9af9d159-2774-4462-8544-fe36350b944e",
+      "queryNumber": "9939137060",
+      "timestamp": "2026-10-25T04:29:07.191Z",
+      "source": "bot",
+      "userId": 6247554367,
+      "userName": "Divya",
+      "resultSummary": {
+        "name": "Mukesh Kumar Saw",
+        "truecallerName": "Mukesh Sir",
+        "fatherName": "Hulash Saw",
+        "mobile": "9939137060",
+        "altMobile": "9939137060",
+        "circle": "JIO BHR&JHR",
+        "idNumber": "740384840307",
+        "email": "Not found",
+        "address": "S/O Hulash Saw, Khambhwa, NA, dharampur, Dharampur Bishungarh Hazaribag, NA, Jharkhand, 825313",
+        "totalRecords": 1,
+        "lat": 23.3481,
+        "lng": 85.3176,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=S%2FO%20Hulash%20Saw%2C%20Khambhwa%2C%20NA%2C%20dharampur%2C%20Dharampur%20Bishungarh%20Hazaribag%2C%20NA%2C%20Jharkhand%2C%20825313%2C%20India"
+      }
+    },
     {
       "id": "3f5202ee-d1ba-4152-af24-337bf6cc20b5",
       "queryNumber": "8676972045",
@@ -374,6 +489,22 @@
     }
   ],
   "logs": [
+    {
+      "id": "f991a5d1-4d2b-41f6-892b-10dcfd0898de",
+      "timestamp": "2026-10-25T04:29:24.387Z",
+      "type": "LOOKUP",
+      "userId": 6247554367,
+      "userName": "Divya",
+      "summary": "Number to Location 9939621521 (Shambhu Saw)"
+    },
+    {
+      "id": "e40181f2-196b-4fc9-9c1a-1953d5f5d1e5",
+      "timestamp": "2026-10-25T04:29:07.191Z",
+      "type": "LOOKUP",
+      "userId": 6247554367,
+      "userName": "Divya",
+      "summary": "Number to Location 9939137060 (Mukesh Kumar Saw)"
+    },
     {
       "id": "b5c6d778-3e87-4aa9-8abf-f9e5b906fd66",
       "timestamp": "2026-10-25T04:26:33.016Z",
@@ -495,6 +626,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810233,
+  "lastTelegramUpdateId": 168810236,
   "usedEmailIds": []
 }
