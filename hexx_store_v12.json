@@ -606,6 +606,54 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25"
+    },
+    "6516956649": {
+      "id": 6516956649,
+      "firstName": "Shahaz",
+      "username": "Shahaz321",
+      "credits": 1,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
+      "referralCode": "HEX956649",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T11:29:20.666Z",
+      "lastActiveAt": "2026-10-25T11:31:03.920Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "ce327e54-98de-43dc-8b9a-541ac872e92b",
+          "queryNumber": "9101364677",
+          "timestamp": "2026-10-25T11:30:24.823Z",
+          "source": "bot",
+          "userId": 6516956649,
+          "userName": "Shahaz",
+          "resultSummary": {
+            "name": "Amjad mamu",
+            "truecallerName": "Amjad mamu",
+            "fatherName": "Not found",
+            "mobile": "9101364677",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9201,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-25"
     }
   },
   "orders": {
@@ -634,6 +682,29 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "ce327e54-98de-43dc-8b9a-541ac872e92b",
+      "queryNumber": "9101364677",
+      "timestamp": "2026-10-25T11:30:24.823Z",
+      "source": "bot",
+      "userId": 6516956649,
+      "userName": "Shahaz",
+      "resultSummary": {
+        "name": "Amjad mamu",
+        "truecallerName": "Amjad mamu",
+        "fatherName": "Not found",
+        "mobile": "9101364677",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "f513234e-3c81-4c7b-8c59-0513fc477c55",
       "queryNumber": "8279624785",
@@ -935,6 +1006,30 @@
     }
   ],
   "logs": [
+    {
+      "id": "594b5e23-9a75-4a3b-9aca-75784a8b48a1",
+      "timestamp": "2026-10-25T11:30:51.685Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6516956649,
+      "userName": "Shahaz",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "843985b1-57e7-46ca-b390-61fdd1446a36",
+      "timestamp": "2026-10-25T11:30:24.823Z",
+      "type": "LOOKUP",
+      "userId": 6516956649,
+      "userName": "Shahaz",
+      "summary": "Number Lookup 9101364677 (Amjad mamu)"
+    },
+    {
+      "id": "a1141d76-c113-4680-8e77-dad9c20ccd58",
+      "timestamp": "2026-10-25T11:29:21.340Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6516956649,
+      "userName": "Shahaz",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "a03ffc27-b0e5-49ee-9229-c673803eda36",
       "timestamp": "2026-10-25T11:25:42.734Z",
@@ -1248,6 +1343,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810599,
+  "lastTelegramUpdateId": 168810611,
   "usedEmailIds": []
 }
