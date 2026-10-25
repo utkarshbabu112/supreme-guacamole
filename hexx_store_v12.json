@@ -25,7 +25,7 @@
     "referralsForFreePremiumDay": 3,
     "freePremiumDaysReward": 1,
     "maintenanceMode": false,
-    "bannerEnabled": false,
+    "bannerEnabled": true,
     "responseImageEnabled": false,
     "mediaType": "photo",
     "bannerUrl": "https://i.ibb.co/jYGMmcb/file-000000000dc881faa92e8495635ad610.png",
@@ -176,7 +176,7 @@
         "createdAt": "2026-10-25T04:07:01.294Z"
       }
     ],
-    "telegramFileId": "AgACAgQAAxkDAAIil2rdgJuSRDIqiIuAqie4FSZLv5R9AAJmD2sb3iGsUuvpp_StfsSaAQADAgADdwADPQQ"
+    "telegramFileId": "AgACAgUAAxkBAAIkk2reFpW0rRIbHzvzLMMGNneMMXzrAAK9FGsbrMLQVjOOg0B-4pS1AQADAgADeAADPQQ"
   },
   "users": {
     "871179765": {
@@ -315,7 +315,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:07:01.294Z",
-      "lastActiveAt": "2026-10-25T14:43:41.836Z",
+      "lastActiveAt": "2026-10-25T14:47:54.041Z",
       "isBanned": false,
       "isAdminUnlocked": true,
       "history": [
@@ -389,12 +389,13 @@
           }
         }
       ],
-      "lastBotMessageId": 9325,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 9366,
+      "lastBotMessageHasPhoto": true,
       "lookupMode": "info",
       "lastLookupDate": "2026-10-25",
       "activeTrackToken": "LOC611696TH",
-      "forceJoinVerified": true
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false
     },
     "6247554367": {
       "id": 6247554367,
@@ -802,9 +803,9 @@
       "firstName": "Vashu",
       "username": "Vashubhaiii",
       "credits": 0,
-      "isPremium": false,
-      "premiumUntil": null,
-      "totalSpent": 0,
+      "isPremium": true,
+      "premiumUntil": "2026-11-01T14:45:08.823Z",
+      "totalSpent": 29,
       "dailyLookupsUsed": 2,
       "totalLookups": 2,
       "referralCode": "HEX520431",
@@ -866,7 +867,8 @@
       "lastBotMessageId": 9266,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-25"
+      "lastLookupDate": "2026-10-25",
+      "lastPlanName": "1 Week Pass"
     },
     "8968071078": {
       "id": 8968071078,
@@ -1307,14 +1309,16 @@
       "lastImapScanAt": 0,
       "credits": 0,
       "days": 7,
-      "status": "PENDING",
+      "status": "PAID",
       "paymentUrl": "https://hexx-locate.ai.studio/?order=HEX4N920431",
       "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX4N920431&tr=HEX4N920431",
       "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX4N920431&tr=HEX4N920431",
       "gatewaySource": "direct_gmail",
       "createdAt": "2026-10-25T12:03:50.582Z",
       "expiresAt": "2026-10-25T12:13:50.582Z",
-      "botQrMessageId": 9229
+      "botQrMessageId": 9229,
+      "utr": "ADMIN_BOT_APPROVED",
+      "paidAt": "2026-10-25T14:45:08.823Z"
     },
     "HEX8HBE7265": {
       "orderId": "HEX8HBE7265",
@@ -2101,6 +2105,86 @@
   ],
   "logs": [
     {
+      "id": "f9fac689-e169-42d5-81ef-a8522d591137",
+      "timestamp": "2026-10-25T14:47:54.431Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "7b47336c-3d39-47d7-b057-88bd2c673aa7",
+      "timestamp": "2026-10-25T14:47:26.228Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "1e88e393-6e64-44b4-8d2d-f82fdee1b116",
+      "timestamp": "2026-10-25T14:46:58.975Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "ccf8a689-ead4-4ea6-9c02-132f9e14d0e9",
+      "timestamp": "2026-10-25T14:46:33.513Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "e6736c40-9d0d-4ab8-94ab-8c376a167369",
+      "timestamp": "2026-10-25T14:46:14.634Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "a44eaf0c-3526-4332-8155-e9e6121dbd59",
+      "timestamp": "2026-10-25T14:46:07.373Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "b392cab1-f2d1-40ae-aa54-11f31f600760",
+      "timestamp": "2026-10-25T14:46:04.380Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "468e64e1-ce1e-4bc7-bf80-3dc0b5540a88",
+      "timestamp": "2026-10-25T14:45:21.852Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "aef4d8ae-4924-41f5-8487-0f751497dabb",
+      "timestamp": "2026-10-25T14:45:08.823Z",
+      "type": "PAYMENT",
+      "userId": 7995520431,
+      "userName": "Vashu",
+      "summary": "Order HEX4N920431 PAID (7 Days VIP, Rs.29)"
+    },
+    {
+      "id": "fcb1cad1-0a8d-4859-8cbb-c767c238e088",
+      "timestamp": "2026-10-25T14:44:18.005Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "d5866adb-54bf-4038-9dd0-f2a354270def",
       "timestamp": "2026-10-25T14:43:42.208Z",
       "type": "BOT_MESSAGE",
@@ -2765,6 +2849,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810737,
+  "lastTelegramUpdateId": 168810780,
   "usedEmailIds": []
 }
