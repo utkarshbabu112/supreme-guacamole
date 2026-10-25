@@ -635,20 +635,43 @@
     "8715357942": {
       "id": 8715357942,
       "firstName": "Yashmit",
-      "credits": 1,
+      "credits": 0,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 1,
-      "totalLookups": 1,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 2,
       "referralCode": "HEX357942",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T11:51:09.185Z",
-      "lastActiveAt": "2026-10-25T11:52:27.095Z",
+      "lastActiveAt": "2026-10-25T11:53:42.611Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "0d1f60d4-2fa3-4098-834b-f2aed510f8ba",
+          "queryNumber": "8586072164",
+          "timestamp": "2026-10-25T11:53:45.404Z",
+          "source": "bot",
+          "userId": 8715357942,
+          "userName": "Yashmit",
+          "resultSummary": {
+            "name": "Sakshi Bansal",
+            "truecallerName": "Sakshi",
+            "fatherName": "Sanjay Bansal",
+            "mobile": "8586072164",
+            "altMobile": "Not found",
+            "circle": "AIRTEL DELHI",
+            "idNumber": "701505140915",
+            "email": "Not found",
+            "address": "LAL DARWAZA, SITA RAM BAZAR Delhi G P O, Delhi, North Delhi, 110006",
+            "totalRecords": 2,
+            "lat": 28.70821,
+            "lng": 77.21071,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SITA%20RAM%20BAZAR%20Delhi%20G%20P%20O%2C%20Delhi%2C%20North%20Delhi%2C%20110006%2C%20India"
+          }
+        },
         {
           "id": "e48d7b15-9dc2-4de9-9b92-5e1a479e3e16",
           "queryNumber": "8826797166",
@@ -674,7 +697,54 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9207,
+      "lastBotMessageId": 9211,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-25"
+    },
+    "8996216483": {
+      "id": 8996216483,
+      "firstName": "ROHIT X",
+      "credits": 0,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 2,
+      "referralCode": "HEX216483",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T11:53:22.898Z",
+      "lastActiveAt": "2026-10-25T11:54:49.254Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "86a043c6-eca5-4f81-8159-968d315a72b4",
+          "queryNumber": "9565437029",
+          "timestamp": "2026-10-25T11:54:45.070Z",
+          "source": "bot",
+          "userId": 8996216483,
+          "userName": "ROHIT X",
+          "resultSummary": {
+            "name": "Vikram",
+            "truecallerName": "Kaishram Yadav",
+            "fatherName": "Ram Tirath",
+            "mobile": "9565437029",
+            "altMobile": "Not found",
+            "circle": "UP EAST",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "Meghwa, Gonda, Uttar Pradesh, UP EAST, 271602",
+            "totalRecords": 1,
+            "lat": 27.16738,
+            "lng": 78.03662,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gonda%2C%20Uttar%20Pradesh%2C%20UP%20EAST%2C%20271602%2C%20India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9217,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25"
@@ -706,6 +776,75 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "86a043c6-eca5-4f81-8159-968d315a72b4",
+      "queryNumber": "9565437029",
+      "timestamp": "2026-10-25T11:54:45.070Z",
+      "source": "bot",
+      "userId": 8996216483,
+      "userName": "ROHIT X",
+      "resultSummary": {
+        "name": "Vikram",
+        "truecallerName": "Kaishram Yadav",
+        "fatherName": "Ram Tirath",
+        "mobile": "9565437029",
+        "altMobile": "Not found",
+        "circle": "UP EAST",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "Meghwa, Gonda, Uttar Pradesh, UP EAST, 271602",
+        "totalRecords": 1,
+        "lat": 27.16738,
+        "lng": 78.03662,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gonda%2C%20Uttar%20Pradesh%2C%20UP%20EAST%2C%20271602%2C%20India"
+      }
+    },
+    {
+      "id": "52a5a2ed-8ffb-40da-8e92-0991f3de33b7",
+      "queryNumber": "9565437029",
+      "timestamp": "2026-10-25T11:54:00.420Z",
+      "source": "bot",
+      "userId": 8996216483,
+      "userName": "ROHIT X",
+      "resultSummary": {
+        "name": "Vikram",
+        "truecallerName": "Kaishram Yadav",
+        "fatherName": "Ram Tirath",
+        "mobile": "9565437029",
+        "altMobile": "Not found",
+        "circle": "UP EAST",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "Meghwa, Gonda, Uttar Pradesh, UP EAST, 271602",
+        "totalRecords": 1,
+        "lat": 27.16738,
+        "lng": 78.03662,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gonda%2C%20Uttar%20Pradesh%2C%20UP%20EAST%2C%20271602%2C%20India"
+      }
+    },
+    {
+      "id": "0d1f60d4-2fa3-4098-834b-f2aed510f8ba",
+      "queryNumber": "8586072164",
+      "timestamp": "2026-10-25T11:53:45.404Z",
+      "source": "bot",
+      "userId": 8715357942,
+      "userName": "Yashmit",
+      "resultSummary": {
+        "name": "Sakshi Bansal",
+        "truecallerName": "Sakshi",
+        "fatherName": "Sanjay Bansal",
+        "mobile": "8586072164",
+        "altMobile": "Not found",
+        "circle": "AIRTEL DELHI",
+        "idNumber": "701505140915",
+        "email": "Not found",
+        "address": "LAL DARWAZA, SITA RAM BAZAR Delhi G P O, Delhi, North Delhi, 110006",
+        "totalRecords": 2,
+        "lat": 28.70821,
+        "lng": 77.21071,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SITA%20RAM%20BAZAR%20Delhi%20G%20P%20O%2C%20Delhi%2C%20North%20Delhi%2C%20110006%2C%20India"
+      }
+    },
     {
       "id": "e48d7b15-9dc2-4de9-9b92-5e1a479e3e16",
       "queryNumber": "8826797166",
@@ -1053,6 +1192,38 @@
     }
   ],
   "logs": [
+    {
+      "id": "98dc7d8e-126b-49a5-9820-e9d781713900",
+      "timestamp": "2026-10-25T11:54:45.070Z",
+      "type": "LOOKUP",
+      "userId": 8996216483,
+      "userName": "ROHIT X",
+      "summary": "Number Lookup 9565437029 (Vikram)"
+    },
+    {
+      "id": "309d9de1-7ac9-4676-a953-f0a2ab9eb6bd",
+      "timestamp": "2026-10-25T11:54:00.420Z",
+      "type": "LOOKUP",
+      "userId": 8996216483,
+      "userName": "ROHIT X",
+      "summary": "Number Lookup 9565437029 (Vikram)"
+    },
+    {
+      "id": "bf35b2e9-ece2-4b8b-8492-60dc6276385c",
+      "timestamp": "2026-10-25T11:53:45.404Z",
+      "type": "LOOKUP",
+      "userId": 8715357942,
+      "userName": "Yashmit",
+      "summary": "Number Lookup 8586072164 (Sakshi Bansal)"
+    },
+    {
+      "id": "d39b7d3b-11aa-43e1-ad37-78885d035b07",
+      "timestamp": "2026-10-25T11:53:23.555Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8996216483,
+      "userName": "ROHIT X",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "ac5dc5e6-d201-4389-8cf6-b85e12292616",
       "timestamp": "2026-10-25T11:52:29.749Z",
@@ -1414,6 +1585,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810622,
+  "lastTelegramUpdateId": 168810630,
   "usedEmailIds": []
 }
