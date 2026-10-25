@@ -1102,6 +1102,54 @@
       "lastLookupDate": "2026-10-25",
       "lastBotMessageId": 9284,
       "lastBotMessageHasPhoto": false
+    },
+    "8977017456": {
+      "id": 8977017456,
+      "firstName": "USDT",
+      "username": "LoanAdmimofusdtorbtc",
+      "credits": 1,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
+      "referralCode": "HEX017456",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T13:14:22.678Z",
+      "lastActiveAt": "2026-10-25T13:15:02.595Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "10de7f72-ee60-4c26-bcd3-143e340be646",
+          "queryNumber": "8178531201",
+          "timestamp": "2026-10-25T13:15:05.384Z",
+          "source": "bot",
+          "userId": 8977017456,
+          "userName": "USDT",
+          "resultSummary": {
+            "name": "Brij Kishor",
+            "truecallerName": "Yashkirti",
+            "fatherName": "Babu Ram",
+            "mobile": "8178531201",
+            "altMobile": "Not found",
+            "circle": "JIO DELHI",
+            "idNumber": "868962185876",
+            "email": "Not found",
+            "address": "E-73/ A-56 Gokal Puri, SANJAY COLONY Seelam Pur, Gokal Pur North East Delhi, Delhi, 110094",
+            "totalRecords": 1,
+            "lat": 28.71609,
+            "lng": 77.27375,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SANJAY%20COLONY%20Seelam%20Pur%2C%20Gokal%20Pur%20North%20East%20Delhi%2C%20Delhi%2C%20110094%2C%20India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9290,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-25"
     }
   },
   "orders": {
@@ -1178,6 +1226,29 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "10de7f72-ee60-4c26-bcd3-143e340be646",
+      "queryNumber": "8178531201",
+      "timestamp": "2026-10-25T13:15:05.384Z",
+      "source": "bot",
+      "userId": 8977017456,
+      "userName": "USDT",
+      "resultSummary": {
+        "name": "Brij Kishor",
+        "truecallerName": "Yashkirti",
+        "fatherName": "Babu Ram",
+        "mobile": "8178531201",
+        "altMobile": "Not found",
+        "circle": "JIO DELHI",
+        "idNumber": "868962185876",
+        "email": "Not found",
+        "address": "E-73/ A-56 Gokal Puri, SANJAY COLONY Seelam Pur, Gokal Pur North East Delhi, Delhi, 110094",
+        "totalRecords": 1,
+        "lat": 28.71609,
+        "lng": 77.27375,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SANJAY%20COLONY%20Seelam%20Pur%2C%20Gokal%20Pur%20North%20East%20Delhi%2C%20Delhi%2C%20110094%2C%20India"
+      }
+    },
     {
       "id": "e752d92f-27a2-4be7-9640-8a85c545ceed",
       "queryNumber": "8976290501",
@@ -1801,6 +1872,22 @@
   ],
   "logs": [
     {
+      "id": "387f3948-7e89-4acb-bfe2-fe164b7b9148",
+      "timestamp": "2026-10-25T13:15:05.384Z",
+      "type": "LOOKUP",
+      "userId": 8977017456,
+      "userName": "USDT",
+      "summary": "Number Lookup 8178531201 (Brij Kishor)"
+    },
+    {
+      "id": "7a58c372-1c99-485c-832e-7eabc3d821ab",
+      "timestamp": "2026-10-25T13:14:23.362Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8977017456,
+      "userName": "USDT",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "5a97c1af-93c8-4ef0-b69d-cd2a7f92015b",
       "timestamp": "2026-10-25T13:10:20.403Z",
       "type": "LOOKUP",
@@ -2369,6 +2456,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810683,
+  "lastTelegramUpdateId": 168810689,
   "usedEmailIds": []
 }
