@@ -179,6 +179,54 @@
     "telegramFileId": "AgACAgQAAxkDAAIil2rdgJuSRDIqiIuAqie4FSZLv5R9AAJmD2sb3iGsUuvpp_StfsSaAQADAgADdwADPQQ"
   },
   "users": {
+    "871179765": {
+      "id": 871179765,
+      "firstName": "Blue",
+      "username": "blueparth",
+      "credits": 1,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
+      "referralCode": "HEX179765",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T12:47:05.262Z",
+      "lastActiveAt": "2026-10-25T12:47:53.609Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "ed8ebe2a-0aa8-498c-8a54-3a3480210df1",
+          "queryNumber": "9675033923",
+          "timestamp": "2026-10-25T12:47:26.509Z",
+          "source": "bot",
+          "userId": 871179765,
+          "userName": "Blue",
+          "resultSummary": {
+            "name": "Ankit Pal",
+            "truecallerName": "MUKESH BAI",
+            "fatherName": "Rishi Pal",
+            "mobile": "9675033923",
+            "altMobile": "9717991013",
+            "circle": "JIO UPW",
+            "idNumber": "708755146262",
+            "email": "Not found",
+            "address": "Adarsh Vihar Colony, 602shamli, shamli, MuzaffarnagarMuzaffarnagar, Uttar Pradesh, 247776",
+            "totalRecords": 1,
+            "lat": 29.44266,
+            "lng": 77.32348,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=shamli%2C%20MuzaffarnagarMuzaffarnagar%2C%20Uttar%20Pradesh%2C%20247776%2C%20India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9277,
+      "lastBotMessageHasPhoto": false,
+      "lastLookupDate": "2026-10-25",
+      "awaitingRedeemCode": false
+    },
     "1672440707": {
       "id": 1672440707,
       "firstName": "Jaat",
@@ -1084,6 +1132,29 @@
   },
   "globalHistory": [
     {
+      "id": "ed8ebe2a-0aa8-498c-8a54-3a3480210df1",
+      "queryNumber": "9675033923",
+      "timestamp": "2026-10-25T12:47:26.509Z",
+      "source": "bot",
+      "userId": 871179765,
+      "userName": "Blue",
+      "resultSummary": {
+        "name": "Ankit Pal",
+        "truecallerName": "MUKESH BAI",
+        "fatherName": "Rishi Pal",
+        "mobile": "9675033923",
+        "altMobile": "9717991013",
+        "circle": "JIO UPW",
+        "idNumber": "708755146262",
+        "email": "Not found",
+        "address": "Adarsh Vihar Colony, 602shamli, shamli, MuzaffarnagarMuzaffarnagar, Uttar Pradesh, 247776",
+        "totalRecords": 1,
+        "lat": 29.44266,
+        "lng": 77.32348,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=shamli%2C%20MuzaffarnagarMuzaffarnagar%2C%20Uttar%20Pradesh%2C%20247776%2C%20India"
+      }
+    },
+    {
       "id": "ed2b7024-b56d-4c71-b0c1-87544a8bfd57",
       "queryNumber": "9174040900",
       "timestamp": "2026-10-25T12:34:02.931Z",
@@ -1660,6 +1731,22 @@
   ],
   "logs": [
     {
+      "id": "9b3354d9-ed77-4de6-80e3-b32e999b4e7b",
+      "timestamp": "2026-10-25T12:47:26.509Z",
+      "type": "LOOKUP",
+      "userId": 871179765,
+      "userName": "Blue",
+      "summary": "Number Lookup 9675033923 (Ankit Pal)"
+    },
+    {
+      "id": "6f5a4620-4de4-42f7-a23c-3366e0c1fe40",
+      "timestamp": "2026-10-25T12:47:05.947Z",
+      "type": "BOT_MESSAGE",
+      "userId": 871179765,
+      "userName": "Blue",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "21683591-d16c-4e6c-83d1-8b99a213c496",
       "timestamp": "2026-10-25T12:34:49.158Z",
       "type": "PAYMENT",
@@ -2204,6 +2291,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810675,
+  "lastTelegramUpdateId": 168810679,
   "usedEmailIds": []
 }
