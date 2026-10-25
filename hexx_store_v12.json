@@ -835,7 +835,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-10-25T12:08:17.750Z",
+      "lastActiveAt": "2026-10-25T12:09:54.955Z",
       "isBanned": false,
       "history": [
         {
@@ -886,9 +886,56 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9239,
+      "lastBotMessageId": 9264,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-25",
+      "isAdminUnlocked": true
+    },
+    "8877490186": {
+      "id": 8877490186,
+      "firstName": "Ghb",
+      "credits": 1,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
+      "referralCode": "HEX490186",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T12:09:05.763Z",
+      "lastActiveAt": "2026-10-25T12:09:48.374Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "f17c956b-afe4-4835-a3e0-62c6e4fc912b",
+          "queryNumber": "9006540977",
+          "timestamp": "2026-10-25T12:09:50.732Z",
+          "source": "bot",
+          "userId": 8877490186,
+          "userName": "Ghb",
+          "resultSummary": {
+            "name": "Krishna Prasad Mandal",
+            "truecallerName": "Mistre Khambwa",
+            "fatherName": "Ramashis  Saw",
+            "mobile": "9006540977",
+            "altMobile": "Not found",
+            "circle": "AIRTEL BHR&JHR",
+            "idNumber": "501756860568",
+            "email": "Not found",
+            "address": "khambhwa Khamwa, Hazaribag, Jharkhand, 825313",
+            "totalRecords": 1,
+            "lat": 23.99244,
+            "lng": 85.36163,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=khambhwa%20Khamwa%2C%20Hazaribag%2C%20Jharkhand%2C%20825313%2C%20India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9262,
+      "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-25"
     }
   },
@@ -942,6 +989,29 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "f17c956b-afe4-4835-a3e0-62c6e4fc912b",
+      "queryNumber": "9006540977",
+      "timestamp": "2026-10-25T12:09:50.732Z",
+      "source": "bot",
+      "userId": 8877490186,
+      "userName": "Ghb",
+      "resultSummary": {
+        "name": "Krishna Prasad Mandal",
+        "truecallerName": "Mistre Khambwa",
+        "fatherName": "Ramashis  Saw",
+        "mobile": "9006540977",
+        "altMobile": "Not found",
+        "circle": "AIRTEL BHR&JHR",
+        "idNumber": "501756860568",
+        "email": "Not found",
+        "address": "khambhwa Khamwa, Hazaribag, Jharkhand, 825313",
+        "totalRecords": 1,
+        "lat": 23.99244,
+        "lng": 85.36163,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=khambhwa%20Khamwa%2C%20Hazaribag%2C%20Jharkhand%2C%20825313%2C%20India"
+      }
+    },
     {
       "id": "05473f7e-b77e-44ac-b028-8bcfa7487a19",
       "queryNumber": "7061224270",
@@ -1451,6 +1521,62 @@
   ],
   "logs": [
     {
+      "id": "916e4521-b611-47ba-b2a9-7156a0df7366",
+      "timestamp": "2026-10-25T12:09:50.732Z",
+      "type": "LOOKUP",
+      "userId": 8877490186,
+      "userName": "Ghb",
+      "summary": "Number Lookup 9006540977 (Krishna Prasad Mandal)"
+    },
+    {
+      "id": "756e7e0f-63b8-4bd3-916a-05fd66d423ab",
+      "timestamp": "2026-10-25T12:09:32.617Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "048bee5d-e1c8-4611-9bd2-d2853cd0d6e0",
+      "timestamp": "2026-10-25T12:09:27.254Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "769eece6-bbc5-4751-9374-9f3e29d015d8",
+      "timestamp": "2026-10-25T12:09:14.894Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "181f35ad-bb38-4186-8ade-f49d2856d5bf",
+      "timestamp": "2026-10-25T12:09:11.082Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "8afc342a-023a-4412-930b-89f2da6e19df",
+      "timestamp": "2026-10-25T12:09:06.449Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8877490186,
+      "userName": "Ghb",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "acd15f5c-30e8-458c-a97e-d9ab40df7cfe",
+      "timestamp": "2026-10-25T12:08:58.704Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "2f292f5d-4efa-4157-b5f7-c51860ee78f1",
       "timestamp": "2026-10-25T12:07:04.507Z",
       "type": "LOOKUP",
@@ -1899,6 +2025,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810646,
+  "lastTelegramUpdateId": 168810666,
   "usedEmailIds": []
 }
