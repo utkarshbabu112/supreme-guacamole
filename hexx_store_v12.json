@@ -3,8 +3,8 @@
     "botName": "HEX OSINT",
     "botUsername": "HexxOsint_bot",
     "botToken": "8832808711:AAGMurZKiF6oxX2uOCqD7CoqZzfwkp6AVrA",
-    "miniAppUrl": "https://ais-pre-wjgc6ech6tjeb4fxmiq54f-739805761259.asia-southeast1.run.app",
-    "websiteUrl": "https://ais-pre-wjgc6ech6tjeb4fxmiq54f-739805761259.asia-southeast1.run.app",
+    "miniAppUrl": "https://hexx-locate.ai.studio",
+    "websiteUrl": "https://hexx-locate.ai.studio",
     "channelUrl": "https://t.me/HexxOsint_bot",
     "channelButtonLabel": "📢 My Channel",
     "groupUrl": "https://t.me/HexxOsint_bot",
@@ -13,7 +13,7 @@
     "famGatewayUrl": "https://famgateway.in",
     "famGatewayApiKey": "fam_d145abd40300ea43eaa81a7187a34a0f1fd4bf1f",
     "merchantUpiId": "8252464080@fam",
-    "merchantName": "Hexx OSINT Bot",
+    "merchantName": "Number To Location Bot",
     "gmailUser": "vashudevx1451@gmail.com",
     "gmailAppPassword": "ztxkbsoywmnuhthm",
     "autoVerifyPayment": true,
@@ -36,13 +36,13 @@
     "bannerFooter": "GOOGLE MAPS • LIVE GPS • 24/7",
     "bannerTheme": "blue",
     "headerPrefix": "❖",
-    "welcomeText": "<b>❤️ Hello {name}</b>\n\nWelcome to Hexx OSINT Bot\nSend any 10-digit mobile number in chat to trace its location & Google Maps pin.\n\n<b>Ex:</b> 9876543210",
-    "aboutText": "Hexx OSINT Bot provides instant Indian mobile number location with Google Maps pin (2/Day Free) and Live GPS Location tracking (1 Lifetime Free Trial, Unlimited for VIP).",
+    "welcomeText": "<b>❤️ Hello {name}</b>\n\nWelcome to Number To Location Bot\nSend any 10-digit mobile number in chat to trace its location & Google Maps pin.\n\n<b>Ex:</b> 9876543210",
+    "aboutText": "Number To Location Bot provides instant Indian mobile number location with Google Maps pin (2/Day Free) and Live GPS Location tracking (1 Lifetime Free Trial, Unlimited for VIP).",
     "supportHandle": "@HexxOsint_bot",
     "lookupPromptTitle": "Number To Location",
     "lookupPromptSubtext": "Send any 10-digit mobile number (Ex: 9876543210) in chat.",
     "resultHeaderTitle": "Location & Info Report",
-    "resultFooterText": "Powered by Hexx OSINT Bot",
+    "resultFooterText": "Powered by Number To Location Bot",
     "noCreditMessage": "Your 2 Free Daily Number-to-Location lookups are finished. Unlock a Premium Pass for unlimited location & live GPS tracking.",
     "osintApiUrl": "https://ftosint.world/api/number",
     "osintApiKey": "tsneww-num2info",
@@ -71,9 +71,9 @@
     "btnClearHistoryLabel": "✕ Clear History",
     "btnReferLabel": "🎁 Refer & Earn",
     "btnMiniAppLabel": "📢 My Channel",
-    "forceJoinEnabled": false,
-    "forceJoinChannel": "@HexxUpdates",
-    "forceJoinUrl": "https://t.me/HexxUpdates",
+    "forceJoinEnabled": true,
+    "forceJoinChannel": "@followxpresss",
+    "forceJoinUrl": "https://t.me/followxpresss",
     "inlineButtons": [
       {
         "id": "btn_pricing",
@@ -114,7 +114,7 @@
         "style": "success",
         "enabled": true,
         "row": 4,
-        "url": "https://t.me/HexxOsint_bot"
+        "url": "https://t.me/HexLocate_bot"
       },
       {
         "id": "btn_history",
@@ -197,7 +197,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:07:01.294Z",
-      "lastActiveAt": "2026-10-25T04:34:10.656Z",
+      "lastActiveAt": "2026-10-25T10:22:18.223Z",
       "isBanned": false,
       "isAdminUnlocked": true,
       "history": [
@@ -271,11 +271,12 @@
           }
         }
       ],
-      "lastBotMessageId": 8904,
+      "lastBotMessageId": 9165,
       "lastBotMessageHasPhoto": false,
       "lookupMode": "info",
       "lastLookupDate": "2026-10-25",
-      "activeTrackToken": "LOC611696TH"
+      "activeTrackToken": "LOC611696TH",
+      "forceJoinVerified": true
     },
     "6247554367": {
       "id": 6247554367,
@@ -344,7 +345,8 @@
       ],
       "lastLookupDate": "2026-10-25",
       "lastBotMessageId": 8900,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "8710309977": {
       "id": 8710309977,
@@ -414,7 +416,30 @@
       "lastBotMessageId": 8910,
       "lastBotMessageHasPhoto": false,
       "lookupMode": "info",
-      "lastLookupDate": "2026-10-25"
+      "lastLookupDate": "2026-10-25",
+      "liveLocationUsed": 0
+    },
+    "6212533949": {
+      "id": 6212533949,
+      "firstName": "𝑨𝒌𝒂𝒔𝒉 𝑻𝒓𝒖𝒔𝒕𝒆𝒅 𝑺𝒆𝒍𝒍𝒆𝒓",
+      "username": "Trusted_Seller183",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX533949",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T10:22:29.623Z",
+      "lastActiveAt": "2026-10-25T10:22:29.623Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 9167,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {},
@@ -606,6 +631,46 @@
   ],
   "logs": [
     {
+      "id": "66b46e67-3e0f-408f-8543-40246a648325",
+      "timestamp": "2026-10-25T10:22:30.303Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6212533949,
+      "userName": "𝑨𝒌𝒂𝒔𝒉 𝑻𝒓𝒖𝒔𝒕𝒆𝒅 𝑺𝒆𝒍𝒍𝒆𝒓",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "ea6994d3-12c8-4d95-9709-32fec57b2776",
+      "timestamp": "2026-10-25T10:22:18.582Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "d55dcbd4-270c-4d0b-b3c3-b53aedb56eac",
+      "timestamp": "2026-10-25T10:21:50.751Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "f4a44975-8958-4f52-beba-691260fcc589",
+      "timestamp": "2026-10-25T10:20:11.053Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "c2069d33-241b-4828-b991-a36b7baa26fb",
+      "timestamp": "2026-10-25T10:19:56.882Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "8f309b0c-cc1d-4763-a324-09dfb7feeca6",
       "timestamp": "2026-10-25T04:41:58.016Z",
       "type": "LOOKUP",
@@ -782,6 +847,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810249,
+  "lastTelegramUpdateId": 168810556,
   "usedEmailIds": []
 }
