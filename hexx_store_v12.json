@@ -179,6 +179,53 @@
     "telegramFileId": "AgACAgQAAxkDAAIil2rdgJuSRDIqiIuAqie4FSZLv5R9AAJmD2sb3iGsUuvpp_StfsSaAQADAgADdwADPQQ"
   },
   "users": {
+    "1672440707": {
+      "id": 1672440707,
+      "firstName": "Jaat",
+      "credits": 1,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
+      "referralCode": "HEX440707",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T11:21:10.507Z",
+      "lastActiveAt": "2026-10-25T11:23:08.875Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "57d21fe2-7ad3-4fd9-ae6f-7a4d8b73147d",
+          "queryNumber": "6397026324",
+          "timestamp": "2026-10-25T11:21:37.435Z",
+          "source": "bot",
+          "userId": 1672440707,
+          "userName": "Jaat",
+          "resultSummary": {
+            "name": "Yogendra",
+            "truecallerName": "Vaibhav Jio",
+            "fatherName": "Sulkhvir Singh",
+            "mobile": "6397026324",
+            "altMobile": "Not found",
+            "circle": "JIO UPW",
+            "idNumber": "801155981888",
+            "email": "Not found",
+            "address": "Garh Bridge Halt, PavatiGarhmukteshwarHapur, Uttar Pradesh, 245205",
+            "totalRecords": 1,
+            "lat": 28.77492,
+            "lng": 78.07337,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Garh%20Bridge%20Halt%2C%20PavatiGarhmukteshwarHapur%2C%20Uttar%20Pradesh%2C%20245205%2C%20India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9190,
+      "lastBotMessageHasPhoto": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-25"
+    },
     "6672896116": {
       "id": 6672896116,
       "firstName": "UHTKARSH",
@@ -538,8 +585,55 @@
       "lastLookupDate": "2026-10-25"
     }
   },
-  "orders": {},
+  "orders": {
+    "HEXO6VZ0707": {
+      "orderId": "HEXO6VZ0707",
+      "famOrderId": "HEXO6VZ0707",
+      "userId": 1672440707,
+      "userName": "Jaat",
+      "planId": "plan_7d",
+      "planName": "1 Week Pass",
+      "amount": 29,
+      "payableAmount": "29",
+      "qrImageUrl": "https://hexx-locate.ai.studio/api/qr/HEXO6VZ0707",
+      "qrDataUrl": "data:image/png;base64,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",
+      "lastImapScanAt": 0,
+      "credits": 0,
+      "days": 7,
+      "status": "PENDING",
+      "paymentUrl": "https://hexx-locate.ai.studio/?order=HEXO6VZ0707",
+      "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXO6VZ0707&tr=HEXO6VZ0707",
+      "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXO6VZ0707&tr=HEXO6VZ0707",
+      "gatewaySource": "direct_gmail",
+      "createdAt": "2026-10-25T11:23:03.263Z",
+      "expiresAt": "2026-10-25T11:33:03.263Z",
+      "botQrMessageId": 9190
+    }
+  },
   "globalHistory": [
+    {
+      "id": "57d21fe2-7ad3-4fd9-ae6f-7a4d8b73147d",
+      "queryNumber": "6397026324",
+      "timestamp": "2026-10-25T11:21:37.435Z",
+      "source": "bot",
+      "userId": 1672440707,
+      "userName": "Jaat",
+      "resultSummary": {
+        "name": "Yogendra",
+        "truecallerName": "Vaibhav Jio",
+        "fatherName": "Sulkhvir Singh",
+        "mobile": "6397026324",
+        "altMobile": "Not found",
+        "circle": "JIO UPW",
+        "idNumber": "801155981888",
+        "email": "Not found",
+        "address": "Garh Bridge Halt, PavatiGarhmukteshwarHapur, Uttar Pradesh, 245205",
+        "totalRecords": 1,
+        "lat": 28.77492,
+        "lng": 78.07337,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Garh%20Bridge%20Halt%2C%20PavatiGarhmukteshwarHapur%2C%20Uttar%20Pradesh%2C%20245205%2C%20India"
+      }
+    },
     {
       "id": "948b3f1c-d5ec-44d8-92c6-53fc93337f66",
       "queryNumber": "9422969814",
@@ -795,6 +889,38 @@
     }
   ],
   "logs": [
+    {
+      "id": "d1049ae7-a89e-4014-a4c3-d7b5b4eeb418",
+      "timestamp": "2026-10-25T11:23:03.315Z",
+      "type": "PAYMENT",
+      "userId": 1672440707,
+      "userName": "Jaat",
+      "summary": "Created Auto-QR Order HEXO6VZ0707 (₹29 for 7 Days VIP)"
+    },
+    {
+      "id": "be6f943d-efd8-46e3-9f00-191feeb50a27",
+      "timestamp": "2026-10-25T11:22:20.558Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1672440707,
+      "userName": "Jaat",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "4f9aaccf-3bb3-41d2-b774-dba40e2445a7",
+      "timestamp": "2026-10-25T11:21:37.435Z",
+      "type": "LOOKUP",
+      "userId": 1672440707,
+      "userName": "Jaat",
+      "summary": "Number Lookup 6397026324 (Yogendra)"
+    },
+    {
+      "id": "a41c98b6-1b41-4b98-b40a-5b1027e8261b",
+      "timestamp": "2026-10-25T11:21:11.494Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1672440707,
+      "userName": "Jaat",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "c939921d-691a-4ebc-875a-e507d55d998f",
       "timestamp": "2026-10-25T11:00:34.692Z",
@@ -1060,6 +1186,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810575,
+  "lastTelegramUpdateId": 168810585,
   "usedEmailIds": []
 }
