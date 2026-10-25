@@ -753,20 +753,43 @@
       "id": 7995520431,
       "firstName": "Vashu",
       "username": "Vashubhaiii",
-      "credits": 1,
+      "credits": 0,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 1,
-      "totalLookups": 1,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 2,
       "referralCode": "HEX520431",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:02:46.595Z",
-      "lastActiveAt": "2026-10-25T12:03:21.152Z",
+      "lastActiveAt": "2026-10-25T12:03:54.870Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "97954af1-5c47-4ffc-b2ce-0bea2a1a2d39",
+          "queryNumber": "9708398593",
+          "timestamp": "2026-10-25T12:03:33.013Z",
+          "source": "bot",
+          "userId": 7995520431,
+          "userName": "Vashu",
+          "resultSummary": {
+            "name": "PRAMILA DEVI",
+            "truecallerName": "nisha rajapakar",
+            "fatherName": "JAYVIR KUMAR",
+            "mobile": "9708398593",
+            "altMobile": "Not found",
+            "circle": "VODA BHR&JHR",
+            "idNumber": "365308179342",
+            "email": "Not found",
+            "address": "Rajapakar kali mandir, Rajapakar Raja Pakar, RAJA PAKAR-VAISHALI, BR, VODA BHR&JHR, 844124",
+            "totalRecords": 1,
+            "lat": 25.75603,
+            "lng": 85.30739,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=RAJA%20PAKAR-VAISHALI%2C%20BR%2C%20VODA%20BHR%26JHR%2C%20844124%2C%20India"
+          }
+        },
         {
           "id": "dd13c343-ad54-462f-8a05-09b6f4b9f6e9",
           "queryNumber": "9876543211",
@@ -792,7 +815,78 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9222,
+      "lastBotMessageId": 9229,
+      "lastBotMessageHasPhoto": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-25"
+    },
+    "8968071078": {
+      "id": 8968071078,
+      "firstName": "Aura",
+      "username": "Auraz7",
+      "credits": 0,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 2,
+      "referralCode": "HEX071078",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T12:06:26.066Z",
+      "lastActiveAt": "2026-10-25T12:08:17.750Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "05473f7e-b77e-44ac-b028-8bcfa7487a19",
+          "queryNumber": "7061224270",
+          "timestamp": "2026-10-25T12:07:04.507Z",
+          "source": "bot",
+          "userId": 8968071078,
+          "userName": "Aura",
+          "resultSummary": {
+            "name": "Preeti Singh",
+            "truecallerName": "Tultul",
+            "fatherName": "Vinod Kumar Singh",
+            "mobile": "7061224270",
+            "altMobile": "9525145642",
+            "circle": "BIHAR JIO",
+            "idNumber": "924681066398",
+            "email": "Not found",
+            "address": "KUNDAL Kundal, Kundal Singhia Samastipur, Bihar, 848206",
+            "totalRecords": 1,
+            "lat": 25.5941,
+            "lng": 85.1376,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KUNDAL%20Kundal%2C%20Kundal%20Singhia%20Samastipur%2C%20Bihar%2C%20848206%2C%20India"
+          }
+        },
+        {
+          "id": "9fcf4d0e-ffa5-44fd-ad4e-a3c6d6723463",
+          "queryNumber": "9708398593",
+          "timestamp": "2026-10-25T12:06:52.154Z",
+          "source": "bot",
+          "userId": 8968071078,
+          "userName": "Aura",
+          "resultSummary": {
+            "name": "PRAMILA DEVI",
+            "truecallerName": "nisha rajapakar",
+            "fatherName": "JAYVIR KUMAR",
+            "mobile": "9708398593",
+            "altMobile": "Not found",
+            "circle": "VODA BHR&JHR",
+            "idNumber": "365308179342",
+            "email": "Not found",
+            "address": "Rajapakar kali mandir, Rajapakar Raja Pakar, RAJA PAKAR-VAISHALI, BR, VODA BHR&JHR, 844124",
+            "totalRecords": 1,
+            "lat": 25.75603,
+            "lng": 85.30739,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=RAJA%20PAKAR-VAISHALI%2C%20BR%2C%20VODA%20BHR%26JHR%2C%20844124%2C%20India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9239,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25"
@@ -821,9 +915,102 @@
       "createdAt": "2026-10-25T11:23:03.263Z",
       "expiresAt": "2026-10-25T11:33:03.263Z",
       "botQrMessageId": 9190
+    },
+    "HEX4N920431": {
+      "orderId": "HEX4N920431",
+      "famOrderId": "HEX4N920431",
+      "userId": 7995520431,
+      "userName": "Vashu",
+      "userUsername": "Vashubhaiii",
+      "planId": "plan_7d",
+      "planName": "1 Week Pass",
+      "amount": 29,
+      "payableAmount": "29",
+      "qrImageUrl": "https://hexx-locate.ai.studio/api/qr/HEX4N920431",
+      "qrDataUrl": "data:image/png;base64,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",
+      "lastImapScanAt": 0,
+      "credits": 0,
+      "days": 7,
+      "status": "PENDING",
+      "paymentUrl": "https://hexx-locate.ai.studio/?order=HEX4N920431",
+      "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX4N920431&tr=HEX4N920431",
+      "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX4N920431&tr=HEX4N920431",
+      "gatewaySource": "direct_gmail",
+      "createdAt": "2026-10-25T12:03:50.582Z",
+      "expiresAt": "2026-10-25T12:13:50.582Z",
+      "botQrMessageId": 9229
     }
   },
   "globalHistory": [
+    {
+      "id": "05473f7e-b77e-44ac-b028-8bcfa7487a19",
+      "queryNumber": "7061224270",
+      "timestamp": "2026-10-25T12:07:04.507Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "Preeti Singh",
+        "truecallerName": "Tultul",
+        "fatherName": "Vinod Kumar Singh",
+        "mobile": "7061224270",
+        "altMobile": "9525145642",
+        "circle": "BIHAR JIO",
+        "idNumber": "924681066398",
+        "email": "Not found",
+        "address": "KUNDAL Kundal, Kundal Singhia Samastipur, Bihar, 848206",
+        "totalRecords": 1,
+        "lat": 25.5941,
+        "lng": 85.1376,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KUNDAL%20Kundal%2C%20Kundal%20Singhia%20Samastipur%2C%20Bihar%2C%20848206%2C%20India"
+      }
+    },
+    {
+      "id": "9fcf4d0e-ffa5-44fd-ad4e-a3c6d6723463",
+      "queryNumber": "9708398593",
+      "timestamp": "2026-10-25T12:06:52.154Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "PRAMILA DEVI",
+        "truecallerName": "nisha rajapakar",
+        "fatherName": "JAYVIR KUMAR",
+        "mobile": "9708398593",
+        "altMobile": "Not found",
+        "circle": "VODA BHR&JHR",
+        "idNumber": "365308179342",
+        "email": "Not found",
+        "address": "Rajapakar kali mandir, Rajapakar Raja Pakar, RAJA PAKAR-VAISHALI, BR, VODA BHR&JHR, 844124",
+        "totalRecords": 1,
+        "lat": 25.75603,
+        "lng": 85.30739,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=RAJA%20PAKAR-VAISHALI%2C%20BR%2C%20VODA%20BHR%26JHR%2C%20844124%2C%20India"
+      }
+    },
+    {
+      "id": "97954af1-5c47-4ffc-b2ce-0bea2a1a2d39",
+      "queryNumber": "9708398593",
+      "timestamp": "2026-10-25T12:03:33.013Z",
+      "source": "bot",
+      "userId": 7995520431,
+      "userName": "Vashu",
+      "resultSummary": {
+        "name": "PRAMILA DEVI",
+        "truecallerName": "nisha rajapakar",
+        "fatherName": "JAYVIR KUMAR",
+        "mobile": "9708398593",
+        "altMobile": "Not found",
+        "circle": "VODA BHR&JHR",
+        "idNumber": "365308179342",
+        "email": "Not found",
+        "address": "Rajapakar kali mandir, Rajapakar Raja Pakar, RAJA PAKAR-VAISHALI, BR, VODA BHR&JHR, 844124",
+        "totalRecords": 1,
+        "lat": 25.75603,
+        "lng": 85.30739,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=RAJA%20PAKAR-VAISHALI%2C%20BR%2C%20VODA%20BHR%26JHR%2C%20844124%2C%20India"
+      }
+    },
     {
       "id": "dd13c343-ad54-462f-8a05-09b6f4b9f6e9",
       "queryNumber": "9876543211",
@@ -1264,6 +1451,46 @@
   ],
   "logs": [
     {
+      "id": "2f292f5d-4efa-4157-b5f7-c51860ee78f1",
+      "timestamp": "2026-10-25T12:07:04.507Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 7061224270 (Preeti Singh)"
+    },
+    {
+      "id": "9316d986-81e3-4e7f-8ebd-aeabe66ed4b8",
+      "timestamp": "2026-10-25T12:06:52.154Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 9708398593 (PRAMILA DEVI)"
+    },
+    {
+      "id": "33ab11c6-07c4-4d17-bb13-b64ad045d5c6",
+      "timestamp": "2026-10-25T12:06:26.725Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "3beeec7b-faa8-43b3-8c93-cc8a5c8666b8",
+      "timestamp": "2026-10-25T12:03:50.614Z",
+      "type": "PAYMENT",
+      "userId": 7995520431,
+      "userName": "Vashu",
+      "summary": "Created Auto-QR Order HEX4N920431 (₹29 for 7 Days VIP)"
+    },
+    {
+      "id": "a110f26a-a377-493f-a0b8-269217f19147",
+      "timestamp": "2026-10-25T12:03:33.013Z",
+      "type": "LOOKUP",
+      "userId": 7995520431,
+      "userName": "Vashu",
+      "summary": "Number Lookup 9708398593 (PRAMILA DEVI)"
+    },
+    {
       "id": "53b4ca09-cc0c-4c94-ac81-8bd65388ccf4",
       "timestamp": "2026-10-25T12:03:11.421Z",
       "type": "LOOKUP",
@@ -1672,6 +1899,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810634,
+  "lastTelegramUpdateId": 168810646,
   "usedEmailIds": []
 }
