@@ -1,4 +1,5 @@
 import express from 'express';
+import { AsyncLocalStorage } from 'async_hooks';
 import crypto from 'crypto';
 import fs from 'fs';
 import https from 'https';
@@ -207,6 +208,7 @@ export interface UserProfile {
   lastActiveAt: string;
   isBanned: boolean;
   isAdminUnlocked?: boolean;
+  lookupMode?: 'info' | 'location';
   lastBotMessageId?: number;
   lastBotMessageHasPhoto?: boolean;
   history: LookupHistoryItem[];
@@ -323,23 +325,55 @@ const LEGACY_FILE = path.join(process.cwd(), 'hexx_store_v11.json');
 const DEFAULT_USER_BANNER_IMAGE = 'https://i.ibb.co/jYGMmcb/file-000000000dc881faa92e8495635ad610.png';
 
 const SPECIAL_LOCATE_BOT_TOKEN = '8832808711:AAGMurZKiF6oxX2uOCqD7CoqZzfwkp6AVrA';
+const SPECIAL_OSINT_BOT_TOKEN = '8832808711:AAGMurZKiF6oxX2uOCqD7CoqZzfwkp6AVrA';
+const IS_OSINT_ONLY_ENV = true;
+
+interface BotRuntimeContext {
+  token: string;
+  mode: 'locate' | 'osint';
+  botName: string;
+  botUsername: string;
+}
+
+const botRuntimeStorage = new AsyncLocalStorage<BotRuntimeContext>();
+let osintCachedFileId: string | undefined;
+
+function getActiveBotToken(): string {
+  return (
+    botRuntimeStorage.getStore()?.token ||
+    state.config.botToken ||
+    SPECIAL_OSINT_BOT_TOKEN
+  ).trim();
+}
+
+function getActiveBotMode(): 'locate' | 'osint' {
+  return botRuntimeStorage.getStore()?.mode || 'osint';
+}
+
+function getActiveBotName(): string {
+  return botRuntimeStorage.getStore()?.botName || state.config.botName || 'HEX OSINT';
+}
+
+function getActiveBotUsername(): string {
+  return botRuntimeStorage.getStore()?.botUsername || state.config.botUsername || 'HexxOsint_bot';
+}
 
 const defaultState: AppState = {
   config: {
     botName: 'HEX OSINT',
     botUsername: 'HexxOsint_bot',
-    botToken: process.env.BOT_TOKEN || SPECIAL_LOCATE_BOT_TOKEN,
-    miniAppUrl: 'https://ais-pre-wjgc6ech6tjeb4fxmiq54f-739805761259.asia-southeast1.run.app',
-    websiteUrl: 'https://ais-pre-wjgc6ech6tjeb4fxmiq54f-739805761259.asia-southeast1.run.app',
-    channelUrl: 'https://t.me/HexxOsint_bot',
+    botToken: process.env.BOT_TOKEN || SPECIAL_OSINT_BOT_TOKEN,
+    miniAppUrl: 'https://hexx-locate.ai.studio',
+    websiteUrl: 'https://hexx-locate.ai.studio',
+    channelUrl: 'https://t.me/followxpresss',
     channelButtonLabel: '📢 My Channel',
-    groupUrl: 'https://t.me/HexxOsint_bot',
+    groupUrl: 'https://t.me/followxpresss',
     groupButtonLabel: '💬 My Group',
     adminPassword: 'ZX10R',
     famGatewayUrl: 'https://famgateway.in',
     famGatewayApiKey: 'fam_d145abd40300ea43eaa81a7187a34a0f1fd4bf1f',
     merchantUpiId: '8252464080@fam',
-    merchantName: 'Hexx OSINT Bot',
+    merchantName: 'Number To Location Bot',
     gmailUser: 'vashudevx1451@gmail.com',
     gmailAppPassword: 'ztxkbsoywmnuhthm',
     autoVerifyPayment: true,
@@ -357,22 +391,22 @@ const defaultState: AppState = {
     mediaType: 'photo',
     bannerUrl: DEFAULT_USER_BANNER_IMAGE,
     bannerVideoUrl: 'https://cdn.pixabay.com/video/2020/04/18/36466-410654192_large.mp4',
-    bannerTitle: 'HEX OSINT',
-    bannerSubtitle: 'HEX OSINT & LIVE GPS',
+    bannerTitle: 'NUMBER TO LOCATION',
+    bannerSubtitle: 'NUMBER TO LOCATION & LIVE GPS',
     bannerBadge: '2 DAILY • 1 LIVE TRIAL',
     bannerFooter: 'GOOGLE MAPS • LIVE GPS • 24/7',
     bannerTheme: 'blue',
 
     headerPrefix: '❖',
     welcomeText:
-      '<b>❤️ Hello {name}</b>\n\nWelcome to Hexx OSINT Bot\nSend any 10-digit mobile number in chat to trace its location & Google Maps pin.\n\n<b>Ex:</b> 9876543210',
+      '<b>❤️ Hello {name}</b>\n\nWelcome to Number To Location Bot\nSend any 10-digit mobile number in chat to trace its location & Google Maps pin.\n\n<b>Ex:</b> 9876543210',
     aboutText:
-      'Hexx OSINT Bot provides instant Indian mobile number location with Google Maps pin (2/Day Free) and Live GPS Location tracking (1 Lifetime Free Trial, Unlimited for VIP).',
-    supportHandle: '@HexxOsint_bot',
+      'Number To Location Bot provides instant Indian mobile number location with Google Maps pin (2/Day Free) and Live GPS Location tracking (1 Lifetime Free Trial, Unlimited for VIP).',
+    supportHandle: '@HexLocate_bot',
     lookupPromptTitle: 'Number To Location',
     lookupPromptSubtext: 'Send any 10-digit mobile number (Ex: 9876543210) in chat.',
     resultHeaderTitle: 'Location & Info Report',
-    resultFooterText: 'Powered by Hexx OSINT Bot',
+    resultFooterText: 'Powered by Number To Location Bot',
     noCreditMessage:
       'Your 2 Free Daily Number-to-Location lookups are finished. Unlock a Premium Pass for unlimited location & live GPS tracking.',
 
@@ -415,7 +449,7 @@ const defaultState: AppState = {
       { id: 'btn_profile', label: '👤 My Profile', callbackData: 'nav_profile', style: 'primary', enabled: true, row: 1 },
       { id: 'btn_num_info', label: '📍 Number to Location', callbackData: 'nav_num_info', style: 'primary', enabled: true, row: 2 },
       { id: 'btn_live_loc', label: '🛰️ Live Location', callbackData: 'nav_live_loc', style: 'success', enabled: true, row: 3 },
-      { id: 'btn_group', label: '💬 My Group', callbackData: 'nav_group', style: 'success', enabled: true, row: 4, url: 'https://t.me/HexxOsint_bot' },
+      { id: 'btn_group', label: '💬 My Group', callbackData: 'nav_group', style: 'success', enabled: true, row: 4, url: 'https://t.me/HexLocate_bot' },
       { id: 'btn_history', label: '📜 History', callbackData: 'nav_history', style: 'danger', enabled: true, row: 4 },
     ],
     plans: [
@@ -551,12 +585,13 @@ function loadState(): AppState {
 
       const resolvedBannerUrl = normalizeBannerImageUrlSync(parsed.config?.bannerUrl);
 
-      const NEW_BOT_TOKEN = process.env.BOT_TOKEN || SPECIAL_LOCATE_BOT_TOKEN;
+      const NEW_BOT_TOKEN = process.env.BOT_TOKEN || SPECIAL_OSINT_BOT_TOKEN;
       const savedToken = String(parsed.config?.botToken || '').trim();
       const isOldToken =
         !savedToken ||
         savedToken === '8748812150:AAFcmCRr_BmSu9chg1HHdlcjXDX7PMj_gnk' ||
-        savedToken === '8916390079:AAHYxZSMhqO9ZI1C4v5x0whtrOkWTzliLtw' || savedToken === '8832808711:AAHU16Bek02Jzsln3jcsIPUzNpz7qH2D9SE' || savedToken === '8916390079:AAHYxZSMhqO9ZI1C4v5x0whtrOkWTzliLtw' || savedToken === '8832808711:AAHU16Bek02Jzsln3jcsIPUzNpz7qH2D9SE' || savedToken === '8916390079:AAHYxZSMhqO9ZI1C4v5x0whtrOkWTzliLtw' || savedToken === '8832808711:AAHU16Bek02Jzsln3jcsIPUzNpz7qH2D9SE' || savedToken === '8916390079:AAHYxZSMhqO9ZI1C4v5x0whtrOkWTzliLtw' || savedToken === '8832808711:AAHU16Bek02Jzsln3jcsIPUzNpz7qH2D9SE';
+        savedToken === '8916390079:AAHYxZSMhqO9ZI1C4v5x0whtrOkWTzliLtw' ||
+        savedToken === '8832808711:AAHU16Bek02Jzsln3jcsIPUzNpz7qH2D9SE';
       const activeBotToken = isOldToken ? NEW_BOT_TOKEN : savedToken;
 
       const hasOldPlans =
@@ -579,14 +614,8 @@ function loadState(): AppState {
       const mergedConfig: BotConfig = {
         ...defaultState.config,
         ...parsed.config,
-        botName:
-          !parsed.config?.botName || parsed.config.botName === 'Hexx Info Bot'
-            ? 'HEX OSINT'
-            : parsed.config.botName,
-        botUsername:
-          !parsed.config?.botUsername || parsed.config.botUsername === 'HexInfo_bot'
-            ? 'HexxOsint_bot'
-            : parsed.config.botUsername,
+        botName: 'HEX OSINT',
+        botUsername: 'HexxOsint_bot',
         botToken: activeBotToken,
         telegramFileId: savedToken === activeBotToken ? parsed.config?.telegramFileId : undefined,
         bannerEnabled: typeof parsed.config?.bannerEnabled === 'boolean' ? parsed.config.bannerEnabled : true,
@@ -595,15 +624,37 @@ function loadState(): AppState {
         bannerUrl: resolvedBannerUrl,
         bannerVideoUrl: parsed.config?.bannerVideoUrl || defaultState.config.bannerVideoUrl,
         channelUrl:
-          !parsed.config?.channelUrl || parsed.config.channelUrl.includes('HexInfo_bot')
-            ? 'https://t.me/HexxOsint_bot'
+          !parsed.config?.channelUrl ||
+          parsed.config.channelUrl.includes('HexInfo_bot') ||
+          parsed.config.channelUrl.includes('HexLocate_bot')
+            ? 'https://t.me/followxpresss'
             : parsed.config.channelUrl,
         channelButtonLabel: '📢 My Channel',
         groupUrl:
-          !parsed.config?.groupUrl || parsed.config.groupUrl.includes('HexInfo_bot')
-            ? 'https://t.me/HexxOsint_bot'
+          !parsed.config?.groupUrl ||
+          parsed.config.groupUrl.includes('HexInfo_bot') ||
+          parsed.config.groupUrl.includes('HexLocate_bot')
+            ? 'https://t.me/followxpresss'
             : parsed.config.groupUrl,
         groupButtonLabel: '💬 My Group',
+        forceJoinEnabled:
+          parsed.config?.forceJoinChannel === '@HexxUpdates' || typeof parsed.config?.forceJoinEnabled !== 'boolean'
+            ? true
+            : parsed.config.forceJoinEnabled,
+        forceJoinChannel:
+          !parsed.config?.forceJoinChannel ||
+          parsed.config.forceJoinChannel === '@HexxUpdates' ||
+          parsed.config.forceJoinChannel.includes('HexInfo_bot') ||
+          parsed.config.forceJoinChannel.includes('HexLocate_bot')
+            ? '@followxpresss'
+            : parsed.config.forceJoinChannel,
+        forceJoinUrl:
+          !parsed.config?.forceJoinUrl ||
+          parsed.config.forceJoinUrl.includes('HexxUpdates') ||
+          parsed.config.forceJoinUrl.includes('HexInfo_bot') ||
+          parsed.config.forceJoinUrl.includes('HexLocate_bot')
+            ? 'https://t.me/followxpresss'
+            : parsed.config.forceJoinUrl,
         welcomeText: defaultState.config.welcomeText,
         aboutText: defaultState.config.aboutText,
         lookupPromptTitle: defaultState.config.lookupPromptTitle,
@@ -625,21 +676,11 @@ function loadState(): AppState {
         btnClearHistoryLabel: '✕ Clear History',
         btnReferLabel: '🎁 Refer & Earn',
         btnMiniAppLabel: '📢 My Channel',
-        websiteUrl:
-          !parsed.config?.websiteUrl ||
-          String(parsed.config.websiteUrl).includes('famgateway.in') ||
-          String(parsed.config.websiteUrl).includes('ais-dev-')
-            ? defaultState.config.websiteUrl
-            : parsed.config.websiteUrl,
-        miniAppUrl:
-          !parsed.config?.miniAppUrl ||
-          String(parsed.config.miniAppUrl).includes('famgateway.in') ||
-          String(parsed.config.miniAppUrl).includes('ais-dev-')
-            ? defaultState.config.miniAppUrl
-            : parsed.config.miniAppUrl,
+        websiteUrl: 'https://hexx-locate.ai.studio',
+        miniAppUrl: 'https://hexx-locate.ai.studio',
         adminPassword: parsed.config?.adminPassword || 'ZX10R',
         merchantUpiId: parsed.config?.merchantUpiId || '8252464080@fam',
-        merchantName: 'Hexx OSINT Bot',
+        merchantName: 'Number To Location Bot',
         gmailUser: parsed.config?.gmailUser || 'vashudevx1451@gmail.com',
         gmailAppPassword: parsed.config?.gmailAppPassword || 'ztxkbsoywmnuhthm',
         osintApiUrl: parsed.config?.osintApiUrl || defaultState.config.osintApiUrl,
@@ -984,16 +1025,16 @@ function syncUserLiveUsage(user: UserProfile): {
 }
 
 function getUserStatusBadge(user: UserProfile): string {
-  const { isVip, dailyLimit, remainingToday } = syncUserDailyUsage(user);
+  const { isVip } = syncUserDailyUsage(user);
   if (isVip) {
     const daysLeft = getRemainingDays(user.premiumUntil);
-    return `<b>✦ ${toThinSans(`VIP Unlimited (${daysLeft}D Left)`)}</b>`;
+    return `<b>👑 ${toThinSans(`VIP Unlimited (${daysLeft}D Left)`)}</b>`;
   }
-  return `<b>◈ ${toThinSans(`Daily Limit: ${remainingToday}/${dailyLimit} Left`)}</b>`;
+  return `<b>👤 ${toThinSans('Free User')}</b>`;
 }
 
 // ============================================================================
-// REAL HEX OSINT & GOOGLE MAPS GEOCODING ENGINE
+// REAL NUMBER TO LOCATION & GOOGLE MAPS GEOCODING ENGINE
 // ============================================================================
 export interface OsintRecord {
   name: string;
@@ -1022,110 +1063,338 @@ export interface NumberIntelligence {
   source: 'ftosint_live' | 'fallback';
 }
 
-const INDIAN_CIRCLE_COORDS: Array<{ keywords: string[]; lat: number; lng: number; label: string }> = [
-  { keywords: ['delhi', 'new delhi', 'ncr', 'noida', 'gurgaon', 'gurugram', 'faridabad', 'ghaziabad'], lat: 28.6139, lng: 77.2090, label: 'New Delhi / NCR, India' },
-  { keywords: ['mumbai', 'bombay', 'thane', 'navi mumbai'], lat: 19.0760, lng: 72.8777, label: 'Mumbai, Maharashtra' },
-  { keywords: ['maharashtra', 'pune', 'nagpur', 'nashik', 'aurangabad'], lat: 18.5204, lng: 73.8567, label: 'Maharashtra, India' },
-  { keywords: ['bihar', 'patna', 'gaya', 'muzaffarpur', 'bhagalpur', 'darbhanga'], lat: 25.5941, lng: 85.1376, label: 'Patna, Bihar' },
-  { keywords: ['jharkhand', 'ranchi', 'jamshedpur', 'dhanbad', 'bokaro'], lat: 23.3441, lng: 85.3096, label: 'Ranchi, Jharkhand' },
-  { keywords: ['up east', 'up west', 'uttar pradesh', 'lucknow', 'kanpur', 'varanasi', 'agra', 'meerut', 'prayagraj', 'allahabad', 'gorakhpur'], lat: 26.8467, lng: 80.9462, label: 'Lucknow, Uttar Pradesh' },
-  { keywords: ['rajasthan', 'jaipur', 'jodhpur', 'udaipur', 'kota', 'ajmer', 'bikaner'], lat: 26.9124, lng: 75.7873, label: 'Jaipur, Rajasthan' },
-  { keywords: ['mp', 'madhya pradesh', 'bhopal', 'indore', 'gwalior', 'jabalpur', 'ujjain'], lat: 23.2599, lng: 77.4126, label: 'Bhopal, Madhya Pradesh' },
-  { keywords: ['chhattisgarh', 'raipur', 'bilaspur', 'bhilai', 'durg'], lat: 21.2514, lng: 81.6296, label: 'Raipur, Chhattisgarh' },
-  { keywords: ['gujarat', 'ahmedabad', 'surat', 'vadodara', 'rajkot', 'gandhinagar'], lat: 23.0225, lng: 72.5714, label: 'Ahmedabad, Gujarat' },
-  { keywords: ['west bengal', 'kolkata', 'calcutta', 'howrah', 'siliguri', 'durgapur'], lat: 22.5726, lng: 88.3639, label: 'Kolkata, West Bengal' },
-  { keywords: ['karnataka', 'bangalore', 'bengaluru', 'mysore', 'hubli', 'mangalore'], lat: 12.9716, lng: 77.5946, label: 'Bengaluru, Karnataka' },
-  { keywords: ['tamil nadu', 'chennai', 'coimbatore', 'madurai', 'salem', 'trichy'], lat: 13.0827, lng: 80.2707, label: 'Chennai, Tamil Nadu' },
-  { keywords: ['telangana', 'hyderabad', 'warangal', 'nizamabad'], lat: 17.3850, lng: 78.4867, label: 'Hyderabad, Telangana' },
-  { keywords: ['andhra', 'visakhapatnam', 'vijayawada', 'guntur', 'tirupati'], lat: 16.5062, lng: 80.6480, label: 'Vijayawada, Andhra Pradesh' },
-  { keywords: ['kerala', 'kochi', 'thiruvananthapuram', 'kozhikode', 'thrissur'], lat: 9.9312, lng: 76.2673, label: 'Kochi, Kerala' },
-  { keywords: ['punjab', 'chandigarh', 'ludhiana', 'amritsar', 'jalandhar', 'patiala'], lat: 30.7333, lng: 76.7794, label: 'Chandigarh / Punjab' },
-  { keywords: ['haryana', 'rohtak', 'panipat', 'karnal', 'hisar', 'ambala'], lat: 29.0588, lng: 76.0856, label: 'Haryana, India' },
-  { keywords: ['odisha', 'orissa', 'bhubaneswar', 'cuttack', 'rourkela', 'puri'], lat: 20.2961, lng: 85.8245, label: 'Bhubaneswar, Odisha' },
-  { keywords: ['assam', 'guwahati', 'north east', 'silchar', 'dibrugarh'], lat: 26.1445, lng: 91.7362, label: 'Guwahati, Assam' },
-  { keywords: ['himachal', 'shimla', 'manali', 'dharamshala', 'solan'], lat: 31.1048, lng: 77.1734, label: 'Shimla, Himachal Pradesh' },
-  { keywords: ['uttarakhand', 'dehradun', 'haridwar', 'roorkee', 'haldwani'], lat: 30.3165, lng: 78.0322, label: 'Dehradun, Uttarakhand' },
-  { keywords: ['jammu', 'kashmir', 'srinagar', 'j&k'], lat: 32.7266, lng: 74.8570, label: 'Jammu & Kashmir' },
+const INDIAN_CIRCLE_COORDS: Array<{ keywords: string[]; pinPrefixes: string[]; lat: number; lng: number; label: string }> = [
+  { keywords: ['delhi', 'new delhi', 'ncr', 'noida', 'gurgaon', 'gurugram', 'faridabad', 'ghaziabad'], pinPrefixes: ['11'], lat: 28.6139, lng: 77.2090, label: 'New Delhi, Delhi' },
+  { keywords: ['mumbai', 'bombay', 'thane', 'navi mumbai'], pinPrefixes: ['40'], lat: 19.0760, lng: 72.8777, label: 'Mumbai, Maharashtra' },
+  { keywords: ['maharashtra', 'pune', 'nagpur', 'nashik', 'aurangabad', 'solapur', 'kolhapur', 'amravati'], pinPrefixes: ['41', '42', '43', '44'], lat: 18.5204, lng: 73.8567, label: 'Maharashtra, India' },
+  { keywords: ['bihar', 'patna', 'gaya', 'muzaffarpur', 'bhagalpur', 'darbhanga', 'purnia', 'begusarai', 'arrah', 'chapra', 'siwan', 'motihari', 'samastipur', 'madhubani', 'sitamarhi', 'nalanda', 'rohtas', 'saran', 'vaishali'], pinPrefixes: ['80', '81', '82', '84', '85'], lat: 25.5941, lng: 85.1376, label: 'Patna, Bihar' },
+  { keywords: ['jharkhand', 'ranchi', 'jamshedpur', 'dhanbad', 'bokaro', 'hazaribagh', 'deoghar', 'giridih', 'palamu', 'dumka'], pinPrefixes: ['83'], lat: 23.3441, lng: 85.3096, label: 'Ranchi, Jharkhand' },
+  { keywords: ['up east', 'up west', 'uttar pradesh', 'lucknow', 'kanpur', 'varanasi', 'agra', 'meerut', 'prayagraj', 'allahabad', 'gorakhpur', 'bareilly', 'aligarh', 'moradabad', 'saharanpur', 'jhansi', 'mathura', 'ayodhya', 'faizabad', 'azamgarh', 'jaunpur', 'ballia', 'deoria', 'basti', 'gonda', 'sultanpur', 'pratapgarh', 'mirzapur', 'sonbhadra', 'ghazipur', 'mau', 'chandauli', 'bhadohi'], pinPrefixes: ['20', '21', '22', '23', '25', '27', '28'], lat: 26.8467, lng: 80.9462, label: 'Uttar Pradesh, India' },
+  { keywords: ['rajasthan', 'jaipur', 'jodhpur', 'udaipur', 'kota', 'ajmer', 'bikaner', 'alwar', 'bharatpur', 'sikar', 'pali', 'bhilwara', 'ganganagar'], pinPrefixes: ['30', '31', '32', '33', '34'], lat: 26.9124, lng: 75.7873, label: 'Jaipur, Rajasthan' },
+  { keywords: ['mp', 'madhya pradesh', 'bhopal', 'indore', 'gwalior', 'jabalpur', 'ujjain', 'sagar', 'rewa', 'satna', 'ratlam', 'dewas', 'chhindwara'], pinPrefixes: ['45', '46', '47', '48'], lat: 23.2599, lng: 77.4126, label: 'Bhopal, Madhya Pradesh' },
+  { keywords: ['chhattisgarh', 'raipur', 'bilaspur', 'bhilai', 'durg', 'korba', 'raigarh', 'jagdalpur', 'ambikapur'], pinPrefixes: ['49'], lat: 21.2514, lng: 81.6296, label: 'Raipur, Chhattisgarh' },
+  { keywords: ['gujarat', 'ahmedabad', 'surat', 'vadodara', 'rajkot', 'gandhinagar', 'bhavnagar', 'jamnagar', 'junagadh', 'anand', 'bharuch', 'kutch', 'valsad', 'vapi'], pinPrefixes: ['36', '37', '38', '39'], lat: 23.0225, lng: 72.5714, label: 'Ahmedabad, Gujarat' },
+  { keywords: ['west bengal', 'kolkata', 'calcutta', 'howrah', 'siliguri', 'durgapur', 'asansol', 'bardhaman', 'malda', 'murshidabad', 'nadia', 'hooghly', 'midnapore', 'darjeeling'], pinPrefixes: ['70', '71', '72', '73', '74'], lat: 22.5726, lng: 88.3639, label: 'Kolkata, West Bengal' },
+  { keywords: ['karnataka', 'bangalore', 'bengaluru', 'mysore', 'mysuru', 'hubli', 'mangalore', 'belgaum', 'belagavi', 'gulbarga', 'davangere', 'bellary', 'shimoga', 'tumkur', 'udupi'], pinPrefixes: ['56', '57', '58', '59'], lat: 12.9716, lng: 77.5946, label: 'Bengaluru, Karnataka' },
+  { keywords: ['tamil nadu', 'chennai', 'coimbatore', 'madurai', 'salem', 'trichy', 'tiruchirappalli', 'tirunelveli', 'erode', 'vellore', 'thoothukudi', 'thanjavur', 'dindigul', 'tiruppur'], pinPrefixes: ['60', '61', '62', '63', '64'], lat: 13.0827, lng: 80.2707, label: 'Chennai, Tamil Nadu' },
+  { keywords: ['telangana', 'hyderabad', 'secunderabad', 'warangal', 'nizamabad', 'karimnagar', 'khammam', 'mahbubnagar', 'nalgonda'], pinPrefixes: ['50'], lat: 17.3850, lng: 78.4867, label: 'Hyderabad, Telangana' },
+  { keywords: ['andhra', 'visakhapatnam', 'vizag', 'vijayawada', 'guntur', 'tirupati', 'kurnool', 'nellore', 'rajahmundry', 'kakinada', 'anantapur', 'kadapa', 'eluru', 'ongole'], pinPrefixes: ['51', '52', '53'], lat: 16.5062, lng: 80.6480, label: 'Vijayawada, Andhra Pradesh' },
+  { keywords: ['kerala', 'kochi', 'ernakulam', 'thiruvananthapuram', 'trivandrum', 'kozhikode', 'calicut', 'thrissur', 'kollam', 'palakkad', 'alappuzha', 'kannur', 'kottayam', 'malappuram'], pinPrefixes: ['67', '68', '69'], lat: 9.9312, lng: 76.2673, label: 'Kochi, Kerala' },
+  { keywords: ['punjab', 'chandigarh', 'ludhiana', 'amritsar', 'jalandhar', 'patiala', 'bathinda', 'mohali', 'hoshiarpur', 'pathankot', 'moga', 'ferozepur', 'sangrur'], pinPrefixes: ['14', '15', '16'], lat: 30.7333, lng: 76.7794, label: 'Chandigarh / Punjab' },
+  { keywords: ['haryana', 'rohtak', 'panipat', 'karnal', 'hisar', 'ambala', 'sonipat', 'yamunanagar', 'panchkula', 'bhiwani', 'sirsa', 'jind', 'kurukshetra', 'rewari', 'palwal', 'kaithal'], pinPrefixes: ['12', '13'], lat: 29.0588, lng: 76.0856, label: 'Haryana, India' },
+  { keywords: ['odisha', 'orissa', 'bhubaneswar', 'cuttack', 'rourkela', 'puri', 'sambalpur', 'berhampur', 'balasore', 'bhadrak', 'baripada', 'jharsuguda', 'angul'], pinPrefixes: ['75', '76', '77'], lat: 20.2961, lng: 85.8245, label: 'Bhubaneswar, Odisha' },
+  { keywords: ['assam', 'guwahati', 'north east', 'silchar', 'dibrugarh', 'jorhat', 'nagaon', 'tinsukia', 'tezpur', 'bongaigaon', 'meghalaya', 'shillong', 'tripura', 'agartala', 'manipur', 'imphal', 'mizoram', 'nagaland', 'arunachal'], pinPrefixes: ['78', '79'], lat: 26.1445, lng: 91.7362, label: 'Guwahati, Assam' },
+  { keywords: ['himachal', 'shimla', 'manali', 'dharamshala', 'solan', 'mandi', 'kangra', 'kullu', 'hamirpur', 'una', 'bilaspur', 'chamba', 'sirmaur'], pinPrefixes: ['17'], lat: 31.1048, lng: 77.1734, label: 'Shimla, Himachal Pradesh' },
+  { keywords: ['uttarakhand', 'dehradun', 'haridwar', 'roorkee', 'haldwani', 'nainital', 'rudrapur', 'kashipur', 'rishikesh', 'pauri', 'tehri', 'almora', 'pithoragarh'], pinPrefixes: ['24', '26'], lat: 30.3165, lng: 78.0322, label: 'Dehradun, Uttarakhand' },
+  { keywords: ['jammu', 'kashmir', 'srinagar', 'j&k', 'anantnag', 'baramulla', 'udhampur', 'kathua', 'pulwama', 'kupwara', 'leh', 'ladakh'], pinPrefixes: ['18', '19'], lat: 32.7266, lng: 74.8570, label: 'Jammu & Kashmir' },
 ];
 
-async function geocodeAddressAndCircle(address: string, circle: string, rawDigits: string): Promise<{
+const PLACE_STOP_WORDS = new Set([
+  'vill', 'village', 'vpo', 'po', 'ps', 'at', 'post', 'teh', 'tehsil', 'taluka', 'tal', 'dist', 'district',
+  'state', 'india', 'near', 'opp', 'opposite', 'behind', 'beside', 'road', 'rd', 'marg', 'street', 'st',
+  'lane', 'gali', 'ward', 'sector', 'sec', 'phase', 'colony', 'nagar', 'vihar', 'puram', 'pura', 'pur',
+  'bad', 'abad', 'ganj', 'gunj', 'bazar', 'bazaar', 'market', 'chowk', 'chauraha', 'mohalla', 'tola',
+  'para', 'patti', 'block', 'panchayat', 'gram', 'thana', 'chowki', 'pin', 'pincode', 'urban', 'rural',
+  'north', 'south', 'east', 'west', 'central', 'new', 'old', 'upper', 'lower', 'greater', 'cantt',
+  'bihar', 'jharkhand', 'up', 'mp', 'delhi', 'mumbai', 'maharashtra', 'rajasthan', 'gujarat', 'punjab',
+  'haryana', 'kerala', 'karnataka', 'tamil', 'nadu', 'telangana', 'andhra', 'pradesh', 'odisha', 'orissa',
+  'assam', 'bengal', 'uttar', 'madhya', 'himachal', 'uttarakhand', 'chhattisgarh', 'jammu', 'kashmir',
+]);
+
+function escapeRegexLiteral(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function sanitizeLocationAddress(
+  rawAddress: string,
+  circle: string,
+  personName?: string,
+  fatherName?: string
+): {
+  displayAddress: string;
+  mapSearchQuery: string;
+  geocodeCandidates: string[];
+  pincode: string;
+} {
+  const cleanCircle = circle && circle !== 'Not found' && circle !== 'N/A' ? circle.trim() : '';
+  if (!rawAddress || rawAddress === 'Not found' || rawAddress === 'N/A') {
+    const fallbackPlace = cleanCircle || 'India';
+    return {
+      displayAddress: fallbackPlace,
+      mapSearchQuery: fallbackPlace.toLowerCase().includes('india') ? fallbackPlace : `${fallbackPlace}, India`,
+      geocodeCandidates: fallbackPlace !== 'India' ? [`${fallbackPlace}, India`] : [],
+      pincode: '',
+    };
+  }
+
+  let working = String(rawAddress)
+    .replace(/!+/g, ', ')
+    .replace(/[;|]+/g, ', ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  // Extract 6-digit Indian pincode if present
+  const pinMatch = working.match(/\b([1-8]\d{5})\b/);
+  const pincode = pinMatch ? pinMatch[1] : '';
+
+  // Remove full personName and fatherName phrases first
+  for (const rawPerson of [personName, fatherName]) {
+    if (rawPerson && rawPerson !== 'Not found' && rawPerson !== 'N/A') {
+      const cleanedPerson = rawPerson.replace(/[^a-zA-Z\s]/g, ' ').replace(/\s+/g, ' ').trim();
+      if (cleanedPerson.length >= 3) {
+        working = working.replace(new RegExp(`\\b${escapeRegexLiteral(cleanedPerson)}\\b`, 'gi'), ', ');
+      }
+      // Also remove individual name tokens (>=3 chars) if they are not place words
+      for (const word of cleanedPerson.split(/\s+/)) {
+        const lw = word.toLowerCase();
+        if (lw.length >= 3 && !PLACE_STOP_WORDS.has(lw)) {
+          working = working.replace(new RegExp(`\\b${escapeRegexLiteral(word)}\\b`, 'gi'), ' ');
+        }
+      }
+    }
+  }
+
+  // Strip inline S/O, D/O, W/O, C/O, H/O, F/O, M/O, Son of, Wife of, Father Name segments
+  working = working.replace(
+    /\b(?:S\s*\/\s*O|D\s*\/\s*O|W\s*\/\s*O|C\s*\/\s*O|H\s*\/\s*O|F\s*\/\s*O|M\s*\/\s*O|SON\s+OF|DAUGHTER\s+OF|WIFE\s+OF|CARE\s+OF|HUSBAND\s+OF|FATHER\s*[:-]?|HUSBAND\s*[:-]?|MOTHER\s*[:-]?)\b[^,]*(?=,|\b(?:VILL|VILLAGE|VPO|AT|PO|P\.O|POST|PS|P\.S|THANA|TEH|TEHSIL|TALUKA|DIST|DISTRICT|WARD|SECTOR|SEC|COLONY|NAGAR|VIHAR|ROAD|MARG|CHOWK|BAZAR|MARKET|BLOCK|PIN)\b|$)/gi,
+    ', '
+  );
+
+  // Insert comma separators before major geographic markers when addresses are space-separated
+  working = working.replace(
+    /\s+\b(?=(?:VILL(?:AGE)?|VPO|P\.?O\.?|POST|P\.?S\.?|THANA|TEH(?:SIL)?|TAL(?:UKA)?|DIST(?:RICT)?|STATE|PIN(?:CODE)?)\b[\s:-])/gi,
+    ', '
+  );
+
+  const rawParts = working
+    .split(',')
+    .map((p) => p.replace(/\s+/g, ' ').trim())
+    .filter(Boolean);
+
+  const geoParts: string[] = [];
+  const seenLower = new Set<string>();
+
+  for (let part of rawParts) {
+    // Strip leading relationship or honorific prefixes
+    part = part
+      .replace(
+        /^(?:S\s*\/\s*O|D\s*\/\s*O|W\s*\/\s*O|C\s*\/\s*O|H\s*\/\s*O|F\s*\/\s*O|M\s*\/\s*O|MR\.?|MRS\.?|MS\.?|MISS|SHRI|SMT\.?|SRI|KUMARI|LATE|MD\.?|MOHD\.?|DR\.?)\b[\s.:-]*/gi,
+        ''
+      )
+      .trim();
+
+    // Skip if segment still contains relationship markers
+    if (
+      /\b(?:S\s*\/\s*O|D\s*\/\s*O|W\s*\/\s*O|C\s*\/\s*O|H\s*\/\s*O|SON\s+OF|WIFE\s+OF|DAUGHTER\s+OF|CARE\s+OF|FATHER|HUSBAND)\b/i.test(
+        part
+      )
+    ) {
+      continue;
+    }
+
+    // Remove house / flat / plot / door / room / ward / gali / survey / khasra numbers
+    part = part
+      .replace(
+        /\b(?:H\.?\s*NO\.?|HOUSE\s*NO\.?|HNO|FLAT\s*NO\.?|PLOT\s*NO\.?|DOOR\s*NO\.?|ROOM\s*NO\.?|SHOP\s*NO\.?|WARD\s*NO\.?|GALI\s*NO\.?|LANE\s*NO\.?|STREET\s*NO\.?|KHASRA\s*NO\.?|SURVEY\s*NO\.?|BLDG\s*NO\.?)\s*[:.-]?\s*[A-Z0-9/-]+/gi,
+        ''
+      )
+      .replace(/\b(?:WARD|GALI|FLAT|PLOT|HOUSE|H\s*NO|DOOR|ROOM)\s*[:.-]?\s*\d+[A-Z]?\b/gi, '')
+      .trim();
+
+    // Clean administrative prefixes like "DIST - PATNA" -> "PATNA", "VILL - RAMPUR" -> "RAMPUR"
+    part = part
+      .replace(
+        /^(?:VILL(?:AGE)?|VPO|AT|P\.?O\.?|POST(?:\s+OFFICE)?|P\.?S\.?|POLICE\s+STATION|THANA|TEH(?:SIL)?|TAL(?:UKA)?|SUB\s*DIST(?:RICT)?|DIST(?:RICT)?|BLOCK|ANCHAL|MANDAL|CIRCLE|STATE|PIN(?:\s*CODE)?)\s*[:.-]+\s*/i,
+        ''
+      )
+      .replace(
+        /^(?:VILL(?:AGE)?|VPO|P\.?O\.?|POST|P\.?S\.?|TEH(?:SIL)?|TAL(?:UKA)?|DIST(?:RICT)?|PIN(?:\s*CODE)?)\s+/i,
+        ''
+      )
+      .replace(/^[-:./\s]+|[-:./\s]+$/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    if (!part) continue;
+
+    // If the segment is purely numbers/symbols (like house number "12/4" or "45"), skip unless it's a 6-digit pincode
+    if (/^[\d\s/.-]+$/.test(part)) {
+      const onlyPin = part.match(/\b([1-8]\d{5})\b/);
+      if (onlyPin) {
+        part = onlyPin[1];
+      } else {
+        continue;
+      }
+    }
+
+    // Skip single-character or meaningless noise tokens
+    const lettersOnly = part.replace(/[^a-zA-Z]/g, '');
+    if (lettersOnly.length < 2 && !/\b[1-8]\d{5}\b/.test(part)) {
+      continue;
+    }
+
+    const lowerKey = part.toLowerCase();
+    if (lowerKey === 'na' || lowerKey === 'n/a' || lowerKey === 'null' || lowerKey === 'none' || lowerKey === 'not found') {
+      continue;
+    }
+
+    if (!seenLower.has(lowerKey)) {
+      seenLower.add(lowerKey);
+      geoParts.push(part);
+    }
+  }
+
+  // Ensure pincode is at the end if found
+  const withoutPin = geoParts.filter((p) => !/^[1-8]\d{5}$/.test(p));
+  if (cleanCircle && ! /\b(?:airtel|jio|vi|vodafone|idea|bsnl|mtnl)\b/i.test(cleanCircle)) {
+    const circleLower = cleanCircle.toLowerCase();
+    const alreadyHasCircle = withoutPin.some(
+      (p) => p.toLowerCase().includes(circleLower) || circleLower.includes(p.toLowerCase())
+    );
+    if (!alreadyHasCircle && cleanCircle.toLowerCase() !== 'india') {
+      withoutPin.push(cleanCircle);
+    }
+  }
+
+  const finalDisplayParts = [...withoutPin];
+  if (pincode && !finalDisplayParts.some((p) => p.includes(pincode))) {
+    finalDisplayParts.push(pincode);
+  }
+
+  const displayAddress =
+    finalDisplayParts.length > 0 ? finalDisplayParts.join(', ') : cleanCircle || 'India';
+
+  // For Google Maps search URL: use the last 3-4 pure geographic segments (Area/Town, District/City, State, Pincode, India)
+  // This guarantees ZERO person name or house number ever goes to Google Maps!
+  const tailGeo = withoutPin.slice(-3);
+  const mapParts = [...tailGeo];
+  if (pincode && !mapParts.some((p) => p.includes(pincode))) {
+    mapParts.push(pincode);
+  }
+  if (!mapParts.some((p) => p.toLowerCase() === 'india')) {
+    mapParts.push('India');
+  }
+  const mapSearchQuery = mapParts.join(', ');
+
+  // Build ordered geocode candidates from most specific to broader area/pincode
+  const geocodeCandidates: string[] = [];
+  if (withoutPin.length >= 2) {
+    geocodeCandidates.push(`${withoutPin.slice(-3).join(', ')}, India`);
+    geocodeCandidates.push(`${withoutPin.slice(-2).join(', ')}, India`);
+  } else if (withoutPin.length === 1) {
+    geocodeCandidates.push(`${withoutPin[0]}, India`);
+  }
+  if (pincode) {
+    geocodeCandidates.push(`${pincode}, India`);
+  }
+  if (cleanCircle && cleanCircle.toLowerCase() !== 'india') {
+    geocodeCandidates.push(`${cleanCircle}, India`);
+  }
+
+  return {
+    displayAddress,
+    mapSearchQuery,
+    geocodeCandidates: Array.from(new Set(geocodeCandidates)),
+    pincode,
+  };
+}
+
+const geoQueryCache = new Map<string, { lat: number; lng: number; areaLabel: string }>();
+
+async function geocodeAddressAndCircle(
+  address: string,
+  circle: string,
+  rawDigits: string,
+  personName?: string,
+  fatherName?: string
+): Promise<{
   lat: number;
   lng: number;
   mapsUrl: string;
   areaLabel: string;
+  cleanDisplayAddress: string;
 }> {
-  const cleanAddr = address && address !== 'Not found' ? address : '';
-  const cleanCircle = circle && circle !== 'Not found' ? circle : 'India';
-  const combinedLower = `${cleanAddr} ${cleanCircle}`.toLowerCase();
+  const sanitized = sanitizeLocationAddress(address, circle, personName, fatherName);
+  const { displayAddress, mapSearchQuery, geocodeCandidates, pincode } = sanitized;
+  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapSearchQuery)}`;
 
-  // Extract 6-digit Indian pincode if present in address
-  const pinMatch = cleanAddr.match(/\b([1-8]\d{5})\b/);
-  const pincode = pinMatch ? pinMatch[1] : '';
+  for (const candidate of geocodeCandidates) {
+    const cacheKey = candidate.toLowerCase();
+    const cachedGeo = geoQueryCache.get(cacheKey);
+    if (cachedGeo) {
+      return {
+        lat: cachedGeo.lat,
+        lng: cachedGeo.lng,
+        mapsUrl,
+        areaLabel: displayAddress || cachedGeo.areaLabel,
+        cleanDisplayAddress: displayAddress,
+      };
+    }
 
-  // Try fast Nominatim geocoding on pincode or address segments first (timeout 2.2s)
-  const queryToGeocode = pincode
-    ? `${pincode}, India`
-    : cleanAddr.length > 5
-    ? `${cleanAddr.split(',').slice(-3).join(', ')}, India`
-    : cleanCircle !== 'India'
-    ? `${cleanCircle}, India`
-    : '';
-
-  if (queryToGeocode) {
     try {
       const geoUrl = `https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=in&q=${encodeURIComponent(
-        queryToGeocode
+        candidate
       )}`;
       const resp = await fetchWithTimeout(
         geoUrl,
         { headers: { 'User-Agent': 'HexLocateBot/1.0' } },
-        2200
+        1500
       );
       const geoArr: any = await resp.json();
       if (Array.isArray(geoArr) && geoArr.length > 0 && geoArr[0].lat && geoArr[0].lon) {
         const lat = Number(Number(geoArr[0].lat).toFixed(5));
         const lng = Number(Number(geoArr[0].lon).toFixed(5));
-        const mapSearchQuery = cleanAddr ? `${cleanAddr}, India` : `${lat},${lng}`;
+        const areaLabel =
+          displayAddress && displayAddress !== 'India'
+            ? displayAddress
+            : String(geoArr[0].display_name || circle)
+                .split(',')
+                .slice(0, 3)
+                .join(',')
+                .trim();
+        geoQueryCache.set(cacheKey, { lat, lng, areaLabel });
         return {
           lat,
           lng,
-          mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapSearchQuery)}`,
-          areaLabel: String(geoArr[0].display_name || cleanCircle).split(',').slice(0, 3).join(',').trim(),
+          mapsUrl,
+          areaLabel,
+          cleanDisplayAddress: displayAddress,
         };
       }
     } catch {
-      // Fallback to circle/state table below
+      // Try next candidate
     }
   }
 
-  for (const entry of INDIAN_CIRCLE_COORDS) {
-    if (entry.keywords.some((kw) => combinedLower.includes(kw))) {
-      // Deterministic micro-offset based on phone digits so pins in the same city have distinct street-level coordinates
-      const seed = Number(rawDigits.slice(-4) || '1234');
-      const dLat = ((seed % 100) - 50) * 0.0004;
-      const dLng = ((Math.floor(seed / 100) % 100) - 50) * 0.0004;
-      const lat = Number((entry.lat + dLat).toFixed(5));
-      const lng = Number((entry.lng + dLng).toFixed(5));
-      const mapSearchQuery = cleanAddr ? `${cleanAddr}, India` : `${lat},${lng}`;
-      return {
-        lat,
-        lng,
-        mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapSearchQuery)}`,
-        areaLabel: cleanAddr ? cleanAddr.split(',').slice(-2).join(', ').trim() : entry.label,
-      };
-    }
+  const combinedLower = `${displayAddress} ${circle}`.toLowerCase();
+  const pinPrefix2 = pincode ? pincode.slice(0, 2) : '';
+
+  // Match by city/state keywords first, then by 2-digit Indian Pincode zone
+  const matchedEntry =
+    INDIAN_CIRCLE_COORDS.find((entry) => entry.keywords.some((kw) => combinedLower.includes(kw))) ||
+    (pinPrefix2
+      ? INDIAN_CIRCLE_COORDS.find((entry) => entry.pinPrefixes.includes(pinPrefix2))
+      : undefined);
+
+  if (matchedEntry) {
+    const lat = Number(matchedEntry.lat.toFixed(5));
+    const lng = Number(matchedEntry.lng.toFixed(5));
+    return {
+      lat,
+      lng,
+      mapsUrl,
+      areaLabel: displayAddress && displayAddress !== 'India' ? displayAddress : matchedEntry.label,
+      cleanDisplayAddress: displayAddress && displayAddress !== 'India' ? displayAddress : matchedEntry.label,
+    };
   }
 
-  const seed = Number(rawDigits.slice(-4) || '1234');
-  const defaultEntry = INDIAN_CIRCLE_COORDS[seed % INDIAN_CIRCLE_COORDS.length];
-  const lat = Number((defaultEntry.lat + ((seed % 60) - 30) * 0.0005).toFixed(5));
-  const lng = Number((defaultEntry.lng + ((seed % 40) - 20) * 0.0005).toFixed(5));
-  const mapSearchQuery = cleanAddr ? `${cleanAddr}, India` : `${lat},${lng}`;
+  const defaultEntry = INDIAN_CIRCLE_COORDS[0];
   return {
-    lat,
-    lng,
-    mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapSearchQuery)}`,
-    areaLabel: cleanAddr ? cleanAddr.split(',').slice(-2).join(', ').trim() : defaultEntry.label,
+    lat: defaultEntry.lat,
+    lng: defaultEntry.lng,
+    mapsUrl,
+    areaLabel: displayAddress && displayAddress !== 'India' ? displayAddress : defaultEntry.label,
+    cleanDisplayAddress: displayAddress && displayAddress !== 'India' ? displayAddress : defaultEntry.label,
   };
 }
 
@@ -1331,8 +1600,20 @@ async function fetchRealNumberInfo(rawInput: string): Promise<NumberIntelligence
       }
 
       if (records.length > 0) {
+        for (const r of records) {
+          if (r.address && r.address !== 'Not found') {
+            r.address = sanitizeLocationAddress(r.address, r.circle, r.name, r.fatherName).displayAddress;
+          }
+        }
         const primaryRec = records.find((r) => r.address && r.address !== 'Not found') || records[0];
-        const geo = await geocodeAddressAndCircle(primaryRec.address, primaryRec.circle, core);
+        const geo = await geocodeAddressAndCircle(
+          primaryRec.address,
+          primaryRec.circle,
+          core,
+          primaryRec.name,
+          primaryRec.fatherName
+        );
+        primaryRec.address = geo.cleanDisplayAddress;
         const resultObj: NumberIntelligence = {
           formatted,
           rawDigits: core,
@@ -2106,17 +2387,18 @@ async function fulfillOrderAndNotify(order: PaymentOrder, utr: string) {
   const user = state.users[String(order.userId)];
   if (!user || typeof user.id !== 'number' || user.id >= 900000000) return;
 
+  const displayAmt = order.payableAmount || String(order.amount);
   const paidCaption =
-    `<b>✓ ${toThinSans('Payment Verified')}</b>\n\n` +
+    `<b>✅ ${toThinSans('Payment Verified')} ❤️</b>\n\n` +
     `<b>• ${toThinSans('Plan')}:</b> ${escapeHtml(toThinSans(`${order.planName} (${order.days} Days)`))}\n` +
-    `<b>• ${toThinSans('Amount')}:</b> ₹${toThinSans(order.payableAmount || String(order.amount))}\n` +
+    `<b>• ${toThinSans('Amount')}:</b> ₹${toThinSans(displayAmt)}\n` +
     `<b>• ${toThinSans('Status')}:</b> ${getUserStatusBadge(user)}`;
 
   const paidMarkup = {
     inline_keyboard: [
       [
-        buildInlineButton(`❖ ${toThinSans('Number to Info')}`, { callback_data: 'nav_num_info', style: 'success' }),
-        buildInlineButton(`◈ ${toThinSans('My Profile')}`, { callback_data: 'nav_profile', style: 'primary' }),
+        buildInlineButton(`🔍 ${toThinSans('Number to Info')}`, { callback_data: 'nav_num_info', style: 'primary' }),
+        buildInlineButton(`👤 ${toThinSans('My Profile')}`, { callback_data: 'nav_profile', style: 'primary' }),
       ],
       [buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' })],
     ],
@@ -2140,9 +2422,37 @@ async function fulfillOrderAndNotify(order: PaymentOrder, utr: string) {
       user.lastBotMessageId = sent.result.message_id;
       user.lastBotMessageHasPhoto = false;
       saveState();
+      reactWithHeart(user.id, sent.result.message_id);
     }
   } catch {
     // ignore telegram notification error
+  }
+
+  // Live Admin Alert on Telegram (#8)
+  const adminIds = new Set<number>([6672896116, 7995520431]);
+  for (const u of Object.values(state.users)) {
+    if (u.isAdminUnlocked && typeof u.id === 'number' && !(u.id >= 900000001 && u.id <= 900000099)) {
+      adminIds.add(u.id);
+    }
+  }
+  const adminAlertText =
+    `<b>👑 ${toThinSans('New VIP Sale')} ❤️</b>\n\n` +
+    `<b>• ${toThinSans('User')}:</b> ${escapeHtml(toThinSans(user.firstName))} (${user.username ? '@' + escapeHtml(user.username) : user.id})\n` +
+    `<b>• ${toThinSans('Plan')}:</b> ${escapeHtml(toThinSans(`${order.planName} (${order.days}D)`))}\n` +
+    `<b>• ${toThinSans('Paid')}:</b> ₹${toThinSans(displayAmt)}\n` +
+    `<b>• ${toThinSans('Ref')}:</b> ${escapeHtml(toThinSans(utr || 'AUTO'))}`;
+
+  for (const admId of adminIds) {
+    if (admId === user.id) continue;
+    callTelegram(
+      'sendMessage',
+      {
+        chat_id: admId,
+        text: adminAlertText,
+        parse_mode: 'HTML',
+      },
+      4000
+    ).catch(() => {});
   }
 }
 
@@ -2228,7 +2538,7 @@ function postTelegramJson(
 }
 
 async function callTelegram(method: string, payload: Record<string, any> = {}, timeoutMs = 6000): Promise<any> {
-  const token = state.config.botToken.trim();
+  const token = getActiveBotToken();
   if (!token) throw new Error('Bot token is empty');
   const isPoll = method === 'getUpdates';
 
@@ -2299,22 +2609,6 @@ async function verifyBotConnection() {
       }
       await callTelegram('deleteWebhook', { drop_pending_updates: false }, 4000).catch(() => {});
       void registerBotMenuAndCommands();
-
-      // Sync offset with latest update_id on this bot token so old/mismatched update_id never loops
-      try {
-        const latestRes = await callTelegram('getUpdates', { offset: -1, limit: 1, timeout: 0 }, 4000);
-        if (latestRes?.ok && Array.isArray(latestRes.result) && latestRes.result.length > 0) {
-          const latestId = latestRes.result[latestRes.result.length - 1].update_id;
-          if (typeof latestId === 'number') {
-            state.lastTelegramUpdateId = latestId;
-            processedUpdateIds.add(latestId);
-            saveState();
-            await callTelegram('getUpdates', { offset: latestId + 1, limit: 1, timeout: 0 }, 4000).catch(() => {});
-          }
-        }
-      } catch {
-        // ignore startup sync error
-      }
     } else {
       botStatus = {
         connected: false,
@@ -2343,20 +2637,42 @@ function buildInlineButton(
   return btn;
 }
 
+const RANDOM_REACTION_EMOJIS = ['❤️', '🔥', '🎉', '🤩', '🏆', '👍', '💯', '❤️‍🔥', '👏', '🥰', '😎'] as const;
+
+const HEART_MESSAGE_EFFECT_ID = '';
+const PARTY_MESSAGE_EFFECT_ID = '';
+
+function reactWithHeart(chatId: number, messageId?: number) {
+  if (!chatId || !messageId) return;
+  const randomEmoji = RANDOM_REACTION_EMOJIS[Math.floor(Math.random() * RANDOM_REACTION_EMOJIS.length)];
+  callTelegram(
+    'setMessageReaction',
+    {
+      chat_id: chatId,
+      message_id: messageId,
+      reaction: [{ type: 'emoji', emoji: randomEmoji }],
+    },
+    3500
+  ).catch(() => {});
+}
+
 // Sends standard Telegram Photo/Video ONLY when view.withMedia is true (/start message)
-// Otherwise sends a fast, clean text message!
 async function sendReplyMessage(
   chatId: number,
   user: UserProfile,
-  view: { text: string; reply_markup: any; withMedia?: boolean },
+  view: { text: string; reply_markup: any; withMedia?: boolean; useHeartEffect?: boolean; effectId?: string },
   replyToMessageId?: number
 ) {
+  if (replyToMessageId) {
+    reactWithHeart(chatId, replyToMessageId);
+  }
   const cfg = state.config;
+  const isOsint = getActiveBotMode() === 'osint';
   if (view.withMedia) {
-    if (cfg.mediaType === 'video' && (cfg.telegramFileId || cfg.bannerVideoUrl)) {
+    if (cfg.mediaType === 'video' && ((!isOsint && cfg.telegramFileId) || cfg.bannerVideoUrl)) {
       const videoPayload: Record<string, any> = {
         chat_id: chatId,
-        video: cfg.telegramFileId || cfg.bannerVideoUrl,
+        video: (!isOsint && cfg.telegramFileId) || cfg.bannerVideoUrl,
         caption: view.text,
         parse_mode: 'HTML',
         reply_markup: view.reply_markup,
@@ -2364,7 +2680,7 @@ async function sendReplyMessage(
       if (replyToMessageId) videoPayload.reply_to_message_id = replyToMessageId;
       const vidRes = await callTelegram('sendVideo', videoPayload, 7000);
       if (vidRes?.ok && vidRes.result?.message_id) {
-        if (vidRes.result.video?.file_id && !cfg.telegramFileId) {
+        if (vidRes.result.video?.file_id && !isOsint && !cfg.telegramFileId) {
           cfg.telegramFileId = vidRes.result.video.file_id;
         }
         user.lastBotMessageId = vidRes.result.message_id;
@@ -2373,7 +2689,8 @@ async function sendReplyMessage(
         return;
       }
     } else {
-      const photoSource = cfg.telegramFileId || normalizeBannerImageUrlSync(cfg.bannerUrl);
+      const activeFileId = isOsint ? (osintCachedFileId || cfg.telegramFileId) : cfg.telegramFileId;
+      const photoSource = activeFileId || normalizeBannerImageUrlSync(cfg.bannerUrl);
       const photoPayload: Record<string, any> = {
         chat_id: chatId,
         photo: photoSource,
@@ -2384,9 +2701,14 @@ async function sendReplyMessage(
       if (replyToMessageId) photoPayload.reply_to_message_id = replyToMessageId;
       const photoRes = await callTelegram('sendPhoto', photoPayload, 7000);
       if (photoRes?.ok && photoRes.result?.message_id) {
-        // Cache Telegram file_id so future /start commands take ~200ms instead of re-fetching URL!
-        if (Array.isArray(photoRes.result.photo) && photoRes.result.photo.length > 0 && !cfg.telegramFileId) {
-          cfg.telegramFileId = photoRes.result.photo[photoRes.result.photo.length - 1].file_id;
+        if (Array.isArray(photoRes.result.photo) && photoRes.result.photo.length > 0) {
+          const fid = photoRes.result.photo[photoRes.result.photo.length - 1].file_id;
+          if (isOsint) {
+            osintCachedFileId = fid;
+            if (!cfg.telegramFileId) cfg.telegramFileId = fid;
+          } else if (!cfg.telegramFileId) {
+            cfg.telegramFileId = fid;
+          }
         }
         user.lastBotMessageId = photoRes.result.message_id;
         user.lastBotMessageHasPhoto = true;
@@ -2523,16 +2845,16 @@ function escapeHtml(str: string): string {
 }
 
 function getAppBaseUrl(): string {
-  const publicSharedUrl = 'https://ais-pre-wjgc6ech6tjeb4fxmiq54f-739805761259.asia-southeast1.run.app';
-  const raw = (process.env.APP_URL || state.config.websiteUrl || publicSharedUrl).replace(/\/$/, '');
-  if (raw.includes('famgateway.in') || raw.includes('ais-dev-')) {
-    return publicSharedUrl;
+  const hostedUrl = 'https://hexx-locate.ai.studio';
+  const raw = (process.env.APP_URL || state.config.websiteUrl || hostedUrl).replace(/\/$/, '');
+  if (raw.includes('famgateway.in') || raw.includes('ais-dev-') || raw.includes('ais-pre-')) {
+    return hostedUrl;
   }
   return raw;
 }
 
 function getUserReferralLink(user: UserProfile): string {
-  const botUser = (state.config.botUsername || 'HexxOsint_bot').replace(/^@/, '').trim();
+  const botUser = (getActiveBotUsername() || 'HexLocate_bot').replace(/^@/, '').trim();
   return `https://t.me/${botUser}?start=ref_${user.referralCode}`;
 }
 
@@ -2541,12 +2863,97 @@ function getUserTrackingUrl(user: UserProfile): string {
   return `${getAppBaseUrl()}/t/${token}`;
 }
 
+function resolveForceJoinTarget(): { chatIdOrUsername: string; inviteUrl: string } {
+  const raw = (
+    state.config.forceJoinChannel ||
+    state.config.channelUrl ||
+    state.config.groupUrl ||
+    'https://t.me/followxpresss'
+  ).trim();
+  const cleanHandle = raw
+    .replace(/^https?:\/\/t\.me\//i, '')
+    .replace(/^@/, '')
+    .split(/[/?#]/)[0]
+    .trim();
+  const chatIdOrUsername = cleanHandle.startsWith('-') ? cleanHandle : `@${cleanHandle || 'followxpresss'}`;
+  const inviteUrl = raw.startsWith('http') ? raw : `https://t.me/${cleanHandle || 'followxpresss'}`;
+  return { chatIdOrUsername, inviteUrl };
+}
+
+async function checkUserForceJoin(user: UserProfile, isVerifyClick = false): Promise<boolean> {
+  if (!state.config.forceJoinEnabled) return true;
+
+  // Instant 0ms fast-path if already verified!
+  if (!isVerifyClick && (user as any).forceJoinVerified === true) {
+    return true;
+  }
+
+  const { chatIdOrUsername } = resolveForceJoinTarget();
+  if (!chatIdOrUsername || chatIdOrUsername === '@HexLocate_bot' || chatIdOrUsername === '@HexxOsint_bot') {
+    return true;
+  }
+
+  try {
+    const res = await callTelegram(
+      'getChatMember',
+      {
+        chat_id: chatIdOrUsername,
+        user_id: user.id,
+      },
+      2000
+    );
+    if (res?.ok && res.result) {
+      const status = String(res.result.status || '').toLowerCase();
+      const isMember = status !== 'left' && status !== 'kicked' && status !== 'restricted';
+      (user as any).forceJoinVerified = isMember;
+      saveState();
+      return isMember;
+    }
+    if (isVerifyClick) {
+      (user as any).forceJoinVerified = true;
+      saveState();
+      return true;
+    }
+    return Boolean((user as any).forceJoinVerified);
+  } catch {
+    if (isVerifyClick) {
+      (user as any).forceJoinVerified = true;
+      saveState();
+      return true;
+    }
+    return Boolean((user as any).forceJoinVerified);
+  }
+}
+
+function renderBotForceJoinView() {
+  const { inviteUrl, chatIdOrUsername } = resolveForceJoinTarget();
+  const text =
+    `<b>💬 ${toThinSans('Join Official Channel')}</b>\n\n` +
+    `${toThinSans('Please join our official channel first to use this bot and search mobile numbers.')}\n\n` +
+    `<b>• ${toThinSans('Channel')}:</b> ${escapeHtml(toThinSans(chatIdOrUsername))}\n\n` +
+    `${toThinSans('After joining, tap Verify Join below:')}`;
+
+  return {
+    text,
+    reply_markup: {
+      inline_keyboard: [
+        [buildInlineButton(`💬 ${toThinSans('Join Channel')}`, { url: inviteUrl, style: 'primary' })],
+        [buildInlineButton(`✅ ${toThinSans('Verify Join')}`, { callback_data: 'verify_join', style: 'success' })],
+      ],
+    },
+    withMedia: false,
+  };
+}
+
 // ============================================================================
-// USER VIEWS — EASY EVERYDAY LANGUAGE, 4-LINE HOME KEYBOARD & GOOGLE MAPS
+// USER VIEWS — NUMBER TO INFO IN MIDDLE, UPDATES & HISTORY AT BOTTOM
+// Home Layout:
+// Row 1: [ 👑 Get Premium (Green) ] [ 👤 My Profile (Blue) ]
+// Row 2: [ 🔍 Number to Info (Blue Full Width) ]
+// Row 3: [ 💬 Updates (Red) ] [ 📜 History (Red) ]
 // ============================================================================
 function buildHomeInlineKeyboard() {
-  const groupUrl = (state.config.groupUrl || state.config.channelUrl || 'https://t.me/followxpresss').trim();
-  const formattedGroupUrl = groupUrl.startsWith('http') ? groupUrl : `https://t.me/${groupUrl.replace(/^@/, '')}`;
+  const { inviteUrl } = resolveForceJoinTarget();
   return {
     inline_keyboard: [
       [
@@ -2557,49 +2964,85 @@ function buildHomeInlineKeyboard() {
         buildInlineButton(`🔍 ${toThinSans('Number to Info')}`, { callback_data: 'nav_num_info', style: 'primary' }),
       ],
       [
-        buildInlineButton(`📍 ${toThinSans('Number to Location')}`, { callback_data: 'nav_num_loc', style: 'success' }),
-      ],
-      [
-        buildInlineButton(`💬 ${toThinSans('My Group')}`, { url: formattedGroupUrl, style: 'success' }),
+        buildInlineButton(`💬 ${toThinSans('Updates')}`, { url: inviteUrl, style: 'danger' }),
         buildInlineButton(`📜 ${toThinSans('History')}`, { callback_data: 'nav_history', style: 'danger' }),
       ],
     ],
   };
 }
+
 function renderBotHomeView(user: UserProfile) {
   const userLink = `<a href="tg://user?id=${user.id}">${escapeHtml(toThinSans(user.firstName))}</a>`;
+  const activeName = getActiveBotName();
+
+  const desc =
+    'Send any 10-digit mobile number here to get full details instantly.';
+
   const text =
-    `<b>❤️ ${toThinSans('Hello')} ${userLink}</b>\n\n` +
-    `${toThinSans('Welcome to')} <b>${escapeHtml(toThinSans(state.config.botName))}</b>\n\n` +
-    `${toThinSans('Yaha koi bhi 10-digit Mobile Number bhejo, uska Name aur Google Maps Location turant mil jayega.')}\n\n` +
-    `<b>${toThinSans('Example')}:</b> ${toThinSans('9876543210')}`;
+    `<b>❤️ ${toThinSans('Hello')} ${userLink}</b>\n` +
+    `${toThinSans('Welcome to')} <b>${escapeHtml(toThinSans(activeName))}</b>\n\n` +
+    `${toThinSans(desc)}\n\n` +
+    `<b>• ${toThinSans('Example')}:</b> ${toThinSans('9876543210')}`;
 
   return {
     text,
     reply_markup: buildHomeInlineKeyboard(),
-    // ONLY /start (Home View) has image enabled!
+    // ONLY /start (Home View) has image & Heart (❤️) effect enabled!
     withMedia: state.config.bannerEnabled,
+    useHeartEffect: true,
+    effectId: HEART_MESSAGE_EFFECT_ID,
+  };
+}
+
+function renderBotReferView(user: UserProfile) {
+  const refLink = getUserReferralLink(user);
+  const bonus = state.config.referralBonusCredits || 2;
+  const shareText = `Search any mobile number details instantly on ${getActiveBotName()}!`;
+  const telegramShareUrl = `https://t.me/share/url?url=${encodeURIComponent(refLink)}&text=${encodeURIComponent(shareText)}`;
+
+  const text =
+    `<b>🔗 ${toThinSans('Refer & Earn Free Searches')}</b>\n\n` +
+    `<b>• ${toThinSans('Per Friend Reward')}:</b> +${toThinSans(String(bonus))} ${toThinSans('Free Searches')}\n` +
+    `<b>• ${toThinSans('Total Invited')}:</b> ${toThinSans(String(user.referralCount || 0))} ${toThinSans('Friends')}\n` +
+    `<b>• ${toThinSans('Bonus Earned')}:</b> +${toThinSans(String(user.referralCreditsEarned || 0))} ${toThinSans('Searches')}\n\n` +
+    `<b>• ${toThinSans('Your Refer Link')}:</b>\n<code>${escapeHtml(refLink)}</code>`;
+
+  const keyboard: any[][] = [
+    [
+      buildInlineButton(`✈️ ${toThinSans('Share on Telegram')}`, { url: telegramShareUrl, style: 'success' }),
+      buildInlineButton(`${toThinSans('Copy Refer Link')}`, { copy_text: refLink, style: 'primary' }),
+    ],
+    [
+      buildInlineButton(`🎟️ ${toThinSans('Redeem Promo Code')}`, { callback_data: 'nav_redeem', style: 'primary' }),
+    ],
+    [
+      buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' }),
+    ],
+  ];
+
+  return {
+    text,
+    reply_markup: { inline_keyboard: keyboard },
+    withMedia: false,
   };
 }
 
 function renderBotNumberPromptView(user: UserProfile) {
   const { isVip, dailyLimit, remainingToday } = syncUserDailyUsage(user);
   const quotaText = isVip
-    ? `<b>✦ ${toThinSans('VIP Unlimited')}</b>`
-    : `<b>◈ ${toThinSans(`${remainingToday} / ${dailyLimit} Free Bacha Hai Aaj`)}</b>`;
+    ? toThinSans('Unlimited (VIP)')
+    : toThinSans(`${remainingToday} / ${dailyLimit} Free Left Today`);
 
   const text =
-    `<b>📍 ${toThinSans('Number to Location')}</b>\n\n` +
-    `${toThinSans('Chat me koi bhi 10-digit Mobile Number likh kar bhejo. Uska Name aur Google Map Location aa jayega.')}\n\n` +
+    `<b>🔍 ${toThinSans('Number to Info')}</b>\n\n` +
+    `${toThinSans('Send any 10-digit mobile number in chat to get full details (Name, Father Name, Address, Alt Number, ID).')}\n\n` +
     `<b>• ${toThinSans('Today Limit')}:</b> ${quotaText}\n` +
     `<b>• ${toThinSans('Example')}:</b> ${toThinSans('9876543210')}`;
 
   const keyboard: any[][] = [
     [
-      buildInlineButton(`👑 ${toThinSans('Get Premium')}`, { callback_data: 'nav_pricing', style: 'success' }),
-      buildInlineButton(`🛰️ ${toThinSans('Live Location')}`, { callback_data: 'nav_live_loc', style: 'primary' }),
+      buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' }),
     ],
-    [buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' })],
   ];
 
   return {
@@ -2614,18 +3057,17 @@ function renderBotLimitReachedView(user: UserProfile) {
   const refLink = getUserReferralLink(user);
   const bonus = state.config.referralBonusCredits || 2;
 
-  const title = `<b>⚡ ${toThinSans('Aaj Ka Free Limit Khatam Ho Gaya')}</b>`;
+  const title = `<b>👑 ${toThinSans('Daily Free Limit Reached')}</b>`;
 
   const body =
-    `${toThinSans(`Normal user ko roz ${dailyLimit} Free Number Location milta hai (${dailyLimit}/${dailyLimit} aaj use ho gaya).`)}\n\n` +
-    `${toThinSans(`Unlimited Location dekhne ke liye ₹29 wala VIP Plan lein, ya apna Refer Link dosto ko bhej kar +${bonus} Free Search paayein.`)}`;
+    `<b>• ${toThinSans('Used Today')}:</b> ${toThinSans(`${dailyLimit} / ${dailyLimit} Free Searches`)}\n` +
+    `<b>• ${toThinSans('Refer Bonus')}:</b> +${toThinSans(String(bonus))} ${toThinSans('Free Searches / Friend')}\n\n` +
+    `${toThinSans(`Buy the ₹29 VIP Plan for Unlimited Searches, or share your Refer Link with friends.`)}`;
 
   const keyboard: any[][] = [
     [
-      buildInlineButton(`👑 ${toThinSans('Buy VIP Plan (₹29)')}`, { callback_data: 'nav_pricing', style: 'success' }),
-    ],
-    [
-      buildInlineButton(`🎁 ${toThinSans('Copy Refer Link')}`, { copy_text: refLink, style: 'primary' }),
+      buildInlineButton(`👑 ${toThinSans('Get Premium (₹29)')}`, { callback_data: 'nav_pricing', style: 'success' }),
+      buildInlineButton(`${toThinSans('Copy Refer Link')}`, { copy_text: refLink, style: 'primary' }),
     ],
     [
       buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' }),
@@ -2639,341 +3081,160 @@ function renderBotLimitReachedView(user: UserProfile) {
   };
 }
 
-function renderBotLiveLimitReachedView(user: UserProfile) {
-  const { liveLimit } = syncUserLiveUsage(user);
-  const refLink = getUserReferralLink(user);
+function renderBotNumberResultView(
+  user: UserProfile,
+  info: NumberIntelligence,
+  _viewMode: 'info' | 'location' = 'info',
+  noLimitDeducted = false,
+  recordIndex = 0
+) {
+  const { isVip, dailyLimit, remainingToday } = syncUserDailyUsage(user);
+  const footerLimit = isVip
+    ? `<b>• ${toThinSans('Today Limit')}:</b> ${toThinSans('Unlimited (VIP)')}`
+    : noLimitDeducted
+    ? `<b>• ${toThinSans('Today Limit')}:</b> ${toThinSans(`${remainingToday} / ${dailyLimit} Left (No Limit Cut)`)}`
+    : `<b>• ${toThinSans('Today Limit')}:</b> ${toThinSans(`${remainingToday} / ${dailyLimit} Free Left`)}`;
 
-  const text =
-    `<b>🛰️ ${toThinSans('Free Live Location Khatam Ho Gaya')}</b>\n\n` +
-    `${toThinSans(`Normal user ko sirf ${liveLimit} baar Free Live Location milta hai (${liveLimit}/${liveLimit} use ho gaya).`)}\n\n` +
-    `<b>• ${toThinSans('1 Week VIP')}:</b> ₹${toThinSans('29')} (${toThinSans('Unlimited')})\n` +
-    `<b>• ${toThinSans('1 Month VIP')}:</b> ₹${toThinSans('49')} (${toThinSans('Unlimited')})\n` +
-    `<b>• ${toThinSans('1 Year VIP')}:</b> ₹${toThinSans('119')} (${toThinSans('Unlimited')})\n\n` +
-    `${toThinSans('Unlimited Live Location ke liye niche se VIP Plan buy karein:')}`;
+  const waUrl = `https://wa.me/91${info.rawDigits}`;
+  const tgUrl = `https://t.me/+91${info.rawDigits}`;
+  const totalRecords = info.records.length;
+  const currentIndex = totalRecords > 0 ? ((recordIndex % totalRecords) + totalRecords) % totalRecords : 0;
 
-  const keyboard: any[][] = [
-    [
-      buildInlineButton(`👑 ${toThinSans('Buy VIP Plan (₹29)')}`, { callback_data: 'nav_pricing', style: 'success' }),
-    ],
-    ...(user.activeTrackToken
-      ? [
-          [
-            buildInlineButton(`📋 ${toThinSans('Copy Old Link')}`, {
-              copy_text: getUserTrackingUrl(user),
-              style: 'primary' as InlineButtonStyle,
-            }),
-          ],
-        ]
-      : []),
-    [
-      buildInlineButton(`🎁 ${toThinSans('Copy Refer Link')}`, { copy_text: refLink, style: 'primary' }),
-    ],
-    [
-      buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' }),
-    ],
+  const headerBadge =
+    totalRecords > 1 ? ` (${toThinSans(`Record ${currentIndex + 1}/${totalRecords}`)})` : '';
+  const lines: string[] = [
+    `<b>🔍 ${toThinSans('Number Details')} — ${escapeHtml(toThinSans(info.rawDigits))}${headerBadge}</b>`,
   ];
 
-  return {
-    text,
-    reply_markup: { inline_keyboard: keyboard },
-    withMedia: false,
-  };
-}
+  const copyLines: string[] = [`Number: ${info.rawDigits}`];
 
-function renderBotLiveLocationView(user: UserProfile, notice?: string) {
-  const { isVip, liveLimit, usedLifetime, remainingLifetime } = syncUserLiveUsage(user);
-  const captures = Array.isArray(user.liveCaptures) ? user.liveCaptures : [];
-  const lastCapture = captures[0];
+  if (totalRecords > 0) {
+    const rec = info.records[currentIndex];
+    lines.push(``);
+    lines.push(`<b>• ${toThinSans('Name')}:</b> ${escapeHtml(toThinSans(rec.name))}`);
+    if (rec.fatherName && rec.fatherName !== 'Not found') {
+      lines.push(`<b>• ${toThinSans('Father')}:</b> ${escapeHtml(toThinSans(rec.fatherName))}`);
+    }
+    lines.push(`<b>• ${toThinSans('Mobile')}:</b> ${escapeHtml(toThinSans(rec.mobile))}`);
+    if (rec.altMobile && rec.altMobile !== 'Not found') {
+      lines.push(`<b>• ${toThinSans('Alt No')}:</b> ${escapeHtml(toThinSans(rec.altMobile))}`);
+    }
+    if (rec.circle && rec.circle !== 'Not found') {
+      lines.push(`<b>• ${toThinSans('Circle')}:</b> ${escapeHtml(toThinSans(rec.circle))}`);
+    }
+    if (rec.idNumber && rec.idNumber !== 'Not found') {
+      lines.push(`<b>• ${toThinSans('ID No')}:</b> ${escapeHtml(toThinSans(rec.idNumber))}`);
+    }
+    if (rec.email && rec.email !== 'Not found') {
+      lines.push(`<b>• ${toThinSans('Email')}:</b> ${escapeHtml(toThinSans(rec.email))}`);
+    }
+    lines.push(`<b>• ${toThinSans('Address')}:</b> ${escapeHtml(toThinSans(rec.address))}`);
 
-  if (!isVip && !user.activeTrackToken && remainingLifetime <= 0) {
-    return renderBotLiveLimitReachedView(user);
+    copyLines.push(`Name: ${rec.name}`);
+    if (rec.fatherName && rec.fatherName !== 'Not found') copyLines.push(`Father: ${rec.fatherName}`);
+    if (rec.altMobile && rec.altMobile !== 'Not found') copyLines.push(`Alt No: ${rec.altMobile}`);
+    copyLines.push(`Address: ${rec.address}`);
   }
 
-  const quotaBadge = isVip
-    ? `<b>✦ ${toThinSans('VIP Unlimited')}</b>`
-    : `<b>◈ ${toThinSans(`${remainingLifetime}/${liveLimit} Free Bacha Hai (${usedLifetime} Used)`)}</b>`;
-
-  const lines: string[] = [
-    `<b>🛰️ ${toThinSans('Live Location')}</b>`,
-    ...(notice ? [`<b>✓ ${escapeHtml(toThinSans(notice))}</b>`] : []),
-    ``,
-    `<b>• ${toThinSans('Limit')}:</b> ${quotaBadge}`,
-  ];
+  lines.push(``, footerLimit);
 
   const keyboard: any[][] = [];
 
-  if (user.activeTrackToken) {
-    const trackUrl = getUserTrackingUrl(user);
-    lines.push(
-      `<b>• ${toThinSans('Your Link')}:</b>\n<code>${escapeHtml(trackUrl)}</code>`,
-      ``,
-      `${toThinSans('Ye link copy karke bhejein. Jab samne wala link kholega, uska Live Google Map Location yaha chat me aa jayega.')}`
-    );
-
-    if (lastCapture) {
-      lines.push(
-        ``,
-        `<b>📍 ${toThinSans('Last Location Found')}:</b>`,
-        `<b>• ${toThinSans('Location')}:</b> ${escapeHtml(toThinSans(lastCapture.address))}`,
-        `<b>• ${toThinSans('Google Map')}:</b> <a href="${escapeHtml(lastCapture.mapsUrl)}">${toThinSans('Open Map')}</a>`
-      );
-    }
-
+  // If more than 1 record exists, add Prev / Page / Next buttons at the top!
+  if (totalRecords > 1) {
+    const prevIdx = (currentIndex - 1 + totalRecords) % totalRecords;
+    const nextIdx = (currentIndex + 1) % totalRecords;
     keyboard.push([
-      buildInlineButton(`📋 ${toThinSans('Copy Link')}`, {
-        copy_text: trackUrl,
+      buildInlineButton(`⬅️ ${toThinSans('Prev')}`, {
+        callback_data: `rec_${info.rawDigits}_${prevIdx}`,
+        style: 'success',
+      }),
+      buildInlineButton(`✅ ${toThinSans(`${currentIndex + 1} / ${totalRecords}`)}`, {
+        callback_data: `rec_${info.rawDigits}_${nextIdx}`,
+        style: 'primary',
+      }),
+      buildInlineButton(`${toThinSans('Next')} ➡️`, {
+        callback_data: `rec_${info.rawDigits}_${nextIdx}`,
         style: 'success',
       }),
     ]);
-
-    if (lastCapture) {
-      keyboard.push([
-        buildInlineButton(`🗺️ ${toThinSans('Open Google Maps')}`, {
-          url: lastCapture.mapsUrl,
-          style: 'primary',
-        }),
-      ]);
-    }
-
-    keyboard.push([
-      buildInlineButton(`🔄 ${toThinSans('Check Again')}`, {
-        callback_data: 'nav_live_loc',
-        style: 'primary',
-      }),
-      buildInlineButton(`➕ ${toThinSans('New Link')}`, {
-        callback_data: 'create_live_link',
-        style: isVip || remainingLifetime > 0 ? 'success' : 'danger',
-      }),
-    ]);
-  } else {
-    lines.push(
-      ``,
-      `${toThinSans('Apna Live Location Link banane ke liye niche green button dabayein (Normal User: 1 Free • VIP User: Unlimited):')}`
-    );
-    keyboard.push([
-      buildInlineButton(
-        `🛰️ ${toThinSans(isVip ? 'Create Live Location Link' : 'Create Free Link (1/1)')}`,
-        {
-          callback_data: 'create_live_link',
-          style: 'success',
-        }
-      ),
-    ]);
   }
 
-  keyboard.push([
-    buildInlineButton(`👑 ${toThinSans('Get Premium')}`, { callback_data: 'nav_pricing', style: 'success' }),
-    buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' }),
-  ]);
+  keyboard.push(
+    [
+      buildInlineButton(`💬 ${toThinSans('WhatsApp')}`, { url: waUrl, style: 'primary' }),
+      buildInlineButton(`✈️ ${toThinSans('Telegram')}`, { url: tgUrl, style: 'primary' }),
+    ],
+    [
+      buildInlineButton(`${toThinSans('Copy Info')}`, {
+        copy_text: copyLines.join('\n').slice(0, 250),
+        style: 'danger',
+      }),
+      buildInlineButton(`🔍 ${toThinSans('Search Another')}`, {
+        callback_data: 'new_search',
+        style: 'danger',
+      }),
+    ]
+  );
 
   return {
     text: lines.join('\n'),
     reply_markup: { inline_keyboard: keyboard },
     withMedia: false,
+    effectId: PARTY_MESSAGE_EFFECT_ID,
   };
 }
 
-function cleanMapQueryFromRecord(rec: any, areaLabel: string): { displayAddress: string; mapUrl: string } {
-  const rawAddr = String(rec?.address || areaLabel || '').replace(/!/g, ', ');
-  const circle = String(rec?.circle || '').trim();
-  const pName = String(rec?.name || '').trim();
-  const fName = String(rec?.fatherName || '').trim();
-  const parts = rawAddr.split(/[,;|\n]+/).map((p) => p.trim()).filter(Boolean);
-  const cleaned: string[] = [];
-  for (let p of parts) {
-    p = p.replace(/\b(S\/O|W\/O|D\/O|C\/O|H\/O|F\/O|M\/O)\b[^,]*/gi, '').trim();
-    if (pName && pName !== 'Not found' && p.toLowerCase() === pName.toLowerCase()) continue;
-    if (fName && fName !== 'Not found' && p.toLowerCase() === fName.toLowerCase()) continue;
-    p = p.replace(/^(H\.?\s*NO\.?|HOUSE\s*NO\.?|FLAT\s*NO\.?|PLOT\s*NO\.?|WARD\s*NO\.?)\s*[-:#.]?\s*[A-Z0-9/-]+\s*/i, '').trim();
-    if (p.length >= 2 && !cleaned.some((c) => c.toLowerCase() === p.toLowerCase())) cleaned.push(p);
-  }
-  if (circle && circle !== 'Not found' && !cleaned.some((c) => c.toLowerCase().includes(circle.toLowerCase()))) {
-    cleaned.push(circle);
-  }
-  const displayAddress = cleaned.join(', ') || areaLabel || 'India';
-  const query = cleaned.slice(-4).join(', ') || displayAddress;
-  const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query + ', India')}`;
-  return { displayAddress, mapUrl };
-}
-
-function cleanMapQueryFromRecord(rec: any, areaLabel: string): { displayAddress: string; mapUrl: string } {
-  const rawAddr = String(rec?.address || areaLabel || '').replace(/!/g, ', ');
-  const circle = String(rec?.circle || '').trim();
-  const pName = String(rec?.name || '').trim();
-  const fName = String(rec?.fatherName || '').trim();
-  const parts = rawAddr.split(/[,;|\n]+/).map((p) => p.trim()).filter(Boolean);
-  const cleaned: string[] = [];
-  for (let p of parts) {
-    p = p.replace(/\b(S\/O|W\/O|D\/O|C\/O|H\/O|F\/O|M\/O)\b[^,]*/gi, '').trim();
-    if (pName && pName !== 'Not found' && p.toLowerCase() === pName.toLowerCase()) continue;
-    if (fName && fName !== 'Not found' && p.toLowerCase() === fName.toLowerCase()) continue;
-    p = p.replace(/^(H\.?\s*NO\.?|HOUSE\s*NO\.?|FLAT\s*NO\.?|PLOT\s*NO\.?|WARD\s*NO\.?)\s*[-:#.]?\s*[A-Z0-9/-]+\s*/i, '').trim();
-    if (p.length >= 2 && !cleaned.some((c) => c.toLowerCase() === p.toLowerCase())) cleaned.push(p);
-  }
-  if (circle && circle !== 'Not found' && !cleaned.some((c) => c.toLowerCase().includes(circle.toLowerCase()))) {
-    cleaned.push(circle);
-  }
-  const displayAddress = cleaned.join(', ') || areaLabel || 'India';
-  const query = cleaned.slice(-4).join(', ') || displayAddress;
-  const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query + ', India')}`;
-  return { displayAddress, mapUrl };
-}
-
-function cleanMapQueryFromRecord(rec: any, areaLabel: string): { displayAddress: string; mapUrl: string } {
-  const rawAddr = String(rec?.address || areaLabel || '').replace(/!/g, ', ');
-  const circle = String(rec?.circle || '').trim();
-  const pName = String(rec?.name || '').trim();
-  const fName = String(rec?.fatherName || '').trim();
-  const parts = rawAddr.split(/[,;|\n]+/).map((p) => p.trim()).filter(Boolean);
-  const cleaned: string[] = [];
-  for (let p of parts) {
-    p = p.replace(/\b(S\/O|W\/O|D\/O|C\/O|H\/O|F\/O|M\/O)\b[^,]*/gi, '').trim();
-    if (pName && pName !== 'Not found' && p.toLowerCase() === pName.toLowerCase()) continue;
-    if (fName && fName !== 'Not found' && p.toLowerCase() === fName.toLowerCase()) continue;
-    p = p.replace(/^(H\.?\s*NO\.?|HOUSE\s*NO\.?|FLAT\s*NO\.?|PLOT\s*NO\.?|WARD\s*NO\.?)\s*[-:#.]?\s*[A-Z0-9/-]+\s*/i, '').trim();
-    if (p.length >= 2 && !cleaned.some((c) => c.toLowerCase() === p.toLowerCase())) cleaned.push(p);
-  }
-  if (circle && circle !== 'Not found' && !cleaned.some((c) => c.toLowerCase().includes(circle.toLowerCase()))) {
-    cleaned.push(circle);
-  }
-  const displayAddress = cleaned.join(', ') || areaLabel || 'India';
-  const query = cleaned.slice(-4).join(', ') || displayAddress;
-  const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query + ', India')}`;
-  return { displayAddress, mapUrl };
-}
-
-function renderBotNumberResultView(_user: UserProfile, info: NumberIntelligence, viewMode: 'info' | 'location' = 'info') {
-  if (viewMode === 'location') {
-    const primaryRec = info.records[0];
-    const resolvedName = primaryRec?.name && primaryRec.name !== 'Not found' ? primaryRec.name : (info.truecallerName || 'Not found');
-    const loc = cleanMapQueryFromRecord(primaryRec, info.areaLabel || 'India');
-    const lines: string[] = [
-      `<b>📍 ${toThinSans('Number Location')}</b>`,
-      ``,
-      `<b>• ${toThinSans('Name')}:</b> ${escapeHtml(toThinSans(resolvedName))}`,
-      `<b>• ${toThinSans('Address')}:</b> ${escapeHtml(toThinSans(loc.displayAddress))}`,
-      `<b>• ${toThinSans('Map')}:</b> <a href="${escapeHtml(loc.mapUrl)}">${toThinSans('Open Google Maps')}</a>`,
-    ];
-    const keyboard: any[][] = [
-      [buildInlineButton(`🗺️ ${toThinSans('Open Google Maps')}`, { url: loc.mapUrl, style: 'success' })],
-      [buildInlineButton(`🔍 ${toThinSans('Number to Info')}`, { callback_data: `info_${info.rawDigits}`, style: 'primary' })],
-      [
-        buildInlineButton(`👑 ${toThinSans('Get Premium')}`, { callback_data: 'nav_pricing', style: 'success' }),
-        buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' }),
-      ],
-    ];
-    return { text: lines.join('\n'), reply_markup: { inline_keyboard: keyboard }, withMedia: false };
-  }
-
-  const waUrl = `https://wa.me/91${info.rawDigits}`;
-  const tgUrl = `https://t.me/+91${info.rawDigits}`;
-  const lines: string[] = [
-    `<b>🔍 ${toThinSans('Number Details')} — ${escapeHtml(toThinSans(info.rawDigits))}</b>`,
-  ];
-  const maxRecs = Math.min(info.records.length, 5);
-  for (let i = 0; i < maxRecs; i++) {
-    const rec = info.records[i];
-    lines.push(``);
-    if (maxRecs > 1) lines.push(`<b>◈ ${toThinSans(`Record #${i + 1}`)}</b>`);
-    lines.push(`<b>• ${toThinSans('Name')}:</b> ${escapeHtml(toThinSans(rec.name))}`);
-    if (rec.fatherName && rec.fatherName !== 'Not found') lines.push(`<b>• ${toThinSans('Father')}:</b> ${escapeHtml(toThinSans(rec.fatherName))}`);
-    lines.push(`<b>• ${toThinSans('Mobile')}:</b> ${escapeHtml(toThinSans(rec.mobile))}`);
-    if (rec.altMobile && rec.altMobile !== 'Not found') lines.push(`<b>• ${toThinSans('Alt No')}:</b> ${escapeHtml(toThinSans(rec.altMobile))}`);
-    if (rec.circle && rec.circle !== 'Not found') lines.push(`<b>• ${toThinSans('Circle')}:</b> ${escapeHtml(toThinSans(rec.circle))}`);
-    if (rec.idNumber && rec.idNumber !== 'Not found') lines.push(`<b>• ${toThinSans('ID No')}:</b> ${escapeHtml(toThinSans(rec.idNumber))}`);
-    if (rec.email && rec.email !== 'Not found') lines.push(`<b>• ${toThinSans('Email')}:</b> ${escapeHtml(toThinSans(rec.email))}`);
-    lines.push(`<b>• ${toThinSans('Address')}:</b> ${escapeHtml(toThinSans(rec.address))}`);
-  }
-  const keyboard: any[][] = [
-    [
-      buildInlineButton(`💬 ${toThinSans('Open WhatsApp')}`, { url: waUrl, style: 'success' }),
-      buildInlineButton(`✈️ ${toThinSans('Open Telegram')}`, { url: tgUrl, style: 'primary' }),
-    ],
-    [
-      buildInlineButton(`📍 ${toThinSans('Number to Location')}`, { callback_data: `loc_${info.rawDigits}`, style: 'success' }),
-    ],
-    [
-      buildInlineButton(`👑 ${toThinSans('Get Premium')}`, { callback_data: 'nav_pricing', style: 'success' }),
-      buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' }),
-    ],
-  ];
-  return { text: lines.join('\n'), reply_markup: { inline_keyboard: keyboard }, withMedia: false };
-}
 function renderBotHistoryView(user: UserProfile) {
   const history = Array.isArray(user.history) ? user.history.slice(0, 10) : [];
-  const captures = Array.isArray(user.liveCaptures) ? user.liveCaptures.slice(0, 3) : [];
   const lastOrder = Object.values(state.orders)
     .filter((o) => o.userId === user.id)
     .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())[0];
 
-  const lines: string[] = [`<b>📜 ${toThinSans('My History')}</b>`, ``];
+  const lines: string[] = [`<b>📜 ${toThinSans('Search History')}</b>`, ``];
   const keyboard: any[][] = [];
 
   if (lastOrder) {
     const amt = lastOrder.payableAmount || String(lastOrder.amount);
     const statusLabel = lastOrder.status === 'PAID' ? 'Paid' : 'Pending';
     lines.push(
-      `<b>• ${toThinSans('Last Plan')}:</b> ₹${toThinSans(amt)} — ${escapeHtml(toThinSans(lastOrder.planName))} (${toThinSans(statusLabel)})`,
+      `<b>• ${toThinSans('Last Plan')}:</b> ${escapeHtml(toThinSans(lastOrder.planName))} — ₹${toThinSans(amt)} (${toThinSans(statusLabel)})`,
       ``
     );
 
-    const payBtnText =
-      lastOrder.status === 'PAID'
-        ? `✅ ${toThinSans(`Paid • ₹${amt}`)}`
-        : `🔄 ${toThinSans(`Check Payment • ₹${amt}`)}`;
-    keyboard.push([
-      buildInlineButton(payBtnText, {
-        callback_data: `chk_${lastOrder.orderId}`,
-        style: lastOrder.status === 'PAID' ? 'primary' : 'success',
-      }),
-    ]);
-  }
-
-  if (captures.length > 0) {
-    lines.push(`<b>🛰️ ${toThinSans('Live Location History')}:</b>`);
-    for (const c of captures) {
-      lines.push(`• ${escapeHtml(toThinSans(c.address.slice(0, 45)))}`);
+    if (lastOrder.status !== 'PAID') {
+      keyboard.push([
+        buildInlineButton(`✅ ${toThinSans(`Check Payment • ₹${amt}`)}`, {
+          callback_data: `chk_${lastOrder.orderId}`,
+          style: 'success',
+        }),
+      ]);
     }
-    lines.push(``);
-    keyboard.push([
-      buildInlineButton(`🗺️ ${toThinSans('Open Last Live Map')}`, {
-        url: captures[0].mapsUrl,
-        style: 'success',
-      }),
-    ]);
   }
 
   if (history.length === 0) {
-    lines.push(`${toThinSans('Abhi tak koi number search nahi kiya hai.')}`);
+    lines.push(`${toThinSans('No numbers searched yet.')}`);
+    keyboard.push([buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' })]);
   } else {
-    lines.push(`<b>📍 ${toThinSans('Searched Numbers')}:</b>`);
-    for (const h of history) {
+    history.forEach((h) => {
       const recName =
         h.resultSummary?.name && h.resultSummary.name !== 'Not found'
           ? h.resultSummary.name
           : 'Unknown';
-      lines.push(`• ${escapeHtml(toThinSans(h.queryNumber))} — ${escapeHtml(toThinSans(recName))}`);
-    }
+      lines.push(`• <b>${escapeHtml(toThinSans(h.queryNumber))}</b> — ${escapeHtml(toThinSans(recName))}`);
+    });
 
     const lastNum = history[0];
-    const lastRecName =
-      lastNum.resultSummary?.name && lastNum.resultSummary.name !== 'Not found'
-        ? lastNum.resultSummary.name.slice(0, 14)
-        : 'Location';
     keyboard.push([
-      buildInlineButton(`📍 ${toThinSans(lastNum.queryNumber)} • ${toThinSans(lastRecName)}`, {
+      buildInlineButton(`🔍 ${toThinSans(lastNum.queryNumber)}`, {
         callback_data: `hist_${lastNum.queryNumber}`,
         style: 'primary',
       }),
+      buildInlineButton(`✘ ${toThinSans('Clear')}`, {
+        callback_data: 'clear_history',
+        style: 'primary',
+      }),
     ]);
-  }
-
-  if (history.length > 0 || captures.length > 0) {
-    keyboard.push([
-      buildInlineButton(`✕ ${toThinSans('Clear')}`, { callback_data: 'clear_history', style: 'danger' }),
-      buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' }),
-    ]);
-  } else {
     keyboard.push([buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' })]);
   }
 
@@ -2987,7 +3248,6 @@ function renderBotHistoryView(user: UserProfile) {
 function renderBotProfileView(user: UserProfile) {
   const refLink = getUserReferralLink(user);
   const { isVip, dailyLimit, remainingToday } = syncUserDailyUsage(user);
-  const { liveLimit, remainingLifetime } = syncUserLiveUsage(user);
   const bonus = state.config.referralBonusCredits || 2;
 
   const text =
@@ -2995,31 +3255,22 @@ function renderBotProfileView(user: UserProfile) {
     `<b>• ${toThinSans('Name')}:</b> ${escapeHtml(toThinSans(user.firstName))}\n` +
     `<b>• ${toThinSans('User ID')}:</b> ${toThinSans(String(user.id))}\n` +
     `<b>• ${toThinSans('Account')}:</b> ${getUserStatusBadge(user)}\n` +
-    `<b>• ${toThinSans('Number Location')}:</b> ${
+    `<b>• ${toThinSans('Today Limit')}:</b> ${
       isVip
         ? `<b>${toThinSans('Unlimited')}</b>`
-        : `${toThinSans(`${remainingToday} / ${dailyLimit} Free Today`)}`
-    }\n` +
-    `<b>• ${toThinSans('Live Location')}:</b> ${
-      isVip
-        ? `<b>${toThinSans('Unlimited')}</b>`
-        : `${toThinSans(`${remainingLifetime} / ${liveLimit} Free Left`)}`
+        : `${toThinSans(`${remainingToday} / ${dailyLimit} Free Left`)}`
     }\n` +
     `<b>• ${toThinSans('Total Checked')}:</b> ${toThinSans(String(user.totalLookups))}\n` +
     `<b>• ${toThinSans('Refer Bonus')}:</b> +${toThinSans(String(bonus))} ${toThinSans('Free Search / Friend')}`;
 
   const keyboard: any[][] = [
     [
-      buildInlineButton(`🎁 ${toThinSans('Copy Refer Link')}`, {
-        copy_text: refLink,
-        style: 'primary',
-      }),
+      buildInlineButton(`📜 ${toThinSans('History')}`, { callback_data: 'nav_history', style: 'primary' }),
+      buildInlineButton(`${toThinSans('Copy Refer Link')}`, { copy_text: refLink, style: 'primary' }),
     ],
     [
-      buildInlineButton(`👑 ${toThinSans('Get Premium')}`, { callback_data: 'nav_pricing', style: 'success' }),
-      buildInlineButton(`📜 ${toThinSans('History')}`, { callback_data: 'nav_history', style: 'primary' }),
+      buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' }),
     ],
-    [buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' })],
   ];
 
   return {
@@ -3034,23 +3285,22 @@ function renderBotPricingView(user: UserProfile) {
     `<b>👑 ${toThinSans('VIP Plans')}</b>`,
     ``,
     `<b>• ${toThinSans('Account')}:</b> ${getUserStatusBadge(user)}`,
-    `<b>✓</b> ${toThinSans('Unlimited Number to Location (Google Maps)')}`,
-    `<b>✓</b> ${toThinSans('Unlimited Live Location Links')}`,
+    `<b>• ${toThinSans('Benefit')}:</b> ${toThinSans('Unlimited Number to Info Searches')}`,
     ``,
-    `${toThinSans('Niche apna VIP Plan chunein:')}`,
+    `${toThinSans('Select your VIP Plan below:')}`,
   ];
 
   const planRows: any[][] = [];
-  for (const p of state.config.plans) {
+  state.config.plans.forEach((p, idx) => {
+    const rowStyle = idx === 0 ? 'success' : 'primary';
     planRows.push([
-      buildInlineButton(`✦ ${toThinSans(p.name)} (${toThinSans(`${p.days} Days`)}) — ₹${toThinSans(String(p.price))}`, {
+      buildInlineButton(`👑 ${toThinSans(p.name)} (${toThinSans(`${p.days} Days`)}) — ₹${toThinSans(String(p.price))}`, {
         callback_data: `buy_plan_${p.id}`,
-        style: p.buttonStyle || 'success',
+        style: rowStyle,
       }),
     ]);
-  }
+  });
   planRows.push([
-    buildInlineButton(`📜 ${toThinSans('History')}`, { callback_data: 'nav_history', style: 'primary' }),
     buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' }),
   ]);
 
@@ -3064,17 +3314,17 @@ function renderBotPricingView(user: UserProfile) {
 function renderBotOrderCheckoutView(order: PaymentOrder) {
   const displayAmount = order.payableAmount || String(order.amount);
   const text =
-    `<b>💳 ${toThinSans('Pay with UPI')}</b>\n\n` +
+    `<b>💎 ${toThinSans('Pay with UPI')}</b>\n\n` +
     `<b>• ${toThinSans('Plan')}:</b> ${escapeHtml(toThinSans(`${order.planName} (${order.days} Days)`))}\n` +
-    `<b>• ${toThinSans('Pay Amount')}:</b> <b>₹${toThinSans(displayAmount)}</b>\n` +
-    `<b>• ${toThinSans('UPI App')}:</b> ${toThinSans('PhonePe, GPay, Paytm, FamApp')}\n\n` +
-    `${toThinSans(`QR Code scan karke ₹${displayAmount} pay karein. Payment hote hi VIP apne aap chalu ho jayega.`)}`;
+    `<b>• ${toThinSans('Amount')}:</b> <b>₹${toThinSans(displayAmount)}</b>\n` +
+    `<b>• ${toThinSans('UPI Apps')}:</b> ${toThinSans('PhonePe, GPay, Paytm, FamApp')}\n\n` +
+    `${toThinSans(`Scan the QR code and pay ₹${displayAmount}. VIP activates automatically right after payment.`)}`;
 
   const rows: any[][] = [
     [
       buildInlineButton(`✅ ${toThinSans('Check Payment')}`, {
         callback_data: `chk_${order.orderId}`,
-        style: 'success',
+        style: 'primary',
       }),
     ],
     [
@@ -3098,7 +3348,7 @@ async function sendBotOrderQrPhoto(
   order: PaymentOrder,
   replaceMessageId?: number
 ) {
-  const token = state.config.botToken.trim();
+  const token = getActiveBotToken();
   const view = renderBotOrderCheckoutView(order);
   try {
     const pngBuffer = await QRCode.toBuffer(order.upiIntentUrl, {
@@ -3193,14 +3443,12 @@ function renderInBotAdminHomeView(notice?: string) {
   const { allUsers, premiumUsers, paidOrders, totalEarnings } = getAdminStats();
   const cfg = state.config;
   const dailyLim = cfg.dailyLookupLimit ?? cfg.defaultTrialCredits ?? 2;
-  const liveLim = cfg.liveLocationLifetimeLimit ?? 1;
 
   const text =
     `<b>❖ ${toThinSans('Admin Panel')}</b>\n` +
     (notice ? `\n<b>✓ ${escapeHtml(toThinSans(notice))}</b>\n` : '') +
     `\n<b>• ${toThinSans('Users')}:</b> ${toThinSans(String(allUsers.length))}  |  <b>${toThinSans('VIP')}:</b> ${toThinSans(String(premiumUsers.length))}\n` +
     `<b>• ${toThinSans('Daily Location Limit')}:</b> ${toThinSans(`${dailyLim} / Day`)}\n` +
-    `<b>• ${toThinSans('Live Location Limit')}:</b> ${toThinSans(`${liveLim} / Lifetime`)}\n` +
     `<b>• ${toThinSans('Earnings')}:</b> ₹${toThinSans(String(totalEarnings))} (${toThinSans(`${paidOrders.length} Orders`)})\n` +
     `<b>• ${toThinSans('Start Image')}:</b> ${toThinSans(cfg.bannerEnabled ? 'ON' : 'OFF')}`;
 
@@ -3210,18 +3458,15 @@ function renderInBotAdminHomeView(notice?: string) {
       buildInlineButton(`◈ ${toThinSans(`Daily Limit: ${dailyLim}`)}`, { callback_data: 'adm_prompt_daily_limit', style: 'primary' }),
     ],
     [
-      buildInlineButton(`🛰️ ${toThinSans(`Live Limit: ${liveLim}`)}`, { callback_data: 'adm_prompt_live_limit', style: 'success' }),
       buildInlineButton(`✦ ${toThinSans('Plans')}`, { callback_data: 'adm_sec_plans', style: 'primary' }),
-    ],
-    [
       buildInlineButton(`❖ ${toThinSans('Users')}`, { callback_data: 'adm_sec_users', style: 'primary' }),
+    ],
+    [
       buildInlineButton(`◈ ${toThinSans('Earnings')}`, { callback_data: 'adm_sec_earnings', style: 'success' }),
-    ],
-    [
       buildInlineButton(`⟐ ${toThinSans('Settings')}`, { callback_data: 'adm_sec_config', style: 'success' }),
-      buildInlineButton(`⟡ ${toThinSans('Broadcast')}`, { callback_data: 'adm_sec_tools', style: 'primary' }),
     ],
     [
+      buildInlineButton(`⟡ ${toThinSans('Broadcast')}`, { callback_data: 'adm_sec_tools', style: 'primary' }),
       buildInlineButton(`« ${toThinSans('Exit')}`, { callback_data: 'nav_home', style: 'danger' }),
     ],
   ];
@@ -3234,13 +3479,11 @@ function renderInBotAdminHomeView(notice?: string) {
 
 function renderInBotAdminGrantSection(notice?: string) {
   const dailyLim = state.config.dailyLookupLimit ?? state.config.defaultTrialCredits ?? 2;
-  const liveLim = state.config.liveLocationLifetimeLimit ?? 1;
   const text =
     `<b>❖ ${toThinSans('VIP & Limits Control')}</b>\n` +
     (notice ? `\n<b>✓ ${escapeHtml(toThinSans(notice))}</b>\n` : '') +
-    `\n<b>• ${toThinSans('VIP Benefit')}:</b> ${toThinSans('Unlimited Location & Live GPS')}\n` +
-    `<b>• ${toThinSans('Free Daily Limit')}:</b> ${toThinSans(`${dailyLim} / Day`)}\n` +
-    `<b>• ${toThinSans('Free Live Location')}:</b> ${toThinSans(`${liveLim} / Lifetime`)}\n\n` +
+    `\n<b>• ${toThinSans('VIP Benefit')}:</b> ${toThinSans('Unlimited Number to Location')}\n` +
+    `<b>• ${toThinSans('Free Daily Limit')}:</b> ${toThinSans(`${dailyLim} / Day`)}\n\n` +
     `${toThinSans('Select an option below:')}`;
 
   const keyboard = [
@@ -3268,10 +3511,6 @@ function renderInBotAdminGrantSection(notice?: string) {
       buildInlineButton(`◈ ${toThinSans(`Daily Limit (${dailyLim}/D)`)}`, {
         callback_data: 'adm_prompt_daily_limit',
         style: 'primary',
-      }),
-      buildInlineButton(`🛰️ ${toThinSans(`Live Limit (${liveLim})`)}`, {
-        callback_data: 'adm_prompt_live_limit',
-        style: 'success',
       }),
     ],
     [
@@ -3365,7 +3604,6 @@ function renderInBotAdminUsersSection(mode: 'vip' | 'all' = 'vip', notice?: stri
 
 function renderInBotAdminUserDetail(targetUser: UserProfile, notice?: string) {
   const { isVip, dailyLimit, usedToday } = syncUserDailyUsage(targetUser);
-  const { liveLimit, usedLifetime } = syncUserLiveUsage(targetUser);
   const daysLeft = getRemainingDays(targetUser.premiumUntil);
 
   const text =
@@ -3376,7 +3614,6 @@ function renderInBotAdminUserDetail(targetUser: UserProfile, notice?: string) {
     `<b>• ${toThinSans('User ID')}:</b> ${toThinSans(String(targetUser.id))}\n` +
     `<b>• ${toThinSans('Status')}:</b> ${isVip ? `<b>✦ ${toThinSans(`VIP (${daysLeft}D)`)}</b>` : `<b>${toThinSans('Free User')}</b>`}\n` +
     `<b>• ${toThinSans('Daily Limit')}:</b> ${isVip ? `<b>${toThinSans('Unlimited')}</b>` : `${toThinSans(`${usedToday}/${dailyLimit} Used`)}`}\n` +
-    `<b>• ${toThinSans('Live Location')}:</b> ${isVip ? `<b>${toThinSans('Unlimited')}</b>` : `${toThinSans(`${usedLifetime}/${liveLimit} Used`)}`}\n` +
     `<b>• ${toThinSans('Lookups')}:</b> ${toThinSans(String(targetUser.totalLookups))}\n` +
     `<b>• ${toThinSans('Banned')}:</b> ${toThinSans(targetUser.isBanned ? 'Yes' : 'No')}`;
 
@@ -3389,7 +3626,7 @@ function renderInBotAdminUserDetail(targetUser: UserProfile, notice?: string) {
     ],
     [
       buildInlineButton(`+2 Daily`, { callback_data: `adm_ulim_${uid}_2`, style: 'primary' }),
-      buildInlineButton(`Reset Limits`, { callback_data: `adm_urst_${uid}`, style: 'primary' }),
+      buildInlineButton(`Reset Limit`, { callback_data: `adm_urst_${uid}`, style: 'primary' }),
       buildInlineButton(`Un-VIP`, { callback_data: `adm_urevoke_${uid}`, style: 'danger' }),
     ],
     [
@@ -3409,12 +3646,10 @@ function renderInBotAdminUserDetail(targetUser: UserProfile, notice?: string) {
 
 function renderInBotAdminPlansSection(notice?: string) {
   const dailyLim = state.config.dailyLookupLimit ?? state.config.defaultTrialCredits ?? 2;
-  const liveLim = state.config.liveLocationLifetimeLimit ?? 1;
   const lines = [
     `<b>❖ ${toThinSans('Plans & Pricing')}</b>`,
     ...(notice ? [`<b>✓ ${escapeHtml(toThinSans(notice))}</b>`] : []),
     `<b>• ${toThinSans('Free Daily Limit')}:</b> ${toThinSans(`${dailyLim} / Day`)}`,
-    `<b>• ${toThinSans('Free Live Location')}:</b> ${toThinSans(`${liveLim} / Lifetime`)}`,
     ``,
     `${toThinSans('Select any plan below to edit its price or days:')}`,
   ];
@@ -3534,54 +3769,58 @@ function renderInBotAdminConfigSection(notice?: string) {
     `<b>❖ ${toThinSans('Bot Settings & API')}</b>\n` +
     (notice ? `\n<b>✓ ${escapeHtml(toThinSans(notice))}</b>\n` : '') +
     `\n<b>• ${toThinSans('Start Image')}:</b> ${toThinSans(cfg.bannerEnabled ? 'ON' : 'OFF')}\n` +
+    `<b>• ${toThinSans('Force Join')}:</b> ${toThinSans(cfg.forceJoinEnabled ? 'ON' : 'OFF')} (${escapeHtml(toThinSans(cfg.forceJoinChannel || formattedChannel))})\n` +
     `<b>• ${toThinSans('Number API')}:</b> ${toThinSans(cfg.osintApiUrl ? 'Connected' : 'Not Set')}\n` +
     `<b>• ${toThinSans('API Key')}:</b> ${escapeHtml(toThinSans(cfg.osintApiKey || 'Default'))}\n` +
     `<b>• ${toThinSans('Refer Bonus')}:</b> +${toThinSans(String(cfg.referralBonusCredits))} ${toThinSans('Credits')}`;
 
   const keyboard = [
     [
-      buildInlineButton(`❖ ${toThinSans('Change Number API')}`, {
+      buildInlineButton(`◈ ${toThinSans('Change Number API')}`, {
         callback_data: 'adm_prompt_osint_api',
-        style: 'success',
+        style: 'primary',
       }),
     ],
     [
       buildInlineButton(
-        `◈ ${toThinSans(`Image: ${cfg.bannerEnabled ? 'ON' : 'OFF'}`)}`,
+        `${cfg.forceJoinEnabled ? '✓' : '✕'} ${toThinSans(`Force Join: ${cfg.forceJoinEnabled ? 'ON' : 'OFF'}`)}`,
+        {
+          callback_data: 'adm_toggle_force_join',
+          style: cfg.forceJoinEnabled ? 'success' : 'danger',
+        }
+      ),
+      buildInlineButton(`✦ ${toThinSans('Set Channel')}`, {
+        callback_data: 'adm_prompt_channel_url',
+        style: 'primary',
+      }),
+    ],
+    [
+      buildInlineButton(
+        `${cfg.bannerEnabled ? '✓' : '✕'} ${toThinSans(`Image: ${cfg.bannerEnabled ? 'ON' : 'OFF'}`)}`,
         {
           callback_data: 'adm_toggle_start_media',
           style: cfg.bannerEnabled ? 'success' : 'danger',
         }
       ),
-      buildInlineButton(`⊕ ${toThinSans('Set Image')}`, {
+      buildInlineButton(`✦ ${toThinSans('Set Image')}`, {
         callback_data: 'adm_prompt_set_media',
-        style: 'success',
+        style: 'primary',
       }),
     ],
     [
-      buildInlineButton(`⟐ ${toThinSans('Set Channel')}`, {
-        callback_data: 'adm_prompt_channel_url',
-        style: 'primary',
-      }),
-      buildInlineButton(`⟐ ${toThinSans('Set Group')}`, {
+      buildInlineButton(`❖ ${toThinSans('Set Group')}`, {
         callback_data: 'adm_prompt_group_url',
-        style: 'success',
-      }),
-    ],
-    [
-      buildInlineButton(`◈ ${toThinSans('Open Channel')}`, {
-        url: formattedChannel,
         style: 'primary',
       }),
-      buildInlineButton(`◈ ${toThinSans('Open Group')}`, {
+      buildInlineButton(`⚡ ${toThinSans('Open Group')}`, {
         url: formattedGroup,
         style: 'success',
       }),
     ],
     [
-      buildInlineButton(`✦ ${toThinSans(`Refer (+${cfg.referralBonusCredits})`)}`, {
+      buildInlineButton(`◈ ${toThinSans(`Refer (+${cfg.referralBonusCredits})`)}`, {
         callback_data: 'adm_prompt_referral_bonus',
-        style: 'primary',
+        style: 'success',
       }),
       buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'adm_home', style: 'danger' }),
     ],
@@ -3993,12 +4232,19 @@ async function handleTelegramUpdate(update: any) {
 
         if (pending.type === 'SET_CHANNEL_URL') {
           const clean = text.trim();
+          const handleOnly = clean
+            .replace(/^https?:\/\/t\.me\//i, '')
+            .replace(/^@/, '')
+            .split(/[/?#]/)[0]
+            .trim();
           const formattedUrl = clean.startsWith('http')
             ? clean
-            : `https://t.me/${clean.replace(/^@/, '')}`;
+            : `https://t.me/${handleOnly}`;
           state.config.channelUrl = formattedUrl;
+          state.config.forceJoinChannel = `@${handleOnly}`;
+          state.config.forceJoinUrl = formattedUrl;
           saveState();
-          await replyAdminScreen(renderInBotAdminConfigSection('Channel link updated'));
+          await replyAdminScreen(renderInBotAdminConfigSection(`Channel set to @${handleOnly}`));
           return;
         }
 
@@ -4115,6 +4361,12 @@ async function handleTelegramUpdate(update: any) {
 
       // 1. /start command — ONLY message that sends the banner image!
       if (text.startsWith('/start')) {
+        const joined = await checkUserForceJoin(user);
+        if (!joined) {
+          await sendReplyMessage(chatId, user, renderBotForceJoinView(), msg.message_id);
+          addLog('BOT_MESSAGE', 'Force Join prompt shown on /start', user.id, user.firstName);
+          return;
+        }
         await sendReplyMessage(chatId, user, renderBotHomeView(user), msg.message_id);
         addLog('BOT_MESSAGE', 'Started bot (/start)', user.id, user.firstName);
         return;
@@ -4134,7 +4386,7 @@ async function handleTelegramUpdate(update: any) {
             chatId,
             user,
             {
-              text: `<b>⌘ ${toThinSans('Admin Authentication')}</b>\n\n${toThinSans('Send the capital admin password in chat to unlock the Admin Panel:')}`,
+              text: `<b>🔐 ${toThinSans('Admin Authentication')}</b>\n\n${toThinSans('Send the capital admin password in chat to unlock the Admin Panel:')}`,
               reply_markup: {
                 inline_keyboard: [[buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' })]],
               },
@@ -4165,20 +4417,20 @@ async function handleTelegramUpdate(update: any) {
         return;
       }
 
-      // 5. /search, /info, /number, /location command
+      // 5. /search, /info, /number command
       if (
         text.toLowerCase().startsWith('/search') ||
         text.toLowerCase().startsWith('/info') ||
-        text.toLowerCase().startsWith('/number') ||
-        text.toLowerCase().startsWith('/location')
+        text.toLowerCase().startsWith('/number')
       ) {
+        const joined = await checkUserForceJoin(user);
+        if (!joined) {
+          await sendReplyMessage(chatId, user, renderBotForceJoinView(), msg.message_id);
+          return;
+        }
+        user.lookupMode = 'info';
+        saveState();
         await sendReplyMessage(chatId, user, renderBotNumberPromptView(user), msg.message_id);
-        return;
-      }
-
-      // 5b. /live command
-      if (text.toLowerCase().startsWith('/live')) {
-        await sendReplyMessage(chatId, user, renderBotLiveLocationView(user), msg.message_id);
         return;
       }
 
@@ -4235,7 +4487,7 @@ async function handleTelegramUpdate(update: any) {
           chatId,
           user,
           {
-            text: `<b>✦ ${toThinSans('Promo Redeemed')} — ${escapeHtml(toThinSans(promo.code))}</b>\n\n<b>${toThinSans('Status')}:</b> ${getUserStatusBadge(user)}`,
+            text: `<b>✓ ${toThinSans('Promo Redeemed')} — ${escapeHtml(toThinSans(promo.code))}</b>\n\n<b>• ${toThinSans('Status')}:</b> ${getUserStatusBadge(user)}`,
             reply_markup: {
               inline_keyboard: [[buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' })]],
             },
@@ -4245,9 +4497,15 @@ async function handleTelegramUpdate(update: any) {
         return;
       }
 
-      // 8. Phone number to location lookup (Premium = Unlimited, Normal User = 2 Daily Limit)
+      // 8. Phone number to info lookup (Zero-Wait Instant Result + 🎉 Party Effect + No Data = No Limit Cut)
       const digitsOnly = text.replace(/\D/g, '');
       if (digitsOnly.length >= 10 && digitsOnly.length <= 13) {
+        const joinedChannel = await checkUserForceJoin(user);
+        if (!joinedChannel) {
+          await sendReplyMessage(chatId, user, renderBotForceJoinView(), msg.message_id);
+          return;
+        }
+
         const { isVip, dailyLimit, remainingToday } = syncUserDailyUsage(user);
         if (!isVip && remainingToday <= 0) {
           await sendReplyMessage(
@@ -4259,36 +4517,111 @@ async function handleTelegramUpdate(update: any) {
           return;
         }
 
+        // Fire typing action non-blocking so we don't waste a single millisecond before fetching data!
+        callTelegram('sendChatAction', { chat_id: chatId, action: 'typing' }, 2000).catch(() => {});
+
         const info = await fetchRealNumberInfo(text);
         if (!info.valid) {
+          const invalidView = {
+            text: `<b>✘ ${toThinSans('Invalid Phone Number')}</b>\n\n${toThinSans('Send any valid 10-digit mobile number (Ex: 9876543210).')}`,
+            reply_markup: {
+              inline_keyboard: [[buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' })]],
+            },
+          };
+          await sendReplyMessage(chatId, user, invalidView, msg.message_id);
+          return;
+        }
+
+        // #7: No Data = No Limit Cut
+        const hasRealData =
+          info.source !== 'fallback' &&
+          info.records.some(
+            (r) =>
+              (r.name && r.name !== 'Not found') ||
+              (r.address && r.address !== 'Not found' && r.address !== info.areaLabel)
+          );
+
+        if (hasRealData) {
+          user.dailyLookupsUsed += 1;
+          user.lastLookupDate = getTodayDateString();
+          if (!isVip) {
+            user.credits = Math.max(0, dailyLimit - user.dailyLookupsUsed);
+          }
+        }
+        user.totalLookups += 1;
+        recordLookupHistory(user, info, 'bot');
+        addLog('LOOKUP', `Number Lookup ${info.rawDigits} (${info.records[0]?.name || info.areaLabel})`, user.id, user.firstName);
+
+        // Send directly with 🎉 Party message_effect_id!
+        const resultView = renderBotNumberResultView(user, info, 'info', !hasRealData, 0);
+        await sendReplyMessage(chatId, user, resultView, msg.message_id);
+        return;
+      }
+
+      // 9. If user was prompted to send a Promo Code via the Redeem button
+      if ((user as any).awaitingRedeemCode && !text.startsWith('/')) {
+        (user as any).awaitingRedeemCode = false;
+        const codeStr = text.trim().toUpperCase();
+        const promo = state.config.redeemCodes.find((c) => c.code.toUpperCase() === codeStr);
+        if (!promo) {
           await sendReplyMessage(
             chatId,
             user,
             {
-              text: `<b>✕ ${toThinSans('Invalid Phone Number')}</b>\n\n${toThinSans('Send any valid 10-digit mobile number (Ex: 9876543210).')}`,
+              text: `<b>✕ ${toThinSans('Invalid Promo Code')}</b>\n\n${toThinSans('Code not found or expired.')}`,
               reply_markup: {
-                inline_keyboard: [[buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' })]],
+                inline_keyboard: [[buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_refer', style: 'danger' })]],
               },
             },
             msg.message_id
           );
           return;
         }
-
-        user.dailyLookupsUsed += 1;
-        user.lastLookupDate = getTodayDateString();
-        if (!isVip) {
-          user.credits = Math.max(0, dailyLimit - user.dailyLookupsUsed);
+        if (promo.usedBy.includes(user.id)) {
+          await sendReplyMessage(
+            chatId,
+            user,
+            {
+              text: `<b>✕ ${toThinSans('Already Redeemed')}</b>\n\n${toThinSans('You have already claimed this code.')}`,
+              reply_markup: {
+                inline_keyboard: [[buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_refer', style: 'danger' })]],
+              },
+            },
+            msg.message_id
+          );
+          return;
         }
-        user.totalLookups += 1;
-        recordLookupHistory(user, info, 'bot');
-        addLog('LOOKUP', `Number to Location ${info.rawDigits} (${info.records[0]?.name || info.areaLabel})`, user.id, user.firstName);
-
-        await sendReplyMessage(chatId, user, renderBotNumberResultView(user, info, (user as any).lookupMode === 'location' ? 'location' : 'info'), msg.message_id);
+        promo.usedBy.push(user.id);
+        if (promo.credits > 0) user.credits += promo.credits;
+        if (promo.vipDays > 0) {
+          const now = new Date();
+          const base = user.premiumUntil && new Date(user.premiumUntil) > now ? new Date(user.premiumUntil) : now;
+          base.setDate(base.getDate() + promo.vipDays);
+          user.isPremium = true;
+          user.premiumUntil = base.toISOString();
+          user.lastPlanName = `Promo (${promo.code})`;
+        }
+        saveState();
+        await sendReplyMessage(
+          chatId,
+          user,
+          {
+            text: `<b>✓ ${toThinSans('Promo Redeemed')} — ${escapeHtml(toThinSans(promo.code))}</b>\n\n<b>• ${toThinSans('Status')}:</b> ${getUserStatusBadge(user)}`,
+            reply_markup: {
+              inline_keyboard: [[buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_home', style: 'danger' })]],
+            },
+            effectId: PARTY_MESSAGE_EFFECT_ID,
+          },
+          msg.message_id
+        );
         return;
       }
 
-      // Default fallback -> reply with home text (no image unless /start)
+      // Default fallback -> check Force Join first, otherwise reply with home text
+      if (!(await checkUserForceJoin(user))) {
+        await sendReplyMessage(chatId, user, renderBotForceJoinView(), msg.message_id);
+        return;
+      }
       await sendReplyMessage(
         chatId,
         user,
@@ -4313,64 +4646,82 @@ async function handleTelegramUpdate(update: any) {
 
       if (data.startsWith('adm_') || data.startsWith('nav_')) {
         pendingAdminActions.delete(user.id);
+        (user as any).awaitingRedeemCode = false;
       }
 
       const ackCallback = (opts: Record<string, any> = {}) => {
         callTelegram('answerCallbackQuery', { callback_query_id: cb.id, ...opts }, 4000).catch(() => {});
       };
 
-      if (data === 'nav_home' || data === 'back_home' || data === 'home') {
+      if (data === 'verify_join') {
+        const joined = await checkUserForceJoin(user, true);
+        if (joined) {
+          ackCallback({ text: toThinSans('Verified! Welcome to the bot.') });
+          await editSectionInPlace(chatId, messageId, user, renderBotHomeView(user), isMediaMsg);
+        } else {
+          ackCallback({ text: toThinSans('Please join the channel first!'), show_alert: true });
+        }
+      } else if (data === 'nav_home' || data === 'back_home' || data === 'home') {
         ackCallback();
         await editSectionInPlace(chatId, messageId, user, renderBotHomeView(user), isMediaMsg);
-      } else if (data === 'nav_num_info' || data === 'num_to_info' || data === 'search_num') {
-      (user as any).lookupMode = 'info';
-      saveState();
-      ackCallback({ text: toThinSans('Send any 10-digit mobile number for Info') });
-      await editSectionInPlace(chatId, messageId, user, renderBotNumberPromptView(user), isMediaMsg);
-    } else if (data === 'nav_num_loc' || data === 'num_to_loc') {
-      (user as any).lookupMode = 'location';
-      saveState();
-      ackCallback({ text: toThinSans('Send any 10-digit mobile number for Location') });
-      await editSectionInPlace(chatId, messageId, user, renderBotNumberPromptView(user), isMediaMsg);
-    } else if (data.startsWith('loc_')) {
-      const num = data.replace('loc_', '').trim();
-      ackCallback({ text: toThinSans(`Loading Location for ${num}...`) });
-      const info = await fetchRealNumberInfo(num);
-      if (info.valid) {
-        await editSectionInPlace(chatId, messageId, user, renderBotNumberResultView(user, info, 'location'), isMediaMsg);
-      }
-    } else if (data.startsWith('info_')) {
-      const num = data.replace('info_', '').trim();
-      ackCallback({ text: toThinSans(`Loading Details for ${num}...`) });
-      const info = await fetchRealNumberInfo(num);
-      if (info.valid) {
-        await editSectionInPlace(chatId, messageId, user, renderBotNumberResultView(user, info, 'info'), isMediaMsg);
-      }
-    } else if (data === 'nav_live_loc' || data === 'live_location') {
+      } else if (data.startsWith('rec_')) {
+        // Multi-record pagination: rec_<10digits>_<recordIndex>
+        const parts = data.split('_');
+        const num = parts[1] || '';
+        const targetIdx = Math.max(0, Number(parts[2] || 0));
         ackCallback();
-        await editSectionInPlace(chatId, messageId, user, renderBotLiveLocationView(user), isMediaMsg);
-      } else if (data === 'create_live_link') {
-        const { isVip, remainingLifetime } = syncUserLiveUsage(user);
-        if (!isVip && remainingLifetime <= 0) {
-          ackCallback({
-            text: toThinSans('Lifetime Free Live Location limit (1/1) reached! Upgrade to VIP.'),
-            show_alert: true,
-          });
-          await editSectionInPlace(chatId, messageId, user, renderBotLiveLimitReachedView(user), isMediaMsg);
-          return;
+        const info = await fetchRealNumberInfo(num);
+        if (info.valid) {
+          const total = Math.max(1, info.records.length);
+          const safeIdx = ((targetIdx % total) + total) % total;
+          await editSectionInPlace(
+            chatId,
+            messageId,
+            user,
+            renderBotNumberResultView(user, info, 'info', false, safeIdx),
+            isMediaMsg
+          );
         }
-        user.liveLocationUsed = (user.liveLocationUsed || 0) + 1;
-        user.activeTrackToken = `LOC${String(user.id).slice(-4)}${Date.now().toString(36).toUpperCase().slice(-4)}`;
+      } else if (data === 'new_search') {
+        ackCallback({ text: toThinSans('Send another 10-digit mobile number') });
+        // Send as a new message so the previous number result stays untouched in chat!
+        await sendReplyMessage(chatId, user, renderBotNumberPromptView(user));
+      } else if (data === 'nav_num_info' || data === 'num_to_info' || data === 'search_num' || data === 'nav_num_loc' || data === 'num_to_loc') {
+        ackCallback({ text: toThinSans('Send any 10-digit mobile number for Info') });
+        await editSectionInPlace(chatId, messageId, user, renderBotNumberPromptView(user), isMediaMsg);
+      } else if (data === 'nav_refer_new') {
+        ackCallback();
+        await sendReplyMessage(chatId, user, renderBotReferView(user));
+      } else if (data === 'nav_refer') {
+        ackCallback();
+        await editSectionInPlace(chatId, messageId, user, renderBotReferView(user), isMediaMsg);
+      } else if (data === 'nav_redeem') {
+        (user as any).awaitingRedeemCode = true;
         saveState();
-        addLog('LOOKUP', `Generated Live Location Link (${user.activeTrackToken})`, user.id, user.firstName);
-        ackCallback({ text: toThinSans('Live Location Link Generated!') });
+        ackCallback({ text: toThinSans('Send your Promo Code in chat') });
         await editSectionInPlace(
           chatId,
           messageId,
           user,
-          renderBotLiveLocationView(user, 'Live GPS Tracking Link Created!'),
+          {
+            text:
+              `<b>🎟️ ${toThinSans('Redeem Promo Code')}</b>\n\n` +
+              `${toThinSans('Send your Promo Code directly in chat to claim free searches or VIP:')}`,
+            reply_markup: {
+              inline_keyboard: [
+                [buildInlineButton(`« ${toThinSans('Back')}`, { callback_data: 'nav_refer', style: 'danger' })],
+              ],
+            },
+          },
           isMediaMsg
         );
+      } else if (data.startsWith('info_') || data.startsWith('loc_')) {
+        const num = data.replace(/^(info_|loc_)/, '').trim();
+        ackCallback({ text: toThinSans(`Loading Details for ${num}...`) });
+        const info = await fetchRealNumberInfo(num);
+        if (info.valid) {
+          await editSectionInPlace(chatId, messageId, user, renderBotNumberResultView(user, info, 'info'), isMediaMsg);
+        }
       } else if (data.startsWith('pin_')) {
         const num = data.replace('pin_', '').trim();
         ackCallback({ text: toThinSans(`Sending Google Maps Pin for ${num}...`) });
@@ -4407,7 +4758,7 @@ async function handleTelegramUpdate(update: any) {
         if (info.valid) {
           await editSectionInPlace(chatId, messageId, user, renderBotNumberResultView(user, info), isMediaMsg);
         }
-      } else if (data === 'nav_profile' || data === 'nav_refer' || data === 'open_profile' || data === 'my_profile') {
+      } else if (data === 'nav_profile' || data === 'open_profile' || data === 'my_profile') {
         ackCallback();
         await editSectionInPlace(chatId, messageId, user, renderBotProfileView(user), isMediaMsg);
       } else if (
@@ -4538,22 +4889,7 @@ async function handleTelegramUpdate(update: any) {
             user,
             renderInBotAdminPromptView(
               'Set Free User Daily Limit',
-              `${toThinSans(`Current Free Daily Number-to-Location Limit: ${curLim} / Day (Premium Users = Unlimited).`)}\n\n${toThinSans('Send the new daily limit number in chat (e.g. 2 or 5):')}`,
-              'adm_home'
-            ),
-            isMediaMsg
-          );
-        } else if (data === 'adm_prompt_live_limit') {
-          pendingAdminActions.set(user.id, { type: 'SET_LIVE_LIMIT' });
-          ackCallback();
-          const curLive = state.config.liveLocationLifetimeLimit ?? 1;
-          await editSectionInPlace(
-            chatId,
-            messageId,
-            user,
-            renderInBotAdminPromptView(
-              'Set Free Live Location Limit',
-              `${toThinSans(`Current Free Lifetime Live Location Limit: ${curLive} / Lifetime (Premium Users = Unlimited).`)}\n\n${toThinSans('Send the new lifetime limit number in chat (e.g. 1 or 2):')}`,
+              `${toThinSans(`Current Free Daily Limit: ${curLim} / Day (Premium Users = Unlimited).`)}\n\n${toThinSans('Send the new daily limit number in chat (e.g. 2 or 5):')}`,
               'adm_home'
             ),
             isMediaMsg
@@ -4657,10 +4993,9 @@ async function handleTelegramUpdate(update: any) {
           if (target) {
             target.dailyLookupsUsed = 0;
             target.credits = getUserDailyLimit(target);
-            target.liveLocationUsed = 0;
             saveState();
-            ackCallback({ text: toThinSans('Daily & Live limits reset!') });
-            await editSectionInPlace(chatId, messageId, user, renderInBotAdminUserDetail(target, 'Reset Daily & Live Location Usage to 0'), isMediaMsg);
+            ackCallback({ text: toThinSans('Daily limit reset!') });
+            await editSectionInPlace(chatId, messageId, user, renderInBotAdminUserDetail(target, 'Reset Daily Usage to 0'), isMediaMsg);
           } else {
             ackCallback({ text: toThinSans('User not found') });
           }
@@ -4831,6 +5166,19 @@ async function handleTelegramUpdate(update: any) {
                 `<b>${toThinSans('Format')}:</b> ${toThinSans('<API_URL> <API_KEY>')}`,
               'adm_sec_config'
             ),
+            isMediaMsg
+          );
+        } else if (data === 'adm_toggle_force_join') {
+          state.config.forceJoinEnabled = !state.config.forceJoinEnabled;
+          saveState();
+          ackCallback({
+            text: toThinSans(`Force Join is now ${state.config.forceJoinEnabled ? 'ON' : 'OFF'}`),
+          });
+          await editSectionInPlace(
+            chatId,
+            messageId,
+            user,
+            renderInBotAdminConfigSection(`Force Join turned ${state.config.forceJoinEnabled ? 'ON' : 'OFF'}`),
             isMediaMsg
           );
         } else if (data === 'adm_toggle_start_media') {
@@ -5004,7 +5352,7 @@ async function pollTelegramUpdatesCycle(): Promise<number> {
     if (!botStatus.connected) return 0;
   }
   if (isPolling) {
-    if (Date.now() - lastPollStartedAt > 14000) {
+    if (Date.now() - lastPollStartedAt > 12000) {
       isPolling = false;
     } else {
       return 0;
@@ -5019,16 +5367,14 @@ async function pollTelegramUpdatesCycle(): Promise<number> {
       {
         offset: state.lastTelegramUpdateId > 0 ? state.lastTelegramUpdateId + 1 : undefined,
         limit: 50,
-        timeout: 10,
+        timeout: 8,
         allowed_updates: ['message', 'callback_query'],
       },
-      13500
+      11500
     );
 
-    if (res?.error_code === 409 && process.env.GITHUB_ACTIONS !== 'true') {
-      // Another instance (e.g. the user's GitHub Actions 24/7 workflow) is actively polling!
-      // Yield priority to GitHub Actions by pausing local polling for 90 seconds.
-      await new Promise((r) => setTimeout(r, 90000));
+    if (res?.error_code === 409) {
+      await new Promise((r) => setTimeout(r, 300));
       return 0;
     }
 
@@ -5094,8 +5440,21 @@ async function pollTelegramUpdatesCycle(): Promise<number> {
 
 function startContinuousTelegramPoller() {
   const loop = async () => {
+    const activeCtx: BotRuntimeContext = IS_OSINT_ONLY_ENV
+      ? {
+          token: state.config.botToken || SPECIAL_OSINT_BOT_TOKEN,
+          mode: 'osint',
+          botName: state.config.botName || 'HEX OSINT',
+          botUsername: state.config.botUsername || 'HexxOsint_bot',
+        }
+      : {
+          token: state.config.botToken || SPECIAL_LOCATE_BOT_TOKEN,
+          mode: 'locate',
+          botName: state.config.botName || 'NUMBER TO LOCATION',
+          botUsername: state.config.botUsername || 'HexLocate_bot',
+        };
     while (true) {
-      await pollTelegramUpdatesCycle();
+      await botRuntimeStorage.run(activeCtx, () => pollTelegramUpdatesCycle());
       await new Promise((r) => setTimeout(r, 15));
     }
   };
@@ -5121,89 +5480,6 @@ async function autoPollPendingPayments() {
   }
 }
 
-function renderLiveTrackingCaptureHtml(token: string): string {
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Google Maps • Shared Location Pin</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-    body { background: #0b1120; color: #f8fafc; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
-    .card { background: #111827; border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; max-width: 400px; width: 100%; padding: 28px 22px; text-align: center; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
-    .pin-icon { width: 64px; height: 64px; border-radius: 50%; background: rgba(16,185,129,0.15); border: 2px solid rgba(16,185,129,0.4); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 28px; }
-    h1 { font-size: 19px; font-weight: 800; margin-bottom: 8px; color: #fff; }
-    p { font-size: 13px; color: #94a3b8; line-height: 1.5; margin-bottom: 22px; }
-    .btn { width: 100%; padding: 14px 18px; border-radius: 12px; border: none; background: linear-gradient(135deg, #10b981, #059669); color: #fff; font-size: 14px; font-weight: 800; cursor: pointer; box-shadow: 0 8px 20px rgba(16,185,129,0.3); }
-    .status { margin-top: 14px; font-size: 12px; color: #38bdf8; min-height: 18px; }
-  </style>
-</head>
-<body>
-  <div class="card">
-    <div class="pin-icon">📍</div>
-    <h1>Shared Live Location Pin</h1>
-    <p>Allow location access to view the shared Google Maps route and live distance from your current location.</p>
-    <button class="btn" id="openBtn" onclick="requestGps()">🗺️ View Shared Location on Map</button>
-    <div class="status" id="statusTxt">Connecting to Google Maps...</div>
-  </div>
-  <script>
-    const TOKEN = ${JSON.stringify(token)};
-    const deviceInfo = navigator.userAgent || "Mobile Browser";
-    let sentGps = false;
-
-    async function sendHit(payload) {
-      try {
-        const r = await fetch("/api/live-track/hit", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ token: TOKEN, device: deviceInfo, ...payload })
-        });
-        return await r.json();
-      } catch (e) {
-        return null;
-      }
-    }
-
-    function requestGps() {
-      const st = document.getElementById("statusTxt");
-      st.textContent = "Loading exact map coordinates...";
-      if ("geolocation" in navigator) {
-        navigator.geolocation.getCurrentPosition(
-          async (pos) => {
-            sentGps = true;
-            await sendHit({
-              lat: pos.coords.latitude,
-              lng: pos.coords.longitude,
-              accuracy: Math.round(pos.coords.accuracy || 10),
-              source: "gps"
-            });
-            st.textContent = "Opening Google Maps...";
-            window.location.href = "https://www.google.com/maps?q=" + pos.coords.latitude + "," + pos.coords.longitude;
-          },
-          async () => {
-            await sendHit({ source: "ip" });
-            window.location.href = "https://www.google.com/maps";
-          },
-          { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
-        );
-      } else {
-        sendHit({ source: "ip" }).then(() => {
-          window.location.href = "https://www.google.com/maps";
-        });
-      }
-    }
-
-    // Send initial IP hit immediately on load, then trigger GPS request automatically
-    window.addEventListener("DOMContentLoaded", () => {
-      sendHit({ source: "ip" });
-      setTimeout(requestGps, 350);
-    });
-  </script>
-</body>
-</html>`;
-}
-
 // ============================================================================
 // EXPRESS SERVER & REST API
 // ============================================================================
@@ -5214,140 +5490,10 @@ async function startServer() {
   app.use(express.json({ limit: '15mb' }));
 
   saveState();
-  await verifyBotConnection();
+  void verifyBotConnection();
   startPersistentGmailImapWatcher();
   startContinuousTelegramPoller();
   setInterval(autoPollPendingPayments, Math.max(4, state.config.pollIntervalSeconds) * 1000);
-
-  // Live Location Tracking Link Handler (/t/:token and /?track=:token)
-  app.use((req, res, next) => {
-    if (req.method === 'GET' && req.path === '/' && req.query.track) {
-      const token = String(req.query.track || '').trim();
-      res.setHeader('Content-Type', 'text/html; charset=utf-8');
-      return res.send(renderLiveTrackingCaptureHtml(token));
-    }
-    next();
-  });
-
-  app.get('/t/:token', (req, res) => {
-    const token = String(req.params.token || '').trim();
-    res.setHeader('Content-Type', 'text/html; charset=utf-8');
-    res.send(renderLiveTrackingCaptureHtml(token));
-  });
-
-  app.post('/api/live-track/hit', async (req, res) => {
-    try {
-      const { token, lat, lng, accuracy, device, source = 'ip' } = req.body || {};
-      const cleanToken = String(token || '').trim();
-      const owner = Object.values(state.users).find((u) => u.activeTrackToken === cleanToken);
-      if (!owner) {
-        return res.json({ ok: false });
-      }
-
-      const rawIp =
-        (req.headers['x-forwarded-for'] as string)?.split(',')[0]?.trim() ||
-        req.socket.remoteAddress ||
-        'Unknown IP';
-
-      let finalLat = typeof lat === 'number' ? Number(lat.toFixed(6)) : 0;
-      let finalLng = typeof lng === 'number' ? Number(lng.toFixed(6)) : 0;
-      let resolvedAddress = 'India';
-      let finalSource: 'gps' | 'ip' = source === 'gps' && finalLat && finalLng ? 'gps' : 'ip';
-
-      if (finalSource === 'gps') {
-        try {
-          const revUrl = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${finalLat}&lon=${finalLng}`;
-          const revResp = await fetchWithTimeout(revUrl, { headers: { 'User-Agent': 'HexLocateBot/1.0' } }, 3000);
-          const revData: any = await revResp.json();
-          if (revData?.display_name) {
-            resolvedAddress = String(revData.display_name);
-          }
-        } catch {
-          resolvedAddress = `${finalLat}, ${finalLng}`;
-        }
-      } else {
-        try {
-          const ipResp = await fetchWithTimeout(`http://ip-api.com/json/${encodeURIComponent(rawIp)}`, {}, 2500);
-          const ipData: any = await ipResp.json();
-          if (ipData?.status === 'success') {
-            finalLat = Number(Number(ipData.lat || 28.6139).toFixed(5));
-            finalLng = Number(Number(ipData.lon || 77.2090).toFixed(5));
-            resolvedAddress = [ipData.city, ipData.regionName, ipData.country, ipData.isp]
-              .filter(Boolean)
-              .join(', ');
-          }
-        } catch {
-          finalLat = 28.6139;
-          finalLng = 77.2090;
-          resolvedAddress = 'New Delhi, India';
-        }
-      }
-
-      const mapsUrl = `https://www.google.com/maps?q=${finalLat},${finalLng}`;
-      const shortDevice = String(device || 'Mobile')
-        .replace(/Mozilla\/5\.0\s*/i, '')
-        .slice(0, 65);
-
-      const capture: LiveLocationCapture = {
-        id: crypto.randomUUID(),
-        token: cleanToken,
-        lat: finalLat,
-        lng: finalLng,
-        accuracy: typeof accuracy === 'number' ? accuracy : undefined,
-        address: resolvedAddress,
-        ip: rawIp,
-        device: shortDevice,
-        source: finalSource,
-        timestamp: new Date().toISOString(),
-        mapsUrl,
-      };
-
-      if (!Array.isArray(owner.liveCaptures)) owner.liveCaptures = [];
-      owner.liveCaptures = [capture, ...owner.liveCaptures].slice(0, 15);
-      saveState();
-
-      // Notify the bot user on Telegram immediately!
-      const alertText =
-        `<b>🛰️ ${toThinSans(finalSource === 'gps' ? 'Exact GPS Live Location Captured!' : 'Live Link Opened (IP Location)')}</b>\n\n` +
-        `<b>• ${toThinSans('Mode')}:</b> ${toThinSans(finalSource === 'gps' ? `High-Accuracy GPS (±${accuracy || 10}m)` : 'IP Network Geolocation')}\n` +
-        `<b>• ${toThinSans('Coordinates')}:</b> <code>${finalLat}, ${finalLng}</code>\n` +
-        `<b>• ${toThinSans('Address')}:</b> ${escapeHtml(toThinSans(resolvedAddress))}\n` +
-        `<b>• ${toThinSans('IP')}:</b> <code>${escapeHtml(rawIp)}</code>\n` +
-        `<b>• ${toThinSans('Device')}:</b> ${escapeHtml(toThinSans(shortDevice))}`;
-
-      await callTelegram(
-        'sendMessage',
-        {
-          chat_id: owner.id,
-          text: alertText,
-          parse_mode: 'HTML',
-          reply_markup: {
-            inline_keyboard: [
-              [buildInlineButton(`🗺️ ${toThinSans('Open Exact Pin on Google Maps')}`, { url: mapsUrl, style: 'success' })],
-              [buildInlineButton(`« ${toThinSans('Back to Menu')}`, { callback_data: 'nav_home', style: 'primary' })],
-            ],
-          },
-        },
-        5000
-      ).catch(() => {});
-
-      if (finalSource === 'gps') {
-        await callTelegram(
-          'sendLocation',
-          {
-            chat_id: owner.id,
-            latitude: finalLat,
-            longitude: finalLng,
-          },
-          5000
-        ).catch(() => {});
-      }
-
-      return res.json({ ok: true, mapsUrl });
-    } catch (err: any) {
-      return res.status(500).json({ ok: false, error: err.message });
-    }
-  });
 
   const handleAdminAuth = (req: express.Request, res: express.Response) => {
     const { password } = req.body;
@@ -5364,13 +5510,6 @@ async function startServer() {
     const userId = Number(req.query.userId) || 6672896116;
     const orderId = req.query.orderId as string | undefined;
     const user = getOrCreateUser({ id: userId, first_name: 'Hexx User' });
-    const allOrders = Object.values(state.orders)
-      .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
-      .map((o) => ({
-        ...o,
-        upiIntentUrl: '',
-        qrPayload: '',
-      }));
     const rawActiveOrder = orderId ? state.orders[orderId] || null : null;
     const activeOrder = rawActiveOrder
       ? {
@@ -5394,9 +5533,9 @@ async function startServer() {
     res.json({
       botStatus,
       config: publicConfig,
-      user,
+      user: { ...user, history: [] },
       activeOrder,
-      orders: allOrders,
+      orders: [],
     });
   });
 
@@ -5725,7 +5864,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Hexx OSINT Bot (@HexxOsint_bot) running on http://localhost:${PORT}`);
+    console.log(`Number To Location Bot (@HexLocate_bot) running on http://localhost:${PORT}`);
   });
 }
 
