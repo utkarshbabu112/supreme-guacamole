@@ -748,6 +748,54 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25"
+    },
+    "7995520431": {
+      "id": 7995520431,
+      "firstName": "Vashu",
+      "username": "Vashubhaiii",
+      "credits": 1,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
+      "referralCode": "HEX520431",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T12:02:46.595Z",
+      "lastActiveAt": "2026-10-25T12:03:21.152Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "dd13c343-ad54-462f-8a05-09b6f4b9f6e9",
+          "queryNumber": "9876543211",
+          "timestamp": "2026-10-25T12:03:11.421Z",
+          "source": "bot",
+          "userId": 7995520431,
+          "userName": "Vashu",
+          "resultSummary": {
+            "name": "Rajesh Kumar",
+            "truecallerName": "Paras Vora",
+            "fatherName": "S/O  Dev Narayan",
+            "mobile": "8700321379",
+            "altMobile": "9876543211",
+            "circle": "VI DELHI",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "Garhi choukhandi sector 68 Noida, Garhi choukhandi sector 68 Noida Noida, Gautam buddha nagar GAUTAM BUDDHA NAGAR, Noida, GAUTAM BUDDHA NAGAR, UTTAR PRADESH, 201301",
+            "totalRecords": 99,
+            "lat": 28.57063,
+            "lng": 77.32721,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Noida%2C%20GAUTAM%20BUDDHA%20NAGAR%2C%20UTTAR%20PRADESH%2C%20201301%2C%20India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9222,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-25"
     }
   },
   "orders": {
@@ -776,6 +824,29 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "dd13c343-ad54-462f-8a05-09b6f4b9f6e9",
+      "queryNumber": "9876543211",
+      "timestamp": "2026-10-25T12:03:11.421Z",
+      "source": "bot",
+      "userId": 7995520431,
+      "userName": "Vashu",
+      "resultSummary": {
+        "name": "Rajesh Kumar",
+        "truecallerName": "Paras Vora",
+        "fatherName": "S/O  Dev Narayan",
+        "mobile": "8700321379",
+        "altMobile": "9876543211",
+        "circle": "VI DELHI",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "Garhi choukhandi sector 68 Noida, Garhi choukhandi sector 68 Noida Noida, Gautam buddha nagar GAUTAM BUDDHA NAGAR, Noida, GAUTAM BUDDHA NAGAR, UTTAR PRADESH, 201301",
+        "totalRecords": 99,
+        "lat": 28.57063,
+        "lng": 77.32721,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Noida%2C%20GAUTAM%20BUDDHA%20NAGAR%2C%20UTTAR%20PRADESH%2C%20201301%2C%20India"
+      }
+    },
     {
       "id": "86a043c6-eca5-4f81-8159-968d315a72b4",
       "queryNumber": "9565437029",
@@ -1193,6 +1264,22 @@
   ],
   "logs": [
     {
+      "id": "53b4ca09-cc0c-4c94-ac81-8bd65388ccf4",
+      "timestamp": "2026-10-25T12:03:11.421Z",
+      "type": "LOOKUP",
+      "userId": 7995520431,
+      "userName": "Vashu",
+      "summary": "Number Lookup 9876543211 (Rajesh Kumar)"
+    },
+    {
+      "id": "5b3833d5-cdfa-4d98-bf63-a11e5b277cc0",
+      "timestamp": "2026-10-25T12:02:47.284Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7995520431,
+      "userName": "Vashu",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "98dc7d8e-126b-49a5-9820-e9d781713900",
       "timestamp": "2026-10-25T11:54:45.070Z",
       "type": "LOOKUP",
@@ -1585,6 +1672,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810630,
+  "lastTelegramUpdateId": 168810634,
   "usedEmailIds": []
 }
