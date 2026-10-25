@@ -2124,6 +2124,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25"
+    },
+    "7721493365": {
+      "id": 7721493365,
+      "firstName": "Eternal dream",
+      "username": "Gagahahahahbhh",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX493365",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T19:50:16.765Z",
+      "lastActiveAt": "2026-10-25T19:50:16.765Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 8584,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-25"
     }
   },
   "orders": {
@@ -4759,6 +4782,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810926,
+  "lastTelegramUpdateId": 168810927,
   "usedEmailIds": []
 }
