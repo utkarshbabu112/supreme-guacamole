@@ -190,21 +190,44 @@
       "premiumUntil": "2026-11-01T04:07:01.294Z",
       "lastPlanName": "1 Week Pass",
       "totalSpent": 29,
-      "dailyLookupsUsed": 1,
-      "totalLookups": 1,
+      "dailyLookupsUsed": 3,
+      "totalLookups": 3,
       "referralCode": "HEX667289",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:07:01.294Z",
-      "lastActiveAt": "2026-10-25T04:11:39.059Z",
+      "lastActiveAt": "2026-10-25T04:14:22.560Z",
       "isBanned": false,
       "isAdminUnlocked": true,
       "history": [
         {
-          "id": "15c4f986-ab18-4687-a23d-fbe03446183e",
+          "id": "91a06086-6a4a-4a70-b1f2-69cc2bf850cf",
+          "queryNumber": "6287353888",
+          "timestamp": "2026-10-25T04:14:24.260Z",
+          "source": "bot",
+          "userId": 6672896116,
+          "userName": "UHTKARSH",
+          "resultSummary": {
+            "name": "BAL TEST CARD BHR",
+            "truecallerName": "aarif",
+            "fatherName": "Not found",
+            "mobile": "6287353888",
+            "altMobile": "Not found",
+            "circle": "AIRTEL BHR&JHR",
+            "idNumber": "APPROVALMAIL",
+            "email": "",
+            "address": "Airtel Circle Office, Patliputra Indistrial Area patna, Plot No 18, Patliputra, Bihar, 800013",
+            "totalRecords": 1,
+            "lat": 25.62637,
+            "lng": 85.10725,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Airtel%20Circle%20Office%2C%20Patliputra%20Indistrial%20Area%20patna%2C%20Plot%20No%2018%2C%20Patliputra%2C%20Bihar%2C%20800013%2C%20India"
+          }
+        },
+        {
+          "id": "91649e04-9f1f-4c7f-b90f-36e61528d2c5",
           "queryNumber": "9708398593",
-          "timestamp": "2026-10-25T04:11:32.280Z",
+          "timestamp": "2026-10-25T04:12:05.491Z",
           "source": "bot",
           "userId": 6672896116,
           "userName": "UHTKARSH",
@@ -225,7 +248,7 @@
           }
         }
       ],
-      "lastBotMessageId": 8877,
+      "lastBotMessageId": 8890,
       "lastBotMessageHasPhoto": false,
       "lookupMode": "info",
       "lastLookupDate": "2026-10-25",
@@ -234,6 +257,52 @@
   },
   "orders": {},
   "globalHistory": [
+    {
+      "id": "91a06086-6a4a-4a70-b1f2-69cc2bf850cf",
+      "queryNumber": "6287353888",
+      "timestamp": "2026-10-25T04:14:24.260Z",
+      "source": "bot",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "resultSummary": {
+        "name": "BAL TEST CARD BHR",
+        "truecallerName": "aarif",
+        "fatherName": "Not found",
+        "mobile": "6287353888",
+        "altMobile": "Not found",
+        "circle": "AIRTEL BHR&JHR",
+        "idNumber": "APPROVALMAIL",
+        "email": "",
+        "address": "Airtel Circle Office, Patliputra Indistrial Area patna, Plot No 18, Patliputra, Bihar, 800013",
+        "totalRecords": 1,
+        "lat": 25.62637,
+        "lng": 85.10725,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Airtel%20Circle%20Office%2C%20Patliputra%20Indistrial%20Area%20patna%2C%20Plot%20No%2018%2C%20Patliputra%2C%20Bihar%2C%20800013%2C%20India"
+      }
+    },
+    {
+      "id": "91649e04-9f1f-4c7f-b90f-36e61528d2c5",
+      "queryNumber": "9708398593",
+      "timestamp": "2026-10-25T04:12:05.491Z",
+      "source": "bot",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "resultSummary": {
+        "name": "PRAMILA DEVI",
+        "truecallerName": "nisha rajapakar",
+        "fatherName": "JAYVIR KUMAR",
+        "mobile": "9708398593",
+        "altMobile": "Not found",
+        "circle": "VODA BHR&JHR",
+        "idNumber": "365308179342",
+        "email": "Not found",
+        "address": "W/O Jayvir Kumar, W/O Jayvir Kumar ward no 02, Rajapakar kali mandir, Rajapakar Raja Pakar , RAJA PAKAR-VAISHALI, BR, 844124",
+        "totalRecords": 1,
+        "lat": 25.75603,
+        "lng": 85.30739,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%2FO%20Jayvir%20Kumar%2C%20W%2FO%20Jayvir%20Kumar%20ward%20no%2002%2C%20Rajapakar%20kali%20mandir%2C%20Rajapakar%20Raja%20Pakar%20%2C%20RAJA%20PAKAR-VAISHALI%2C%20BR%2C%20844124%2C%20India"
+      }
+    },
     {
       "id": "15c4f986-ab18-4687-a23d-fbe03446183e",
       "queryNumber": "9708398593",
@@ -259,6 +328,46 @@
     }
   ],
   "logs": [
+    {
+      "id": "e6398b8d-8c65-4774-b7e5-516a07dad142",
+      "timestamp": "2026-10-25T04:14:24.260Z",
+      "type": "LOOKUP",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Number to Location 6287353888 (BAL TEST CARD BHR)"
+    },
+    {
+      "id": "463fe7e4-bc85-4298-981e-097baf730819",
+      "timestamp": "2026-10-25T04:13:58.230Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "fb6f8e58-3579-4a0b-b39b-9c4caef3bcc6",
+      "timestamp": "2026-10-25T04:12:33.085Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "b1182a42-cf3d-4408-9893-18929d6aa460",
+      "timestamp": "2026-10-25T04:12:05.491Z",
+      "type": "LOOKUP",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Number to Location 9708398593 (PRAMILA DEVI)"
+    },
+    {
+      "id": "4b2561af-7b06-4827-9ba5-6acfe454d1d3",
+      "timestamp": "2026-10-25T04:12:01.097Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
     {
       "id": "8b706d4b-ff71-4e73-a975-4a4e1cbf6cc7",
       "timestamp": "2026-10-25T04:11:32.280Z",
@@ -324,6 +433,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810206,
+  "lastTelegramUpdateId": 168810226,
   "usedEmailIds": []
 }
