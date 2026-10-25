@@ -34,183 +34,17 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Prepare Bot Files & Dependencies
+      - name: Prepare Latest Bot Files & Dependencies
         run: |
           set +e
-          if [ ! -f server.ts ] || [ $(wc -c < server.ts) -lt 50000 ]; then
-            echo "Checking git history for server.ts..."
-            git checkout HEAD~1 -- server.ts 2>/dev/null || true
+          echo "Downloading latest Hexx OSINT server.ts (Fast 3x22KB Chunks)..."
+          (curl -fsSL --retry 5 --retry-all-errors --retry-delay 1 "https://paste.rs/uCRbp" && sleep 1 && curl -fsSL --retry 5 --retry-all-errors --retry-delay 1 "https://paste.rs/YjRZp" && sleep 1 && curl -fsSL --retry 5 --retry-all-errors --retry-delay 1 "https://paste.rs/jYiKo") | base64 -d | gunzip > server.ts.new 2>/dev/null
+          if [ -f server.ts.new ] && [ $(wc -c < server.ts.new) -gt 150000 ]; then
+            mv server.ts.new server.ts
+            echo "Updated server.ts successfully ($(wc -c < server.ts) bytes)!"
+          else
+            rm -f server.ts.new
           fi
-
-          if [ ! -f server.ts ] || [ $(wc -c < server.ts) -lt 50000 ]; then
-            echo "Downloading server.ts from Cloud Run CDN..."
-            curl -fsSL --retry 5 --retry-all-errors --retry-delay 2 "https://hexx-locate.ai.studio/api/download-bot-file/server.ts" -o server.ts
-          fi
-
-          cat << 'EOF' > patch_osint.cjs
-          const fs = require('fs');
-          if (!fs.existsSync('server.ts')) process.exit(1);
-          let s = fs.readFileSync('server.ts', 'utf8');
-          const NEW_TOKEN = '8832808711:AAGMurZKiF6oxX2uOCqD7CoqZzfwkp6AVrA';
-
-          s = s.replace(/const PORT = 3000;/g, 'const PORT = Number(process.env.PORT) || 3000;');
-          s = s.replace(/8916390079:AAHYxZSMhqO9ZI1C4v5x0whtrOkWTzliLtw/g, NEW_TOKEN);
-          s = s.replace(/8832808711:AAHU16Bek02Jzsln3jcsIPUzNpz7qH2D9SE/g, NEW_TOKEN);
-          s = s.replace(/savedToken === '8832808711:AAGMurZKiF6oxX2uOCqD7CoqZzfwkp6AVrA'/g, "savedToken === '8916390079:AAHYxZSMhqO9ZI1C4v5x0whtrOkWTzliLtw' || savedToken === '8832808711:AAHU16Bek02Jzsln3jcsIPUzNpz7qH2D9SE'");
-          s = s.replace(/NUMBER TO LOCATION/g, 'HEX OSINT');
-          s = s.replace(/Number To Location Bot/g, 'Hexx OSINT Bot');
-          s = s.replace(/HexLocate_bot/g, 'HexxOsint_bot');
-          s = s.replace(/<code>9876543210<\/code>/g, "${toThinSans('9876543210')}");
-
-          const homeKbFn = `function buildHomeInlineKeyboard() {
-            const groupUrl = (state.config.groupUrl || state.config.channelUrl || 'https://t.me/followxpresss').trim();
-            const formattedGroupUrl = groupUrl.startsWith('http') ? groupUrl : \`https://t.me/\${groupUrl.replace(/^@/, '')}\`;
-            return {
-              inline_keyboard: [
-                [
-                  buildInlineButton(\`👑 \${toThinSans('Get Premium')}\`, { callback_data: 'nav_pricing', style: 'success' }),
-                  buildInlineButton(\`👤 \${toThinSans('My Profile')}\`, { callback_data: 'nav_profile', style: 'primary' }),
-                ],
-                [
-                  buildInlineButton(\`🔍 \${toThinSans('Number to Info')}\`, { callback_data: 'nav_num_info', style: 'primary' }),
-                ],
-                [
-                  buildInlineButton(\`📍 \${toThinSans('Number to Location')}\`, { callback_data: 'nav_num_loc', style: 'success' }),
-                ],
-                [
-                  buildInlineButton(\`💬 \${toThinSans('My Group')}\`, { url: formattedGroupUrl, style: 'success' }),
-                  buildInlineButton(\`📜 \${toThinSans('History')}\`, { callback_data: 'nav_history', style: 'danger' }),
-                ],
-              ],
-            };
-          }
-          function renderBotHomeView`;
-          s = s.replace(/function buildHomeInlineKeyboard[\s\S]*?function renderBotHomeView/, homeKbFn);
-
-          const resultAndHelperFn = `function cleanMapQueryFromRecord(rec: any, areaLabel: string): { displayAddress: string; mapUrl: string } {
-            const rawAddr = String(rec?.address || areaLabel || '').replace(/!/g, ', ');
-            const circle = String(rec?.circle || '').trim();
-            const pName = String(rec?.name || '').trim();
-            const fName = String(rec?.fatherName || '').trim();
-            const parts = rawAddr.split(/[,;|\\n]+/).map((p) => p.trim()).filter(Boolean);
-            const cleaned: string[] = [];
-            for (let p of parts) {
-              p = p.replace(/\\b(S\\/O|W\\/O|D\\/O|C\\/O|H\\/O|F\\/O|M\\/O)\\b[^,]*/gi, '').trim();
-              if (pName && pName !== 'Not found' && p.toLowerCase() === pName.toLowerCase()) continue;
-              if (fName && fName !== 'Not found' && p.toLowerCase() === fName.toLowerCase()) continue;
-              p = p.replace(/^(H\\.?\\s*NO\\.?|HOUSE\\s*NO\\.?|FLAT\\s*NO\\.?|PLOT\\s*NO\\.?|WARD\\s*NO\\.?)\\s*[-:#.]?\\s*[A-Z0-9/-]+\\s*/i, '').trim();
-              if (p.length >= 2 && !cleaned.some((c) => c.toLowerCase() === p.toLowerCase())) cleaned.push(p);
-            }
-            if (circle && circle !== 'Not found' && !cleaned.some((c) => c.toLowerCase().includes(circle.toLowerCase()))) {
-              cleaned.push(circle);
-            }
-            const displayAddress = cleaned.join(', ') || areaLabel || 'India';
-            const query = cleaned.slice(-4).join(', ') || displayAddress;
-            const mapUrl = \`https://www.google.com/maps/search/?api=1&query=\${encodeURIComponent(query + ', India')}\`;
-            return { displayAddress, mapUrl };
-          }
-
-          function renderBotNumberResultView(_user: UserProfile, info: NumberIntelligence, viewMode: 'info' | 'location' = 'info') {
-            if (viewMode === 'location') {
-              const primaryRec = info.records[0];
-              const resolvedName = primaryRec?.name && primaryRec.name !== 'Not found' ? primaryRec.name : (info.truecallerName || 'Not found');
-              const loc = cleanMapQueryFromRecord(primaryRec, info.areaLabel || 'India');
-              const lines: string[] = [
-                \`<b>📍 \${toThinSans('Number Location')}</b>\`,
-                \`\`,
-                \`<b>• \${toThinSans('Name')}:</b> \${escapeHtml(toThinSans(resolvedName))}\`,
-                \`<b>• \${toThinSans('Address')}:</b> \${escapeHtml(toThinSans(loc.displayAddress))}\`,
-                \`<b>• \${toThinSans('Map')}:</b> <a href="\${escapeHtml(loc.mapUrl)}">\${toThinSans('Open Google Maps')}</a>\`,
-              ];
-              const keyboard: any[][] = [
-                [buildInlineButton(\`🗺️ \${toThinSans('Open Google Maps')}\`, { url: loc.mapUrl, style: 'success' })],
-                [buildInlineButton(\`🔍 \${toThinSans('Number to Info')}\`, { callback_data: \`info_\${info.rawDigits}\`, style: 'primary' })],
-                [
-                  buildInlineButton(\`👑 \${toThinSans('Get Premium')}\`, { callback_data: 'nav_pricing', style: 'success' }),
-                  buildInlineButton(\`« \${toThinSans('Back')}\`, { callback_data: 'nav_home', style: 'danger' }),
-                ],
-              ];
-              return { text: lines.join('\\n'), reply_markup: { inline_keyboard: keyboard }, withMedia: false };
-            }
-
-            const waUrl = \`https://wa.me/91\${info.rawDigits}\`;
-            const tgUrl = \`https://t.me/+91\${info.rawDigits}\`;
-            const lines: string[] = [
-              \`<b>🔍 \${toThinSans('Number Details')} — \${escapeHtml(toThinSans(info.rawDigits))}</b>\`,
-            ];
-            const maxRecs = Math.min(info.records.length, 5);
-            for (let i = 0; i < maxRecs; i++) {
-              const rec = info.records[i];
-              lines.push(\`\`);
-              if (maxRecs > 1) lines.push(\`<b>◈ \${toThinSans(\`Record #\${i + 1}\`)}</b>\`);
-              lines.push(\`<b>• \${toThinSans('Name')}:</b> \${escapeHtml(toThinSans(rec.name))}\`);
-              if (rec.fatherName && rec.fatherName !== 'Not found') lines.push(\`<b>• \${toThinSans('Father')}:</b> \${escapeHtml(toThinSans(rec.fatherName))}\`);
-              lines.push(\`<b>• \${toThinSans('Mobile')}:</b> \${escapeHtml(toThinSans(rec.mobile))}\`);
-              if (rec.altMobile && rec.altMobile !== 'Not found') lines.push(\`<b>• \${toThinSans('Alt No')}:</b> \${escapeHtml(toThinSans(rec.altMobile))}\`);
-              if (rec.circle && rec.circle !== 'Not found') lines.push(\`<b>• \${toThinSans('Circle')}:</b> \${escapeHtml(toThinSans(rec.circle))}\`);
-              if (rec.idNumber && rec.idNumber !== 'Not found') lines.push(\`<b>• \${toThinSans('ID No')}:</b> \${escapeHtml(toThinSans(rec.idNumber))}\`);
-              if (rec.email && rec.email !== 'Not found') lines.push(\`<b>• \${toThinSans('Email')}:</b> \${escapeHtml(toThinSans(rec.email))}\`);
-              lines.push(\`<b>• \${toThinSans('Address')}:</b> \${escapeHtml(toThinSans(rec.address))}\`);
-            }
-            const keyboard: any[][] = [
-              [
-                buildInlineButton(\`💬 \${toThinSans('Open WhatsApp')}\`, { url: waUrl, style: 'success' }),
-                buildInlineButton(\`✈️ \${toThinSans('Open Telegram')}\`, { url: tgUrl, style: 'primary' }),
-              ],
-              [
-                buildInlineButton(\`📍 \${toThinSans('Number to Location')}\`, { callback_data: \`loc_\${info.rawDigits}\`, style: 'success' }),
-              ],
-              [
-                buildInlineButton(\`👑 \${toThinSans('Get Premium')}\`, { callback_data: 'nav_pricing', style: 'success' }),
-                buildInlineButton(\`« \${toThinSans('Back')}\`, { callback_data: 'nav_home', style: 'danger' }),
-              ],
-            ];
-            return { text: lines.join('\\n'), reply_markup: { inline_keyboard: keyboard }, withMedia: false };
-          }
-          function renderBotHistoryView`;
-
-          s = s.replace(/function renderBotNumberResultView[\s\S]*?function renderBotHistoryView/, resultAndHelperFn);
-
-          if (!s.includes("data.startsWith('loc_')")) {
-            s = s.replace(
-              /else if \(data === 'nav_num_info' \|\| data === 'num_to_info' \|\| data === 'search_num'\) \{[\s\S]*?renderBotNumberPromptView\(user\), isMediaMsg\);\s*\}/,
-              `else if (data === 'nav_num_info' || data === 'num_to_info' || data === 'search_num') {
-                (user as any).lookupMode = 'info';
-                saveState();
-                ackCallback({ text: toThinSans('Send any 10-digit mobile number for Info') });
-                await editSectionInPlace(chatId, messageId, user, renderBotNumberPromptView(user), isMediaMsg);
-              } else if (data === 'nav_num_loc' || data === 'num_to_loc') {
-                (user as any).lookupMode = 'location';
-                saveState();
-                ackCallback({ text: toThinSans('Send any 10-digit mobile number for Location') });
-                await editSectionInPlace(chatId, messageId, user, renderBotNumberPromptView(user), isMediaMsg);
-              } else if (data.startsWith('loc_')) {
-                const num = data.replace('loc_', '').trim();
-                ackCallback({ text: toThinSans(\`Loading Location for \${num}...\`) });
-                const info = await fetchRealNumberInfo(num);
-                if (info.valid) {
-                  await editSectionInPlace(chatId, messageId, user, renderBotNumberResultView(user, info, 'location'), isMediaMsg);
-                }
-              } else if (data.startsWith('info_')) {
-                const num = data.replace('info_', '').trim();
-                ackCallback({ text: toThinSans(\`Loading Details for \${num}...\`) });
-                const info = await fetchRealNumberInfo(num);
-                if (info.valid) {
-                  await editSectionInPlace(chatId, messageId, user, renderBotNumberResultView(user, info, 'info'), isMediaMsg);
-                }
-              }`
-            );
-            s = s.replace(
-              /await sendReplyMessage\(chatId, user, renderBotNumberResultView\(user, info\), msg\.message_id\);/,
-              `await sendReplyMessage(chatId, user, renderBotNumberResultView(user, info, (user as any).lookupMode === 'location' ? 'location' : 'info'), msg.message_id);`
-            );
-          }
-
-          fs.writeFileSync('server.ts', s);
-          console.log('Configured server.ts with Number to Info + Number to Location for @HexxOsint_bot!');
-          EOF
-          node patch_osint.cjs
-          rm -f patch_osint.cjs
 
           if [ ! -f hexx_store_v12.json ] || [ $(wc -c < hexx_store_v12.json) -lt 10 ]; then
             echo "{}" > hexx_store_v12.json
@@ -236,7 +70,7 @@ jobs:
 
           git add server.ts hexx_store_v12.json 2>/dev/null
           if ! git diff --cached --quiet 2>/dev/null; then
-            git commit -m "chore: persist Number-to-Info server.ts & database [skip ci]"
+            git commit -m "chore: update latest Hexx OSINT server.ts & database [skip ci]"
             git pull --rebase origin "${GITHUB_REF_NAME}" 2>/dev/null
             git push origin "HEAD:${GITHUB_REF_NAME}" 2>/dev/null
           fi
@@ -265,7 +99,7 @@ jobs:
             if [ $REM_TS -le 0 ]; then
               break
             fi
-            echo "=== Hexx Bot (@HexxOsint_bot) Running 24/7 (Remaining: ${REM_TS}s) ==="
+            echo "=== Hexx OSINT Bot (@HexxOsint_bot) Running 24/7 (Remaining: ${REM_TS}s) ==="
             timeout ${REM_TS}s ./node_modules/.bin/tsx server.ts
             CODE=$?
             if [ $CODE -eq 124 ]; then
