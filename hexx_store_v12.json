@@ -492,7 +492,7 @@
     "6212533949": {
       "id": 6212533949,
       "firstName": "𝑨𝒌𝒂𝒔𝒉 𝑻𝒓𝒖𝒔𝒕𝒆𝒅 𝑺𝒆𝒍𝒍𝒆𝒓",
-      "username": "Trusted_Seller183",
+      "username": "akash_seller187",
       "credits": 1,
       "isPremium": false,
       "premiumUntil": null,
@@ -504,38 +504,15 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T10:22:29.623Z",
-      "lastActiveAt": "2026-10-25T10:45:53.687Z",
+      "lastActiveAt": "2026-10-25T11:37:14.881Z",
       "isBanned": false,
-      "history": [
-        {
-          "id": "f64b3dc8-f3d8-4ba9-9768-35dc69df9a72",
-          "queryNumber": "9012352014",
-          "timestamp": "2026-10-25T10:45:22.034Z",
-          "source": "bot",
-          "userId": 6212533949,
-          "userName": "𝑨𝒌𝒂𝒔𝒉 𝑻𝒓𝒖𝒔𝒕𝒆𝒅 𝑺𝒆𝒍𝒍𝒆𝒓",
-          "resultSummary": {
-            "name": "Pandit beelpu",
-            "truecallerName": "Pandit beelpu",
-            "fatherName": "Not found",
-            "mobile": "9012352014",
-            "altMobile": "Not found",
-            "circle": "New Delhi, Delhi",
-            "idNumber": "Not found",
-            "email": "Not found",
-            "address": "New Delhi, Delhi",
-            "totalRecords": 1,
-            "lat": 28.6139,
-            "lng": 77.209,
-            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-          }
-        }
-      ],
+      "history": [],
       "forceJoinVerified": true,
       "lastBotMessageId": 9176,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-25"
+      "lastLookupDate": "2026-10-25",
+      "liveCaptures": []
     },
     "8758294363": {
       "id": 8758294363,
@@ -1343,6 +1320,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810611,
+  "lastTelegramUpdateId": 168810617,
   "usedEmailIds": []
 }
