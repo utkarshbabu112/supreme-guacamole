@@ -883,7 +883,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-10-25T13:38:19.669Z",
+      "lastActiveAt": "2026-10-25T14:29:12.308Z",
       "isBanned": false,
       "history": [
         {
@@ -1003,7 +1003,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9312,
+      "lastBotMessageId": 9323,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25",
@@ -2101,6 +2101,14 @@
   ],
   "logs": [
     {
+      "id": "92d326ba-908f-479a-a167-1645bbb30134",
+      "timestamp": "2026-10-25T14:29:12.988Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "cc2f7418-1d14-4686-8074-f88a57579a69",
       "timestamp": "2026-10-25T14:05:38.018Z",
       "type": "LOOKUP",
@@ -2749,6 +2757,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810735,
+  "lastTelegramUpdateId": 168810736,
   "usedEmailIds": []
 }
