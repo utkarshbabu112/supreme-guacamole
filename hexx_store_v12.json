@@ -737,7 +737,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T10:59:17.085Z",
-      "lastActiveAt": "2026-10-25T13:42:05.392Z",
+      "lastActiveAt": "2026-10-25T18:43:03.886Z",
       "isBanned": false,
       "history": [
         {
@@ -788,7 +788,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9314,
+      "lastBotMessageId": 9469,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25",
@@ -4299,6 +4299,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810869,
+  "lastTelegramUpdateId": 168810870,
   "usedEmailIds": []
 }
