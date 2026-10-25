@@ -345,10 +345,126 @@
       "lastLookupDate": "2026-10-25",
       "lastBotMessageId": 8900,
       "lastBotMessageHasPhoto": false
+    },
+    "8710309977": {
+      "id": 8710309977,
+      "firstName": "Sk",
+      "username": "Kuchupuchu098",
+      "credits": 0,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 2,
+      "referralCode": "HEX309977",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T04:40:21.292Z",
+      "lastActiveAt": "2026-10-25T04:41:56.251Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "654451a2-170d-4d38-b284-85e987d5048f",
+          "queryNumber": "9636875102",
+          "timestamp": "2026-10-25T04:41:58.016Z",
+          "source": "bot",
+          "userId": 8710309977,
+          "userName": "Sk",
+          "resultSummary": {
+            "name": "Po-21",
+            "truecallerName": "Po-21",
+            "fatherName": "Not found",
+            "mobile": "9636875102",
+            "altMobile": "Not found",
+            "circle": "Guwahati, Assam",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "Guwahati, Assam",
+            "totalRecords": 1,
+            "lat": 26.1305,
+            "lng": 91.7372,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.1305%2C91.7372"
+          }
+        },
+        {
+          "id": "5e3c1c2f-4448-42f6-9680-f004e1c57e72",
+          "queryNumber": "9950278617",
+          "timestamp": "2026-10-25T04:41:02.844Z",
+          "source": "bot",
+          "userId": 8710309977,
+          "userName": "Sk",
+          "resultSummary": {
+            "name": "Bhl aarjya",
+            "truecallerName": "Bhl aarjya",
+            "fatherName": "Not found",
+            "mobile": "9950278617",
+            "altMobile": "Not found",
+            "circle": "Kochi, Kerala",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "Kochi, Kerala",
+            "totalRecords": 1,
+            "lat": 9.9347,
+            "lng": 76.2658,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9347%2C76.2658"
+          }
+        }
+      ],
+      "lastBotMessageId": 8910,
+      "lastBotMessageHasPhoto": false,
+      "lookupMode": "info",
+      "lastLookupDate": "2026-10-25"
     }
   },
   "orders": {},
   "globalHistory": [
+    {
+      "id": "654451a2-170d-4d38-b284-85e987d5048f",
+      "queryNumber": "9636875102",
+      "timestamp": "2026-10-25T04:41:58.016Z",
+      "source": "bot",
+      "userId": 8710309977,
+      "userName": "Sk",
+      "resultSummary": {
+        "name": "Po-21",
+        "truecallerName": "Po-21",
+        "fatherName": "Not found",
+        "mobile": "9636875102",
+        "altMobile": "Not found",
+        "circle": "Guwahati, Assam",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "Guwahati, Assam",
+        "totalRecords": 1,
+        "lat": 26.1305,
+        "lng": 91.7372,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.1305%2C91.7372"
+      }
+    },
+    {
+      "id": "5e3c1c2f-4448-42f6-9680-f004e1c57e72",
+      "queryNumber": "9950278617",
+      "timestamp": "2026-10-25T04:41:02.844Z",
+      "source": "bot",
+      "userId": 8710309977,
+      "userName": "Sk",
+      "resultSummary": {
+        "name": "Bhl aarjya",
+        "truecallerName": "Bhl aarjya",
+        "fatherName": "Not found",
+        "mobile": "9950278617",
+        "altMobile": "Not found",
+        "circle": "Kochi, Kerala",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "Kochi, Kerala",
+        "totalRecords": 1,
+        "lat": 9.9347,
+        "lng": 76.2658,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9347%2C76.2658"
+      }
+    },
     {
       "id": "5d7197b3-ea9c-4848-ad73-38d3af6f6c4a",
       "queryNumber": "9939621521",
@@ -489,6 +605,30 @@
     }
   ],
   "logs": [
+    {
+      "id": "8f309b0c-cc1d-4763-a324-09dfb7feeca6",
+      "timestamp": "2026-10-25T04:41:58.016Z",
+      "type": "LOOKUP",
+      "userId": 8710309977,
+      "userName": "Sk",
+      "summary": "Number to Location 9636875102 (Po-21)"
+    },
+    {
+      "id": "f907e312-4c5a-4962-97d3-98e547760598",
+      "timestamp": "2026-10-25T04:41:02.844Z",
+      "type": "LOOKUP",
+      "userId": 8710309977,
+      "userName": "Sk",
+      "summary": "Number to Location 9950278617 (Bhl aarjya)"
+    },
+    {
+      "id": "b3a131b7-d664-4d0f-8c2e-41f0e7d74f29",
+      "timestamp": "2026-10-25T04:40:21.601Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8710309977,
+      "userName": "Sk",
+      "summary": "Started bot (/start)"
+    },
     {
       "id": "39e6771c-fb54-49a8-bb39-49a96430b6e8",
       "timestamp": "2026-10-25T04:34:10.945Z",
@@ -642,6 +782,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810240,
+  "lastTelegramUpdateId": 168810249,
   "usedEmailIds": []
 }
