@@ -466,10 +466,126 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25"
+    },
+    "8758294363": {
+      "id": 8758294363,
+      "firstName": "Anil",
+      "credits": 0,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 2,
+      "referralCode": "HEX294363",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T10:59:17.085Z",
+      "lastActiveAt": "2026-10-25T11:00:33.843Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "948b3f1c-d5ec-44d8-92c6-53fc93337f66",
+          "queryNumber": "9422969814",
+          "timestamp": "2026-10-25T11:00:34.692Z",
+          "source": "bot",
+          "userId": 8758294363,
+          "userName": "Anil",
+          "resultSummary": {
+            "name": "Friend Vaibhav",
+            "truecallerName": "Friend Vaibhav",
+            "fatherName": "Not found",
+            "mobile": "9422969814",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
+        {
+          "id": "04b72169-5618-42a4-92b3-731e8047d0df",
+          "queryNumber": "9916082792",
+          "timestamp": "2026-10-25T10:59:43.902Z",
+          "source": "bot",
+          "userId": 8758294363,
+          "userName": "Anil",
+          "resultSummary": {
+            "name": "Venkatesh Arsid",
+            "truecallerName": "Venkatesh Arsid",
+            "fatherName": "laxmikanth arsid",
+            "mobile": "9916082792",
+            "altMobile": "6361947462",
+            "circle": "JIO KARNATKA",
+            "idNumber": "726329848240",
+            "email": "Not found",
+            "address": "gurumatkal rural, bidki katta yadgir, Gurmitkal Rural, Yadgir, Karnataka, 585214",
+            "totalRecords": 3,
+            "lat": 16.57441,
+            "lng": 76.92544,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gurmitkal%20Rural%2C%20Yadgir%2C%20Karnataka%2C%20585214%2C%20India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9183,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-25"
     }
   },
   "orders": {},
   "globalHistory": [
+    {
+      "id": "948b3f1c-d5ec-44d8-92c6-53fc93337f66",
+      "queryNumber": "9422969814",
+      "timestamp": "2026-10-25T11:00:34.692Z",
+      "source": "bot",
+      "userId": 8758294363,
+      "userName": "Anil",
+      "resultSummary": {
+        "name": "Friend Vaibhav",
+        "truecallerName": "Friend Vaibhav",
+        "fatherName": "Not found",
+        "mobile": "9422969814",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "04b72169-5618-42a4-92b3-731e8047d0df",
+      "queryNumber": "9916082792",
+      "timestamp": "2026-10-25T10:59:43.902Z",
+      "source": "bot",
+      "userId": 8758294363,
+      "userName": "Anil",
+      "resultSummary": {
+        "name": "Venkatesh Arsid",
+        "truecallerName": "Venkatesh Arsid",
+        "fatherName": "laxmikanth arsid",
+        "mobile": "9916082792",
+        "altMobile": "6361947462",
+        "circle": "JIO KARNATKA",
+        "idNumber": "726329848240",
+        "email": "Not found",
+        "address": "gurumatkal rural, bidki katta yadgir, Gurmitkal Rural, Yadgir, Karnataka, 585214",
+        "totalRecords": 3,
+        "lat": 16.57441,
+        "lng": 76.92544,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gurmitkal%20Rural%2C%20Yadgir%2C%20Karnataka%2C%20585214%2C%20India"
+      }
+    },
     {
       "id": "f64b3dc8-f3d8-4ba9-9768-35dc69df9a72",
       "queryNumber": "9012352014",
@@ -679,6 +795,30 @@
     }
   ],
   "logs": [
+    {
+      "id": "c939921d-691a-4ebc-875a-e507d55d998f",
+      "timestamp": "2026-10-25T11:00:34.692Z",
+      "type": "LOOKUP",
+      "userId": 8758294363,
+      "userName": "Anil",
+      "summary": "Number Lookup 9422969814 (Friend Vaibhav)"
+    },
+    {
+      "id": "8983f2dd-9252-4b23-aad8-27467effc620",
+      "timestamp": "2026-10-25T10:59:43.902Z",
+      "type": "LOOKUP",
+      "userId": 8758294363,
+      "userName": "Anil",
+      "summary": "Number Lookup 9916082792 (Venkatesh Arsid)"
+    },
+    {
+      "id": "9abfdc13-a316-4ef1-8e15-d4db21f2dfe7",
+      "timestamp": "2026-10-25T10:59:17.806Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8758294363,
+      "userName": "Anil",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "fc906cd3-31ab-4fc9-875a-3ed3e1c5c02d",
       "timestamp": "2026-10-25T10:45:22.034Z",
@@ -920,6 +1060,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810567,
+  "lastTelegramUpdateId": 168810575,
   "usedEmailIds": []
 }
