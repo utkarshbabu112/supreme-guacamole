@@ -1220,6 +1220,52 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25"
+    },
+    "6502481272": {
+      "id": 6502481272,
+      "firstName": "Gamer",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 2,
+      "referralCode": "HEX481272",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-25T14:04:01.365Z",
+      "lastActiveAt": "2026-10-25T14:05:55.443Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "d002666c-2196-4599-a9e2-163208688174",
+          "queryNumber": "7247459128",
+          "timestamp": "2026-10-25T14:05:38.018Z",
+          "source": "bot",
+          "userId": 6502481272,
+          "userName": "Gamer",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7247459128",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 8185,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-25"
     }
   },
   "orders": {
@@ -1296,6 +1342,50 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "d002666c-2196-4599-a9e2-163208688174",
+      "queryNumber": "7247459128",
+      "timestamp": "2026-10-25T14:05:38.018Z",
+      "source": "bot",
+      "userId": 6502481272,
+      "userName": "Gamer",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7247459128",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "a22683a9-0899-4803-87a4-5ad1639b6496",
+      "queryNumber": "7247459128",
+      "timestamp": "2026-10-25T14:05:12.335Z",
+      "source": "bot",
+      "userId": 6502481272,
+      "userName": "Gamer",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7247459128",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "0109cc97-699b-433e-b036-cfa9075ae306",
       "queryNumber": "8651729302",
@@ -2011,6 +2101,22 @@
   ],
   "logs": [
     {
+      "id": "cc2f7418-1d14-4686-8074-f88a57579a69",
+      "timestamp": "2026-10-25T14:05:38.018Z",
+      "type": "LOOKUP",
+      "userId": 6502481272,
+      "userName": "Gamer",
+      "summary": "Number Lookup 7247459128 (Not found)"
+    },
+    {
+      "id": "f5b55b59-64f1-4d69-a7c9-f13d2c687e5f",
+      "timestamp": "2026-10-25T14:05:12.335Z",
+      "type": "LOOKUP",
+      "userId": 6502481272,
+      "userName": "Gamer",
+      "summary": "Number Lookup 7247459128 (Not found)"
+    },
+    {
       "id": "052d7fe7-ff42-42b5-9ff1-79a7667859aa",
       "timestamp": "2026-10-25T13:38:22.397Z",
       "type": "LOOKUP",
@@ -2643,6 +2749,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810723,
+  "lastTelegramUpdateId": 168810735,
   "usedEmailIds": []
 }
