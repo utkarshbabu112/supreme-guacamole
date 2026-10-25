@@ -764,7 +764,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:02:46.595Z",
-      "lastActiveAt": "2026-10-25T12:03:54.870Z",
+      "lastActiveAt": "2026-10-25T12:27:49.382Z",
       "isBanned": false,
       "history": [
         {
@@ -815,8 +815,8 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9229,
-      "lastBotMessageHasPhoto": true,
+      "lastBotMessageId": 9266,
+      "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25"
     },
@@ -1521,6 +1521,14 @@
   ],
   "logs": [
     {
+      "id": "c192b36d-34af-4d97-b1e0-6eb786f72c28",
+      "timestamp": "2026-10-25T12:27:50.095Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7995520431,
+      "userName": "Vashu",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "916e4521-b611-47ba-b2a9-7156a0df7366",
       "timestamp": "2026-10-25T12:09:50.732Z",
       "type": "LOOKUP",
@@ -2025,6 +2033,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810666,
+  "lastTelegramUpdateId": 168810667,
   "usedEmailIds": []
 }
