@@ -423,22 +423,46 @@
       "id": 6212533949,
       "firstName": "𝑨𝒌𝒂𝒔𝒉 𝑻𝒓𝒖𝒔𝒕𝒆𝒅 𝑺𝒆𝒍𝒍𝒆𝒓",
       "username": "Trusted_Seller183",
-      "credits": 2,
+      "credits": 1,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
       "referralCode": "HEX533949",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T10:22:29.623Z",
-      "lastActiveAt": "2026-10-25T10:41:59.189Z",
+      "lastActiveAt": "2026-10-25T10:45:53.687Z",
       "isBanned": false,
-      "history": [],
+      "history": [
+        {
+          "id": "f64b3dc8-f3d8-4ba9-9768-35dc69df9a72",
+          "queryNumber": "9012352014",
+          "timestamp": "2026-10-25T10:45:22.034Z",
+          "source": "bot",
+          "userId": 6212533949,
+          "userName": "𝑨𝒌𝒂𝒔𝒉 𝑻𝒓𝒖𝒔𝒕𝒆𝒅 𝑺𝒆𝒍𝒍𝒆𝒓",
+          "resultSummary": {
+            "name": "Pandit beelpu",
+            "truecallerName": "Pandit beelpu",
+            "fatherName": "Not found",
+            "mobile": "9012352014",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9167,
+      "lastBotMessageId": 9176,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25"
@@ -446,6 +470,29 @@
   },
   "orders": {},
   "globalHistory": [
+    {
+      "id": "f64b3dc8-f3d8-4ba9-9768-35dc69df9a72",
+      "queryNumber": "9012352014",
+      "timestamp": "2026-10-25T10:45:22.034Z",
+      "source": "bot",
+      "userId": 6212533949,
+      "userName": "𝑨𝒌𝒂𝒔𝒉 𝑻𝒓𝒖𝒔𝒕𝒆𝒅 𝑺𝒆𝒍𝒍𝒆𝒓",
+      "resultSummary": {
+        "name": "Pandit beelpu",
+        "truecallerName": "Pandit beelpu",
+        "fatherName": "Not found",
+        "mobile": "9012352014",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "654451a2-170d-4d38-b284-85e987d5048f",
       "queryNumber": "9636875102",
@@ -632,6 +679,14 @@
     }
   ],
   "logs": [
+    {
+      "id": "fc906cd3-31ab-4fc9-875a-3ed3e1c5c02d",
+      "timestamp": "2026-10-25T10:45:22.034Z",
+      "type": "LOOKUP",
+      "userId": 6212533949,
+      "userName": "𝑨𝒌𝒂𝒔𝒉 𝑻𝒓𝒖𝒔𝒕𝒆𝒅 𝑺𝒆𝒍𝒍𝒆𝒓",
+      "summary": "Number Lookup 9012352014 (Pandit beelpu)"
+    },
     {
       "id": "7ef720c8-a69d-4e28-8284-babe3479c527",
       "timestamp": "2026-10-25T10:28:53.300Z",
@@ -865,6 +920,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810560,
+  "lastTelegramUpdateId": 168810567,
   "usedEmailIds": []
 }
