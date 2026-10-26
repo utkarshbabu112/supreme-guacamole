@@ -1403,19 +1403,19 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 2,
+      "totalLookups": 3,
       "referralCode": "HEX481272",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T14:04:01.365Z",
-      "lastActiveAt": "2026-10-25T14:05:55.443Z",
+      "lastActiveAt": "2026-10-26T00:55:56.496Z",
       "isBanned": false,
       "history": [
         {
-          "id": "d002666c-2196-4599-a9e2-163208688174",
+          "id": "7fbdb652-1034-4b17-89b3-a8b2929b119a",
           "queryNumber": "7247459128",
-          "timestamp": "2026-10-25T14:05:38.018Z",
+          "timestamp": "2026-10-26T00:55:56.675Z",
           "source": "bot",
           "userId": 6502481272,
           "userName": "Gamer",
@@ -1436,10 +1436,10 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 8185,
+      "lastBotMessageId": 9557,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-25",
+      "lastLookupDate": "2026-10-26",
       "liveLocationUsed": 0
     },
     "8917543741": {
@@ -2448,6 +2448,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "7fbdb652-1034-4b17-89b3-a8b2929b119a",
+      "queryNumber": "7247459128",
+      "timestamp": "2026-10-26T00:55:56.675Z",
+      "source": "bot",
+      "userId": 6502481272,
+      "userName": "Gamer",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7247459128",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "cc5d5a8f-6b66-49fd-af06-b362b21caa58",
       "queryNumber": "8700735322",
@@ -3999,6 +4021,14 @@
   ],
   "logs": [
     {
+      "id": "64e1b2e4-e96a-4931-8d35-980031792935",
+      "timestamp": "2026-10-26T00:55:56.675Z",
+      "type": "LOOKUP",
+      "userId": 6502481272,
+      "userName": "Gamer",
+      "summary": "Number Lookup 7247459128 (Not found)"
+    },
+    {
       "id": "d755cb51-5984-4bba-9258-359f5a812b1f",
       "timestamp": "2026-10-26T00:37:33.036Z",
       "type": "BOT_MESSAGE",
@@ -5189,16 +5219,8 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "42070171-b5e7-4d3e-8402-0f3fbfdff9bd",
-      "timestamp": "2026-10-25T04:10:48.827Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810958,
+  "lastTelegramUpdateId": 168810960,
   "usedEmailIds": []
 }
