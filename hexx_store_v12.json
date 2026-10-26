@@ -3760,6 +3760,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "8483139655": {
+      "id": 8483139655,
+      "firstName": "Himanshu",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX139655",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T12:23:14.309Z",
+      "lastActiveAt": "2026-10-26T12:23:22.647Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9872,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -6070,6 +6093,14 @@
   ],
   "logs": [
     {
+      "id": "5d8acc7a-1d2b-4a3f-af15-17b780a5c7f6",
+      "timestamp": "2026-10-26T12:23:15.434Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8483139655,
+      "userName": "Himanshu",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "5a5443c8-1ae1-41fa-b4eb-f15420d5fc27",
       "timestamp": "2026-10-26T11:57:25.192Z",
       "type": "LOOKUP",
@@ -7260,16 +7291,8 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Number Lookup 9876543210 (Not found)"
-    },
-    {
-      "id": "707af31d-ffbb-44f4-a09b-16bff8618beb",
-      "timestamp": "2026-10-25T14:49:42.875Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168811209,
+  "lastTelegramUpdateId": 168811212,
   "usedEmailIds": []
 }
