@@ -4467,12 +4467,35 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-26T17:18:59.541Z",
-      "lastActiveAt": "2026-10-26T17:20:16.269Z",
+      "lastActiveAt": "2026-10-26T17:20:57.362Z",
       "isBanned": false,
       "history": [],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10004,
+      "lastBotMessageId": 10006,
       "lastBotMessageHasPhoto": false,
+      "lastLookupDate": "2026-10-26"
+    },
+    "8187653328": {
+      "id": 8187653328,
+      "firstName": "Saaaab",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX653328",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T17:23:05.583Z",
+      "lastActiveAt": "2026-10-26T17:24:23.416Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10014,
+      "lastBotMessageHasPhoto": true,
+      "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
     }
   },
@@ -6779,6 +6802,22 @@
   ],
   "logs": [
     {
+      "id": "9a2a72e4-1bd7-48bb-8945-50f4ef7c579b",
+      "timestamp": "2026-10-26T17:23:54.401Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8187653328,
+      "userName": "Saaaab",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "8ec90276-d636-4427-b0be-1daefb0c7f39",
+      "timestamp": "2026-10-26T17:23:06.175Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8187653328,
+      "userName": "Saaaab",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "41544459-beeb-47dc-bbbd-efe0caa7ddc0",
       "timestamp": "2026-10-26T17:19:00.386Z",
       "type": "BOT_MESSAGE",
@@ -7961,24 +8000,8 @@
       "userId": 5225914213,
       "userName": "D",
       "summary": "Created Auto-QR Order HEXJ8JF4213 (₹29 for 7 Days VIP)"
-    },
-    {
-      "id": "397a96e2-b2f4-4531-a020-81f681102a4c",
-      "timestamp": "2026-10-25T19:14:51.491Z",
-      "type": "LOOKUP",
-      "userId": 8551993777,
-      "userName": "Ankit",
-      "summary": "Number Lookup 6206650181 (Not found)"
-    },
-    {
-      "id": "df7f77f5-8125-42f6-b389-8a7a1d950cbb",
-      "timestamp": "2026-10-25T19:14:09.095Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8551993777,
-      "userName": "Ankit",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168811321,
+  "lastTelegramUpdateId": 168811334,
   "usedEmailIds": []
 }
