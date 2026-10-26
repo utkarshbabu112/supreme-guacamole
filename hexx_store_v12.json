@@ -1124,19 +1124,19 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 3,
+      "totalLookups": 4,
       "referralCode": "HEX357942",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T11:51:09.185Z",
-      "lastActiveAt": "2026-10-26T07:13:31.038Z",
+      "lastActiveAt": "2026-10-26T07:14:13.318Z",
       "isBanned": false,
       "history": [
         {
-          "id": "0429be0c-5814-4c31-9a6a-5f1024925b6d",
+          "id": "abd59592-6912-4341-a367-e460aeaeeec8",
           "queryNumber": "9213517873",
-          "timestamp": "2026-10-26T07:13:31.285Z",
+          "timestamp": "2026-10-26T07:14:13.421Z",
           "source": "bot",
           "userId": 8715357942,
           "userName": "Yashmit",
@@ -1203,7 +1203,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9668,
+      "lastBotMessageId": 9673,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26",
@@ -3127,6 +3127,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "abd59592-6912-4341-a367-e460aeaeeec8",
+      "queryNumber": "9213517873",
+      "timestamp": "2026-10-26T07:14:13.421Z",
+      "source": "bot",
+      "userId": 8715357942,
+      "userName": "Yashmit",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9213517873",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "0429be0c-5814-4c31-9a6a-5f1024925b6d",
       "queryNumber": "9213517873",
@@ -5250,6 +5272,14 @@
   ],
   "logs": [
     {
+      "id": "7f87bd45-e0e0-4265-b87f-08e1aa1f4619",
+      "timestamp": "2026-10-26T07:14:13.421Z",
+      "type": "LOOKUP",
+      "userId": 8715357942,
+      "userName": "Yashmit",
+      "summary": "Number Lookup 9213517873 (Not found)"
+    },
+    {
       "id": "e083b30c-651d-482f-848e-9d853d7d5dbb",
       "timestamp": "2026-10-26T07:13:31.285Z",
       "type": "LOOKUP",
@@ -6440,16 +6470,8 @@
       "userId": 1672440707,
       "userName": "Jaat",
       "summary": "Number Lookup 8279624785 (Tapendra)"
-    },
-    {
-      "id": "d1049ae7-a89e-4014-a4c3-d7b5b4eeb418",
-      "timestamp": "2026-10-25T11:23:03.315Z",
-      "type": "PAYMENT",
-      "userId": 1672440707,
-      "userName": "Jaat",
-      "summary": "Created Auto-QR Order HEXO6VZ0707 (₹29 for 7 Days VIP)"
     }
   ],
-  "lastTelegramUpdateId": 168811049,
+  "lastTelegramUpdateId": 168811052,
   "usedEmailIds": []
 }
