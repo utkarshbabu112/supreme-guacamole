@@ -1475,15 +1475,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 7,
+      "totalLookups": 8,
       "referralCode": "HEX071078",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-10-26T10:16:43.282Z",
+      "lastActiveAt": "2026-10-26T10:36:05.891Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "fa23fa0f-87d2-468a-8a4d-dc5a583600ae",
+          "queryNumber": "8252464080",
+          "timestamp": "2026-10-26T10:35:58.225Z",
+          "source": "bot",
+          "userId": 8968071078,
+          "userName": "Aura",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8252464080",
+            "altMobile": "Not found",
+            "circle": "India",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, India",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps?q=28.6139,77.2090"
+          }
+        },
         {
           "id": "7246fd5e-fdf5-499b-a7f5-09fc3b1dc7db",
           "queryNumber": "9122181105",
@@ -1645,7 +1667,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9826,
+      "lastBotMessageId": 9852,
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26",
@@ -3704,6 +3726,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "fa23fa0f-87d2-468a-8a4d-dc5a583600ae",
+      "queryNumber": "8252464080",
+      "timestamp": "2026-10-26T10:35:58.225Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8252464080",
+        "altMobile": "Not found",
+        "circle": "India",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, India",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps?q=28.6139,77.2090"
+      }
+    },
     {
       "id": "e63f2d8b-eaa8-40ad-b41c-1565bb943454",
       "queryNumber": "9696165645",
@@ -5888,32 +5932,65 @@
         "lng": 77.57837,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BHOPAL%2C%20Barkheda%20Yakub%20BHOPAL%2C%20Madhya%20Pradesh%2C%20463111%2C%20India"
       }
-    },
-    {
-      "id": "f17c956b-afe4-4835-a3e0-62c6e4fc912b",
-      "queryNumber": "9006540977",
-      "timestamp": "2026-10-25T12:09:50.732Z",
-      "source": "bot",
-      "userId": 8877490186,
-      "userName": "Ghb",
-      "resultSummary": {
-        "name": "Krishna Prasad Mandal",
-        "truecallerName": "Mistre Khambwa",
-        "fatherName": "Ramashis  Saw",
-        "mobile": "9006540977",
-        "altMobile": "Not found",
-        "circle": "AIRTEL BHR&JHR",
-        "idNumber": "501756860568",
-        "email": "Not found",
-        "address": "khambhwa Khamwa, Hazaribag, Jharkhand, 825313",
-        "totalRecords": 1,
-        "lat": 23.99244,
-        "lng": 85.36163,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=khambhwa%20Khamwa%2C%20Hazaribag%2C%20Jharkhand%2C%20825313%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "41dacc11-0b0d-4a83-9e06-d227236c0bb7",
+      "timestamp": "2026-10-26T10:36:06.263Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "dcb9c9ac-7184-46fd-8f87-86fec8e21b38",
+      "timestamp": "2026-10-26T10:36:05.917Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "4c420a5c-e54a-4cb1-8da0-39c65681d635",
+      "timestamp": "2026-10-26T10:36:04.688Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "7e5769a5-3df5-4367-b713-9a626fbb0204",
+      "timestamp": "2026-10-26T10:36:04.059Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "91b59dfd-b017-48ef-8f57-ff968b1088dc",
+      "timestamp": "2026-10-26T10:36:03.123Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "4586db2b-8399-4837-9e4a-f09ca7f4d4ee",
+      "timestamp": "2026-10-26T10:35:58.225Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 8252464080 (Not found)"
+    },
+    {
+      "id": "761067a7-ad34-4401-b4c5-1509c824f869",
+      "timestamp": "2026-10-26T10:35:50.394Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
     {
       "id": "c5692e12-4f43-46b9-b61e-c00883bc6197",
       "timestamp": "2026-10-26T10:17:21.802Z",
@@ -7057,64 +7134,8 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "e6736c40-9d0d-4ab8-94ab-8c376a167369",
-      "timestamp": "2026-10-25T14:46:14.634Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "a44eaf0c-3526-4332-8155-e9e6121dbd59",
-      "timestamp": "2026-10-25T14:46:07.373Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "b392cab1-f2d1-40ae-aa54-11f31f600760",
-      "timestamp": "2026-10-25T14:46:04.380Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "468e64e1-ce1e-4bc7-bf80-3dc0b5540a88",
-      "timestamp": "2026-10-25T14:45:21.852Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "aef4d8ae-4924-41f5-8487-0f751497dabb",
-      "timestamp": "2026-10-25T14:45:08.823Z",
-      "type": "PAYMENT",
-      "userId": 7995520431,
-      "userName": "Vashu",
-      "summary": "Order HEX4N920431 PAID (7 Days VIP, Rs.29)"
-    },
-    {
-      "id": "fcb1cad1-0a8d-4859-8cbb-c767c238e088",
-      "timestamp": "2026-10-25T14:44:18.005Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "d5866adb-54bf-4038-9dd0-f2a354270def",
-      "timestamp": "2026-10-25T14:43:42.208Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168811183,
+  "lastTelegramUpdateId": 168811191,
   "usedEmailIds": []
 }
