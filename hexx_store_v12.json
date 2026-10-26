@@ -2524,6 +2524,30 @@
       "forceJoinVerified": false,
       "lastBotMessageId": 9587,
       "lastBotMessageHasPhoto": false
+    },
+    "8076122703": {
+      "id": 8076122703,
+      "firstName": "IQBAL2",
+      "username": "tyhkal2",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX122703",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T04:04:47.847Z",
+      "lastActiveAt": "2026-10-26T04:05:58.175Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9593,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -4331,6 +4355,22 @@
   ],
   "logs": [
     {
+      "id": "e86c924f-d532-4c07-b46b-15e2f75a3b0f",
+      "timestamp": "2026-10-26T04:05:47.798Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8076122703,
+      "userName": "IQBAL2",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "77422ca9-46d0-4f33-9355-ad8de0fed854",
+      "timestamp": "2026-10-26T04:04:48.694Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8076122703,
+      "userName": "IQBAL2",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "f2501194-ac6f-4bee-b294-74d4e87f96bb",
       "timestamp": "2026-10-26T03:26:27.455Z",
       "type": "BOT_MESSAGE",
@@ -5513,24 +5553,8 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "e6398b8d-8c65-4774-b7e5-516a07dad142",
-      "timestamp": "2026-10-25T04:14:24.260Z",
-      "type": "LOOKUP",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Number to Location 6287353888 (BAL TEST CARD BHR)"
-    },
-    {
-      "id": "463fe7e4-bc85-4298-981e-097baf730819",
-      "timestamp": "2026-10-25T04:13:58.230Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810982,
+  "lastTelegramUpdateId": 168810994,
   "usedEmailIds": []
 }
