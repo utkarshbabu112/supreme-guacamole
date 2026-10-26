@@ -4166,6 +4166,28 @@
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "8333642141": {
+      "id": 8333642141,
+      "firstName": "Kyrox",
+      "username": "Kyrox_xp",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX642141",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T14:04:24.083Z",
+      "lastActiveAt": "2026-10-26T14:04:24.083Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 9967,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -6471,6 +6493,14 @@
   ],
   "logs": [
     {
+      "id": "dd16727f-c270-4a26-999c-65066df9a696",
+      "timestamp": "2026-10-26T14:04:24.770Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8333642141,
+      "userName": "Kyrox",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "1fc9cd4b-de2c-449c-ad07-dbd7e081aea7",
       "timestamp": "2026-10-26T13:58:25.096Z",
       "type": "BOT_MESSAGE",
@@ -7661,16 +7691,8 @@
       "userId": 8356431540,
       "userName": "Uurso",
       "summary": "Number Lookup 9811864707 (Not found)"
-    },
-    {
-      "id": "c0195179-9606-4abb-b80e-c3a8e589e0a0",
-      "timestamp": "2026-10-25T17:15:59.861Z",
-      "type": "LOOKUP",
-      "userId": 8356431540,
-      "userName": "Uurso",
-      "summary": "Number Lookup 9582991407 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811270,
+  "lastTelegramUpdateId": 168811271,
   "usedEmailIds": []
 }
