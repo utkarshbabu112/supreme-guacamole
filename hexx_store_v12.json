@@ -4362,6 +4362,96 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "8988651908": {
+      "id": 8988651908,
+      "firstName": "Monu Trader",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 3,
+      "referralCode": "HEX651908",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T16:43:23.001Z",
+      "lastActiveAt": "2026-10-26T16:45:43.296Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "ebe4a4c1-af60-4b4d-ab42-c43ed41f7248",
+          "queryNumber": "9634187554",
+          "timestamp": "2026-10-26T16:45:43.965Z",
+          "source": "bot",
+          "userId": 8988651908,
+          "userName": "Monu Trader",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9634187554",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
+        {
+          "id": "90e8c51f-bc1b-4d30-9f07-77145af6e7d8",
+          "queryNumber": "9871990630",
+          "timestamp": "2026-10-26T16:45:26.183Z",
+          "source": "bot",
+          "userId": 8988651908,
+          "userName": "Monu Trader",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9871990630",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
+        {
+          "id": "39abeb76-a426-4984-9ee0-0f5b568a7f0f",
+          "queryNumber": "9286189722",
+          "timestamp": "2026-10-26T16:43:49.677Z",
+          "source": "bot",
+          "userId": 8988651908,
+          "userName": "Monu Trader",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9286189722",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9997,
+      "lastBotMessageHasPhoto": false,
+      "lastLookupDate": "2026-10-26",
+      "awaitingRedeemCode": false
     }
   },
   "orders": {
@@ -4464,6 +4554,72 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "ebe4a4c1-af60-4b4d-ab42-c43ed41f7248",
+      "queryNumber": "9634187554",
+      "timestamp": "2026-10-26T16:45:43.965Z",
+      "source": "bot",
+      "userId": 8988651908,
+      "userName": "Monu Trader",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9634187554",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "90e8c51f-bc1b-4d30-9f07-77145af6e7d8",
+      "queryNumber": "9871990630",
+      "timestamp": "2026-10-26T16:45:26.183Z",
+      "source": "bot",
+      "userId": 8988651908,
+      "userName": "Monu Trader",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9871990630",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "39abeb76-a426-4984-9ee0-0f5b568a7f0f",
+      "queryNumber": "9286189722",
+      "timestamp": "2026-10-26T16:43:49.677Z",
+      "source": "bot",
+      "userId": 8988651908,
+      "userName": "Monu Trader",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9286189722",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "20600de8-0de1-40d7-af06-cb92e1cb093e",
       "queryNumber": "9153817412",
@@ -6597,75 +6753,41 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "da56b792-e413-4f21-8abb-1bfe19258bd6",
-      "queryNumber": "9306478010",
-      "timestamp": "2026-10-25T15:49:13.074Z",
-      "source": "bot",
-      "userId": 8127527795,
-      "userName": "..",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9306478010",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "19f01d25-315c-4825-b2de-dc6780bc0f6c",
-      "queryNumber": "8319561439",
-      "timestamp": "2026-10-25T15:45:11.469Z",
-      "source": "bot",
-      "userId": 8291273127,
-      "userName": "DARK GUY 07",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8319561439",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "b7d5906e-7cf7-4652-a785-640e5013bf67",
-      "queryNumber": "9569581326",
-      "timestamp": "2026-10-25T15:44:48.490Z",
-      "source": "bot",
-      "userId": 8291273127,
-      "userName": "DARK GUY 07",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9569581326",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "bc95f119-3d1e-41fd-94f2-bda01cd3ced3",
+      "timestamp": "2026-10-26T16:45:43.965Z",
+      "type": "LOOKUP",
+      "userId": 8988651908,
+      "userName": "Monu Trader",
+      "summary": "Number Lookup 9634187554 (Not found)"
+    },
+    {
+      "id": "0431f534-384f-4ffc-8fad-74f43d31f125",
+      "timestamp": "2026-10-26T16:45:26.183Z",
+      "type": "LOOKUP",
+      "userId": 8988651908,
+      "userName": "Monu Trader",
+      "summary": "Number Lookup 9871990630 (Not found)"
+    },
+    {
+      "id": "350c69ec-ebab-47c3-97c1-9c82eb783cd7",
+      "timestamp": "2026-10-26T16:43:49.677Z",
+      "type": "LOOKUP",
+      "userId": 8988651908,
+      "userName": "Monu Trader",
+      "summary": "Number Lookup 9286189722 (Not found)"
+    },
+    {
+      "id": "3baee093-7272-4e45-b247-f57307ccd838",
+      "timestamp": "2026-10-26T16:43:23.758Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8988651908,
+      "userName": "Monu Trader",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "0b93a012-4089-4f31-9f2e-90e0bc2189fc",
       "timestamp": "2026-10-26T16:14:33.575Z",
@@ -7833,40 +7955,8 @@
       "userId": 5225914213,
       "userName": "D",
       "summary": "Number Lookup 8190089811 (Not found)"
-    },
-    {
-      "id": "91a40c47-f46d-40f2-b4f7-c957c13e43cc",
-      "timestamp": "2026-10-25T19:12:51.159Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5225914213,
-      "userName": "D",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "85567a05-d266-4b6c-89c4-bf0ece259d13",
-      "timestamp": "2026-10-25T19:12:19.487Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5225914213,
-      "userName": "D",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "d5eb17b6-dc1a-4942-922d-bbb7d1ee5fa1",
-      "timestamp": "2026-10-25T17:32:53.368Z",
-      "type": "LOOKUP",
-      "userId": 205041229,
-      "userName": "🟡🟢",
-      "summary": "Number Lookup 8708495709 (Not found)"
-    },
-    {
-      "id": "4a1e5b78-2e8f-48bb-9d34-4293ec11c80a",
-      "timestamp": "2026-10-25T17:29:19.800Z",
-      "type": "LOOKUP",
-      "userId": 968783051,
-      "userName": "Arbaz",
-      "summary": "Number Lookup 9711465734 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811303,
+  "lastTelegramUpdateId": 168811316,
   "usedEmailIds": []
 }
