@@ -4679,6 +4679,53 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "5904266101": {
+      "id": 5904266101,
+      "firstName": "●𓆩 𝙆𝙂𝙓 𝙁𝙄𝙍𝙀 𝙊𝙋 𓆪● [⚡️ ʳᵉˢᵉˡˡᵉʳ ]",
+      "username": "KGX_FIRE_90",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX266101",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T18:55:27.038Z",
+      "lastActiveAt": "2026-10-26T18:55:57.970Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "e6a3f493-264a-42f9-8680-2b5cf29b948e",
+          "queryNumber": "7703919160",
+          "timestamp": "2026-10-26T18:55:43.461Z",
+          "source": "bot",
+          "userId": 5904266101,
+          "userName": "●𓆩 𝙆𝙂𝙓 𝙁𝙄𝙍𝙀 𝙊𝙋 𓆪● [⚡️ ʳᵉˢᵉˡˡᵉʳ ]",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7703919160",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10059,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -4781,6 +4828,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "e6a3f493-264a-42f9-8680-2b5cf29b948e",
+      "queryNumber": "7703919160",
+      "timestamp": "2026-10-26T18:55:43.461Z",
+      "source": "bot",
+      "userId": 5904266101,
+      "userName": "●𓆩 𝙆𝙂𝙓 𝙁𝙄𝙍𝙀 𝙊𝙋 𓆪● [⚡️ ʳᵉˢᵉˡˡᵉʳ ]",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7703919160",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "3718fed1-c6c1-417e-b748-86b790818948",
       "queryNumber": "9797843366",
@@ -6958,31 +7027,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "9d9eb157-b88c-4a77-848e-94a316cbcfd1",
-      "queryNumber": "9582991407",
-      "timestamp": "2026-10-25T17:15:59.861Z",
-      "source": "bot",
-      "userId": 8356431540,
-      "userName": "Uurso",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9582991407",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "956ad840-0939-427e-8890-5cb34af4f9ce",
+      "timestamp": "2026-10-26T18:55:43.461Z",
+      "type": "LOOKUP",
+      "userId": 5904266101,
+      "userName": "●𓆩 𝙆𝙂𝙓 𝙁𝙄𝙍𝙀 𝙊𝙋 𓆪● [⚡️ ʳᵉˢᵉˡˡᵉʳ ]",
+      "summary": "Number Lookup 7703919160 (Not found)"
+    },
+    {
+      "id": "ddbde655-e7e3-458f-9dfe-4ff32cedb116",
+      "timestamp": "2026-10-26T18:55:27.879Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5904266101,
+      "userName": "●𓆩 𝙆𝙂𝙓 𝙁𝙄𝙍𝙀 𝙊𝙋 𓆪● [⚡️ ʳᵉˢᵉˡˡᵉʳ ]",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "88375549-0e6d-424c-9353-08005a2bb210",
       "timestamp": "2026-10-26T18:00:21.262Z",
@@ -8166,24 +8229,8 @@
       "userId": 8312390886,
       "userName": "Mr.",
       "summary": "Number Lookup 7046113116 (Not found)"
-    },
-    {
-      "id": "da8ce0be-d6c9-4acb-b2b3-431fa3b12117",
-      "timestamp": "2026-10-25T20:13:32.884Z",
-      "type": "LOOKUP",
-      "userId": 8312390886,
-      "userName": "Mr.",
-      "summary": "Number Lookup 8238676897 (Not found)"
-    },
-    {
-      "id": "50d32836-8105-4b38-9892-16cdf4686ddf",
-      "timestamp": "2026-10-25T20:13:22.647Z",
-      "type": "LOOKUP",
-      "userId": 8312390886,
-      "userName": "Mr.",
-      "summary": "Number Lookup 8238676897 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811367,
+  "lastTelegramUpdateId": 168811373,
   "usedEmailIds": []
 }
