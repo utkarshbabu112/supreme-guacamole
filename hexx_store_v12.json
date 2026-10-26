@@ -2296,7 +2296,8 @@
       "lastBotMessageId": 9542,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-25"
+      "lastLookupDate": "2026-10-25",
+      "liveLocationUsed": 0
     },
     "5620067437": {
       "id": 5620067437,
@@ -2343,7 +2344,8 @@
       "lastBotMessageId": 9548,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-25"
+      "lastLookupDate": "2026-10-25",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
@@ -2435,7 +2437,7 @@
       "lastImapScanAt": 0,
       "credits": 0,
       "days": 7,
-      "status": "PENDING",
+      "status": "EXPIRED",
       "paymentUrl": "https://hexx-locate.ai.studio/?order=HEXJ8JF4213",
       "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXJ8JF4213&tr=HEXJ8JF4213",
       "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXJ8JF4213&tr=HEXJ8JF4213",
