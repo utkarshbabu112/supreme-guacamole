@@ -1683,15 +1683,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 7,
+      "totalLookups": 8,
       "referralCode": "HEX490186",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:09:05.763Z",
-      "lastActiveAt": "2026-10-26T05:14:10.725Z",
+      "lastActiveAt": "2026-10-26T10:39:44.883Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "646e4b43-1e1e-429b-a7b5-cfa89c6571fa",
+          "queryNumber": "9523253537",
+          "timestamp": "2026-10-26T10:39:45.328Z",
+          "source": "bot",
+          "userId": 8877490186,
+          "userName": "Ghb",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9523253537",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "5df397a9-0fd9-48a6-813c-57ffef2a884b",
           "queryNumber": "9436381914",
@@ -1849,7 +1871,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9628,
+      "lastBotMessageId": 9854,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-26",
       "liveLocationUsed": 0
@@ -3726,6 +3748,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "646e4b43-1e1e-429b-a7b5-cfa89c6571fa",
+      "queryNumber": "9523253537",
+      "timestamp": "2026-10-26T10:39:45.328Z",
+      "source": "bot",
+      "userId": 8877490186,
+      "userName": "Ghb",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9523253537",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "fa23fa0f-87d2-468a-8a4d-dc5a583600ae",
       "queryNumber": "8252464080",
@@ -5910,31 +5954,17 @@
         "lng": 77.27083,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nasrllaganj%20Nasrullaganj%20tarun%20vidha%20MANDIR%20ke%20pas%2C%20NASRULLAGANJ-SEHORE%2C%20MP%2C%20466331%2C%20India"
       }
-    },
-    {
-      "id": "723996a4-5ce1-40b8-b276-b1fecb0fbe95",
-      "queryNumber": "8959301342",
-      "timestamp": "2026-10-25T12:33:20.878Z",
-      "source": "bot",
-      "userId": 7183197265,
-      "userName": "OG",
-      "resultSummary": {
-        "name": "MR SHAFIK AHMAD",
-        "fatherName": "Imam Khan Ahmad",
-        "mobile": "8959301342",
-        "altMobile": "8959202815",
-        "circle": "VI MP",
-        "idNumber": "465688657025",
-        "email": "Not found",
-        "address": "Bhopal BHOPAL, BHOPAL, Barkheda Yakub BHOPAL, Madhya Pradesh, 463111",
-        "totalRecords": 1,
-        "lat": 23.69617,
-        "lng": 77.57837,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BHOPAL%2C%20Barkheda%20Yakub%20BHOPAL%2C%20Madhya%20Pradesh%2C%20463111%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "4409fe6f-ad87-4c79-9eb7-775695c8d103",
+      "timestamp": "2026-10-26T10:39:45.328Z",
+      "type": "LOOKUP",
+      "userId": 8877490186,
+      "userName": "Ghb",
+      "summary": "Number Lookup 9523253537 (Not found)"
+    },
     {
       "id": "41dacc11-0b0d-4a83-9e06-d227236c0bb7",
       "timestamp": "2026-10-26T10:36:06.263Z",
@@ -7126,16 +7156,8 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "ccf8a689-ead4-4ea6-9c02-132f9e14d0e9",
-      "timestamp": "2026-10-25T14:46:33.513Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168811191,
+  "lastTelegramUpdateId": 168811192,
   "usedEmailIds": []
 }
