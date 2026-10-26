@@ -3896,6 +3896,75 @@
       "lastBotMessageId": 9896,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "8818082018": {
+      "id": 8818082018,
+      "firstName": "Water Melon",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX082018",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T13:34:43.581Z",
+      "lastActiveAt": "2026-10-26T13:36:05.144Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9913,
+      "lastBotMessageHasPhoto": false,
+      "lastLookupDate": "2026-10-26"
+    },
+    "8156688424": {
+      "id": 8156688424,
+      "firstName": "J",
+      "username": "Xrezez",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX688424",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T13:37:02.501Z",
+      "lastActiveAt": "2026-10-26T13:38:16.689Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "4fd34a29-661c-4b03-a0eb-2420f486799a",
+          "queryNumber": "9326265209",
+          "timestamp": "2026-10-26T13:38:17.105Z",
+          "source": "bot",
+          "userId": 8156688424,
+          "userName": "J",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9326265209",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9925,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -3998,6 +4067,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "4fd34a29-661c-4b03-a0eb-2420f486799a",
+      "queryNumber": "9326265209",
+      "timestamp": "2026-10-26T13:38:17.105Z",
+      "source": "bot",
+      "userId": 8156688424,
+      "userName": "J",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9326265209",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "0afa322e-fef7-4a78-9631-1d149acee6e4",
       "queryNumber": "9384172637",
@@ -6175,32 +6266,41 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "0109cc97-699b-433e-b036-cfa9075ae306",
-      "queryNumber": "8651729302",
-      "timestamp": "2026-10-25T13:38:22.397Z",
-      "source": "bot",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "resultSummary": {
-        "name": "Nilam Kumari",
-        "truecallerName": "Mantu",
-        "fatherName": "W/O Anil Kumar",
-        "mobile": "8651729302",
-        "altMobile": "8578865967",
-        "circle": "VODA BHR&JHR",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "banbira, Vaishali, BASANTPUR B O - VSLI, BIHAR, VODA BHR&JHR, 844504",
-        "totalRecords": 1,
-        "lat": 25.67303,
-        "lng": 85.40363,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BASANTPUR%20B%20O%20-%20VSLI%2C%20BIHAR%2C%20VODA%20BHR%26JHR%2C%20844504%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "5a9ffd1c-471f-4ded-9648-600e796d4af6",
+      "timestamp": "2026-10-26T13:38:17.105Z",
+      "type": "LOOKUP",
+      "userId": 8156688424,
+      "userName": "J",
+      "summary": "Number Lookup 9326265209 (Not found)"
+    },
+    {
+      "id": "3473a9e3-2315-4bd7-85f9-22897cc16ed8",
+      "timestamp": "2026-10-26T13:38:04.780Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8156688424,
+      "userName": "J",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "61343981-ae20-4769-bca6-7388e434435e",
+      "timestamp": "2026-10-26T13:37:03.215Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8156688424,
+      "userName": "J",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "94499767-768c-40a2-86b1-c3de290efd5e",
+      "timestamp": "2026-10-26T13:34:44.666Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8818082018,
+      "userName": "Water Melon",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "3918c6e9-fe1b-44d0-b986-02568478cf82",
       "timestamp": "2026-10-26T13:00:53.358Z",
@@ -7368,40 +7468,8 @@
       "userId": 8127527795,
       "userName": "..",
       "summary": "Number Lookup 9927004351 (Not found)"
-    },
-    {
-      "id": "1615bdcb-b024-4000-9b4f-05dd9da2e9f2",
-      "timestamp": "2026-10-25T15:42:52.147Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8291273127,
-      "userName": "DARK GUY 07",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "9a7e5f50-9ec4-4d25-b522-c2d959021ef0",
-      "timestamp": "2026-10-25T15:41:25.801Z",
-      "type": "LOOKUP",
-      "userId": 8127527795,
-      "userName": "..",
-      "summary": "Number Lookup 7900606688 (Not found)"
-    },
-    {
-      "id": "e8b2076c-9c27-419b-81fa-e335011248b5",
-      "timestamp": "2026-10-25T15:41:04.481Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8127527795,
-      "userName": "..",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "a4963626-f90e-4470-9c25-05fcf958426a",
-      "timestamp": "2026-10-25T15:40:42.009Z",
-      "type": "LOOKUP",
-      "userId": 8917543741,
-      "userName": "Sai",
-      "summary": "Number Lookup 7432944373 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811227,
+  "lastTelegramUpdateId": 168811248,
   "usedEmailIds": []
 }
