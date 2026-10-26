@@ -1480,7 +1480,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-10-25T14:29:12.308Z",
+      "lastActiveAt": "2026-10-26T10:13:51.517Z",
       "isBanned": false,
       "history": [
         {
@@ -1600,7 +1600,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9323,
+      "lastBotMessageId": 9793,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25",
@@ -3445,15 +3445,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 1,
+      "totalLookups": 2,
       "referralCode": "HEX158362",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-26T10:05:59.160Z",
-      "lastActiveAt": "2026-10-26T10:07:20.302Z",
+      "lastActiveAt": "2026-10-26T10:13:17.417Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "d0c04f8e-14bf-4e19-9e65-aeb224ad7388",
+          "queryNumber": "7409789615",
+          "timestamp": "2026-10-26T10:13:17.707Z",
+          "source": "bot",
+          "userId": 6070158362,
+          "userName": "Varun Nath Singh",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7409789615",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "ef45480c-7f31-4045-a20c-4a87ad28bc3e",
           "queryNumber": "6390439902",
@@ -3478,9 +3500,10 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9779,
+      "lastBotMessageId": 9791,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-10-26"
+      "lastLookupDate": "2026-10-26",
+      "awaitingRedeemCode": false
     }
   },
   "orders": {
@@ -3583,6 +3606,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "d0c04f8e-14bf-4e19-9e65-aeb224ad7388",
+      "queryNumber": "7409789615",
+      "timestamp": "2026-10-26T10:13:17.707Z",
+      "source": "bot",
+      "userId": 6070158362,
+      "userName": "Varun Nath Singh",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7409789615",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "ef45480c-7f31-4045-a20c-4a87ad28bc3e",
       "queryNumber": "6390439902",
@@ -5772,32 +5817,41 @@
         "lng": 77.32721,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Noida%2C%20GAUTAM%20BUDDHA%20NAGAR%2C%20UTTAR%20PRADESH%2C%20201301%2C%20India"
       }
-    },
-    {
-      "id": "86a043c6-eca5-4f81-8159-968d315a72b4",
-      "queryNumber": "9565437029",
-      "timestamp": "2026-10-25T11:54:45.070Z",
-      "source": "bot",
-      "userId": 8996216483,
-      "userName": "ROHIT X",
-      "resultSummary": {
-        "name": "Vikram",
-        "truecallerName": "Kaishram Yadav",
-        "fatherName": "Ram Tirath",
-        "mobile": "9565437029",
-        "altMobile": "Not found",
-        "circle": "UP EAST",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "Meghwa, Gonda, Uttar Pradesh, UP EAST, 271602",
-        "totalRecords": 1,
-        "lat": 27.16738,
-        "lng": 78.03662,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gonda%2C%20Uttar%20Pradesh%2C%20UP%20EAST%2C%20271602%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "8e2daf06-e7c9-4b59-a9a1-77107ca0477a",
+      "timestamp": "2026-10-26T10:13:17.707Z",
+      "type": "LOOKUP",
+      "userId": 6070158362,
+      "userName": "Varun Nath Singh",
+      "summary": "Number Lookup 7409789615 (Not found)"
+    },
+    {
+      "id": "2a06d7e6-4b92-4b8f-a81a-8ffc4e603083",
+      "timestamp": "2026-10-26T10:11:32.716Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "373546cc-c720-4114-b597-3dd486076aa9",
+      "timestamp": "2026-10-26T10:11:27.560Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "4c286cea-42b1-4447-89a2-52d52b2c5f09",
+      "timestamp": "2026-10-26T10:11:22.235Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
     {
       "id": "3d238739-4295-46f4-8c78-11002b37a8f2",
       "timestamp": "2026-10-26T10:07:20.426Z",
@@ -6965,40 +7019,8 @@
       "userId": 8968071078,
       "userName": "Aura",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "387f3948-7e89-4acb-bfe2-fe164b7b9148",
-      "timestamp": "2026-10-25T13:15:05.384Z",
-      "type": "LOOKUP",
-      "userId": 8977017456,
-      "userName": "USDT",
-      "summary": "Number Lookup 8178531201 (Brij Kishor)"
-    },
-    {
-      "id": "7a58c372-1c99-485c-832e-7eabc3d821ab",
-      "timestamp": "2026-10-25T13:14:23.362Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8977017456,
-      "userName": "USDT",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "5a97c1af-93c8-4ef0-b69d-cd2a7f92015b",
-      "timestamp": "2026-10-25T13:10:20.403Z",
-      "type": "LOOKUP",
-      "userId": 8389339993,
-      "userName": "Alex",
-      "summary": "Number Lookup 8976290501 (50463067 SABEER ALAM FLEXI)"
-    },
-    {
-      "id": "9b3354d9-ed77-4de6-80e3-b32e999b4e7b",
-      "timestamp": "2026-10-25T12:47:26.509Z",
-      "type": "LOOKUP",
-      "userId": 871179765,
-      "userName": "Blue",
-      "summary": "Number Lookup 9675033923 (Ankit Pal)"
     }
   ],
-  "lastTelegramUpdateId": 168811144,
+  "lastTelegramUpdateId": 168811152,
   "usedEmailIds": []
 }
