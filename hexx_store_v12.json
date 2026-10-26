@@ -366,6 +366,28 @@
       "lastLookupDate": "2026-10-25",
       "liveLocationUsed": 0
     },
+    "1482397019": {
+      "id": 1482397019,
+      "firstName": "Jeet",
+      "username": "Jeet1811",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX397019",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T03:19:19.101Z",
+      "lastActiveAt": "2026-10-26T03:20:38.024Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 9581,
+      "lastBotMessageHasPhoto": false
+    },
     "1672440707": {
       "id": 1672440707,
       "firstName": "Jaat",
@@ -5398,6 +5420,6 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168810975,
+  "lastTelegramUpdateId": 168810978,
   "usedEmailIds": []
 }
