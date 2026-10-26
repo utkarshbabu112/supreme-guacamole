@@ -3850,6 +3850,52 @@
       "forceJoinVerified": false,
       "lastBotMessageId": 9884,
       "lastBotMessageHasPhoto": false
+    },
+    "5479144889": {
+      "id": 5479144889,
+      "firstName": "ℝ𝕙𝕪𝕧𝕖𝕟",
+      "username": "E_r_r_o_r_S_t_r_e_e_t",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX144889",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T13:00:03.491Z",
+      "lastActiveAt": "2026-10-26T13:01:14.020Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "0afa322e-fef7-4a78-9631-1d149acee6e4",
+          "queryNumber": "9384172637",
+          "timestamp": "2026-10-26T13:00:53.358Z",
+          "source": "bot",
+          "userId": 5479144889,
+          "userName": "ℝ𝕙𝕪𝕧𝕖𝕟",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9384172637",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9896,
+      "lastBotMessageHasPhoto": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -3952,6 +3998,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "0afa322e-fef7-4a78-9631-1d149acee6e4",
+      "queryNumber": "9384172637",
+      "timestamp": "2026-10-26T13:00:53.358Z",
+      "source": "bot",
+      "userId": 5479144889,
+      "userName": "ℝ𝕙𝕪𝕧𝕖𝕟",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9384172637",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "e70355da-9d4a-4fa8-b7c4-c21ec3bb9305",
       "queryNumber": "8617553992",
@@ -6130,32 +6198,17 @@
         "lng": 85.40363,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BASANTPUR%20B%20O%20-%20VSLI%2C%20BIHAR%2C%20VODA%20BHR%26JHR%2C%20844504%2C%20India"
       }
-    },
-    {
-      "id": "ccdf57c6-00ce-4542-81c3-8b7084acbb22",
-      "queryNumber": "9507578036",
-      "timestamp": "2026-10-25T13:37:32.469Z",
-      "source": "bot",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "resultSummary": {
-        "name": "Manoj Kumar",
-        "truecallerName": "Banty Rajapakar",
-        "fatherName": "lal babu singh",
-        "mobile": "9507578036",
-        "altMobile": "9801063746",
-        "circle": "BIHAR JIO",
-        "idNumber": "695988817359",
-        "email": "Not found",
-        "address": "Raja Pakar, vaishali, Bihar, 844124",
-        "totalRecords": 2,
-        "lat": 25.73722,
-        "lng": 85.34856,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Raja%20Pakar%2C%20vaishali%2C%20Bihar%2C%20844124%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "3918c6e9-fe1b-44d0-b986-02568478cf82",
+      "timestamp": "2026-10-26T13:00:53.358Z",
+      "type": "LOOKUP",
+      "userId": 5479144889,
+      "userName": "ℝ𝕙𝕪𝕧𝕖𝕟",
+      "summary": "Number Lookup 9384172637 (Not found)"
+    },
     {
       "id": "935f5cc9-ae74-4b2a-9c09-8cbb74fb71c6",
       "timestamp": "2026-10-26T12:36:16.697Z",
@@ -7347,16 +7400,8 @@
       "userId": 8917543741,
       "userName": "Sai",
       "summary": "Number Lookup 7432944373 (Not found)"
-    },
-    {
-      "id": "1467918d-ebfc-48db-9300-945a5e057d9c",
-      "timestamp": "2026-10-25T15:39:45.439Z",
-      "type": "LOOKUP",
-      "userId": 8917543741,
-      "userName": "Sai",
-      "summary": "Number Lookup 7432944373 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811218,
+  "lastTelegramUpdateId": 168811227,
   "usedEmailIds": []
 }
