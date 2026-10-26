@@ -3322,6 +3322,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "7923780920": {
+      "id": 7923780920,
+      "firstName": "Shiv",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX780920",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T09:28:34.747Z",
+      "lastActiveAt": "2026-10-26T09:28:46.823Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9752,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -5645,6 +5668,14 @@
   ],
   "logs": [
     {
+      "id": "90c6bf26-7c34-4a86-baef-e586c3e08861",
+      "timestamp": "2026-10-26T09:28:35.475Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7923780920,
+      "userName": "Shiv",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "f9898164-5f1f-46da-a37b-a665193de923",
       "timestamp": "2026-10-26T09:06:32.447Z",
       "type": "BOT_MESSAGE",
@@ -6835,16 +6866,8 @@
       "userId": 8968071078,
       "userName": "Aura",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "048bee5d-e1c8-4611-9bd2-d2853cd0d6e0",
-      "timestamp": "2026-10-25T12:09:27.254Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168811120,
+  "lastTelegramUpdateId": 168811123,
   "usedEmailIds": []
 }
