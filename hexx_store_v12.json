@@ -3436,6 +3436,51 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "6070158362": {
+      "id": 6070158362,
+      "firstName": "Varun Nath Singh",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX158362",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T10:05:59.160Z",
+      "lastActiveAt": "2026-10-26T10:07:20.302Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "ef45480c-7f31-4045-a20c-4a87ad28bc3e",
+          "queryNumber": "6390439902",
+          "timestamp": "2026-10-26T10:07:20.426Z",
+          "source": "bot",
+          "userId": 6070158362,
+          "userName": "Varun Nath Singh",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "6390439902",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9779,
+      "lastBotMessageHasPhoto": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -3538,6 +3583,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "ef45480c-7f31-4045-a20c-4a87ad28bc3e",
+      "queryNumber": "6390439902",
+      "timestamp": "2026-10-26T10:07:20.426Z",
+      "source": "bot",
+      "userId": 6070158362,
+      "userName": "Varun Nath Singh",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "6390439902",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "887ae606-15fa-44a0-866f-66ac8cb677a1",
       "queryNumber": "8305261645",
@@ -5728,32 +5795,33 @@
         "lng": 78.03662,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gonda%2C%20Uttar%20Pradesh%2C%20UP%20EAST%2C%20271602%2C%20India"
       }
-    },
-    {
-      "id": "52a5a2ed-8ffb-40da-8e92-0991f3de33b7",
-      "queryNumber": "9565437029",
-      "timestamp": "2026-10-25T11:54:00.420Z",
-      "source": "bot",
-      "userId": 8996216483,
-      "userName": "ROHIT X",
-      "resultSummary": {
-        "name": "Vikram",
-        "truecallerName": "Kaishram Yadav",
-        "fatherName": "Ram Tirath",
-        "mobile": "9565437029",
-        "altMobile": "Not found",
-        "circle": "UP EAST",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "Meghwa, Gonda, Uttar Pradesh, UP EAST, 271602",
-        "totalRecords": 1,
-        "lat": 27.16738,
-        "lng": 78.03662,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gonda%2C%20Uttar%20Pradesh%2C%20UP%20EAST%2C%20271602%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "3d238739-4295-46f4-8c78-11002b37a8f2",
+      "timestamp": "2026-10-26T10:07:20.426Z",
+      "type": "LOOKUP",
+      "userId": 6070158362,
+      "userName": "Varun Nath Singh",
+      "summary": "Number Lookup 6390439902 (Not found)"
+    },
+    {
+      "id": "dd906345-604f-4382-bf51-46293c18a398",
+      "timestamp": "2026-10-26T10:06:37.790Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6070158362,
+      "userName": "Varun Nath Singh",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "50eca6ca-abc7-4c41-b8a1-85efd1ad7803",
+      "timestamp": "2026-10-26T10:05:59.706Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6070158362,
+      "userName": "Varun Nath Singh",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "8ed5717b-8f7c-47b6-9f6e-14fc375db424",
       "timestamp": "2026-10-26T09:55:36.392Z",
@@ -6929,32 +6997,8 @@
       "userId": 871179765,
       "userName": "Blue",
       "summary": "Number Lookup 9675033923 (Ankit Pal)"
-    },
-    {
-      "id": "6f5a4620-4de4-42f7-a23c-3366e0c1fe40",
-      "timestamp": "2026-10-25T12:47:05.947Z",
-      "type": "BOT_MESSAGE",
-      "userId": 871179765,
-      "userName": "Blue",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "21683591-d16c-4e6c-83d1-8b99a213c496",
-      "timestamp": "2026-10-25T12:34:49.158Z",
-      "type": "PAYMENT",
-      "userId": 7183197265,
-      "userName": "OG",
-      "summary": "Created Auto-QR Order HEX8HBE7265 (₹29 for 7 Days VIP)"
-    },
-    {
-      "id": "7bd70635-2acd-45ab-89a7-9fd54e0fb785",
-      "timestamp": "2026-10-25T12:34:02.931Z",
-      "type": "LOOKUP",
-      "userId": 7183197265,
-      "userName": "OG",
-      "summary": "Number Lookup 9174040900 (ANANWAR KHAN)"
     }
   ],
-  "lastTelegramUpdateId": 168811136,
+  "lastTelegramUpdateId": 168811144,
   "usedEmailIds": []
 }
