@@ -4258,6 +4258,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "8740600986": {
+      "id": 8740600986,
+      "firstName": "Gopal",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX600986",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T15:43:07.703Z",
+      "lastActiveAt": "2026-10-26T15:43:38.897Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9977,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -6563,6 +6586,14 @@
   ],
   "logs": [
     {
+      "id": "2ad1d5d0-f918-4113-af88-c804f4797652",
+      "timestamp": "2026-10-26T15:43:08.751Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8740600986,
+      "userName": "Gopal",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "28124910-95b2-44ed-970e-f77f1452833f",
       "timestamp": "2026-10-26T14:36:56.113Z",
       "type": "BOT_MESSAGE",
@@ -7753,16 +7784,8 @@
       "userId": 8557294018,
       "userName": "Demon",
       "summary": "Number Lookup 8708332783 (Not found)"
-    },
-    {
-      "id": "fe219740-b2b5-44c3-b241-278ed7a690ec",
-      "timestamp": "2026-10-25T17:28:26.838Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8557294018,
-      "userName": "Demon",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168811284,
+  "lastTelegramUpdateId": 168811289,
   "usedEmailIds": []
 }
