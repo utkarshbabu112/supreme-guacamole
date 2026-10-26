@@ -3677,17 +3677,40 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "totalLookups": 1,
       "referralCode": "HEX360851",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-26T11:52:01.261Z",
-      "lastActiveAt": "2026-10-26T11:52:33.927Z",
+      "lastActiveAt": "2026-10-26T12:29:02.302Z",
       "isBanned": false,
-      "history": [],
+      "history": [
+        {
+          "id": "e70355da-9d4a-4fa8-b7c4-c21ec3bb9305",
+          "queryNumber": "8617553992",
+          "timestamp": "2026-10-26T12:29:02.696Z",
+          "source": "bot",
+          "userId": 8754360851,
+          "userName": "Error",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8617553992",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9863,
+      "lastBotMessageId": 9882,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
@@ -3908,6 +3931,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "e70355da-9d4a-4fa8-b7c4-c21ec3bb9305",
+      "queryNumber": "8617553992",
+      "timestamp": "2026-10-26T12:29:02.696Z",
+      "source": "bot",
+      "userId": 8754360851,
+      "userName": "Error",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8617553992",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "7340cc1a-78c0-4c25-8dc5-a7ff5c4c33f5",
       "queryNumber": "9380347898",
@@ -6087,32 +6132,17 @@
         "lng": 85.34856,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Raja%20Pakar%2C%20vaishali%2C%20Bihar%2C%20844124%2C%20India"
       }
-    },
-    {
-      "id": "6ccd2200-af56-41db-b3a6-5420e3b5b30e",
-      "queryNumber": "8298191845",
-      "timestamp": "2026-10-25T13:36:56.084Z",
-      "source": "bot",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "resultSummary": {
-        "name": "Nilam Kumari",
-        "truecallerName": "Manoj(tuku",
-        "fatherName": "W/O Anil Kumar",
-        "mobile": "8298191845",
-        "altMobile": "8092503276",
-        "circle": "VODA BHR&JHR",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "banbira, Vaishali, BASANTPUR B O - VSLI, BIHAR, VODA BHR&JHR, 844504",
-        "totalRecords": 1,
-        "lat": 25.67303,
-        "lng": 85.40363,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BASANTPUR%20B%20O%20-%20VSLI%2C%20BIHAR%2C%20VODA%20BHR%26JHR%2C%20844504%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "4aad26fa-f1fa-4608-872d-15ab2cf92623",
+      "timestamp": "2026-10-26T12:29:02.696Z",
+      "type": "LOOKUP",
+      "userId": 8754360851,
+      "userName": "Error",
+      "summary": "Number Lookup 8617553992 (Not found)"
+    },
     {
       "id": "abd2ec54-5d80-46a1-8717-707d867e61b2",
       "timestamp": "2026-10-26T12:24:14.097Z",
@@ -7304,16 +7334,8 @@
       "userId": 8917543741,
       "userName": "Sai",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "234ac0a6-1c09-48e8-a17f-5f21f2d505ae",
-      "timestamp": "2026-10-25T15:34:44.275Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168811216,
+  "lastTelegramUpdateId": 168811217,
   "usedEmailIds": []
 }
