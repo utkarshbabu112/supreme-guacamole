@@ -627,15 +627,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 4,
+      "totalLookups": 5,
       "referralCode": "HEX577549",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-26T07:28:16.987Z",
-      "lastActiveAt": "2026-10-26T07:30:11.974Z",
+      "lastActiveAt": "2026-10-26T07:46:25.663Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "f4762efe-511b-402d-8b52-f14422b9f7e5",
+          "queryNumber": "8310837158",
+          "timestamp": "2026-10-26T07:46:25.782Z",
+          "source": "bot",
+          "userId": 1674577549,
+          "userName": "Shreeshank",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8310837158",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "0f243e7d-a255-4b74-b671-a43961a981fb",
           "queryNumber": "7338404556",
@@ -679,32 +701,10 @@
             "lng": 77.209,
             "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
           }
-        },
-        {
-          "id": "573721d3-0135-47ec-8ec6-c8179dd9d190",
-          "queryNumber": "8310837158",
-          "timestamp": "2026-10-26T07:29:00.501Z",
-          "source": "bot",
-          "userId": 1674577549,
-          "userName": "Shreeshank",
-          "resultSummary": {
-            "name": "Not found",
-            "fatherName": "Not found",
-            "mobile": "8310837158",
-            "altMobile": "Not found",
-            "circle": "New Delhi, Delhi",
-            "idNumber": "Not found",
-            "email": "Not found",
-            "address": "New Delhi, Delhi",
-            "totalRecords": 1,
-            "lat": 28.6139,
-            "lng": 77.209,
-            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-          }
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9695,
+      "lastBotMessageId": 9708,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
@@ -3308,6 +3308,28 @@
   },
   "globalHistory": [
     {
+      "id": "f4762efe-511b-402d-8b52-f14422b9f7e5",
+      "queryNumber": "8310837158",
+      "timestamp": "2026-10-26T07:46:25.782Z",
+      "source": "bot",
+      "userId": 1674577549,
+      "userName": "Shreeshank",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8310837158",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
       "id": "da21b843-6564-4f12-95ff-ca8e9a53ba66",
       "queryNumber": "8103493205",
       "timestamp": "2026-10-26T07:33:51.014Z",
@@ -5510,32 +5532,17 @@
         "lng": 85.3176,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=S%2FO%20Hulash%20Saw%2C%20Khambhwa%2C%20NA%2C%20dharampur%2C%20Dharampur%20Bishungarh%20Hazaribag%2C%20NA%2C%20Jharkhand%2C%20825313%2C%20India"
       }
-    },
-    {
-      "id": "3f5202ee-d1ba-4152-af24-337bf6cc20b5",
-      "queryNumber": "8676972045",
-      "timestamp": "2026-10-25T04:26:33.016Z",
-      "source": "bot",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "resultSummary": {
-        "name": "Ranju Devi",
-        "truecallerName": "Asha Devi 16",
-        "fatherName": "Pankaj Kumar",
-        "mobile": "8676972045",
-        "altMobile": "9708250034",
-        "circle": "BIHAR JIO",
-        "idNumber": "794299567181",
-        "email": "Not found",
-        "address": "rajapakar Vaishali Bihar block rajapakar Thana rajapakar pos, west tola ward no 3 rajapakar Vaishali Bihar, Rajya pakshi Mandir, rajapakar Vaishali Bihar block rajapakar Thana rajapakar, Vaishali, Vaisha",
-        "totalRecords": 1,
-        "lat": 25.5921,
-        "lng": 85.1256,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=rajapakar%20Vaishali%20Bihar%20block%20rajapakar%20Thana%20rajapakar%20pos%2C%20west%20tola%20ward%20no%203%20rajapakar%20Vaishali%20Bihar%2C%20Rajya%20pakshi%20Mandir%2C%20rajapakar%20Vaishali%20Bihar%20block%20rajapakar%20Thana%20rajapakar%2C%20Vaishali%2C%20Vaisha%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "d0f98976-fa55-4745-933a-fd7146758340",
+      "timestamp": "2026-10-26T07:46:25.782Z",
+      "type": "LOOKUP",
+      "userId": 1674577549,
+      "userName": "Shreeshank",
+      "summary": "Number Lookup 8310837158 (Not found)"
+    },
     {
       "id": "d575fc05-01a0-4322-8f2a-d659f50315cc",
       "timestamp": "2026-10-26T07:33:51.014Z",
@@ -6727,16 +6734,8 @@
       "userId": 8996216483,
       "userName": "ROHIT X",
       "summary": "Number Lookup 9565437029 (Vikram)"
-    },
-    {
-      "id": "bf35b2e9-ece2-4b8b-8492-60dc6276385c",
-      "timestamp": "2026-10-25T11:53:45.404Z",
-      "type": "LOOKUP",
-      "userId": 8715357942,
-      "userName": "Yashmit",
-      "summary": "Number Lookup 8586072164 (Sakshi Bansal)"
     }
   ],
-  "lastTelegramUpdateId": 168811076,
+  "lastTelegramUpdateId": 168811080,
   "usedEmailIds": []
 }
