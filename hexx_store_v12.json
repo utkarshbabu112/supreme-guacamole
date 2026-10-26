@@ -2797,6 +2797,30 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26",
       "liveLocationUsed": 0
+    },
+    "7931077596": {
+      "id": 7931077596,
+      "firstName": "i= √-1",
+      "username": "Complexnumbersiota",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX077596",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T05:31:06.892Z",
+      "lastActiveAt": "2026-10-26T05:31:28.183Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9632,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -4824,6 +4848,14 @@
   ],
   "logs": [
     {
+      "id": "23c88da4-6db7-449a-8f0d-542f52bce686",
+      "timestamp": "2026-10-26T05:31:07.538Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7931077596,
+      "userName": "i= √-1",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "b4fbc892-fe5b-462d-a8c6-f87298b8d1b6",
       "timestamp": "2026-10-26T05:14:10.848Z",
       "type": "LOOKUP",
@@ -6014,16 +6046,8 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "d55dcbd4-270c-4d0b-b3c3-b53aedb56eac",
-      "timestamp": "2026-10-25T10:21:50.751Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168811018,
+  "lastTelegramUpdateId": 168811024,
   "usedEmailIds": []
 }
