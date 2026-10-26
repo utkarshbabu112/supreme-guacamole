@@ -627,18 +627,87 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "totalLookups": 4,
       "referralCode": "HEX577549",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-26T07:28:16.987Z",
-      "lastActiveAt": "2026-10-26T07:28:19.889Z",
+      "lastActiveAt": "2026-10-26T07:30:11.974Z",
       "isBanned": false,
-      "history": [],
-      "forceJoinVerified": false,
-      "lastBotMessageId": 9686,
-      "lastBotMessageHasPhoto": false
+      "history": [
+        {
+          "id": "0f243e7d-a255-4b74-b671-a43961a981fb",
+          "queryNumber": "7338404556",
+          "timestamp": "2026-10-26T07:30:12.105Z",
+          "source": "bot",
+          "userId": 1674577549,
+          "userName": "Shreeshank",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7338404556",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
+        {
+          "id": "04af42af-9800-43c4-b02b-5de937a28b09",
+          "queryNumber": "9880204556",
+          "timestamp": "2026-10-26T07:29:59.979Z",
+          "source": "bot",
+          "userId": 1674577549,
+          "userName": "Shreeshank",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9880204556",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
+        {
+          "id": "573721d3-0135-47ec-8ec6-c8179dd9d190",
+          "queryNumber": "8310837158",
+          "timestamp": "2026-10-26T07:29:00.501Z",
+          "source": "bot",
+          "userId": 1674577549,
+          "userName": "Shreeshank",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8310837158",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9695,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     },
     "6672896116": {
       "id": 6672896116,
@@ -3090,6 +3159,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "5618503449": {
+      "id": 5618503449,
+      "firstName": "Arshad",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX503449",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T07:33:18.586Z",
+      "lastActiveAt": "2026-10-26T07:33:41.032Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9697,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -3192,6 +3284,94 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "0f243e7d-a255-4b74-b671-a43961a981fb",
+      "queryNumber": "7338404556",
+      "timestamp": "2026-10-26T07:30:12.105Z",
+      "source": "bot",
+      "userId": 1674577549,
+      "userName": "Shreeshank",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7338404556",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "04af42af-9800-43c4-b02b-5de937a28b09",
+      "queryNumber": "9880204556",
+      "timestamp": "2026-10-26T07:29:59.979Z",
+      "source": "bot",
+      "userId": 1674577549,
+      "userName": "Shreeshank",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9880204556",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "2f208d7b-4995-4abc-9a6f-3382c4fb7fcf",
+      "queryNumber": "7338404556",
+      "timestamp": "2026-10-26T07:29:33.512Z",
+      "source": "bot",
+      "userId": 1674577549,
+      "userName": "Shreeshank",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7338404556",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "573721d3-0135-47ec-8ec6-c8179dd9d190",
+      "queryNumber": "8310837158",
+      "timestamp": "2026-10-26T07:29:00.501Z",
+      "source": "bot",
+      "userId": 1674577549,
+      "userName": "Shreeshank",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8310837158",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "4e864b7b-7d46-437a-8bcb-e0cf59aa4fce",
       "queryNumber": "7011751831",
@@ -5331,55 +5511,49 @@
         "lng": 85.10725,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Airtel%20Circle%20Office%2C%20Patliputra%20Indistrial%20Area%20patna%2C%20Plot%20No%2018%2C%20Patliputra%2C%20Bihar%2C%20800013%2C%20India"
       }
-    },
-    {
-      "id": "91649e04-9f1f-4c7f-b90f-36e61528d2c5",
-      "queryNumber": "9708398593",
-      "timestamp": "2026-10-25T04:12:05.491Z",
-      "source": "bot",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "resultSummary": {
-        "name": "PRAMILA DEVI",
-        "truecallerName": "nisha rajapakar",
-        "fatherName": "JAYVIR KUMAR",
-        "mobile": "9708398593",
-        "altMobile": "Not found",
-        "circle": "VODA BHR&JHR",
-        "idNumber": "365308179342",
-        "email": "Not found",
-        "address": "W/O Jayvir Kumar, W/O Jayvir Kumar ward no 02, Rajapakar kali mandir, Rajapakar Raja Pakar , RAJA PAKAR-VAISHALI, BR, 844124",
-        "totalRecords": 1,
-        "lat": 25.75603,
-        "lng": 85.30739,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%2FO%20Jayvir%20Kumar%2C%20W%2FO%20Jayvir%20Kumar%20ward%20no%2002%2C%20Rajapakar%20kali%20mandir%2C%20Rajapakar%20Raja%20Pakar%20%2C%20RAJA%20PAKAR-VAISHALI%2C%20BR%2C%20844124%2C%20India"
-      }
-    },
-    {
-      "id": "15c4f986-ab18-4687-a23d-fbe03446183e",
-      "queryNumber": "9708398593",
-      "timestamp": "2026-10-25T04:11:32.280Z",
-      "source": "bot",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "resultSummary": {
-        "name": "PRAMILA DEVI",
-        "truecallerName": "nisha rajapakar",
-        "fatherName": "JAYVIR KUMAR",
-        "mobile": "9708398593",
-        "altMobile": "Not found",
-        "circle": "VODA BHR&JHR",
-        "idNumber": "365308179342",
-        "email": "Not found",
-        "address": "W/O Jayvir Kumar, W/O Jayvir Kumar ward no 02, Rajapakar kali mandir, Rajapakar Raja Pakar , RAJA PAKAR-VAISHALI, BR, 844124",
-        "totalRecords": 1,
-        "lat": 25.75603,
-        "lng": 85.30739,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=W%2FO%20Jayvir%20Kumar%2C%20W%2FO%20Jayvir%20Kumar%20ward%20no%2002%2C%20Rajapakar%20kali%20mandir%2C%20Rajapakar%20Raja%20Pakar%20%2C%20RAJA%20PAKAR-VAISHALI%2C%20BR%2C%20844124%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "99b8aafd-5da4-4fa6-a8dc-9c3a8b3b9748",
+      "timestamp": "2026-10-26T07:33:19.142Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5618503449,
+      "userName": "Arshad",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "69d2eaf0-d70e-4063-b8a6-009844616c75",
+      "timestamp": "2026-10-26T07:30:12.105Z",
+      "type": "LOOKUP",
+      "userId": 1674577549,
+      "userName": "Shreeshank",
+      "summary": "Number Lookup 7338404556 (Not found)"
+    },
+    {
+      "id": "920bb3a7-1e04-4d20-b3d2-1f03e35e8055",
+      "timestamp": "2026-10-26T07:29:59.979Z",
+      "type": "LOOKUP",
+      "userId": 1674577549,
+      "userName": "Shreeshank",
+      "summary": "Number Lookup 9880204556 (Not found)"
+    },
+    {
+      "id": "b2de12e6-ac1c-4438-b221-5d06072a2aa6",
+      "timestamp": "2026-10-26T07:29:33.512Z",
+      "type": "LOOKUP",
+      "userId": 1674577549,
+      "userName": "Shreeshank",
+      "summary": "Number Lookup 7338404556 (Not found)"
+    },
+    {
+      "id": "1f30caa8-a2b6-4353-a0e0-69f43595b105",
+      "timestamp": "2026-10-26T07:29:00.501Z",
+      "type": "LOOKUP",
+      "userId": 1674577549,
+      "userName": "Shreeshank",
+      "summary": "Number Lookup 8310837158 (Not found)"
+    },
     {
       "id": "792be80f-5a63-48ca-a3b4-c15e275fa8a0",
       "timestamp": "2026-10-26T07:28:17.547Z",
@@ -6539,48 +6713,8 @@
       "userId": 8996216483,
       "userName": "ROHIT X",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "ac5dc5e6-d201-4389-8cf6-b85e12292616",
-      "timestamp": "2026-10-25T11:52:29.749Z",
-      "type": "LOOKUP",
-      "userId": 8715357942,
-      "userName": "Yashmit",
-      "summary": "Number Lookup 8826797166 (Mandeep Singh)"
-    },
-    {
-      "id": "f9d0e7cb-60f3-4801-8f33-f6e0977dcab4",
-      "timestamp": "2026-10-25T11:51:25.373Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8715357942,
-      "userName": "Yashmit",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "bc623310-88e3-430b-8516-945639f26c0e",
-      "timestamp": "2026-10-25T11:51:09.854Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8715357942,
-      "userName": "Yashmit",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "594b5e23-9a75-4a3b-9aca-75784a8b48a1",
-      "timestamp": "2026-10-25T11:30:51.685Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6516956649,
-      "userName": "Shahaz",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "843985b1-57e7-46ca-b390-61fdd1446a36",
-      "timestamp": "2026-10-25T11:30:24.823Z",
-      "type": "LOOKUP",
-      "userId": 6516956649,
-      "userName": "Shahaz",
-      "summary": "Number Lookup 9101364677 (Amjad mamu)"
     }
   ],
-  "lastTelegramUpdateId": 168811059,
+  "lastTelegramUpdateId": 168811071,
   "usedEmailIds": []
 }
