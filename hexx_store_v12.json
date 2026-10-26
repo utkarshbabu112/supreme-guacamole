@@ -3829,6 +3829,27 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "8046568113": {
+      "id": 8046568113,
+      "firstName": "Bittuu",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX568113",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T12:36:15.998Z",
+      "lastActiveAt": "2026-10-26T12:36:15.998Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 9884,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -6136,6 +6157,14 @@
   ],
   "logs": [
     {
+      "id": "935f5cc9-ae74-4b2a-9c09-8cbb74fb71c6",
+      "timestamp": "2026-10-26T12:36:16.697Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8046568113,
+      "userName": "Bittuu",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "4aad26fa-f1fa-4608-872d-15ab2cf92623",
       "timestamp": "2026-10-26T12:29:02.696Z",
       "type": "LOOKUP",
@@ -7326,16 +7355,8 @@
       "userId": 8917543741,
       "userName": "Sai",
       "summary": "Number Lookup 7432944373 (Not found)"
-    },
-    {
-      "id": "4a938c7c-e3a2-4807-914b-d83169a99f67",
-      "timestamp": "2026-10-25T15:39:08.448Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8917543741,
-      "userName": "Sai",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168811217,
+  "lastTelegramUpdateId": 168811218,
   "usedEmailIds": []
 }
