@@ -457,6 +457,29 @@
       "lastLookupDate": "2026-10-25",
       "liveLocationUsed": 0
     },
+    "1366188889": {
+      "id": 1366188889,
+      "firstName": "Liungs",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX188889",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T17:43:50.432Z",
+      "lastActiveAt": "2026-10-26T17:45:56.514Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10030,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
+    },
     "1482397019": {
       "id": 1482397019,
       "firstName": "Jeet",
@@ -4497,6 +4520,49 @@
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "8807632299": {
+      "id": 8807632299,
+      "firstName": "Tanos",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX632299",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T17:43:55.700Z",
+      "lastActiveAt": "2026-10-26T17:43:55.700Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 10020,
+      "lastBotMessageHasPhoto": false
+    },
+    "6556898842": {
+      "id": 6556898842,
+      "firstName": "Dark𓁇𓁋",
+      "username": "misogaisth",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX898842",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T17:44:52.325Z",
+      "lastActiveAt": "2026-10-26T17:45:58.247Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10032,
+      "lastBotMessageHasPhoto": true
     }
   },
   "orders": {
@@ -6802,6 +6868,46 @@
   ],
   "logs": [
     {
+      "id": "d5fe5408-bd8b-42f5-bd0f-a1dd949df60c",
+      "timestamp": "2026-10-26T17:45:58.823Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6556898842,
+      "userName": "Dark𓁇𓁋",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "f7ea29ec-a573-4273-b6d4-e7120ceeae3e",
+      "timestamp": "2026-10-26T17:45:08.208Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6556898842,
+      "userName": "Dark𓁇𓁋",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "46e9f95b-646e-4b54-b422-90535c817bd2",
+      "timestamp": "2026-10-26T17:44:53.030Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6556898842,
+      "userName": "Dark𓁇𓁋",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "27f872e5-c6ca-4f50-9c90-6a7aecd8ed23",
+      "timestamp": "2026-10-26T17:43:57.219Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8807632299,
+      "userName": "Tanos",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "6aa4ec45-6abf-49a1-859d-62222fe45b3d",
+      "timestamp": "2026-10-26T17:43:51.415Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1366188889,
+      "userName": "Liungs",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "9a2a72e4-1bd7-48bb-8945-50f4ef7c579b",
       "timestamp": "2026-10-26T17:23:54.401Z",
       "type": "BOT_MESSAGE",
@@ -7960,48 +8066,8 @@
       "userId": 8181360834,
       "userName": "-",
       "summary": "Number Lookup 7277221859 (Not found)"
-    },
-    {
-      "id": "4f6f12d6-0f7e-453c-b7b4-3667809a4329",
-      "timestamp": "2026-10-25T19:24:27.685Z",
-      "type": "LOOKUP",
-      "userId": 8858186906,
-      "userName": "Arsh",
-      "summary": "Number Lookup 7017402361 (Not found)"
-    },
-    {
-      "id": "8331b0de-4fb8-4da4-8a8c-4be7f5156f87",
-      "timestamp": "2026-10-25T19:23:30.203Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8181360834,
-      "userName": "-",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "e8918a07-c62c-4069-b5fb-8b567ff4699c",
-      "timestamp": "2026-10-25T19:23:18.144Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8858186906,
-      "userName": "Arsh",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "014f979b-415d-46bc-86c2-97451c2480d7",
-      "timestamp": "2026-10-25T19:15:16.547Z",
-      "type": "LOOKUP",
-      "userId": 8551993777,
-      "userName": "Ankit",
-      "summary": "Number Lookup 6206650181 (Not found)"
-    },
-    {
-      "id": "1b17fa67-bb17-47ae-b113-e34b574fd440",
-      "timestamp": "2026-10-25T19:15:05.653Z",
-      "type": "PAYMENT",
-      "userId": 5225914213,
-      "userName": "D",
-      "summary": "Created Auto-QR Order HEXJ8JF4213 (₹29 for 7 Days VIP)"
     }
   ],
-  "lastTelegramUpdateId": 168811334,
+  "lastTelegramUpdateId": 168811348,
   "usedEmailIds": []
 }
