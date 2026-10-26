@@ -4588,6 +4588,30 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "7838681100": {
+      "id": 7838681100,
+      "firstName": "ɢᴏᴊᴏ ꜱᴀᴛᴏʀᴜ 🕊️",
+      "username": "heygojoo",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX681100",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T17:55:10.456Z",
+      "lastActiveAt": "2026-10-26T17:55:50.636Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10040,
+      "lastBotMessageHasPhoto": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -6893,6 +6917,22 @@
   ],
   "logs": [
     {
+      "id": "68b91123-4ec4-4eb0-8f54-1b7d3459afce",
+      "timestamp": "2026-10-26T17:55:36.276Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7838681100,
+      "userName": "ɢᴏᴊᴏ ꜱᴀᴛᴏʀᴜ 🕊️",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "39ab3d49-f08c-4889-9e72-e80c376fefab",
+      "timestamp": "2026-10-26T17:55:11.017Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7838681100,
+      "userName": "ɢᴏᴊᴏ ꜱᴀᴛᴏʀᴜ 🕊️",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "9c458177-ae16-490a-95dc-2754a03f7261",
       "timestamp": "2026-10-26T17:46:05.534Z",
       "type": "LOOKUP",
@@ -8075,24 +8115,8 @@
       "userId": 7721493365,
       "userName": "Eternal dream",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "611e75c9-93d7-4145-a6c4-657ce39abfc6",
-      "timestamp": "2026-10-25T19:51:04.573Z",
-      "type": "LOOKUP",
-      "userId": 7721493365,
-      "userName": "Eternal dream",
-      "summary": "Number Lookup 8458838324 (Not found)"
-    },
-    {
-      "id": "eaf2ba81-4eff-4a05-aa83-f1a535832310",
-      "timestamp": "2026-10-25T19:24:57.817Z",
-      "type": "LOOKUP",
-      "userId": 8858186906,
-      "userName": "Arsh",
-      "summary": "Number Lookup 9897903301 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811350,
+  "lastTelegramUpdateId": 168811357,
   "usedEmailIds": []
 }
