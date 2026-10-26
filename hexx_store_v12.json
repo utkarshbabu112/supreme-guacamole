@@ -727,7 +727,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:07:01.294Z",
-      "lastActiveAt": "2026-10-26T09:06:32.104Z",
+      "lastActiveAt": "2026-10-26T09:55:35.857Z",
       "isBanned": false,
       "isAdminUnlocked": true,
       "history": [
@@ -822,7 +822,7 @@
           }
         }
       ],
-      "lastBotMessageId": 9750,
+      "lastBotMessageId": 9773,
       "lastBotMessageHasPhoto": true,
       "lookupMode": "info",
       "lastLookupDate": "2026-10-25",
@@ -5755,6 +5755,14 @@
   ],
   "logs": [
     {
+      "id": "8ed5717b-8f7c-47b6-9f6e-14fc375db424",
+      "timestamp": "2026-10-26T09:55:36.392Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "f1e3ffac-0e1f-4b4a-9502-1ea01379ae4e",
       "timestamp": "2026-10-26T09:30:39.588Z",
       "type": "LOOKUP",
@@ -6945,16 +6953,8 @@
       "userId": 7183197265,
       "userName": "OG",
       "summary": "Number Lookup 9174040900 (ANANWAR KHAN)"
-    },
-    {
-      "id": "955f6f42-002c-4f31-808c-a003a8f02b59",
-      "timestamp": "2026-10-25T12:33:20.878Z",
-      "type": "LOOKUP",
-      "userId": 7183197265,
-      "userName": "OG",
-      "summary": "Number Lookup 8959301342 (MR SHAFIK AHMAD)"
     }
   ],
-  "lastTelegramUpdateId": 168811134,
+  "lastTelegramUpdateId": 168811136,
   "usedEmailIds": []
 }
