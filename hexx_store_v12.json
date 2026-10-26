@@ -3168,17 +3168,40 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "totalLookups": 1,
       "referralCode": "HEX503449",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-26T07:33:18.586Z",
-      "lastActiveAt": "2026-10-26T07:33:41.032Z",
+      "lastActiveAt": "2026-10-26T07:34:31.964Z",
       "isBanned": false,
-      "history": [],
+      "history": [
+        {
+          "id": "da21b843-6564-4f12-95ff-ca8e9a53ba66",
+          "queryNumber": "8103493205",
+          "timestamp": "2026-10-26T07:33:51.014Z",
+          "source": "bot",
+          "userId": 5618503449,
+          "userName": "Arshad",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8103493205",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9697,
+      "lastBotMessageId": 9700,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
@@ -3284,6 +3307,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "da21b843-6564-4f12-95ff-ca8e9a53ba66",
+      "queryNumber": "8103493205",
+      "timestamp": "2026-10-26T07:33:51.014Z",
+      "source": "bot",
+      "userId": 5618503449,
+      "userName": "Arshad",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8103493205",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "0f243e7d-a255-4b74-b671-a43961a981fb",
       "queryNumber": "7338404556",
@@ -5488,32 +5533,17 @@
         "lng": 85.1256,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=rajapakar%20Vaishali%20Bihar%20block%20rajapakar%20Thana%20rajapakar%20pos%2C%20west%20tola%20ward%20no%203%20rajapakar%20Vaishali%20Bihar%2C%20Rajya%20pakshi%20Mandir%2C%20rajapakar%20Vaishali%20Bihar%20block%20rajapakar%20Thana%20rajapakar%2C%20Vaishali%2C%20Vaisha%2C%20India"
       }
-    },
-    {
-      "id": "91a06086-6a4a-4a70-b1f2-69cc2bf850cf",
-      "queryNumber": "6287353888",
-      "timestamp": "2026-10-25T04:14:24.260Z",
-      "source": "bot",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "resultSummary": {
-        "name": "BAL TEST CARD BHR",
-        "truecallerName": "aarif",
-        "fatherName": "Not found",
-        "mobile": "6287353888",
-        "altMobile": "Not found",
-        "circle": "AIRTEL BHR&JHR",
-        "idNumber": "APPROVALMAIL",
-        "email": "",
-        "address": "Airtel Circle Office, Patliputra Indistrial Area patna, Plot No 18, Patliputra, Bihar, 800013",
-        "totalRecords": 1,
-        "lat": 25.62637,
-        "lng": 85.10725,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Airtel%20Circle%20Office%2C%20Patliputra%20Indistrial%20Area%20patna%2C%20Plot%20No%2018%2C%20Patliputra%2C%20Bihar%2C%20800013%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "d575fc05-01a0-4322-8f2a-d659f50315cc",
+      "timestamp": "2026-10-26T07:33:51.014Z",
+      "type": "LOOKUP",
+      "userId": 5618503449,
+      "userName": "Arshad",
+      "summary": "Number Lookup 8103493205 (Not found)"
+    },
     {
       "id": "99b8aafd-5da4-4fa6-a8dc-9c3a8b3b9748",
       "timestamp": "2026-10-26T07:33:19.142Z",
@@ -6705,16 +6735,8 @@
       "userId": 8715357942,
       "userName": "Yashmit",
       "summary": "Number Lookup 8586072164 (Sakshi Bansal)"
-    },
-    {
-      "id": "d39b7d3b-11aa-43e1-ad37-78885d035b07",
-      "timestamp": "2026-10-25T11:53:23.555Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8996216483,
-      "userName": "ROHIT X",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168811071,
+  "lastTelegramUpdateId": 168811076,
   "usedEmailIds": []
 }
