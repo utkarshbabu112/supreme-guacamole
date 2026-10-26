@@ -478,7 +478,8 @@
       "lastBotMessageId": 10030,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-26"
+      "lastLookupDate": "2026-10-26",
+      "liveLocationUsed": 0
     },
     "1482397019": {
       "id": 1482397019,
@@ -569,7 +570,8 @@
       "history": [],
       "lastBotMessageId": 7973,
       "lastBotMessageHasPhoto": false,
-      "awaitingRedeemCode": false
+      "awaitingRedeemCode": false,
+      "liveLocationUsed": 0
     },
     "1672440707": {
       "id": 1672440707,
@@ -4450,7 +4452,8 @@
       "lastBotMessageId": 9984,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-26"
+      "lastLookupDate": "2026-10-26",
+      "liveLocationUsed": 0
     },
     "8988651908": {
       "id": 8988651908,
@@ -4540,7 +4543,8 @@
       "lastBotMessageId": 9997,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-26",
-      "awaitingRedeemCode": false
+      "awaitingRedeemCode": false,
+      "liveLocationUsed": 0
     },
     "7744821683": {
       "id": 7744821683,
@@ -4562,7 +4566,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 10006,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-10-26"
+      "lastLookupDate": "2026-10-26",
+      "liveLocationUsed": 0
     },
     "8187653328": {
       "id": 8187653328,
@@ -4585,7 +4590,8 @@
       "lastBotMessageId": 10014,
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-26"
+      "lastLookupDate": "2026-10-26",
+      "liveLocationUsed": 0
     },
     "8807632299": {
       "id": 8807632299,
@@ -4606,7 +4612,8 @@
       "history": [],
       "forceJoinVerified": false,
       "lastBotMessageId": 10020,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "6556898842": {
       "id": 6556898842,
@@ -4653,7 +4660,8 @@
       "lastBotMessageId": 10034,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-26"
+      "lastLookupDate": "2026-10-26",
+      "liveLocationUsed": 0
     },
     "7838681100": {
       "id": 7838681100,
@@ -4700,7 +4708,8 @@
       "lastBotMessageId": 10043,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-26"
+      "lastLookupDate": "2026-10-26",
+      "liveLocationUsed": 0
     },
     "5904266101": {
       "id": 5904266101,
@@ -4747,7 +4756,8 @@
       "lastBotMessageId": 10059,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-26"
+      "lastLookupDate": "2026-10-26",
+      "liveLocationUsed": 0
     },
     "8936197919": {
       "id": 8936197919,
@@ -4793,7 +4803,8 @@
       "lastBotMessageId": 10078,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-26"
+      "lastLookupDate": "2026-10-26",
+      "liveLocationUsed": 0
     },
     "8979593550": {
       "id": 8979593550,
@@ -4860,7 +4871,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 10088,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-10-26"
+      "lastLookupDate": "2026-10-26",
+      "liveLocationUsed": 0
     },
     "8832918185": {
       "id": 8832918185,
@@ -4929,7 +4941,8 @@
       "lastBotMessageId": 10112,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-26",
-      "awaitingRedeemCode": false
+      "awaitingRedeemCode": false,
+      "liveLocationUsed": 0
     },
     "8672555402": {
       "id": 8672555402,
@@ -4950,6 +4963,75 @@
       "history": [],
       "forceJoinVerified": true,
       "lastBotMessageId": 10096,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26",
+      "liveLocationUsed": 0
+    },
+    "8066457304": {
+      "id": 8066457304,
+      "firstName": "Faizan",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 2,
+      "referralCode": "HEX457304",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T20:23:03.892Z",
+      "lastActiveAt": "2026-10-26T20:24:15.779Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "b35be8f2-ff2d-43ef-a388-80435afb2e3a",
+          "queryNumber": "6290682470",
+          "timestamp": "2026-10-26T20:24:04.291Z",
+          "source": "bot",
+          "userId": 8066457304,
+          "userName": "Faizan",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "6290682470",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
+        {
+          "id": "eb9aa886-0f1a-4e34-bb7c-aceabefe9192",
+          "queryNumber": "9831407673",
+          "timestamp": "2026-10-26T20:23:33.360Z",
+          "source": "bot",
+          "userId": 8066457304,
+          "userName": "Faizan",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9831407673",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10114,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
@@ -5055,6 +5137,50 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "b35be8f2-ff2d-43ef-a388-80435afb2e3a",
+      "queryNumber": "6290682470",
+      "timestamp": "2026-10-26T20:24:04.291Z",
+      "source": "bot",
+      "userId": 8066457304,
+      "userName": "Faizan",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "6290682470",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "eb9aa886-0f1a-4e34-bb7c-aceabefe9192",
+      "queryNumber": "9831407673",
+      "timestamp": "2026-10-26T20:23:33.360Z",
+      "source": "bot",
+      "userId": 8066457304,
+      "userName": "Faizan",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9831407673",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "869bed26-10a5-4698-93f7-ccbdb5f25229",
       "queryNumber": "9046029045",
@@ -7210,53 +7336,33 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "8cbcf764-00a8-4f9c-ad3b-d66db4cc9bd6",
-      "queryNumber": "7017402361",
-      "timestamp": "2026-10-25T19:24:27.685Z",
-      "source": "bot",
-      "userId": 8858186906,
-      "userName": "Arsh",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7017402361",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "35effad8-0163-4a51-b6fa-c8ef64dd01a9",
-      "queryNumber": "6206650181",
-      "timestamp": "2026-10-25T19:15:16.547Z",
-      "source": "bot",
-      "userId": 8551993777,
-      "userName": "Ankit",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "6206650181",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "f452400b-8864-4fff-afc5-f5b3377ffc34",
+      "timestamp": "2026-10-26T20:24:04.291Z",
+      "type": "LOOKUP",
+      "userId": 8066457304,
+      "userName": "Faizan",
+      "summary": "Number Lookup 6290682470 (Not found)"
+    },
+    {
+      "id": "50a0ee77-ed90-4db3-8116-96eb488e36b8",
+      "timestamp": "2026-10-26T20:23:33.360Z",
+      "type": "LOOKUP",
+      "userId": 8066457304,
+      "userName": "Faizan",
+      "summary": "Number Lookup 9831407673 (Not found)"
+    },
+    {
+      "id": "5222709a-d37c-422b-aca8-eea566dd964e",
+      "timestamp": "2026-10-26T20:23:04.464Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8066457304,
+      "userName": "Faizan",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "7b80e41a-3b49-45b9-9caa-edc8d55793b2",
       "timestamp": "2026-10-26T20:07:15.583Z",
@@ -8432,32 +8538,8 @@
       "userId": 8877490186,
       "userName": "Ghb",
       "summary": "Number Lookup 8651776228 (Not found)"
-    },
-    {
-      "id": "75b1b687-9953-4eee-a29c-b2b0b5ed7bf6",
-      "timestamp": "2026-10-26T04:09:26.256Z",
-      "type": "LOOKUP",
-      "userId": 8877490186,
-      "userName": "Ghb",
-      "summary": "Number Lookup 8340531650 (Not found)"
-    },
-    {
-      "id": "2d0be4ae-2160-428b-b8a3-2b68a2f832f9",
-      "timestamp": "2026-10-26T04:09:05.056Z",
-      "type": "LOOKUP",
-      "userId": 8877490186,
-      "userName": "Ghb",
-      "summary": "Number Lookup 9156119110 (Not found)"
-    },
-    {
-      "id": "e86c924f-d532-4c07-b46b-15e2f75a3b0f",
-      "timestamp": "2026-10-26T04:05:47.798Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8076122703,
-      "userName": "IQBAL2",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168811418,
+  "lastTelegramUpdateId": 168811425,
   "usedEmailIds": []
 }
