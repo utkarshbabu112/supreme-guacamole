@@ -526,6 +526,28 @@
       "lastLookupDate": "2026-10-26",
       "liveLocationUsed": 0
     },
+    "1545684588": {
+      "id": 1545684588,
+      "firstName": "Shyam",
+      "username": "Shivam1063",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX684588",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T16:10:57.451Z",
+      "lastActiveAt": "2026-10-26T16:11:53.543Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 7973,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false
+    },
     "1672440707": {
       "id": 1672440707,
       "firstName": "Jaat",
@@ -4271,6 +4293,75 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26",
       "liveLocationUsed": 0
+    },
+    "7621392635": {
+      "id": 7621392635,
+      "firstName": "𝗗𝗲𝘀𝗶 𝗦𝘂𝗻𝗶𝗹 𝗟𝗶𝘃𝗲",
+      "username": "DesiSunil_live",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 2,
+      "referralCode": "HEX392635",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T16:13:02.333Z",
+      "lastActiveAt": "2026-10-26T16:14:32.624Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "20600de8-0de1-40d7-af06-cb92e1cb093e",
+          "queryNumber": "9153817412",
+          "timestamp": "2026-10-26T16:14:33.575Z",
+          "source": "bot",
+          "userId": 7621392635,
+          "userName": "𝗗𝗲𝘀𝗶 𝗦𝘂𝗻𝗶𝗹 𝗟𝗶𝘃𝗲",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9153817412",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
+        {
+          "id": "7ab037de-80b1-4b0b-a230-91e734138bd3",
+          "queryNumber": "8825131586",
+          "timestamp": "2026-10-26T16:13:18.057Z",
+          "source": "bot",
+          "userId": 7621392635,
+          "userName": "𝗗𝗲𝘀𝗶 𝗦𝘂𝗻𝗶𝗹 𝗟𝗶𝘃𝗲",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8825131586",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9984,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -4373,6 +4464,50 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "20600de8-0de1-40d7-af06-cb92e1cb093e",
+      "queryNumber": "9153817412",
+      "timestamp": "2026-10-26T16:14:33.575Z",
+      "source": "bot",
+      "userId": 7621392635,
+      "userName": "𝗗𝗲𝘀𝗶 𝗦𝘂𝗻𝗶𝗹 𝗟𝗶𝘃𝗲",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9153817412",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "7ab037de-80b1-4b0b-a230-91e734138bd3",
+      "queryNumber": "8825131586",
+      "timestamp": "2026-10-26T16:13:18.057Z",
+      "source": "bot",
+      "userId": 7621392635,
+      "userName": "𝗗𝗲𝘀𝗶 𝗦𝘂𝗻𝗶𝗹 𝗟𝗶𝘃𝗲",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8825131586",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "d6b493e2-430c-46d8-8feb-12acb1a7c9bf",
       "queryNumber": "7551060474",
@@ -6528,31 +6663,33 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "c5a7ab7b-3319-433f-b43c-c388bb07eb96",
-      "queryNumber": "8273770483",
-      "timestamp": "2026-10-25T15:44:13.863Z",
-      "source": "bot",
-      "userId": 8127527795,
-      "userName": "..",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8273770483",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "0b93a012-4089-4f31-9f2e-90e0bc2189fc",
+      "timestamp": "2026-10-26T16:14:33.575Z",
+      "type": "LOOKUP",
+      "userId": 7621392635,
+      "userName": "𝗗𝗲𝘀𝗶 𝗦𝘂𝗻𝗶𝗹 𝗟𝗶𝘃𝗲",
+      "summary": "Number Lookup 9153817412 (Not found)"
+    },
+    {
+      "id": "21b16ec9-8345-4b1e-84bf-90e31b7cd8e3",
+      "timestamp": "2026-10-26T16:13:18.057Z",
+      "type": "LOOKUP",
+      "userId": 7621392635,
+      "userName": "𝗗𝗲𝘀𝗶 𝗦𝘂𝗻𝗶𝗹 𝗟𝗶𝘃𝗲",
+      "summary": "Number Lookup 8825131586 (Not found)"
+    },
+    {
+      "id": "5043e1ff-715d-46cd-9e41-b7605153dea9",
+      "timestamp": "2026-10-26T16:13:02.920Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7621392635,
+      "userName": "𝗗𝗲𝘀𝗶 𝗦𝘂𝗻𝗶𝗹 𝗟𝗶𝘃𝗲",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "2ad1d5d0-f918-4113-af88-c804f4797652",
       "timestamp": "2026-10-26T15:43:08.751Z",
@@ -7728,32 +7865,8 @@
       "userId": 968783051,
       "userName": "Arbaz",
       "summary": "Number Lookup 9711465734 (Not found)"
-    },
-    {
-      "id": "124b1f0d-0fa7-4971-83f5-3c21e17b0c50",
-      "timestamp": "2026-10-25T17:29:10.580Z",
-      "type": "BOT_MESSAGE",
-      "userId": 968783051,
-      "userName": "Arbaz",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "1ad34e28-e29e-4a23-b59e-7529eb4c8d86",
-      "timestamp": "2026-10-25T17:29:04.616Z",
-      "type": "LOOKUP",
-      "userId": 968783051,
-      "userName": "Arbaz",
-      "summary": "Number Lookup 8588979184 (Not found)"
-    },
-    {
-      "id": "eefce0aa-3afd-4606-9463-126a10e54015",
-      "timestamp": "2026-10-25T17:28:39.895Z",
-      "type": "LOOKUP",
-      "userId": 8557294018,
-      "userName": "Demon",
-      "summary": "Number Lookup 8708332783 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811289,
+  "lastTelegramUpdateId": 168811303,
   "usedEmailIds": []
 }
