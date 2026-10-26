@@ -3769,17 +3769,40 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "totalLookups": 2,
       "referralCode": "HEX139655",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-26T12:23:14.309Z",
-      "lastActiveAt": "2026-10-26T12:23:22.647Z",
+      "lastActiveAt": "2026-10-26T12:24:13.740Z",
       "isBanned": false,
-      "history": [],
+      "history": [
+        {
+          "id": "7340cc1a-78c0-4c25-8dc5-a7ff5c4c33f5",
+          "queryNumber": "9380347898",
+          "timestamp": "2026-10-26T12:24:14.097Z",
+          "source": "bot",
+          "userId": 8483139655,
+          "userName": "Himanshu",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9380347898",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9872,
+      "lastBotMessageId": 9880,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
@@ -3885,6 +3908,50 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "7340cc1a-78c0-4c25-8dc5-a7ff5c4c33f5",
+      "queryNumber": "9380347898",
+      "timestamp": "2026-10-26T12:24:14.097Z",
+      "source": "bot",
+      "userId": 8483139655,
+      "userName": "Himanshu",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9380347898",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "d748d164-26db-4318-8446-346cef9129f8",
+      "queryNumber": "9380347898",
+      "timestamp": "2026-10-26T12:23:55.037Z",
+      "source": "bot",
+      "userId": 8483139655,
+      "userName": "Himanshu",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9380347898",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "d289687b-8e9e-456f-9fe0-87a3f306e0a5",
       "queryNumber": "9510782849",
@@ -6043,55 +6110,25 @@
         "lng": 85.40363,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BASANTPUR%20B%20O%20-%20VSLI%2C%20BIHAR%2C%20VODA%20BHR%26JHR%2C%20844504%2C%20India"
       }
-    },
-    {
-      "id": "10de7f72-ee60-4c26-bcd3-143e340be646",
-      "queryNumber": "8178531201",
-      "timestamp": "2026-10-25T13:15:05.384Z",
-      "source": "bot",
-      "userId": 8977017456,
-      "userName": "USDT",
-      "resultSummary": {
-        "name": "Brij Kishor",
-        "truecallerName": "Yashkirti",
-        "fatherName": "Babu Ram",
-        "mobile": "8178531201",
-        "altMobile": "Not found",
-        "circle": "JIO DELHI",
-        "idNumber": "868962185876",
-        "email": "Not found",
-        "address": "E-73/ A-56 Gokal Puri, SANJAY COLONY Seelam Pur, Gokal Pur North East Delhi, Delhi, 110094",
-        "totalRecords": 1,
-        "lat": 28.71609,
-        "lng": 77.27375,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SANJAY%20COLONY%20Seelam%20Pur%2C%20Gokal%20Pur%20North%20East%20Delhi%2C%20Delhi%2C%20110094%2C%20India"
-      }
-    },
-    {
-      "id": "e752d92f-27a2-4be7-9640-8a85c545ceed",
-      "queryNumber": "8976290501",
-      "timestamp": "2026-10-25T13:10:20.403Z",
-      "source": "bot",
-      "userId": 8389339993,
-      "userName": "Alex",
-      "resultSummary": {
-        "name": "50463067 SABEER ALAM FLEXI",
-        "truecallerName": "50463067 SABEER ALAM FLEXI",
-        "fatherName": "Not found",
-        "mobile": "8976290501",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "abd2ec54-5d80-46a1-8717-707d867e61b2",
+      "timestamp": "2026-10-26T12:24:14.097Z",
+      "type": "LOOKUP",
+      "userId": 8483139655,
+      "userName": "Himanshu",
+      "summary": "Number Lookup 9380347898 (Not found)"
+    },
+    {
+      "id": "e9db7571-d076-4ccf-90e0-f07b8195a865",
+      "timestamp": "2026-10-26T12:23:55.037Z",
+      "type": "LOOKUP",
+      "userId": 8483139655,
+      "userName": "Himanshu",
+      "summary": "Number Lookup 9380347898 (Not found)"
+    },
     {
       "id": "5d8acc7a-1d2b-4a3f-af15-17b780a5c7f6",
       "timestamp": "2026-10-26T12:23:15.434Z",
@@ -7275,24 +7312,8 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "5f878986-6c9d-4304-a76c-d34a2f5bdb7e",
-      "timestamp": "2026-10-25T15:28:26.503Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "ba7dc51f-7204-4bd9-ad5c-c4ae92e7cd81",
-      "timestamp": "2026-10-25T14:51:05.132Z",
-      "type": "LOOKUP",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Number Lookup 9876543210 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811212,
+  "lastTelegramUpdateId": 168811216,
   "usedEmailIds": []
 }
