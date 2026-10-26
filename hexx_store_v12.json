@@ -1004,7 +1004,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:40:21.292Z",
-      "lastActiveAt": "2026-10-25T04:41:56.251Z",
+      "lastActiveAt": "2026-10-26T08:54:09.964Z",
       "isBanned": false,
       "history": [
         {
@@ -1054,11 +1054,12 @@
           }
         }
       ],
-      "lastBotMessageId": 8910,
+      "lastBotMessageId": 8906,
       "lastBotMessageHasPhoto": false,
       "lookupMode": "info",
       "lastLookupDate": "2026-10-25",
-      "liveLocationUsed": 0
+      "liveLocationUsed": 0,
+      "awaitingRedeemCode": false
     },
     "6212533949": {
       "id": 6212533949,
@@ -3252,6 +3253,75 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "8046807891": {
+      "id": 8046807891,
+      "firstName": "Trex",
+      "username": "Vexyy1919",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 5,
+      "referralCode": "HEX807891",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T08:55:17.055Z",
+      "lastActiveAt": "2026-10-26T08:57:12.027Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "3b74d9b3-e82b-4599-8dd9-1929a7ff1a72",
+          "queryNumber": "9548648250",
+          "timestamp": "2026-10-26T08:57:12.337Z",
+          "source": "bot",
+          "userId": 8046807891,
+          "userName": "Trex",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9548648250",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
+        {
+          "id": "0b7f7752-0eb2-43b3-acba-33785ff5a9a5",
+          "queryNumber": "8475946522",
+          "timestamp": "2026-10-26T08:56:31.557Z",
+          "source": "bot",
+          "userId": 8046807891,
+          "userName": "Trex",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8475946522",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9748,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -3354,6 +3424,116 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "3b74d9b3-e82b-4599-8dd9-1929a7ff1a72",
+      "queryNumber": "9548648250",
+      "timestamp": "2026-10-26T08:57:12.337Z",
+      "source": "bot",
+      "userId": 8046807891,
+      "userName": "Trex",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9548648250",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "578d8f07-40ec-4241-a9d4-fdcd9553201b",
+      "queryNumber": "9548648250",
+      "timestamp": "2026-10-26T08:56:46.076Z",
+      "source": "bot",
+      "userId": 8046807891,
+      "userName": "Trex",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9548648250",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "0b7f7752-0eb2-43b3-acba-33785ff5a9a5",
+      "queryNumber": "8475946522",
+      "timestamp": "2026-10-26T08:56:31.557Z",
+      "source": "bot",
+      "userId": 8046807891,
+      "userName": "Trex",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8475946522",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "46d95d71-49ad-4c57-aa0b-751540879fa5",
+      "queryNumber": "8475946522",
+      "timestamp": "2026-10-26T08:56:11.589Z",
+      "source": "bot",
+      "userId": 8046807891,
+      "userName": "Trex",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8475946522",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "727dd3be-9260-46d3-b0bc-f7fd7c619d97",
+      "queryNumber": "9548648250",
+      "timestamp": "2026-10-26T08:55:45.167Z",
+      "source": "bot",
+      "userId": 8046807891,
+      "userName": "Trex",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9548648250",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "8a9bb947-ebf8-481e-8e65-094e0a44ea70",
       "queryNumber": "6362110985",
@@ -5461,124 +5641,57 @@
         "lng": 78.07337,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=muradpur%20pavti%2C%20PavatiHapur%2C%20Uttar%20Pradesh%2C%20245205%2C%20India"
       }
-    },
-    {
-      "id": "57d21fe2-7ad3-4fd9-ae6f-7a4d8b73147d",
-      "queryNumber": "6397026324",
-      "timestamp": "2026-10-25T11:21:37.435Z",
-      "source": "bot",
-      "userId": 1672440707,
-      "userName": "Jaat",
-      "resultSummary": {
-        "name": "Yogendra",
-        "truecallerName": "Vaibhav Jio",
-        "fatherName": "Sulkhvir Singh",
-        "mobile": "6397026324",
-        "altMobile": "Not found",
-        "circle": "JIO UPW",
-        "idNumber": "801155981888",
-        "email": "Not found",
-        "address": "Garh Bridge Halt, PavatiGarhmukteshwarHapur, Uttar Pradesh, 245205",
-        "totalRecords": 1,
-        "lat": 28.77492,
-        "lng": 78.07337,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Garh%20Bridge%20Halt%2C%20PavatiGarhmukteshwarHapur%2C%20Uttar%20Pradesh%2C%20245205%2C%20India"
-      }
-    },
-    {
-      "id": "948b3f1c-d5ec-44d8-92c6-53fc93337f66",
-      "queryNumber": "9422969814",
-      "timestamp": "2026-10-25T11:00:34.692Z",
-      "source": "bot",
-      "userId": 8758294363,
-      "userName": "Anil",
-      "resultSummary": {
-        "name": "Friend Vaibhav",
-        "truecallerName": "Friend Vaibhav",
-        "fatherName": "Not found",
-        "mobile": "9422969814",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "04b72169-5618-42a4-92b3-731e8047d0df",
-      "queryNumber": "9916082792",
-      "timestamp": "2026-10-25T10:59:43.902Z",
-      "source": "bot",
-      "userId": 8758294363,
-      "userName": "Anil",
-      "resultSummary": {
-        "name": "Venkatesh Arsid",
-        "truecallerName": "Venkatesh Arsid",
-        "fatherName": "laxmikanth arsid",
-        "mobile": "9916082792",
-        "altMobile": "6361947462",
-        "circle": "JIO KARNATKA",
-        "idNumber": "726329848240",
-        "email": "Not found",
-        "address": "gurumatkal rural, bidki katta yadgir, Gurmitkal Rural, Yadgir, Karnataka, 585214",
-        "totalRecords": 3,
-        "lat": 16.57441,
-        "lng": 76.92544,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gurmitkal%20Rural%2C%20Yadgir%2C%20Karnataka%2C%20585214%2C%20India"
-      }
-    },
-    {
-      "id": "f64b3dc8-f3d8-4ba9-9768-35dc69df9a72",
-      "queryNumber": "9012352014",
-      "timestamp": "2026-10-25T10:45:22.034Z",
-      "source": "bot",
-      "userId": 6212533949,
-      "userName": "𝑨𝒌𝒂𝒔𝒉 𝑻𝒓𝒖𝒔𝒕𝒆𝒅 𝑺𝒆𝒍𝒍𝒆𝒓",
-      "resultSummary": {
-        "name": "Pandit beelpu",
-        "truecallerName": "Pandit beelpu",
-        "fatherName": "Not found",
-        "mobile": "9012352014",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "654451a2-170d-4d38-b284-85e987d5048f",
-      "queryNumber": "9636875102",
-      "timestamp": "2026-10-25T04:41:58.016Z",
-      "source": "bot",
-      "userId": 8710309977,
-      "userName": "Sk",
-      "resultSummary": {
-        "name": "Po-21",
-        "truecallerName": "Po-21",
-        "fatherName": "Not found",
-        "mobile": "9636875102",
-        "altMobile": "Not found",
-        "circle": "Guwahati, Assam",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "Guwahati, Assam",
-        "totalRecords": 1,
-        "lat": 26.1305,
-        "lng": 91.7372,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.1305%2C91.7372"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "ad01a3a0-0f0c-4672-ad85-b6342855d2d8",
+      "timestamp": "2026-10-26T08:57:12.337Z",
+      "type": "LOOKUP",
+      "userId": 8046807891,
+      "userName": "Trex",
+      "summary": "Number Lookup 9548648250 (Not found)"
+    },
+    {
+      "id": "3ce76441-1d2b-4bc3-9736-680f04e6f83f",
+      "timestamp": "2026-10-26T08:56:46.076Z",
+      "type": "LOOKUP",
+      "userId": 8046807891,
+      "userName": "Trex",
+      "summary": "Number Lookup 9548648250 (Not found)"
+    },
+    {
+      "id": "91c59b03-02ae-41b9-bb76-f9b4624e6577",
+      "timestamp": "2026-10-26T08:56:31.557Z",
+      "type": "LOOKUP",
+      "userId": 8046807891,
+      "userName": "Trex",
+      "summary": "Number Lookup 8475946522 (Not found)"
+    },
+    {
+      "id": "bdef9925-0cb4-4315-b1ef-296aa6178e0a",
+      "timestamp": "2026-10-26T08:56:11.589Z",
+      "type": "LOOKUP",
+      "userId": 8046807891,
+      "userName": "Trex",
+      "summary": "Number Lookup 8475946522 (Not found)"
+    },
+    {
+      "id": "be48427a-dabd-4206-b0b0-ec0ba64c1111",
+      "timestamp": "2026-10-26T08:55:45.167Z",
+      "type": "LOOKUP",
+      "userId": 8046807891,
+      "userName": "Trex",
+      "summary": "Number Lookup 9548648250 (Not found)"
+    },
+    {
+      "id": "9deda25a-e321-4d65-a54f-7152b27819c6",
+      "timestamp": "2026-10-26T08:55:17.617Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8046807891,
+      "userName": "Trex",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "4ef1d2f9-4d97-48d2-ae8b-e41e4faaaea1",
       "timestamp": "2026-10-26T08:12:34.216Z",
@@ -6730,56 +6843,8 @@
       "userId": 8968071078,
       "userName": "Aura",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "181f35ad-bb38-4186-8ade-f49d2856d5bf",
-      "timestamp": "2026-10-25T12:09:11.082Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "8afc342a-023a-4412-930b-89f2da6e19df",
-      "timestamp": "2026-10-25T12:09:06.449Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8877490186,
-      "userName": "Ghb",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "acd15f5c-30e8-458c-a97e-d9ab40df7cfe",
-      "timestamp": "2026-10-25T12:08:58.704Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "2f292f5d-4efa-4157-b5f7-c51860ee78f1",
-      "timestamp": "2026-10-25T12:07:04.507Z",
-      "type": "LOOKUP",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Number Lookup 7061224270 (Preeti Singh)"
-    },
-    {
-      "id": "9316d986-81e3-4e7f-8ebd-aeabe66ed4b8",
-      "timestamp": "2026-10-25T12:06:52.154Z",
-      "type": "LOOKUP",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Number Lookup 9708398593 (PRAMILA DEVI)"
-    },
-    {
-      "id": "33ab11c6-07c4-4d17-bb13-b64ad045d5c6",
-      "timestamp": "2026-10-25T12:06:26.725Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168811103,
+  "lastTelegramUpdateId": 168811119,
   "usedEmailIds": []
 }
