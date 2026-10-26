@@ -5035,6 +5035,30 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "5958346782": {
+      "id": 5958346782,
+      "firstName": "Harshal",
+      "username": "St7dae",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX346782",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T20:42:50.678Z",
+      "lastActiveAt": "2026-10-26T20:44:01.610Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10121,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -7340,6 +7364,14 @@
   ],
   "logs": [
     {
+      "id": "9acce49f-7be2-4b25-a995-c59917ebb474",
+      "timestamp": "2026-10-26T20:42:51.406Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5958346782,
+      "userName": "Harshal",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "f452400b-8864-4fff-afc5-f5b3377ffc34",
       "timestamp": "2026-10-26T20:24:04.291Z",
       "type": "LOOKUP",
@@ -8530,16 +8562,8 @@
       "userId": 8877490186,
       "userName": "Ghb",
       "summary": "Number Lookup 8757612394 (Not found)"
-    },
-    {
-      "id": "2e19fb16-7f49-487a-aa4f-5d39bef5fa84",
-      "timestamp": "2026-10-26T04:10:19.923Z",
-      "type": "LOOKUP",
-      "userId": 8877490186,
-      "userName": "Ghb",
-      "summary": "Number Lookup 8651776228 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811425,
+  "lastTelegramUpdateId": 168811434,
   "usedEmailIds": []
 }
