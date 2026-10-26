@@ -5150,6 +5150,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "8702404085": {
+      "id": 8702404085,
+      "firstName": "Aman Kumar",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX404085",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T23:32:15.457Z",
+      "lastActiveAt": "2026-10-26T23:34:23.967Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10156,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -7455,6 +7478,14 @@
   ],
   "logs": [
     {
+      "id": "188eb9f5-c348-44e9-a901-52d6f3c131d0",
+      "timestamp": "2026-10-26T23:32:16.185Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8702404085,
+      "userName": "Aman Kumar",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "5ab58290-dd3d-4b80-8a3a-da7bc19cb3f2",
       "timestamp": "2026-10-26T20:49:28.813Z",
       "type": "LOOKUP",
@@ -8645,16 +8676,8 @@
       "userId": 8877490186,
       "userName": "Ghb",
       "summary": "Number Lookup 9436381914 (Not found)"
-    },
-    {
-      "id": "d939f698-70cd-4d02-b23f-3c4ad3afeb17",
-      "timestamp": "2026-10-26T05:12:05.179Z",
-      "type": "LOOKUP",
-      "userId": 8877490186,
-      "userName": "Ghb",
-      "summary": "Number Lookup 9496707249 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811470,
+  "lastTelegramUpdateId": 168811483,
   "usedEmailIds": []
 }
