@@ -1481,7 +1481,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-10-26T10:36:05.891Z",
+      "lastActiveAt": "2026-10-26T10:48:54.984Z",
       "isBanned": false,
       "history": [
         {
@@ -1667,7 +1667,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9852,
+      "lastBotMessageId": 9858,
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26",
@@ -3646,6 +3646,28 @@
       "lastLookupDate": "2026-10-26",
       "awaitingRedeemCode": false,
       "liveLocationUsed": 0
+    },
+    "6405101555": {
+      "id": 6405101555,
+      "firstName": "Insan",
+      "username": "insan_0501",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX101555",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T10:48:56.046Z",
+      "lastActiveAt": "2026-10-26T10:48:56.046Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 9860,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -5958,6 +5980,22 @@
   ],
   "logs": [
     {
+      "id": "27d3cc1c-6803-421a-af55-7cb7bc619705",
+      "timestamp": "2026-10-26T10:48:56.727Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6405101555,
+      "userName": "Insan",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "bbc479ca-4dfd-489e-ba93-bacd4daf4d00",
+      "timestamp": "2026-10-26T10:48:55.352Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "4409fe6f-ad87-4c79-9eb7-775695c8d103",
       "timestamp": "2026-10-26T10:39:45.328Z",
       "type": "LOOKUP",
@@ -7140,24 +7178,8 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "7b47336c-3d39-47d7-b057-88bd2c673aa7",
-      "timestamp": "2026-10-25T14:47:26.228Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "1e88e393-6e64-44b4-8d2d-f82fdee1b116",
-      "timestamp": "2026-10-25T14:46:58.975Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168811192,
+  "lastTelegramUpdateId": 168811195,
   "usedEmailIds": []
 }
