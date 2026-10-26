@@ -4235,6 +4235,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26"
+    },
+    "7228673447": {
+      "id": 7228673447,
+      "firstName": "Sameer",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX673447",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T14:36:55.074Z",
+      "lastActiveAt": "2026-10-26T14:37:17.385Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 9975,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-26"
     }
   },
   "orders": {
@@ -6540,6 +6563,14 @@
   ],
   "logs": [
     {
+      "id": "28124910-95b2-44ed-970e-f77f1452833f",
+      "timestamp": "2026-10-26T14:36:56.113Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7228673447,
+      "userName": "Sameer",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "5f3e2450-352e-4621-ac89-b1dde6160f05",
       "timestamp": "2026-10-26T14:17:20.711Z",
       "type": "LOOKUP",
@@ -7730,16 +7761,8 @@
       "userId": 8557294018,
       "userName": "Demon",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "6d9ba931-bc6d-4c33-a318-a1deb7f5614f",
-      "timestamp": "2026-10-25T17:28:13.831Z",
-      "type": "BOT_MESSAGE",
-      "userId": 968783051,
-      "userName": "Arbaz",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168811276,
+  "lastTelegramUpdateId": 168811284,
   "usedEmailIds": []
 }
