@@ -619,6 +619,27 @@
       "lastLookupDate": "2026-10-26",
       "liveLocationUsed": 0
     },
+    "1674577549": {
+      "id": 1674577549,
+      "firstName": "Shreeshank",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX577549",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-26T07:28:16.987Z",
+      "lastActiveAt": "2026-10-26T07:28:19.889Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 9686,
+      "lastBotMessageHasPhoto": false
+    },
     "6672896116": {
       "id": 6672896116,
       "firstName": "UHTKARSH",
@@ -5360,6 +5381,14 @@
   ],
   "logs": [
     {
+      "id": "792be80f-5a63-48ca-a3b4-c15e275fa8a0",
+      "timestamp": "2026-10-26T07:28:17.547Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1674577549,
+      "userName": "Shreeshank",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "6223e854-f182-4516-a6a5-45a551448ca5",
       "timestamp": "2026-10-26T07:20:42.838Z",
       "type": "LOOKUP",
@@ -6550,16 +6579,8 @@
       "userId": 6516956649,
       "userName": "Shahaz",
       "summary": "Number Lookup 9101364677 (Amjad mamu)"
-    },
-    {
-      "id": "a1141d76-c113-4680-8e77-dad9c20ccd58",
-      "timestamp": "2026-10-25T11:29:21.340Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6516956649,
-      "userName": "Shahaz",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168811055,
+  "lastTelegramUpdateId": 168811059,
   "usedEmailIds": []
 }
