@@ -481,6 +481,29 @@
       "lastLookupDate": "2026-10-26",
       "liveLocationUsed": 0
     },
+    "1395018284": {
+      "id": 1395018284,
+      "firstName": "tauqeer",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX018284",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-27T06:56:10.914Z",
+      "lastActiveAt": "2026-10-27T06:56:37.608Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10348,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-27"
+    },
     "1482397019": {
       "id": 1482397019,
       "firstName": "Jeet",
@@ -7753,6 +7776,14 @@
   ],
   "logs": [
     {
+      "id": "b046b509-3362-4317-92ff-dce6ebcab359",
+      "timestamp": "2026-10-27T06:56:11.581Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1395018284,
+      "userName": "tauqeer",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "789e91de-aa6e-4141-891c-7d8c5bd9e14a",
       "timestamp": "2026-10-27T06:40:51.990Z",
       "type": "LOOKUP",
@@ -8943,16 +8974,8 @@
       "userId": 7923780920,
       "userName": "Shiv",
       "summary": "Number Lookup 6397551504 (Not found)"
-    },
-    {
-      "id": "90c6bf26-7c34-4a86-baef-e586c3e08861",
-      "timestamp": "2026-10-26T09:28:35.475Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7923780920,
-      "userName": "Shiv",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168811666,
+  "lastTelegramUpdateId": 168811669,
   "usedEmailIds": []
 }
