@@ -5921,7 +5921,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-27T09:52:27.431Z",
-      "lastActiveAt": "2026-10-27T09:56:36.294Z",
+      "lastActiveAt": "2026-10-27T09:59:01.581Z",
       "isBanned": false,
       "history": [
         {
@@ -5949,6 +5949,30 @@
       ],
       "forceJoinVerified": true,
       "lastBotMessageId": 10445,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-27"
+    },
+    "5798883593": {
+      "id": 5798883593,
+      "firstName": "Shahbaz",
+      "username": "Shahbaz_x01",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX883593",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-27T10:00:10.643Z",
+      "lastActiveAt": "2026-10-27T10:00:29.044Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10452,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-27"
@@ -8257,6 +8281,14 @@
   ],
   "logs": [
     {
+      "id": "0de20b4c-d2d5-4142-b36f-b54180fe0a10",
+      "timestamp": "2026-10-27T10:00:11.358Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5798883593,
+      "userName": "Shahbaz",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "e015af15-937e-4fd6-b8c1-335b4023cc22",
       "timestamp": "2026-10-27T09:53:41.479Z",
       "type": "LOOKUP",
@@ -9447,16 +9479,8 @@
       "userId": 8754360851,
       "userName": "Error",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "27d3cc1c-6803-421a-af55-7cb7bc619705",
-      "timestamp": "2026-10-26T10:48:56.727Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6405101555,
-      "userName": "Insan",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168811773,
+  "lastTelegramUpdateId": 168811790,
   "usedEmailIds": []
 }
