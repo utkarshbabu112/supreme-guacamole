@@ -6562,6 +6562,29 @@
       "lastBotMessageId": 10578,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-27"
+    },
+    "6275404933": {
+      "id": 6275404933,
+      "firstName": "Light__._yagami",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX404933",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-27T16:39:10.344Z",
+      "lastActiveAt": "2026-10-27T16:40:36.770Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10582,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-27"
     }
   },
   "orders": {
@@ -8867,6 +8890,14 @@
   ],
   "logs": [
     {
+      "id": "ab61dde1-9862-4c8e-880b-73b4532886e8",
+      "timestamp": "2026-10-27T16:39:11.145Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6275404933,
+      "userName": "Light__._yagami",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "eaf677d6-7d7b-4ca0-9fdf-841feef2d388",
       "timestamp": "2026-10-27T16:32:07.511Z",
       "type": "LOOKUP",
@@ -10057,16 +10088,8 @@
       "userId": 8740600986,
       "userName": "Gopal",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "28124910-95b2-44ed-970e-f77f1452833f",
-      "timestamp": "2026-10-26T14:36:56.113Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7228673447,
-      "userName": "Sameer",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168811899,
+  "lastTelegramUpdateId": 168811909,
   "usedEmailIds": []
 }
