@@ -1550,7 +1550,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-10-27T01:10:48.024Z",
+      "lastActiveAt": "2026-10-27T01:12:15.279Z",
       "isBanned": false,
       "history": [
         {
@@ -1734,7 +1734,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10304,
+      "lastBotMessageId": 10312,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-27",
@@ -8815,6 +8815,6 @@
       "summary": "Number Lookup 9548648250 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811624,
+  "lastTelegramUpdateId": 168811632,
   "usedEmailIds": []
 }
