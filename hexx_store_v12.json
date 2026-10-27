@@ -6120,12 +6120,12 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-27T13:16:03.848Z",
-      "lastActiveAt": "2026-10-27T13:17:07.480Z",
+      "lastActiveAt": "2026-10-27T13:17:54.545Z",
       "isBanned": false,
       "history": [],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10478,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 10488,
+      "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-27"
     }
@@ -8433,6 +8433,14 @@
   ],
   "logs": [
     {
+      "id": "9022cd37-5d5c-4a01-870b-a041362ef033",
+      "timestamp": "2026-10-27T13:17:53.086Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8924106617,
+      "userName": "chanr",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "d047037b-1f63-4dc0-99ec-99e41ccad1bf",
       "timestamp": "2026-10-27T13:16:04.661Z",
       "type": "BOT_MESSAGE",
@@ -9623,16 +9631,8 @@
       "userId": 8754360851,
       "userName": "Error",
       "summary": "Number Lookup 8617553992 (Not found)"
-    },
-    {
-      "id": "abd2ec54-5d80-46a1-8717-707d867e61b2",
-      "timestamp": "2026-10-26T12:24:14.097Z",
-      "type": "LOOKUP",
-      "userId": 8483139655,
-      "userName": "Himanshu",
-      "summary": "Number Lookup 9380347898 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811822,
+  "lastTelegramUpdateId": 168811828,
   "usedEmailIds": []
 }
