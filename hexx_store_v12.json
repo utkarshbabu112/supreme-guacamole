@@ -6630,6 +6630,28 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-27"
+    },
+    "8664466482": {
+      "id": 8664466482,
+      "firstName": "𝙎𝙒𝘼𝙃𝘼🍉",
+      "username": "Aamraas",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX466482",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-27T16:51:49.170Z",
+      "lastActiveAt": "2026-10-27T16:52:19.386Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10600,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -8935,6 +8957,14 @@
   ],
   "logs": [
     {
+      "id": "102ec511-69f0-42fe-96a5-de6705f288bf",
+      "timestamp": "2026-10-27T16:51:49.768Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8664466482,
+      "userName": "𝙎𝙒𝘼𝙃𝘼🍉",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "fa7b56d6-3c23-4600-8a86-3238703a16c3",
       "timestamp": "2026-10-27T16:45:49.070Z",
       "type": "LOOKUP",
@@ -10125,16 +10155,8 @@
       "userId": 8988651908,
       "userName": "Monu Trader",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "0b93a012-4089-4f31-9f2e-90e0bc2189fc",
-      "timestamp": "2026-10-26T16:14:33.575Z",
-      "type": "LOOKUP",
-      "userId": 7621392635,
-      "userName": "𝗗𝗲𝘀𝗶 𝗦𝘂𝗻𝗶𝗹 𝗟𝗶𝘃𝗲",
-      "summary": "Number Lookup 9153817412 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811915,
+  "lastTelegramUpdateId": 168811921,
   "usedEmailIds": []
 }
