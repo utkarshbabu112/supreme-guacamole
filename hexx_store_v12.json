@@ -6925,6 +6925,30 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-27"
+    },
+    "5514369560": {
+      "id": 5514369560,
+      "firstName": "CENCORED",
+      "username": "cencored_boom",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX369560",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-27T19:45:39.295Z",
+      "lastActiveAt": "2026-10-27T19:45:50.733Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10666,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-27"
     }
   },
   "orders": {
@@ -9230,6 +9254,14 @@
   ],
   "logs": [
     {
+      "id": "c28458ce-7e06-46b4-b5ab-15070cfcea45",
+      "timestamp": "2026-10-27T19:45:40.120Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5514369560,
+      "userName": "CENCORED",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "69949b36-a885-42d1-80e4-4fb50cdf14d1",
       "timestamp": "2026-10-27T18:25:13.522Z",
       "type": "BOT_MESSAGE",
@@ -10420,16 +10452,8 @@
       "userId": 5904266101,
       "userName": "●𓆩 𝙆𝙂𝙓 𝙁𝙄𝙍𝙀 𝙊𝙋 𓆪● [⚡️ ʳᵉˢᵉˡˡᵉʳ ]",
       "summary": "Number Lookup 7703919160 (Not found)"
-    },
-    {
-      "id": "ddbde655-e7e3-458f-9dfe-4ff32cedb116",
-      "timestamp": "2026-10-26T18:55:27.879Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5904266101,
-      "userName": "●𓆩 𝙆𝙂𝙓 𝙁𝙄𝙍𝙀 𝙊𝙋 𓆪● [⚡️ ʳᵉˢᵉˡˡᵉʳ ]",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168811981,
+  "lastTelegramUpdateId": 168811985,
   "usedEmailIds": []
 }
