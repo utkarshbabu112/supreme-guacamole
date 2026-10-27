@@ -5331,7 +5331,8 @@
       "lastBotMessageId": 10318,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-27"
+      "lastLookupDate": "2026-10-27",
+      "liveLocationUsed": 0
     },
     "8926917947": {
       "id": 8926917947,
@@ -5353,7 +5354,8 @@
       "history": [],
       "forceJoinVerified": false,
       "lastBotMessageId": 10330,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     }
   },
   "orders": {
