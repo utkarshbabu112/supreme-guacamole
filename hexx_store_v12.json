@@ -5332,6 +5332,28 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-27"
+    },
+    "8926917947": {
+      "id": 8926917947,
+      "firstName": "Saurabh Kumar",
+      "username": "Saurabh_Kumar_Tiwari_OG",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX917947",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-27T04:49:00.313Z",
+      "lastActiveAt": "2026-10-27T04:49:04.171Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 10330,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -7637,6 +7659,14 @@
   ],
   "logs": [
     {
+      "id": "bc761820-fa1f-4c46-a564-f59bd195dea0",
+      "timestamp": "2026-10-27T04:49:00.927Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8926917947,
+      "userName": "Saurabh Kumar",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "940f1cca-b1b6-42a4-8426-80358e1f6ec7",
       "timestamp": "2026-10-27T04:34:26.054Z",
       "type": "LOOKUP",
@@ -8827,16 +8857,8 @@
       "userId": 8046807891,
       "userName": "Trex",
       "summary": "Number Lookup 9548648250 (Not found)"
-    },
-    {
-      "id": "91c59b03-02ae-41b9-bb76-f9b4624e6577",
-      "timestamp": "2026-10-26T08:56:31.557Z",
-      "type": "LOOKUP",
-      "userId": 8046807891,
-      "userName": "Trex",
-      "summary": "Number Lookup 8475946522 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811639,
+  "lastTelegramUpdateId": 168811643,
   "usedEmailIds": []
 }
