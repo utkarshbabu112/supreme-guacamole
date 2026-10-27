@@ -6469,7 +6469,8 @@
       "lastBotMessageId": 10544,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-27"
+      "lastLookupDate": "2026-10-27",
+      "liveLocationUsed": 0
     },
     "6652687261": {
       "id": 6652687261,
@@ -6538,7 +6539,8 @@
       "lastBotMessageId": 10559,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-27"
+      "lastLookupDate": "2026-10-27",
+      "liveLocationUsed": 0
     },
     "8038426242": {
       "id": 8038426242,
@@ -6583,7 +6585,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 10578,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-10-27"
+      "lastLookupDate": "2026-10-27",
+      "liveLocationUsed": 0
     },
     "6275404933": {
       "id": 6275404933,
@@ -6651,7 +6654,8 @@
       "lastBotMessageId": 10592,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-27"
+      "lastLookupDate": "2026-10-27",
+      "liveLocationUsed": 0
     },
     "8664466482": {
       "id": 8664466482,
@@ -6742,7 +6746,8 @@
       "lastBotMessageId": 10600,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-27"
+      "lastLookupDate": "2026-10-27",
+      "liveLocationUsed": 0
     },
     "8824406423": {
       "id": 8824406423,
@@ -6855,7 +6860,8 @@
       "lastBotMessageId": 10654,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-27"
+      "lastLookupDate": "2026-10-27",
+      "liveLocationUsed": 0
     },
     "8237367434": {
       "id": 8237367434,
@@ -6901,7 +6907,8 @@
       "lastBotMessageId": 10659,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-27"
+      "lastLookupDate": "2026-10-27",
+      "liveLocationUsed": 0
     },
     "8938213444": {
       "id": 8938213444,
@@ -6924,7 +6931,8 @@
       "lastBotMessageId": 10663,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-27"
+      "lastLookupDate": "2026-10-27",
+      "liveLocationUsed": 0
     },
     "5514369560": {
       "id": 5514369560,
@@ -7059,7 +7067,8 @@
       "lastBotMessageId": 10684,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-27"
+      "lastLookupDate": "2026-10-27",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
