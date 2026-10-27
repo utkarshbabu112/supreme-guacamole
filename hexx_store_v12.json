@@ -230,20 +230,42 @@
       "id": 871179765,
       "firstName": "Blue",
       "username": "blueparth",
-      "credits": 1,
+      "credits": 2,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 1,
-      "totalLookups": 1,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 2,
       "referralCode": "HEX179765",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:47:05.262Z",
-      "lastActiveAt": "2026-10-25T12:47:53.609Z",
+      "lastActiveAt": "2026-10-27T15:55:11.623Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "ae8d0537-3ef6-4ed1-9498-9143024d2889",
+          "queryNumber": "8418022900",
+          "timestamp": "2026-10-27T15:55:18.130Z",
+          "source": "bot",
+          "userId": 871179765,
+          "userName": "Blue",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8418022900",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "ed8ebe2a-0aa8-498c-8a54-3a3480210df1",
           "queryNumber": "9675033923",
@@ -269,9 +291,9 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9277,
+      "lastBotMessageId": 10533,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-10-25",
+      "lastLookupDate": "2026-10-27",
       "awaitingRedeemCode": false,
       "liveLocationUsed": 0
     },
@@ -6439,6 +6461,28 @@
   },
   "globalHistory": [
     {
+      "id": "ae8d0537-3ef6-4ed1-9498-9143024d2889",
+      "queryNumber": "8418022900",
+      "timestamp": "2026-10-27T15:55:18.130Z",
+      "source": "bot",
+      "userId": 871179765,
+      "userName": "Blue",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8418022900",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
       "id": "df715b1b-386e-4f60-82cb-0ef31da81209",
       "queryNumber": "9205152699",
       "timestamp": "2026-10-27T15:31:09.389Z",
@@ -8615,31 +8659,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "dfbe5035-7519-48bd-802f-915fe4e82c97",
-      "queryNumber": "9326011250",
-      "timestamp": "2026-10-26T09:29:31.135Z",
-      "source": "bot",
-      "userId": 7923780920,
-      "userName": "Shiv",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9326011250",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "a253f169-4228-4961-9d2f-2002ca9bdca1",
+      "timestamp": "2026-10-27T15:55:18.130Z",
+      "type": "LOOKUP",
+      "userId": 871179765,
+      "userName": "Blue",
+      "summary": "Number Lookup 8418022900 (Not found)"
+    },
     {
       "id": "a7e1e7df-ce62-4297-97d5-2731b53131f5",
       "timestamp": "2026-10-27T15:31:09.389Z",
@@ -9831,16 +9861,8 @@
       "userId": 7923780920,
       "userName": "Shiv",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "bd485510-1f62-41da-a8ba-75c2b8e9d916",
-      "timestamp": "2026-10-26T13:40:15.369Z",
-      "type": "LOOKUP",
-      "userId": 8156688424,
-      "userName": "J",
-      "summary": "Number Lookup 7984856501 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811866,
+  "lastTelegramUpdateId": 168811867,
   "usedEmailIds": []
 }
