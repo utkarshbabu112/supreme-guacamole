@@ -5302,11 +5302,11 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-27T00:50:23.609Z",
-      "lastActiveAt": "2026-10-27T00:52:45.305Z",
+      "lastActiveAt": "2026-10-27T01:22:21.833Z",
       "isBanned": false,
       "history": [],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10195,
+      "lastBotMessageId": 10318,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-27"
@@ -7615,6 +7615,14 @@
   ],
   "logs": [
     {
+      "id": "6e273eb0-2490-4de9-bdd4-80c49281ea0e",
+      "timestamp": "2026-10-27T01:21:56.608Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8875972491,
+      "userName": "RAIZEN",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "56512cef-d587-4b8f-9d65-c93fe935e002",
       "timestamp": "2026-10-27T01:10:33.685Z",
       "type": "LOOKUP",
@@ -8805,16 +8813,8 @@
       "userId": 8046807891,
       "userName": "Trex",
       "summary": "Number Lookup 8475946522 (Not found)"
-    },
-    {
-      "id": "be48427a-dabd-4206-b0b0-ec0ba64c1111",
-      "timestamp": "2026-10-26T08:55:45.167Z",
-      "type": "LOOKUP",
-      "userId": 8046807891,
-      "userName": "Trex",
-      "summary": "Number Lookup 9548648250 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168811632,
+  "lastTelegramUpdateId": 168811637,
   "usedEmailIds": []
 }
