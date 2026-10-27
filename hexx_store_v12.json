@@ -1539,31 +1539,53 @@
       "id": 8968071078,
       "firstName": "Aura",
       "username": "Auraz7",
-      "credits": 5,
+      "credits": 0,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 0,
-      "totalLookups": 10,
+      "dailyLookupsUsed": 5,
+      "totalLookups": 21,
       "referralCode": "HEX071078",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-10-27T01:06:00.994Z",
+      "lastActiveAt": "2026-10-27T01:10:48.024Z",
       "isBanned": false,
       "history": [
         {
-          "id": "2b84f700-393d-45aa-be53-51964320aa2e",
+          "id": "1e482b75-0657-4403-84c2-4aaa095349fe",
           "queryNumber": "9876543210",
-          "timestamp": "2026-10-27T01:05:18.475Z",
+          "timestamp": "2026-10-27T01:10:33.685Z",
+          "source": "bot",
+          "userId": 8968071078,
+          "userName": "Aura",
+          "resultSummary": {
+            "name": "VODAFONE KOLKATA",
+            "fatherName": "\"9836307000",
+            "mobile": "9876543210",
+            "altMobile": "QAISER ALAM",
+            "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+            "idNumber": "8337007000",
+            "email": "Not found",
+            "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+            "totalRecords": 8,
+            "lat": 22.54255,
+            "lng": 88.36443,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+          }
+        },
+        {
+          "id": "3dce3f8f-a255-48ad-84da-ca3178d579e6",
+          "queryNumber": "7061224270",
+          "timestamp": "2026-10-27T01:10:09.510Z",
           "source": "bot",
           "userId": 8968071078,
           "userName": "Aura",
           "resultSummary": {
             "name": "Not found",
             "fatherName": "Not found",
-            "mobile": "9876543210",
+            "mobile": "7061224270",
             "altMobile": "Not found",
             "circle": "New Delhi, Delhi",
             "idNumber": "Not found",
@@ -1576,9 +1598,9 @@
           }
         },
         {
-          "id": "7246fd5e-fdf5-499b-a7f5-09fc3b1dc7db",
+          "id": "a076b2df-2eb3-459b-86a7-93582dbfa350",
           "queryNumber": "9122181105",
-          "timestamp": "2026-10-26T10:15:52.987Z",
+          "timestamp": "2026-10-27T01:09:26.304Z",
           "source": "bot",
           "userId": 8968071078,
           "userName": "Aura",
@@ -1586,6 +1608,50 @@
             "name": "Not found",
             "fatherName": "Not found",
             "mobile": "9122181105",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
+        {
+          "id": "0ac3e979-3c38-4a5c-a8ad-9ded0936e2cc",
+          "queryNumber": "8676972045",
+          "timestamp": "2026-10-27T01:08:34.165Z",
+          "source": "bot",
+          "userId": 8968071078,
+          "userName": "Aura",
+          "resultSummary": {
+            "name": "VODAFONE KOLKATA",
+            "fatherName": "\"9836307000",
+            "mobile": "8676972045",
+            "altMobile": "QAISER ALAM",
+            "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+            "idNumber": "8337007000",
+            "email": "Not found",
+            "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+            "totalRecords": 8,
+            "lat": 22.54255,
+            "lng": 88.36443,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+          }
+        },
+        {
+          "id": "3f1d36f4-245c-41a7-bfbd-a55e007ab72d",
+          "queryNumber": "9708398593",
+          "timestamp": "2026-10-27T01:08:21.770Z",
+          "source": "bot",
+          "userId": 8968071078,
+          "userName": "Aura",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9708398593",
             "altMobile": "Not found",
             "circle": "New Delhi, Delhi",
             "idNumber": "Not found",
@@ -1665,56 +1731,10 @@
             "lng": 85.40363,
             "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BASANTPUR%20B%20O%20-%20VSLI%2C%20BIHAR%2C%20VODA%20BHR%26JHR%2C%20844504%2C%20India"
           }
-        },
-        {
-          "id": "05473f7e-b77e-44ac-b028-8bcfa7487a19",
-          "queryNumber": "7061224270",
-          "timestamp": "2026-10-25T12:07:04.507Z",
-          "source": "bot",
-          "userId": 8968071078,
-          "userName": "Aura",
-          "resultSummary": {
-            "name": "Preeti Singh",
-            "truecallerName": "Tultul",
-            "fatherName": "Vinod Kumar Singh",
-            "mobile": "7061224270",
-            "altMobile": "9525145642",
-            "circle": "BIHAR JIO",
-            "idNumber": "924681066398",
-            "email": "Not found",
-            "address": "KUNDAL Kundal, Kundal Singhia Samastipur, Bihar, 848206",
-            "totalRecords": 1,
-            "lat": 25.5941,
-            "lng": 85.1376,
-            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KUNDAL%20Kundal%2C%20Kundal%20Singhia%20Samastipur%2C%20Bihar%2C%20848206%2C%20India"
-          }
-        },
-        {
-          "id": "9fcf4d0e-ffa5-44fd-ad4e-a3c6d6723463",
-          "queryNumber": "9708398593",
-          "timestamp": "2026-10-25T12:06:52.154Z",
-          "source": "bot",
-          "userId": 8968071078,
-          "userName": "Aura",
-          "resultSummary": {
-            "name": "PRAMILA DEVI",
-            "truecallerName": "nisha rajapakar",
-            "fatherName": "JAYVIR KUMAR",
-            "mobile": "9708398593",
-            "altMobile": "Not found",
-            "circle": "VODA BHR&JHR",
-            "idNumber": "365308179342",
-            "email": "Not found",
-            "address": "Rajapakar kali mandir, Rajapakar Raja Pakar, RAJA PAKAR-VAISHALI, BR, VODA BHR&JHR, 844124",
-            "totalRecords": 1,
-            "lat": 25.75603,
-            "lng": 85.30739,
-            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=RAJA%20PAKAR-VAISHALI%2C%20BR%2C%20VODA%20BHR%26JHR%2C%20844124%2C%20India"
-          }
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10236,
+      "lastBotMessageId": 10304,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-27",
@@ -5393,6 +5413,248 @@
   },
   "globalHistory": [
     {
+      "id": "1e482b75-0657-4403-84c2-4aaa095349fe",
+      "queryNumber": "9876543210",
+      "timestamp": "2026-10-27T01:10:33.685Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "VODAFONE KOLKATA",
+        "fatherName": "\"9836307000",
+        "mobile": "9876543210",
+        "altMobile": "QAISER ALAM",
+        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+        "idNumber": "8337007000",
+        "email": "Not found",
+        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+        "totalRecords": 8,
+        "lat": 22.54255,
+        "lng": 88.36443,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+      }
+    },
+    {
+      "id": "3dce3f8f-a255-48ad-84da-ca3178d579e6",
+      "queryNumber": "7061224270",
+      "timestamp": "2026-10-27T01:10:09.510Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7061224270",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "a076b2df-2eb3-459b-86a7-93582dbfa350",
+      "queryNumber": "9122181105",
+      "timestamp": "2026-10-27T01:09:26.304Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9122181105",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "9b6d35d4-aa59-44b8-b835-afd639014f38",
+      "queryNumber": "9876543210",
+      "timestamp": "2026-10-27T01:08:41.976Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "VODAFONE KOLKATA",
+        "fatherName": "\"9836307000",
+        "mobile": "9876543210",
+        "altMobile": "QAISER ALAM",
+        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+        "idNumber": "8337007000",
+        "email": "Not found",
+        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+        "totalRecords": 8,
+        "lat": 22.54255,
+        "lng": 88.36443,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+      }
+    },
+    {
+      "id": "0ac3e979-3c38-4a5c-a8ad-9ded0936e2cc",
+      "queryNumber": "8676972045",
+      "timestamp": "2026-10-27T01:08:34.165Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "VODAFONE KOLKATA",
+        "fatherName": "\"9836307000",
+        "mobile": "8676972045",
+        "altMobile": "QAISER ALAM",
+        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+        "idNumber": "8337007000",
+        "email": "Not found",
+        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+        "totalRecords": 8,
+        "lat": 22.54255,
+        "lng": 88.36443,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+      }
+    },
+    {
+      "id": "3f1d36f4-245c-41a7-bfbd-a55e007ab72d",
+      "queryNumber": "9708398593",
+      "timestamp": "2026-10-27T01:08:21.770Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9708398593",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "b53e12d0-3a59-426a-a60b-59f25dd139e3",
+      "queryNumber": "9876543210",
+      "timestamp": "2026-10-27T01:08:01.372Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9876543210",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "cfeb2d9f-d998-4115-b34c-3a22db4a8db4",
+      "queryNumber": "9876543210",
+      "timestamp": "2026-10-27T01:07:59.899Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "VODAFONE KOLKATA",
+        "fatherName": "\"9836307000",
+        "mobile": "9876543210",
+        "altMobile": "QAISER ALAM",
+        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+        "idNumber": "8337007000",
+        "email": "Not found",
+        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+        "totalRecords": 8,
+        "lat": 22.54255,
+        "lng": 88.36443,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+      }
+    },
+    {
+      "id": "26c1207d-2d32-4d42-be15-07ff29206336",
+      "queryNumber": "9122181105",
+      "timestamp": "2026-10-27T01:07:12.068Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9122181105",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "b3f9fa0f-f689-40a4-b7b0-d8c771774191",
+      "queryNumber": "9708398593",
+      "timestamp": "2026-10-27T01:06:46.123Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9708398593",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "bc2fe078-e3c0-4b0f-85a7-727a3980d848",
+      "queryNumber": "9876543210",
+      "timestamp": "2026-10-27T01:06:16.859Z",
+      "source": "bot",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "resultSummary": {
+        "name": "VODAFONE KOLKATA",
+        "fatherName": "\"9836307000",
+        "mobile": "9876543210",
+        "altMobile": "QAISER ALAM",
+        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+        "idNumber": "8337007000",
+        "email": "Not found",
+        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+        "totalRecords": 8,
+        "lat": 22.54255,
+        "lng": 88.36443,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+      }
+    },
+    {
       "id": "2b84f700-393d-45aa-be53-51964320aa2e",
       "queryNumber": "9876543210",
       "timestamp": "2026-10-27T01:05:18.475Z",
@@ -7349,251 +7611,129 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "158f583f-1174-47a9-bb71-43f1e40c91ba",
-      "queryNumber": "9496707249",
-      "timestamp": "2026-10-26T05:06:02.647Z",
-      "source": "bot",
-      "userId": 6247554367,
-      "userName": "Divya",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9496707249",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "77f1a3bd-0abc-401a-956e-d171e47b0158",
-      "queryNumber": "9489165047",
-      "timestamp": "2026-10-26T05:01:14.335Z",
-      "source": "bot",
-      "userId": 877374876,
-      "userName": "xZeta",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9489165047",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "3ecda3e3-0d8e-4436-b331-d73195b1be98",
-      "queryNumber": "7338820846",
-      "timestamp": "2026-10-26T05:00:53.913Z",
-      "source": "bot",
-      "userId": 877374876,
-      "userName": "xZeta",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7338820846",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "3e5a8f3c-7f6f-4cb8-9433-65a0dcf0edc5",
-      "queryNumber": "9003132851",
-      "timestamp": "2026-10-26T04:59:27.653Z",
-      "source": "bot",
-      "userId": 877374876,
-      "userName": "xZeta",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9003132851",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "65c6e3aa-4652-46d3-8efb-a6469a0446ec",
-      "queryNumber": "8757612394",
-      "timestamp": "2026-10-26T04:10:28.556Z",
-      "source": "bot",
-      "userId": 8877490186,
-      "userName": "Ghb",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8757612394",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "639b6484-ba58-4b19-8e5b-36e38de24ae3",
-      "queryNumber": "8651776228",
-      "timestamp": "2026-10-26T04:10:19.923Z",
-      "source": "bot",
-      "userId": 8877490186,
-      "userName": "Ghb",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8651776228",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "f541dc75-3e16-475c-8cc8-506344b59b8a",
-      "queryNumber": "8340531650",
-      "timestamp": "2026-10-26T04:09:26.256Z",
-      "source": "bot",
-      "userId": 8877490186,
-      "userName": "Ghb",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8340531650",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "248a55b4-5fbb-4095-bf56-c75e01568b55",
-      "queryNumber": "9156119110",
-      "timestamp": "2026-10-26T04:09:05.056Z",
-      "source": "bot",
-      "userId": 8877490186,
-      "userName": "Ghb",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9156119110",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "185b4ffc-3990-4b9d-ac67-16a153975805",
-      "queryNumber": "7017437428",
-      "timestamp": "2026-10-26T03:24:34.557Z",
-      "source": "bot",
-      "userId": 1482397019,
-      "userName": "Jeet",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7017437428",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "a2df00f7-544a-4706-818f-374b9563e597",
-      "queryNumber": "9027068667",
-      "timestamp": "2026-10-26T03:22:40.149Z",
-      "source": "bot",
-      "userId": 1482397019,
-      "userName": "Jeet",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9027068667",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "4d7d1a55-dbc6-4c83-9dff-fc1fbfab847c",
-      "queryNumber": "8104814472",
-      "timestamp": "2026-10-26T02:55:41.972Z",
-      "source": "bot",
-      "userId": 6247554367,
-      "userName": "Divya",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8104814472",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "56512cef-d587-4b8f-9d65-c93fe935e002",
+      "timestamp": "2026-10-27T01:10:33.685Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 9876543210 (VODAFONE KOLKATA)"
+    },
+    {
+      "id": "80ab8763-94c3-4ad2-8253-b995ec00f632",
+      "timestamp": "2026-10-27T01:10:09.510Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 7061224270 (Not found)"
+    },
+    {
+      "id": "e8a281de-141f-429c-9803-0cfeaf976dfb",
+      "timestamp": "2026-10-27T01:09:26.304Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 9122181105 (Not found)"
+    },
+    {
+      "id": "704f271b-a59b-4497-b466-d79c4e86256c",
+      "timestamp": "2026-10-27T01:08:41.976Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 9876543210 (VODAFONE KOLKATA)"
+    },
+    {
+      "id": "4fd09981-d721-44bc-b394-1088fac45125",
+      "timestamp": "2026-10-27T01:08:34.165Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 8676972045 (VODAFONE KOLKATA)"
+    },
+    {
+      "id": "f9145147-18c0-4051-b340-7eea614a52a5",
+      "timestamp": "2026-10-27T01:08:21.770Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 9708398593 (Not found)"
+    },
+    {
+      "id": "bd5d59e1-6fbe-4d1a-a57a-43f1d9c1303b",
+      "timestamp": "2026-10-27T01:08:01.372Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 9876543210 (Not found)"
+    },
+    {
+      "id": "eddbe37d-1b09-49f2-a6b3-de330ef5a6ac",
+      "timestamp": "2026-10-27T01:07:59.899Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 9876543210 (VODAFONE KOLKATA)"
+    },
+    {
+      "id": "bcd1188c-dcb9-4b02-a1b5-16f9feba5f6b",
+      "timestamp": "2026-10-27T01:07:36.460Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "ded906e9-1e85-42c0-b6ea-0cef5b861359",
+      "timestamp": "2026-10-27T01:07:12.068Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 9122181105 (Not found)"
+    },
+    {
+      "id": "e5b67ddb-3c35-4ab0-a2d9-96286e158d28",
+      "timestamp": "2026-10-27T01:06:57.681Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "acca828f-83a7-438b-a0b8-0ff14490fc3b",
+      "timestamp": "2026-10-27T01:06:46.123Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 9708398593 (Not found)"
+    },
+    {
+      "id": "53441172-647a-418e-a5d5-368a98f48995",
+      "timestamp": "2026-10-27T01:06:25.950Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "ae24cec4-e5dd-4521-bbdb-cebb1c95e7c3",
+      "timestamp": "2026-10-27T01:06:17.837Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "1a9da284-adf9-4fac-87bc-909c9e12b1b4",
+      "timestamp": "2026-10-27T01:06:16.859Z",
+      "type": "LOOKUP",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Number Lookup 9876543210 (VODAFONE KOLKATA)"
+    },
     {
       "id": "26d63923-d42b-4d81-b1a0-686edc43bcaa",
       "timestamp": "2026-10-27T01:05:18.475Z",
@@ -8673,128 +8813,8 @@
       "userId": 8046807891,
       "userName": "Trex",
       "summary": "Number Lookup 9548648250 (Not found)"
-    },
-    {
-      "id": "9deda25a-e321-4d65-a54f-7152b27819c6",
-      "timestamp": "2026-10-26T08:55:17.617Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8046807891,
-      "userName": "Trex",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "4ef1d2f9-4d97-48d2-ae8b-e41e4faaaea1",
-      "timestamp": "2026-10-26T08:12:34.216Z",
-      "type": "LOOKUP",
-      "userId": 6721538828,
-      "userName": "Nwiedijdjsh",
-      "summary": "Number Lookup 6362110985 (Not found)"
-    },
-    {
-      "id": "48d3def3-a761-4c1b-a004-95b3dc39865e",
-      "timestamp": "2026-10-26T08:11:51.107Z",
-      "type": "LOOKUP",
-      "userId": 6721538828,
-      "userName": "Nwiedijdjsh",
-      "summary": "Number Lookup 6362110985 (Not found)"
-    },
-    {
-      "id": "c0d22081-e457-446b-9b2e-dd62d77f8b28",
-      "timestamp": "2026-10-26T08:11:41.223Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6721538828,
-      "userName": "Nwiedijdjsh",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "2bb0d6b9-0e34-4568-8dc1-8efac0e0f855",
-      "timestamp": "2026-10-26T08:11:01.622Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6721538828,
-      "userName": "Nwiedijdjsh",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "7badefed-9bb8-41ba-8b32-334d665f2528",
-      "timestamp": "2026-10-26T08:10:48.764Z",
-      "type": "LOOKUP",
-      "userId": 6721538828,
-      "userName": "Nwiedijdjsh",
-      "summary": "Number Lookup 6362110985 (Not found)"
-    },
-    {
-      "id": "d47e112d-107b-42dc-a8b9-a5006b3f68ef",
-      "timestamp": "2026-10-26T08:09:52.012Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6721538828,
-      "userName": "Nwiedijdjsh",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "d0f98976-fa55-4745-933a-fd7146758340",
-      "timestamp": "2026-10-26T07:46:25.782Z",
-      "type": "LOOKUP",
-      "userId": 1674577549,
-      "userName": "Shreeshank",
-      "summary": "Number Lookup 8310837158 (Not found)"
-    },
-    {
-      "id": "d575fc05-01a0-4322-8f2a-d659f50315cc",
-      "timestamp": "2026-10-26T07:33:51.014Z",
-      "type": "LOOKUP",
-      "userId": 5618503449,
-      "userName": "Arshad",
-      "summary": "Number Lookup 8103493205 (Not found)"
-    },
-    {
-      "id": "99b8aafd-5da4-4fa6-a8dc-9c3a8b3b9748",
-      "timestamp": "2026-10-26T07:33:19.142Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5618503449,
-      "userName": "Arshad",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "69d2eaf0-d70e-4063-b8a6-009844616c75",
-      "timestamp": "2026-10-26T07:30:12.105Z",
-      "type": "LOOKUP",
-      "userId": 1674577549,
-      "userName": "Shreeshank",
-      "summary": "Number Lookup 7338404556 (Not found)"
-    },
-    {
-      "id": "920bb3a7-1e04-4d20-b3d2-1f03e35e8055",
-      "timestamp": "2026-10-26T07:29:59.979Z",
-      "type": "LOOKUP",
-      "userId": 1674577549,
-      "userName": "Shreeshank",
-      "summary": "Number Lookup 9880204556 (Not found)"
-    },
-    {
-      "id": "b2de12e6-ac1c-4438-b221-5d06072a2aa6",
-      "timestamp": "2026-10-26T07:29:33.512Z",
-      "type": "LOOKUP",
-      "userId": 1674577549,
-      "userName": "Shreeshank",
-      "summary": "Number Lookup 7338404556 (Not found)"
-    },
-    {
-      "id": "1f30caa8-a2b6-4353-a0e0-69f43595b105",
-      "timestamp": "2026-10-26T07:29:00.501Z",
-      "type": "LOOKUP",
-      "userId": 1674577549,
-      "userName": "Shreeshank",
-      "summary": "Number Lookup 8310837158 (Not found)"
-    },
-    {
-      "id": "792be80f-5a63-48ca-a3b4-c15e275fa8a0",
-      "timestamp": "2026-10-26T07:28:17.547Z",
-      "type": "BOT_MESSAGE",
-      "userId": 1674577549,
-      "userName": "Shreeshank",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168811578,
+  "lastTelegramUpdateId": 168811624,
   "usedEmailIds": []
 }
