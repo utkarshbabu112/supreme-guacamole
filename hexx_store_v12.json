@@ -6856,6 +6856,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-27"
+    },
+    "8237367434": {
+      "id": 8237367434,
+      "firstName": "{Eren}🕊️",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX367434",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-27T18:17:09.039Z",
+      "lastActiveAt": "2026-10-27T18:18:39.277Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10656,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-27"
     }
   },
   "orders": {
@@ -9161,6 +9184,14 @@
   ],
   "logs": [
     {
+      "id": "eea1d730-2e2b-4cf7-bc14-23601dad3327",
+      "timestamp": "2026-10-27T18:17:10.322Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8237367434,
+      "userName": "{Eren}🕊️",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "155db4bb-9bc1-4f6d-b679-6277cd348e10",
       "timestamp": "2026-10-27T18:05:15.954Z",
       "type": "LOOKUP",
@@ -10351,16 +10382,8 @@
       "userId": 8917543741,
       "userName": "Sai",
       "summary": "Number Lookup 9352848725 (Not found)"
-    },
-    {
-      "id": "e6ab6aad-6893-4efc-b231-c503e0569e54",
-      "timestamp": "2026-10-26T17:59:09.605Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8917543741,
-      "userName": "Sai",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168811968,
+  "lastTelegramUpdateId": 168811975,
   "usedEmailIds": []
 }
