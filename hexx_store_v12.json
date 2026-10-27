@@ -868,7 +868,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:07:01.294Z",
-      "lastActiveAt": "2026-10-27T09:29:19.300Z",
+      "lastActiveAt": "2026-10-27T10:02:25.727Z",
       "isBanned": false,
       "isAdminUnlocked": true,
       "history": [
@@ -963,8 +963,8 @@
           }
         }
       ],
-      "lastBotMessageId": 10441,
-      "lastBotMessageHasPhoto": true,
+      "lastBotMessageId": 10454,
+      "lastBotMessageHasPhoto": false,
       "lookupMode": "info",
       "lastLookupDate": "2026-10-25",
       "activeTrackToken": "LOC611696TH",
@@ -9481,6 +9481,6 @@
       "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168811790,
+  "lastTelegramUpdateId": 168811791,
   "usedEmailIds": []
 }
