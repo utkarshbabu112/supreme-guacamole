@@ -9121,6 +9121,29 @@
       "lastBotMessageId": 11080,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-28"
+    },
+    "9160327920": {
+      "id": 9160327920,
+      "firstName": ".",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX327920",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T20:20:36.878Z",
+      "lastActiveAt": "2026-10-28T20:20:55.855Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11098,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
     }
   },
   "orders": {
@@ -11476,6 +11499,14 @@
   ],
   "logs": [
     {
+      "id": "4c98f411-d3e5-4db6-9f12-1a044adb62a5",
+      "timestamp": "2026-10-28T20:20:37.774Z",
+      "type": "BOT_MESSAGE",
+      "userId": 9160327920,
+      "userName": ".",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "b207fc01-23e3-4e7e-8693-03867b5f97c5",
       "timestamp": "2026-10-28T19:32:21.367Z",
       "type": "LOOKUP",
@@ -12666,17 +12697,9 @@
       "userId": 6001338045,
       "userName": "⚡ 𝐊𝐫𝐢𝐬𝐡𝐮 ⚡",
       "summary": "Number Lookup 8540580181 (Not found)"
-    },
-    {
-      "id": "aab46844-c4a4-4663-9bb3-d6e53f2dfe35",
-      "timestamp": "2026-10-27T16:17:11.677Z",
-      "type": "LOOKUP",
-      "userId": 6652687261,
-      "userName": "G 3 N O S",
-      "summary": "Number Lookup 9999041935 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812490,
+  "lastTelegramUpdateId": 168812497,
   "usedEmailIds": [
     "gmail_739"
   ]
