@@ -4440,7 +4440,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-26T13:34:43.581Z",
-      "lastActiveAt": "2026-10-28T07:56:38.743Z",
+      "lastActiveAt": "2026-10-28T08:02:42.285Z",
       "isBanned": false,
       "history": [
         {
@@ -4467,10 +4467,11 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10739,
+      "lastBotMessageId": 10745,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-28",
-      "liveLocationUsed": 0
+      "liveLocationUsed": 0,
+      "awaitingRedeemCode": false
     },
     "8156688424": {
       "id": 8156688424,
@@ -10833,6 +10834,6 @@
       "summary": "Number Lookup 8871982180 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812092,
+  "lastTelegramUpdateId": 168812099,
   "usedEmailIds": []
 }
