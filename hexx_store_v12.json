@@ -8526,20 +8526,42 @@
       "id": 8858491695,
       "firstName": "DIYA",
       "username": "Diya197",
-      "credits": 1,
+      "credits": 0,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 1,
-      "totalLookups": 1,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 2,
       "referralCode": "HEX491695",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-28T16:04:00.503Z",
-      "lastActiveAt": "2026-10-28T16:05:14.571Z",
+      "lastActiveAt": "2026-10-28T18:04:17.348Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "2894b79a-777c-4606-8767-7e4a572ff4b7",
+          "queryNumber": "9304908903",
+          "timestamp": "2026-10-28T18:02:31.783Z",
+          "source": "bot",
+          "userId": 8858491695,
+          "userName": "DIYA",
+          "resultSummary": {
+            "name": "VODAFONE KOLKATA",
+            "fatherName": "\"9836307000",
+            "mobile": "9304908903",
+            "altMobile": "QAISER ALAM",
+            "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+            "idNumber": "8337007000",
+            "email": "Not found",
+            "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+            "totalRecords": 8,
+            "lat": 22.54163,
+            "lng": 88.36283,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+          }
+        },
         {
           "id": "f2d8c6a6-3763-46c1-bc92-53aafad16140",
           "queryNumber": "9504751323",
@@ -8564,7 +8586,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10952,
+      "lastBotMessageId": 11039,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
@@ -8846,6 +8868,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
+    },
+    "6656556541": {
+      "id": 6656556541,
+      "firstName": "Buge",
+      "username": "love2001q",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX556541",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T18:02:01.683Z",
+      "lastActiveAt": "2026-10-28T18:02:56.051Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11041,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false
     }
   },
   "orders": {
@@ -8948,6 +8993,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "2894b79a-777c-4606-8767-7e4a572ff4b7",
+      "queryNumber": "9304908903",
+      "timestamp": "2026-10-28T18:02:31.783Z",
+      "source": "bot",
+      "userId": 8858491695,
+      "userName": "DIYA",
+      "resultSummary": {
+        "name": "VODAFONE KOLKATA",
+        "fatherName": "\"9836307000",
+        "mobile": "9304908903",
+        "altMobile": "QAISER ALAM",
+        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+        "idNumber": "8337007000",
+        "email": "Not found",
+        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+        "totalRecords": 8,
+        "lat": 22.54163,
+        "lng": 88.36283,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+      }
+    },
     {
       "id": "e4306f09-504a-4d27-bf9e-0584053aad5d",
       "queryNumber": "7870001828",
@@ -11125,31 +11192,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "19e3b316-f14d-4439-8a71-963fc982fba1",
-      "queryNumber": "8750214573",
-      "timestamp": "2026-10-27T07:38:39.411Z",
-      "source": "bot",
-      "userId": 6788534959,
-      "userName": "Aadi",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8750214573",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "1873e2a4-3d17-404f-81a9-d3fcd2f655ca",
+      "timestamp": "2026-10-28T18:02:31.783Z",
+      "type": "LOOKUP",
+      "userId": 8858491695,
+      "userName": "DIYA",
+      "summary": "Number Lookup 9304908903 (VODAFONE KOLKATA)"
+    },
+    {
+      "id": "065e805a-4907-4154-9e9e-772f953b3faf",
+      "timestamp": "2026-10-28T18:02:02.544Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6656556541,
+      "userName": "Buge",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "c2e2d5d1-f09e-4984-9741-eb3977d36630",
       "timestamp": "2026-10-28T17:59:03.055Z",
@@ -12333,24 +12394,8 @@
       "userId": 1810565747,
       "userName": "Cdeeq",
       "summary": "Number Lookup 7736750830 (Not found)"
-    },
-    {
-      "id": "cb83eebd-62cb-44d3-9f18-5a4e68880af5",
-      "timestamp": "2026-10-27T13:41:53.744Z",
-      "type": "LOOKUP",
-      "userId": 1810565747,
-      "userName": "Cdeeq",
-      "summary": "Number Lookup 9496866983 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "76fd9ddc-db14-477c-9688-e2a688954f34",
-      "timestamp": "2026-10-27T13:40:09.559Z",
-      "type": "BOT_MESSAGE",
-      "userId": 1810565747,
-      "userName": "Cdeeq",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812394,
+  "lastTelegramUpdateId": 168812408,
   "usedEmailIds": []
 }
