@@ -9173,7 +9173,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-28T22:53:17.552Z",
-      "lastActiveAt": "2026-10-28T22:56:08.547Z",
+      "lastActiveAt": "2026-10-28T23:15:20.308Z",
       "isBanned": false,
       "history": [
         {
@@ -9222,8 +9222,8 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11109,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 11111,
+      "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
     }
@@ -11581,6 +11581,14 @@
   ],
   "logs": [
     {
+      "id": "63501e53-1469-4747-8c04-80aeb0b071ec",
+      "timestamp": "2026-10-28T23:15:21.555Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8426699501,
+      "userName": "Hell",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "37f05ad6-cf07-4fac-a6b9-489903a4428a",
       "timestamp": "2026-10-28T22:56:15.047Z",
       "type": "LOOKUP",
@@ -12771,17 +12779,9 @@
       "userId": 6275404933,
       "userName": "Light__._yagami",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "eaf677d6-7d7b-4ca0-9fdf-841feef2d388",
-      "timestamp": "2026-10-27T16:32:07.511Z",
-      "type": "LOOKUP",
-      "userId": 8038426242,
-      "userName": "Anshu",
-      "summary": "Number Lookup 9518012090 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812508,
+  "lastTelegramUpdateId": 168812509,
   "usedEmailIds": [
     "gmail_739"
   ]
