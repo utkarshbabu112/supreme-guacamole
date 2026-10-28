@@ -7209,6 +7209,53 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
+    },
+    "5670220817": {
+      "id": 5670220817,
+      "firstName": "Kuber Account Panel",
+      "username": "KuberAccountPannel01",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 2,
+      "referralCode": "HEX220817",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T03:39:56.921Z",
+      "lastActiveAt": "2026-10-28T03:41:22.140Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "73386927-76df-4938-a780-538fe96de857",
+          "queryNumber": "9570798856",
+          "timestamp": "2026-10-28T03:41:28.641Z",
+          "source": "bot",
+          "userId": 5670220817,
+          "userName": "Kuber Account Panel",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9570798856",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10715,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
     }
   },
   "orders": {
@@ -7311,6 +7358,50 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "73386927-76df-4938-a780-538fe96de857",
+      "queryNumber": "9570798856",
+      "timestamp": "2026-10-28T03:41:28.641Z",
+      "source": "bot",
+      "userId": 5670220817,
+      "userName": "Kuber Account Panel",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9570798856",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "33f0ebf8-e64c-407c-b95f-13646743c79b",
+      "queryNumber": "9570798856",
+      "timestamp": "2026-10-28T03:40:46.241Z",
+      "source": "bot",
+      "userId": 5670220817,
+      "userName": "Kuber Account Panel",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9570798856",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "bcda9608-f5ba-474f-8e39-204097308df7",
       "queryNumber": "9795551017",
@@ -9466,53 +9557,33 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "ebe4a4c1-af60-4b4d-ab42-c43ed41f7248",
-      "queryNumber": "9634187554",
-      "timestamp": "2026-10-26T16:45:43.965Z",
-      "source": "bot",
-      "userId": 8988651908,
-      "userName": "Monu Trader",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9634187554",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "90e8c51f-bc1b-4d30-9f07-77145af6e7d8",
-      "queryNumber": "9871990630",
-      "timestamp": "2026-10-26T16:45:26.183Z",
-      "source": "bot",
-      "userId": 8988651908,
-      "userName": "Monu Trader",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9871990630",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "daffe1e8-68eb-4be5-95a7-d49485aaef59",
+      "timestamp": "2026-10-28T03:41:28.641Z",
+      "type": "LOOKUP",
+      "userId": 5670220817,
+      "userName": "Kuber Account Panel",
+      "summary": "Number Lookup 9570798856 (Not found)"
+    },
+    {
+      "id": "eb1a4319-dba7-45b0-8cca-eb5256b02e6c",
+      "timestamp": "2026-10-28T03:40:46.241Z",
+      "type": "LOOKUP",
+      "userId": 5670220817,
+      "userName": "Kuber Account Panel",
+      "summary": "Number Lookup 9570798856 (Not found)"
+    },
+    {
+      "id": "92c3ef85-6b41-4c99-9a8a-2522c8416a21",
+      "timestamp": "2026-10-28T03:39:57.705Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5670220817,
+      "userName": "Kuber Account Panel",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "df555712-0b2d-4469-b197-43845d9348d4",
       "timestamp": "2026-10-28T03:30:21.748Z",
@@ -10688,32 +10759,8 @@
       "userId": 5958346782,
       "userName": "Harshal",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "f452400b-8864-4fff-afc5-f5b3377ffc34",
-      "timestamp": "2026-10-26T20:24:04.291Z",
-      "type": "LOOKUP",
-      "userId": 8066457304,
-      "userName": "Faizan",
-      "summary": "Number Lookup 6290682470 (Not found)"
-    },
-    {
-      "id": "50a0ee77-ed90-4db3-8116-96eb488e36b8",
-      "timestamp": "2026-10-26T20:23:33.360Z",
-      "type": "LOOKUP",
-      "userId": 8066457304,
-      "userName": "Faizan",
-      "summary": "Number Lookup 9831407673 (Not found)"
-    },
-    {
-      "id": "5222709a-d37c-422b-aca8-eea566dd964e",
-      "timestamp": "2026-10-26T20:23:04.464Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8066457304,
-      "userName": "Faizan",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812071,
+  "lastTelegramUpdateId": 168812077,
   "usedEmailIds": []
 }
