@@ -1967,7 +1967,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-10-27T01:12:15.279Z",
+      "lastActiveAt": "2026-10-28T14:16:09.176Z",
       "isBanned": false,
       "history": [
         {
@@ -2151,7 +2151,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10312,
+      "lastBotMessageId": 10884,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-27",
@@ -7853,7 +7853,7 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "totalLookups": 1,
       "referralCode": "HEX125218",
       "referredBy": null,
       "referralCount": 0,
@@ -7861,10 +7861,80 @@
       "joinedAt": "2026-10-28T14:11:40.982Z",
       "lastActiveAt": "2026-10-28T14:12:11.305Z",
       "isBanned": false,
-      "history": [],
+      "history": [
+        {
+          "id": "a6225702-bac1-4e55-9279-f1001f026ee9",
+          "queryNumber": "9368741875",
+          "timestamp": "2026-10-28T14:12:17.805Z",
+          "source": "bot",
+          "userId": 8678125218,
+          "userName": "Fih",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9368741875",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10872,
+      "lastBotMessageId": 10876,
       "lastBotMessageHasPhoto": false,
+      "lastLookupDate": "2026-10-28"
+    },
+    "8481843832": {
+      "id": 8481843832,
+      "firstName": "Cheat Master ™",
+      "username": "CheatMasterss",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX843832",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T14:15:55.898Z",
+      "lastActiveAt": "2026-10-28T14:16:19.102Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "210a16f9-7db1-4c21-9def-596c1b1d34f8",
+          "queryNumber": "9159700020",
+          "timestamp": "2026-10-28T14:16:25.603Z",
+          "source": "bot",
+          "userId": 8481843832,
+          "userName": "Cheat Master ™",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9159700020",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10886,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
     }
   },
@@ -7968,6 +8038,50 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "210a16f9-7db1-4c21-9def-596c1b1d34f8",
+      "queryNumber": "9159700020",
+      "timestamp": "2026-10-28T14:16:25.603Z",
+      "source": "bot",
+      "userId": 8481843832,
+      "userName": "Cheat Master ™",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9159700020",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "a6225702-bac1-4e55-9279-f1001f026ee9",
+      "queryNumber": "9368741875",
+      "timestamp": "2026-10-28T14:12:17.805Z",
+      "source": "bot",
+      "userId": 8678125218,
+      "userName": "Fih",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9368741875",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "65d71edf-b593-41fb-8326-248fc1e23003",
       "queryNumber": "9181011339",
@@ -10123,53 +10237,41 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "77a9c558-ffe3-4774-a92a-f90ed274eb03",
-      "queryNumber": "9471779760",
-      "timestamp": "2026-10-26T23:35:28.534Z",
-      "source": "bot",
-      "userId": 8702404085,
-      "userName": "Aman Kumar",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9471779760",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "ffcb52a4-c80a-484d-b9be-8494ee346b17",
-      "queryNumber": "8871982180",
-      "timestamp": "2026-10-26T20:49:28.813Z",
-      "source": "bot",
-      "userId": 7014540509,
-      "userName": "Neel",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8871982180",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "8185f49f-f43f-49df-93f9-07553e6dd103",
+      "timestamp": "2026-10-28T14:16:25.603Z",
+      "type": "LOOKUP",
+      "userId": 8481843832,
+      "userName": "Cheat Master ™",
+      "summary": "Number Lookup 9159700020 (Not found)"
+    },
+    {
+      "id": "f260cd23-10f1-49d8-b623-a362b8b6f41c",
+      "timestamp": "2026-10-28T14:16:04.698Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "81487a5d-7049-406a-a11e-6cb12f4a5afa",
+      "timestamp": "2026-10-28T14:15:56.519Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8481843832,
+      "userName": "Cheat Master ™",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "75577bf8-4103-4046-8988-1f98e061f04e",
+      "timestamp": "2026-10-28T14:12:17.806Z",
+      "type": "LOOKUP",
+      "userId": 8678125218,
+      "userName": "Fih",
+      "summary": "Number Lookup 9368741875 (Not found)"
+    },
     {
       "id": "756ed85c-1a23-4178-a599-c28527d94e5a",
       "timestamp": "2026-10-28T14:04:55.494Z",
@@ -11337,40 +11439,8 @@
       "userId": 8875972491,
       "userName": "RAIZEN",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "56512cef-d587-4b8f-9d65-c93fe935e002",
-      "timestamp": "2026-10-27T01:10:33.685Z",
-      "type": "LOOKUP",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Number Lookup 9876543210 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "80ab8763-94c3-4ad2-8253-b995ec00f632",
-      "timestamp": "2026-10-27T01:10:09.510Z",
-      "type": "LOOKUP",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Number Lookup 7061224270 (Not found)"
-    },
-    {
-      "id": "e8a281de-141f-429c-9803-0cfeaf976dfb",
-      "timestamp": "2026-10-27T01:09:26.304Z",
-      "type": "LOOKUP",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Number Lookup 9122181105 (Not found)"
-    },
-    {
-      "id": "704f271b-a59b-4497-b466-d79c4e86256c",
-      "timestamp": "2026-10-27T01:08:41.976Z",
-      "type": "LOOKUP",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Number Lookup 9876543210 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168812225,
+  "lastTelegramUpdateId": 168812232,
   "usedEmailIds": []
 }
