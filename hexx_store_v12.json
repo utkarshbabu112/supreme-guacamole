@@ -270,7 +270,8 @@
       "lastBotMessageId": 10689,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-27"
+      "lastLookupDate": "2026-10-27",
+      "liveLocationUsed": 0
     },
     "871179765": {
       "id": 871179765,
@@ -7138,7 +7139,8 @@
       "lastBotMessageId": 10701,
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-28"
+      "lastLookupDate": "2026-10-28",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
