@@ -7750,6 +7750,53 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
+    },
+    "6722984342": {
+      "id": 6722984342,
+      "firstName": "Soul reap",
+      "username": "SouL0reap",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX984342",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T13:58:16.772Z",
+      "lastActiveAt": "2026-10-28T13:59:48.688Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "20582502-87d2-4d70-8e88-a71e55231202",
+          "queryNumber": "9174201189",
+          "timestamp": "2026-10-28T13:59:55.189Z",
+          "source": "bot",
+          "userId": 6722984342,
+          "userName": "Soul reap",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9174201189",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10857,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
     }
   },
   "orders": {
@@ -7852,6 +7899,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "20582502-87d2-4d70-8e88-a71e55231202",
+      "queryNumber": "9174201189",
+      "timestamp": "2026-10-28T13:59:55.189Z",
+      "source": "bot",
+      "userId": 6722984342,
+      "userName": "Soul reap",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9174201189",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "39f57483-1f63-49cf-95b9-437d41d90c5d",
       "queryNumber": "7294810321",
@@ -10029,31 +10098,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "b35be8f2-ff2d-43ef-a388-80435afb2e3a",
-      "queryNumber": "6290682470",
-      "timestamp": "2026-10-26T20:24:04.291Z",
-      "source": "bot",
-      "userId": 8066457304,
-      "userName": "Faizan",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "6290682470",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "57e03966-665a-43aa-afce-d1f4def1fa33",
+      "timestamp": "2026-10-28T13:59:55.189Z",
+      "type": "LOOKUP",
+      "userId": 6722984342,
+      "userName": "Soul reap",
+      "summary": "Number Lookup 9174201189 (Not found)"
+    },
+    {
+      "id": "40ce2f18-ab9d-4768-81c9-b677ecd94fb7",
+      "timestamp": "2026-10-28T13:58:17.575Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6722984342,
+      "userName": "Soul reap",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "ece98f9c-5c45-440a-aef2-7f111dfc83db",
       "timestamp": "2026-10-28T13:45:51.826Z",
@@ -11237,24 +11300,8 @@
       "userId": 8968071078,
       "userName": "Aura",
       "summary": "Number Lookup 9876543210 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "bcd1188c-dcb9-4b02-a1b5-16f9feba5f6b",
-      "timestamp": "2026-10-27T01:07:36.460Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "ded906e9-1e85-42c0-b6ea-0cef5b861359",
-      "timestamp": "2026-10-27T01:07:12.068Z",
-      "type": "LOOKUP",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Number Lookup 9122181105 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812205,
+  "lastTelegramUpdateId": 168812211,
   "usedEmailIds": []
 }
