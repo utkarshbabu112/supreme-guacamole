@@ -7397,6 +7397,30 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
+    },
+    "6585083179": {
+      "id": 6585083179,
+      "firstName": "Flnkr",
+      "username": "FLNKR_0",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX083179",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T09:02:59.474Z",
+      "lastActiveAt": "2026-10-28T09:03:43.463Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10767,
+      "lastBotMessageHasPhoto": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
     }
   },
   "orders": {
@@ -9702,6 +9726,22 @@
   ],
   "logs": [
     {
+      "id": "4b4fd4c8-72be-44dd-8b23-51981129efcb",
+      "timestamp": "2026-10-28T09:03:32.761Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6585083179,
+      "userName": "Flnkr",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "8c5ed157-3d60-44a2-9d73-3d53bc487a5f",
+      "timestamp": "2026-10-28T09:03:00.752Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6585083179,
+      "userName": "Flnkr",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "0a39c35e-fbdc-4844-8b0b-467bc766ed55",
       "timestamp": "2026-10-28T08:15:19.769Z",
       "type": "LOOKUP",
@@ -10884,24 +10924,8 @@
       "userId": 8702404085,
       "userName": "Aman Kumar",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "f8e60d3b-3339-4a4c-a18e-ded3e2197056",
-      "timestamp": "2026-10-26T23:35:28.534Z",
-      "type": "LOOKUP",
-      "userId": 8702404085,
-      "userName": "Aman Kumar",
-      "summary": "Number Lookup 9471779760 (Not found)"
-    },
-    {
-      "id": "300ed7c0-40c0-4beb-920f-48012a65ef56",
-      "timestamp": "2026-10-26T23:34:47.009Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8702404085,
-      "userName": "Aman Kumar",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168812110,
+  "lastTelegramUpdateId": 168812118,
   "usedEmailIds": []
 }
