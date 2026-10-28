@@ -8527,9 +8527,9 @@
       "firstName": "DIYA",
       "username": "Diya197",
       "credits": 0,
-      "isPremium": false,
-      "premiumUntil": null,
-      "totalSpent": 0,
+      "isPremium": true,
+      "premiumUntil": "2026-11-04T18:10:52.461Z",
+      "totalSpent": 29,
       "dailyLookupsUsed": 2,
       "totalLookups": 2,
       "referralCode": "HEX491695",
@@ -8537,7 +8537,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-28T16:04:00.503Z",
-      "lastActiveAt": "2026-10-28T18:09:12.865Z",
+      "lastActiveAt": "2026-10-28T18:11:35.355Z",
       "isBanned": false,
       "history": [
         {
@@ -8586,10 +8586,11 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11054,
-      "lastBotMessageHasPhoto": true,
+      "lastBotMessageId": 11059,
+      "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-28"
+      "lastLookupDate": "2026-10-28",
+      "lastPlanName": "1 Week Pass"
     },
     "8756212747": {
       "id": 8756212747,
@@ -9053,14 +9054,16 @@
       "lastImapScanAt": 0,
       "credits": 0,
       "days": 7,
-      "status": "PENDING",
+      "status": "PAID",
       "paymentUrl": "https://hexx-locate.ai.studio/?order=HEXI2LD1695",
       "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXI2LD1695&tr=HEXI2LD1695",
       "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXI2LD1695&tr=HEXI2LD1695",
       "gatewaySource": "direct_gmail",
       "createdAt": "2026-10-28T18:09:12.865Z",
       "expiresAt": "2026-10-28T18:19:12.865Z",
-      "botQrMessageId": 11054
+      "botQrMessageId": 11054,
+      "utr": "GMAIL_739",
+      "paidAt": "2026-10-28T18:10:52.461Z"
     }
   },
   "globalHistory": [
@@ -11267,6 +11270,14 @@
   ],
   "logs": [
     {
+      "id": "8d51d9b9-04b9-492d-9acd-c918d97d9f92",
+      "timestamp": "2026-10-28T18:10:52.461Z",
+      "type": "PAYMENT",
+      "userId": 8858491695,
+      "userName": "DIYA",
+      "summary": "Order HEXI2LD1695 PAID (7 Days VIP, Rs.29)"
+    },
+    {
       "id": "c54efa21-1d65-4686-a365-168911adb60b",
       "timestamp": "2026-10-28T18:09:12.904Z",
       "type": "PAYMENT",
@@ -12457,16 +12468,10 @@
       "userId": 6247554367,
       "userName": "Divya",
       "summary": "Number Lookup 8292196298 (Not found)"
-    },
-    {
-      "id": "bc052dfa-1f78-473d-92a8-65199b4af2bb",
-      "timestamp": "2026-10-27T14:00:58.209Z",
-      "type": "LOOKUP",
-      "userId": 5798883593,
-      "userName": "Shahbaz",
-      "summary": "Number Lookup 9555535108 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812428,
-  "usedEmailIds": []
+  "lastTelegramUpdateId": 168812435,
+  "usedEmailIds": [
+    "gmail_739"
+  ]
 }
