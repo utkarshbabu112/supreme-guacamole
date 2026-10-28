@@ -7444,6 +7444,53 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
+    },
+    "6047813668": {
+      "id": 6047813668,
+      "firstName": "Ankit",
+      "username": "mr_rwt15",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX813668",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T10:12:12.169Z",
+      "lastActiveAt": "2026-10-28T10:13:16.496Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "d694034c-bcf0-43e9-9fb5-dc71731c4c1a",
+          "queryNumber": "9727169516",
+          "timestamp": "2026-10-28T10:13:22.996Z",
+          "source": "bot",
+          "userId": 6047813668,
+          "userName": "Ankit",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9727169516",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10776,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
     }
   },
   "orders": {
@@ -7546,6 +7593,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "d694034c-bcf0-43e9-9fb5-dc71731c4c1a",
+      "queryNumber": "9727169516",
+      "timestamp": "2026-10-28T10:13:22.996Z",
+      "source": "bot",
+      "userId": 6047813668,
+      "userName": "Ankit",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9727169516",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "75bbcfe0-8e40-4f8d-ab14-9ab40fb5e362",
       "queryNumber": "7096652996",
@@ -9723,31 +9792,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "0d7e7077-0410-4070-828c-acf75dae502a",
-      "queryNumber": "9630624917",
-      "timestamp": "2026-10-26T18:59:39.557Z",
-      "source": "bot",
-      "userId": 7183197265,
-      "userName": "OG",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9630624917",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "bc8a9815-455f-4caf-a522-856da43aae79",
+      "timestamp": "2026-10-28T10:13:22.996Z",
+      "type": "LOOKUP",
+      "userId": 6047813668,
+      "userName": "Ankit",
+      "summary": "Number Lookup 9727169516 (Not found)"
+    },
+    {
+      "id": "7947d5fa-6f5c-4a3b-8a0a-c2eee6524881",
+      "timestamp": "2026-10-28T10:12:13.177Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6047813668,
+      "userName": "Ankit",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "98e1c2bf-27a8-476e-affb-328e0b30ad16",
       "timestamp": "2026-10-28T09:04:05.869Z",
@@ -10931,24 +10994,8 @@
       "userId": 8702404085,
       "userName": "Aman Kumar",
       "summary": "Number Lookup 9471779760 (Not found)"
-    },
-    {
-      "id": "f0b5b02e-e9ab-445e-a381-916819054fd8",
-      "timestamp": "2026-10-26T23:38:14.573Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8702404085,
-      "userName": "Aman Kumar",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "3ee7b012-c621-43c3-8eef-02a20e8e83bf",
-      "timestamp": "2026-10-26T23:37:54.124Z",
-      "type": "LOOKUP",
-      "userId": 8702404085,
-      "userName": "Aman Kumar",
-      "summary": "Number Lookup 7250734721 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812119,
+  "lastTelegramUpdateId": 168812125,
   "usedEmailIds": []
 }
