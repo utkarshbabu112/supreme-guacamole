@@ -8537,7 +8537,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-28T16:04:00.503Z",
-      "lastActiveAt": "2026-10-28T18:11:35.355Z",
+      "lastActiveAt": "2026-10-28T18:17:09.232Z",
       "isBanned": false,
       "history": [
         {
@@ -8586,7 +8586,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11059,
+      "lastBotMessageId": 11069,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28",
@@ -8939,6 +8939,75 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
+    },
+    "5980676816": {
+      "id": 5980676816,
+      "firstName": "Adxambek",
+      "username": "poyonv",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX676816",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T18:15:29.845Z",
+      "lastActiveAt": "2026-10-28T18:17:09.656Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "1d5de78a-e004-4589-9bdf-1279af177182",
+          "queryNumber": "8971907212",
+          "timestamp": "2026-10-28T18:16:53.825Z",
+          "source": "bot",
+          "userId": 5980676816,
+          "userName": "Adxambek",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8971907212",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11072,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
+    },
+    "5074033410": {
+      "id": 5074033410,
+      "firstName": "DARK",
+      "username": "DARKDEVIL0000000",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX033410",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T18:18:36.497Z",
+      "lastActiveAt": "2026-10-28T18:18:36.497Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 11074,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -9064,9 +9133,55 @@
       "botQrMessageId": 11054,
       "utr": "GMAIL_739",
       "paidAt": "2026-10-28T18:10:52.461Z"
+    },
+    "HEXR0LU1695": {
+      "orderId": "HEXR0LU1695",
+      "famOrderId": "HEXR0LU1695",
+      "userId": 8858491695,
+      "userName": "DIYA",
+      "userUsername": "Diya197",
+      "planId": "plan_30d",
+      "planName": "1 Month Pass",
+      "amount": 49,
+      "payableAmount": "49",
+      "qrImageUrl": "https://hexx-locate.ai.studio/api/qr/HEXR0LU1695",
+      "qrDataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAggAAAIICAYAAAAL/BZjAAAAAklEQVR4AewaftIAABKFSURBVO3BsZLdOHQFwCPURAiQ4v8/DykCpLJC73VgclXc4pvp7l+//wgAwP/SAgBQtAAAFC0AAEULAEDRAgBQtAAAFC0AAEULAEDRAgBQtAAAFC0AAEULAEDRAgBQtAAAFC0AAEULAEDRAgBQtAAAFC0AAEULAEDRAgBQtAAAFC0AAMVXHtbHDP/e2Stv0cfMHWevvEEfM085e+WOPmbuOHvlKX3MXHX2yh19zFx19sqn6mPmqrNX3qKPmavOXnlKHzP8nbNXntICAFC0AAAULQAARQsAQNECAFC0AAAULQAARQsAQNECAFC0AAAUX3mRs1d+gj5mntLHzB1nr1x19sodfcy8wdkrT+lj5o6zV+7oY4Z/6mPmLc5euaqPmTvOXnmDPmbuOHvlKWev/AR9zLxBCwBA0QIAULQAABQtAABFCwBA0QIAULQAABQtAABFCwBA0QIAULQAABRf+WB9zLzB2Ss/QR8zd5y98pQ+Zt7g7JUnnb3ylD5mrupj5o6zV67qY+YpZ6/c0cfMW/Qx8wZnr3yqPmbe4OyVT9QCAFC0AAAULQAARQsAQNECAFC0AAAULQAARQsAQNECAFC0AAAUX+FH62PmqrNX3uLslav6mHnK2StP6mPmqrNX7jh75Q3OXrmjj5mnnL3yFmevXNXHzB1nr8D/pwUAoGgBAChaAACKFgCAogUAoGgBAChaAACKFgCAogUAoGgBAChaAACKr/CtnL1yRx8zV/Ux8xZnr/wEZ6+8QR8zTzl75Y6zV96ij5mn9DHzBn3M3HH2Ct9DCwBA0QIAULQAABQtAABFCwBA0QIAULQAABQtAABFCwBA0QIAUHzlg529wt85e+WqPmbuOHvlqj5m7uhj5qqzV+7oY+YpfczccfbKVX3M3HH2ylVnrzylj5mnnL3ypLNXrupj5o6zV67qY+YpZ698qrNX+PdaAACKFgCAogUAoGgBAChaAACKFgCAogUAoGgBAChaAACKFgCAogUAoPjKi/Qxw9/pY+aOs1c+0dkrV/Uxc8fZK1f1MXPH2St39DFz1dkrd/Qxc9XZK3f0MXPV2St39DHzlD5m7jh75bvrY+aOs1ee0scM/50WAICiBQCgaAEAKFoAAIoWAICiBQCgaAEAKFoAAIoWAICiBQCg+MrDzl7hvfqYuerslTv6mHlKHzNXnb3yE/Qx8xZnrzzl7JWnnL3yic5euaOPmTc4e4X3agEAKFoAAIoWAICiBQCgaAEAKFoAAIoWAICiBQCgaAEAKFoAAIoWAIDiKw/rY+aqs1d+gj5mrjp75VOdvfKUPmY+UR8zd5y98gZ9zDzl7JU7+ph5ytkrd/Qx85Q+Zp5y9spVfczc0cfMU85eeUofM29x9sobtAAAFC0AAEULAEDRAgBQtAAAFC0AAEULAEDRAgBQtAAAFC0AAEULAEDx6/cfeVAfM29w9sodfcxcdfbKp+pj5g3OXvlEfczccfbKHX3MXHX2yh19zFx19sodfcxcdfbKHX3MXHX2yh19zNxx9spVfczccfbKU/qYuerslaf0MfMTnL3yiVoAAIoWAICiBQCgaAEAKFoAAIoWAICiBQCgaAEAKFoAAIoWAIDi1+8/8hJ9zPDfOnvlqj5m7jh75Sl9zFx19sodfcy8xdkrT+lj5qqzV+7oY+YpZ69c1cfMT3D2ylP6mLnj7JWn9DFzx9krV/Uxc8fZK99dCwBA0QIAULQAABQtAABFCwBA0QIAULQAABQtAABFCwBA0QIAULQAABS/fv+RH6CPmTvOXrmqj5k7zl65qo+ZO85e+Qn6mLnq7JW36GPmLc5euaqPmTvOXnlKHzNPOXvlKX3M3HH2yifqY+aqs1fu6GPmLc5euaqPmTvOXnmDFgCAogUAoGgBAChaAACKFgCAogUAoGgBAChaAACKFgCAogUAoPj1+4/8AH3MPOXslTv6mHmLs1eu6mPmKWevPKWPmbc4e+Upfcw85ewV/k4fM3ecvXJVHzNPOXvljj5m3uLslU/Ux8xVZ688pQUAoGgBAChaAACKFgCAogUAoGgBAChaAACKFgCAogUAoGgBAChaAACKrzysj5mrzl65o4+Zp5y98pSzV96ij5mrzl65o48Z/jtnr9zRx8xT+pi56uyVt+hj5ic4e+UpZ688pY+Zp/Qxc8fZK99dCwBA0QIAULQAABQtAABFCwBA0QIAULQAABQtAABFCwBA0QIAUHzlYWevvMHZK3f0MXPV2St39DHzlLNXPlEfM29x9spVfcw8qY+Zp5y98on6mHnK2Stv0cfMG/Qxc8fZK1f1MXPH2St39DHzlD5mnnL2yhu0AAAULQAARQsAQNECAFC0AAAULQAARQsAQNECAFC0AAAULQAARQsAQPHr9x95UB8zV529ckcfM1edvfIT9DHzE5y9clUfM/xfZ698d33M3HH2yh19zDzl7JVP1MfMVWev3NHHzFPOXrmjj5mnnL3yBi0AAEULAEDRAgBQtAAAFC0AAEULAEDRAgBQtAAAFC0AAEULAEDxlYedvXJVHzN3nL3yifqYeYuzV67qY+YTnb1yRx8zV529ckcfM5+oj5mnnL1yRx8zV529ckcfMz9BHzOf6OyVtzh75ao+Zj5RCwBA0QIAULQAABQtAABFCwBA0QIAULQAABQtAABFCwBA0QIAULQAABS/fv+RB/Ux892dvfKUPmbuOHvljj5mrjp75Sl9zNxx9sob9DHzpLNXvrs+Zp5y9sodfcw85eyVO/qYecrZK1f1MXPH2StX9TFzx9krd/Qxc9XZK2/Rx8xVZ688pQUAoGgBAChaAACKFgCAogUAoGgBAChaAACKFgCAogUAoGgBAChaAACKr7zI2St39DHzBn3MvEUfM3ecvXJVHzP809krb9HHzE9w9spVfcy8RR8zd5y9wj/1MXPH2Sv8ey0AAEULAEDRAgBQtAAAFC0AAEULAEDRAgBQtAAAFC0AAEULAEDxlQ929sp318fMHWev3NHHzBucvfKUPmbuOHvlKX3MvMXZK9/d2StP6mPmE/Ux85Q+Zp5y9gr/nRYAgKIFAKBoAQAoWgAAihYAgKIFAKBoAQAoWgAAihYAgKIFAKBoAQAofv3+Iy/Rx8wdZ688pY+Zn+Dslaf0MXPV2Su8Vx8zd5y98pQ+Zq46e+VJfcxcdfYKf6ePmaecvfKUPmbuOHvlDVoAAIoWAICiBQCgaAEAKFoAAIoWAICiBQCgaAEAKFoAAIoWAIDi1+8/8qA+Zj7R2StX9TFzx9krT+lj5ilnr3yiPmbe4uyVO/qYuerslbfoY+aqs1fu6GPmKWevPKWPGf7O2St39DFz1dkrT+lj5o6zV96gBQCgaAEAKFoAAIoWAICiBQCgaAEAKFoAAIoWAICiBQCgaAEAKFoAAIqvvMjZK2/Rx8xVZ6/c0cfMVWevvEUfM3ecvfKJzl65qo+ZO/qYuePslaf0MXPV2St3nL3ylLNXrupj5kl9zLzB2Stv0cfMVWev3NHHzB1nrzylj5mrzl75RC0AAEULAEDRAgBQtAAAFC0AAEULAEDRAgBQtAAAFC0AAEULAEDxlRfpY+YnOHvlE5298hZ9zDylj5mrzl55Uh8zn6iPmTc4e+WOPmaecvbKW/Qx85SzV67qY+ZJfcxcdfbKHWevXNXHzB1nr7xBCwBA0QIAULQAABQtAABFCwBA0QIAULQAABQtAABFCwBA0QIAULQAABRfedjZK1f1MXPH2StP6WPmKX3MXHX2yh1nr9zRx8xVfcy8xdkrT+lj5qo+Zvi/zl65qo+ZO85e4Wc6e+UTnb3yiVoAAIoWAICiBQCgaAEAKFoAAIoWAICiBQCgaAEAKFoAAIoWAIDiKw/rY+YN+pi54+yVq/qYuePslaf0MXPH2StP6WPmKX3MPOXslav6mLnj7JW36GPmKX3MXHX2yh19zFx19grfRx8zd5y9wr/XAgBQtAAAFC0AAEULAEDRAgBQtAAAFC0AAEULAEDRAgBQtAAAFC0AAMVXfoizV+7oY+YpfcxcdfbKHWev3NHHzFPOXrmqj5lPdPbKHX3M3HH2ynfXx8wdZ69c1cfMHWev3NHHzFV9zLzF2StP6WPmqrNXfoI+Zu44e+UNWgAAihYAgKIFAKBoAQAoWgAAihYAgKIFAKBoAQAoWgAAihYAgKIFAKD4ygfrY+YTnb1yVR8zTzp75Sl9zDzl7JWr+pj5VH3MfHdnrzzl7JU7+pi54+yVq/qYuePslav6mHlKHzNP6WPmJzh75Y4+Zq46e+UpLQAARQsAQNECAFC0AAAULQAARQsAQNECAFC0AAAULQAARQsAQPHr9x95UB8zTzl75Q36mPkJzl75RH3MfKqzV57Sx8xVZ688pY+Zp5y9ckcfM085e+UT9THzlLNX7uhj5ilnr9zRx8xTzl55gxYAgKIFAKBoAQAoWgAAihYAgKIFAKBoAQAoWgAAihYAgKIFAKBoAQAovvIiZ6/c0cfMVWev3NHHzFPOXnmLPmau6mPmjrNXrupj5ilnr7xFHzN39DFz1dkrd5y98pQ+Zp5y9spbnL1yVR8zd5y98gZnr3yqs1eu6mPmjrNXrupj5hO1AAAULQAARQsAQNECAFC0AAAULQAARQsAQNECAFC0AAAULQAAxVdepI+ZO85euaqPmTvOXnlKHzNXnb3ypLNXrupj5ilnr9zRx8wb9DFzx9krd/Qxc1UfM3ecvfKUs1ee0sfMU85e+UR9zNxx9sonOnvlE529ckcfM1edvfKUFgCAogUAoGgBAChaAACKFgCAogUAoGgBAChaAACKFgCAogUAoGgBACi+8iJnr7xFHzNPOXvlE529ckcfM/xTHzN3nL3yBn3M3HH2yk/Qx8xT+pi56uyVt+hj5ilnr9zRx8xT+pi56uyVT9QCAFC0AAAULQAARQsAQNECAFC0AAAULQAARQsAQNECAFC0AAAUX/khzl55iz5mrjp75Y4+Zp5y9sodZ69c1cfMW/Qxc9XZK5+qj5mrzl65o4+ZNzh75S3OXnlKHzM/QR8zTzl75Y4+Zq7qY+aOs1feoAUAoGgBAChaAACKFgCAogUAoGgBAChaAACKFgCAogUAoGgBAChaAACKX7//CN9GHzNPOXvlE/Uxc8fZK/xTHzNvcfbKW/Qxc9XZK3f0MXPV2St39DHzlLNX3qKPme/u7JWntAAAFC0AAEULAEDRAgBQtAAAFC0AAEULAEDRAgBQtAAAFC0AAMVXHtbHDP/e2St3nL3ylD5m3uLslaf0MXPV2StP6mPmDc5euaOPmaf0MXPV2St39DHzFmevXNXHzB1nr1zVx8xT+pi54+yVp5y98hZ9zLxBCwBA0QIAULQAABQtAABFCwBA0QIAULQAABQtAABFCwBA0QIAULQAABRfeZGzV36CPmbeoo+Zp5y98gZnr3yqs1eu6mPmjrNXrupj5o6zV96gjxne6+wV3qsFAKBoAQAoWgAAihYAgKIFAKBoAQAoWgAAihYAgKIFAKBoAQAoWgAAiq98sD5m3uDslZ/g7JWn9DHzFmevXNXHDH+nj5mnnL1yRx8zT+lj5i36mHlKHzOfqI+ZO85e+e5aAACKFgCAogUAoGgBAChaAACKFgCAogUAoGgBAChaAACKFgCA4iv8aGevXNXHzFucvfKUPmauOnvljj5m7jh75Q3OXvlEfczccfbKHX3MXHX2yifqY+YpZ6/c0cfMHWevPKWPmavOXrnj7JU3aAEAKFoAAIoWAICiBQCgaAEAKFoAAIoWAICiBQCgaAEAKFoAAIoWAIDiK/xofczwT2evXNXHDH/n7JWfoI+ZO85euaqPmaecvfKUPmbuOHvljj5mnnL2ylV9zNxx9sobtAAAFC0AAEULAEDRAgBQtAAAFC0AAEULAEDRAgBQtAAAFC0AAMVXPtjZK/x3zl65o4+Zp/Qx85SzV96ij5mnnL3ylD5m3uDsFf5OHzNv0cfMU85euaOPmavOXrmjj5mrzl55SgsAQNECAFC0AAAULQAARQsAQNECAFC0AAAULQAARQsAQNECAFC0AAAUX3mRPmb4O33M3HH2ylPOXrmqj5lPdPbKHX3M3HH2ylP6mHmDs1ee0sfMHWevPOXslTv6mLnq7JU7+pj5RGevPKWPmTvOXnnK2Stv0AIAULQAABQtAABFCwBA0QIAULQAABQtAABFCwBA0QIAULQAABS/fv8RAID/pQUAoGgBAChaAACKFgCAogUAoGgBAChaAACKFgCAogUAoGgBAChaAACKFgCAogUAoGgBAChaAACKFgCAogUAoGgBAChaAACKFgCAogUAoGgBACj+B44ipMJYQHL5AAAAAElFTkSuQmCC",
+      "lastImapScanAt": 0,
+      "credits": 0,
+      "days": 30,
+      "status": "PENDING",
+      "paymentUrl": "https://hexx-locate.ai.studio/?order=HEXR0LU1695",
+      "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=49&cu=INR&tn=HEXR0LU1695&tr=HEXR0LU1695",
+      "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=49&cu=INR&tn=HEXR0LU1695&tr=HEXR0LU1695",
+      "gatewaySource": "direct_gmail",
+      "createdAt": "2026-10-28T18:16:10.194Z",
+      "expiresAt": "2026-10-28T18:26:10.194Z",
+      "botQrMessageId": 11068
     }
   },
   "globalHistory": [
+    {
+      "id": "1d5de78a-e004-4589-9bdf-1279af177182",
+      "queryNumber": "8971907212",
+      "timestamp": "2026-10-28T18:16:53.825Z",
+      "source": "bot",
+      "userId": 5980676816,
+      "userName": "Adxambek",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8971907212",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "2632421b-45d7-43bf-a654-fba4b52e490a",
       "queryNumber": "6710130017",
@@ -11244,31 +11359,33 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "abe3fd87-5b2c-4f2e-92b5-22a0d13211d8",
-      "queryNumber": "6289844804",
-      "timestamp": "2026-10-27T08:02:46.391Z",
-      "source": "bot",
-      "userId": 1416029701,
-      "userName": "Md",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "6289844804",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "2a3f40c2-e7d9-47f3-82b8-e7c4dde0ec4d",
+      "timestamp": "2026-10-28T18:18:37.107Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5074033410,
+      "userName": "DARK",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "29d1a89f-a48d-4a26-9fd5-17281cd2db9d",
+      "timestamp": "2026-10-28T18:16:53.826Z",
+      "type": "LOOKUP",
+      "userId": 5980676816,
+      "userName": "Adxambek",
+      "summary": "Number Lookup 8971907212 (Not found)"
+    },
+    {
+      "id": "692bc903-aacb-4128-9802-b89d628da3ef",
+      "timestamp": "2026-10-28T18:16:10.210Z",
+      "type": "PAYMENT",
+      "userId": 8858491695,
+      "userName": "DIYA",
+      "summary": "Created Auto-QR Order HEXR0LU1695 (₹49 for 30 Days VIP)"
+    },
     {
       "id": "8d51d9b9-04b9-492d-9acd-c918d97d9f92",
       "timestamp": "2026-10-28T18:10:52.461Z",
@@ -12444,33 +12561,9 @@
       "userId": 5867277215,
       "userName": "Gautam",
       "summary": "Number Lookup 9205152699 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "b461d8bc-1e57-45fb-b0f5-d7a5f3ad1d49",
-      "timestamp": "2026-10-27T15:30:30.295Z",
-      "type": "LOOKUP",
-      "userId": 5867277215,
-      "userName": "Gautam",
-      "summary": "Number Lookup 9354150975 (Not found)"
-    },
-    {
-      "id": "1b0c86fb-2dd3-4dc7-87ac-a21d84ac1ef1",
-      "timestamp": "2026-10-27T15:29:04.649Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5867277215,
-      "userName": "Gautam",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "d312fbd5-5c75-4a0c-a067-73aad1c9283e",
-      "timestamp": "2026-10-27T14:30:58.076Z",
-      "type": "LOOKUP",
-      "userId": 6247554367,
-      "userName": "Divya",
-      "summary": "Number Lookup 8292196298 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812435,
+  "lastTelegramUpdateId": 168812455,
   "usedEmailIds": [
     "gmail_739"
   ]
