@@ -8276,15 +8276,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 1,
+      "totalLookups": 2,
       "referralCode": "HEX965283",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-28T15:10:19.911Z",
-      "lastActiveAt": "2026-10-28T17:28:38.437Z",
+      "lastActiveAt": "2026-10-28T17:29:50.099Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "e2728a3e-f82c-4c84-8322-086033098845",
+          "queryNumber": "8400002324",
+          "timestamp": "2026-10-28T17:29:56.600Z",
+          "source": "bot",
+          "userId": 8066965283,
+          "userName": "Tʀᴜsᴛᴇᴅ Sᴇʟʟᴇʀ",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8400002324",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "27840632-9c68-4448-b70f-f73664e79358",
           "queryNumber": "8400002329",
@@ -8309,7 +8331,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10992,
+      "lastBotMessageId": 11001,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28",
@@ -8788,6 +8810,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "e2728a3e-f82c-4c84-8322-086033098845",
+      "queryNumber": "8400002324",
+      "timestamp": "2026-10-28T17:29:56.600Z",
+      "source": "bot",
+      "userId": 8066965283,
+      "userName": "Tʀᴜsᴛᴇᴅ Sᴇʟʟᴇʀ",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8400002324",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "1168f9e2-41e6-4c5d-b7d1-936c6b68018a",
       "queryNumber": "7450854788",
@@ -10965,31 +11009,17 @@
         "lng": 88.36443,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
       }
-    },
-    {
-      "id": "a97a00e6-d4bc-4bda-9a9b-f24509fde747",
-      "queryNumber": "9958535378",
-      "timestamp": "2026-10-27T06:39:45.173Z",
-      "source": "bot",
-      "userId": 7639119817,
-      "userName": "Yadav ji",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9958535378",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "e938f394-6ffa-4d24-9649-f39b741c3639",
+      "timestamp": "2026-10-28T17:29:56.600Z",
+      "type": "LOOKUP",
+      "userId": 8066965283,
+      "userName": "Tʀᴜsᴛᴇᴅ Sᴇʟʟᴇʀ",
+      "summary": "Number Lookup 8400002324 (Not found)"
+    },
     {
       "id": "5e793aff-e2c5-45c9-9862-6b7874efc4eb",
       "timestamp": "2026-10-28T17:20:22.119Z",
@@ -12181,16 +12211,8 @@
       "userId": 5354877993,
       "userName": "Mo Bilal",
       "summary": "Number Lookup 8291352835 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "c8d2fa37-07c1-4559-a186-d1b2427aa0f9",
-      "timestamp": "2026-10-27T09:52:28.417Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5354877993,
-      "userName": "Mo Bilal",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812350,
+  "lastTelegramUpdateId": 168812356,
   "usedEmailIds": []
 }
