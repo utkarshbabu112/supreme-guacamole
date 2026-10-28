@@ -8615,6 +8615,30 @@
       "lastBotMessageId": 10969,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-28"
+    },
+    "8679640348": {
+      "id": 8679640348,
+      "firstName": "𝕾𝕽 𝕿𝕰𝕬𝕸 𝕭𝕯",
+      "username": "stycs1422",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX640348",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T16:45:33.171Z",
+      "lastActiveAt": "2026-10-28T16:46:02.002Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10979,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
     }
   },
   "orders": {
@@ -10920,6 +10944,14 @@
   ],
   "logs": [
     {
+      "id": "3a93ffe6-3082-4358-ae83-b82501ede303",
+      "timestamp": "2026-10-28T16:45:34.038Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8679640348,
+      "userName": "𝕾𝕽 𝕿𝕰𝕬𝕸 𝕭𝕯",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "267b8f30-a25c-447b-9edb-a1f715d93ddb",
       "timestamp": "2026-10-28T16:27:54.684Z",
       "type": "LOOKUP",
@@ -12110,16 +12142,8 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "60d92acc-da1a-45dd-9af9-155b83b93d30",
-      "timestamp": "2026-10-27T09:29:10.990Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168812320,
+  "lastTelegramUpdateId": 168812326,
   "usedEmailIds": []
 }
