@@ -2369,15 +2369,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 4,
+      "totalLookups": 5,
       "referralCode": "HEX197265",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:33:05.153Z",
-      "lastActiveAt": "2026-10-28T14:21:14.244Z",
+      "lastActiveAt": "2026-10-28T14:22:57.319Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "5dd142d4-d826-4adc-93a7-17c681f80dc2",
+          "queryNumber": "9826594783",
+          "timestamp": "2026-10-28T14:23:03.820Z",
+          "source": "bot",
+          "userId": 7183197265,
+          "userName": "OG",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9826594783",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "2f1faae8-a330-4540-95a0-ac8b2bdc7044",
           "queryNumber": "8450899428",
@@ -2469,7 +2491,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10891,
+      "lastBotMessageId": 10895,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-28",
       "awaitingRedeemCode": false,
@@ -8061,6 +8083,28 @@
   },
   "globalHistory": [
     {
+      "id": "5dd142d4-d826-4adc-93a7-17c681f80dc2",
+      "queryNumber": "9826594783",
+      "timestamp": "2026-10-28T14:23:03.820Z",
+      "source": "bot",
+      "userId": 7183197265,
+      "userName": "OG",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9826594783",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
       "id": "2f1faae8-a330-4540-95a0-ac8b2bdc7044",
       "queryNumber": "8450899428",
       "timestamp": "2026-10-28T14:21:20.746Z",
@@ -10237,31 +10281,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "3146435d-b4c4-422a-8582-79908b837e7b",
-      "queryNumber": "9471779760",
-      "timestamp": "2026-10-26T23:38:22.850Z",
-      "source": "bot",
-      "userId": 8702404085,
-      "userName": "Aman Kumar",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9471779760",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "a036a7f7-f35e-4e51-886f-ea3c2b0eb9c9",
+      "timestamp": "2026-10-28T14:23:03.820Z",
+      "type": "LOOKUP",
+      "userId": 7183197265,
+      "userName": "OG",
+      "summary": "Number Lookup 9826594783 (Not found)"
+    },
     {
       "id": "914bbb18-d22a-4f5a-b3d7-74c0d91249ea",
       "timestamp": "2026-10-28T14:21:20.746Z",
@@ -11453,16 +11483,8 @@
       "userId": 7639119817,
       "userName": "Yadav ji",
       "summary": "Number Lookup 9958535378 (Not found)"
-    },
-    {
-      "id": "bc761820-fa1f-4c46-a564-f59bd195dea0",
-      "timestamp": "2026-10-27T04:49:00.927Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8926917947,
-      "userName": "Saurabh Kumar",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812234,
+  "lastTelegramUpdateId": 168812236,
   "usedEmailIds": []
 }
