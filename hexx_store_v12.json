@@ -1107,6 +1107,30 @@
       "lastLookupDate": "2026-10-27",
       "liveLocationUsed": 0
     },
+    "1987664153": {
+      "id": 1987664153,
+      "firstName": "Siuuuuuu",
+      "username": "Eshan2008",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX664153",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T17:42:34.613Z",
+      "lastActiveAt": "2026-10-28T17:43:59.448Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11005,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
+    },
     "2067241894": {
       "id": 2067241894,
       "firstName": "SAEED",
@@ -11013,6 +11037,14 @@
   ],
   "logs": [
     {
+      "id": "896d28e2-637f-4f14-a9ac-595fecdf1af3",
+      "timestamp": "2026-10-28T17:42:35.226Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1987664153,
+      "userName": "Siuuuuuu",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "e938f394-6ffa-4d24-9649-f39b741c3639",
       "timestamp": "2026-10-28T17:29:56.600Z",
       "type": "LOOKUP",
@@ -12203,16 +12235,8 @@
       "userId": 5798883593,
       "userName": "Shahbaz",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "e015af15-937e-4fd6-b8c1-335b4023cc22",
-      "timestamp": "2026-10-27T09:53:41.479Z",
-      "type": "LOOKUP",
-      "userId": 5354877993,
-      "userName": "Mo Bilal",
-      "summary": "Number Lookup 8291352835 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168812356,
+  "lastTelegramUpdateId": 168812368,
   "usedEmailIds": []
 }
