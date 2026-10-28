@@ -9226,6 +9226,30 @@
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
+    },
+    "7655795790": {
+      "id": 7655795790,
+      "firstName": "ｒｅｚａ",
+      "username": "reza_ar33",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX795790",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T23:26:18.812Z",
+      "lastActiveAt": "2026-10-28T23:27:14.473Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11113,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
     }
   },
   "orders": {
@@ -11581,6 +11605,14 @@
   ],
   "logs": [
     {
+      "id": "36fa0019-90e7-415c-b890-b09362b0ba93",
+      "timestamp": "2026-10-28T23:26:19.470Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7655795790,
+      "userName": "ｒｅｚａ",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "63501e53-1469-4747-8c04-80aeb0b071ec",
       "timestamp": "2026-10-28T23:15:21.555Z",
       "type": "BOT_MESSAGE",
@@ -12771,17 +12803,9 @@
       "userId": 6275404933,
       "userName": "Light__._yagami",
       "summary": "Number Lookup 6296462945 (Not found)"
-    },
-    {
-      "id": "ab61dde1-9862-4c8e-880b-73b4532886e8",
-      "timestamp": "2026-10-27T16:39:11.145Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6275404933,
-      "userName": "Light__._yagami",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812509,
+  "lastTelegramUpdateId": 168812514,
   "usedEmailIds": [
     "gmail_739"
   ]
