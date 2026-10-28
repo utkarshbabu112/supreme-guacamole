@@ -8362,6 +8362,29 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28",
       "liveLocationUsed": 0
+    },
+    "7529430193": {
+      "id": 7529430193,
+      "firstName": "Aditya",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX430193",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T15:58:13.004Z",
+      "lastActiveAt": "2026-10-28T15:58:41.650Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10943,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
     }
   },
   "orders": {
@@ -10667,6 +10690,14 @@
   ],
   "logs": [
     {
+      "id": "3669f59e-389b-4f5d-8957-411fc834828f",
+      "timestamp": "2026-10-28T15:58:13.921Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7529430193,
+      "userName": "Aditya",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "ac43a51f-6689-4d06-a4ef-997146506591",
       "timestamp": "2026-10-28T15:25:56.295Z",
       "type": "LOOKUP",
@@ -11857,16 +11888,8 @@
       "userId": 5312033728,
       "userName": "Su",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "a5793b20-06ad-4fde-8973-b85acd8b8459",
-      "timestamp": "2026-10-27T08:09:41.806Z",
-      "type": "LOOKUP",
-      "userId": 8987971070,
-      "userName": "Vani",
-      "summary": "Number Lookup 9848061853 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168812287,
+  "lastTelegramUpdateId": 168812291,
   "usedEmailIds": []
 }
