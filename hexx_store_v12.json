@@ -1106,6 +1106,30 @@
       "lastLookupDate": "2026-10-27",
       "liveLocationUsed": 0
     },
+    "2067241894": {
+      "id": 2067241894,
+      "firstName": "SAEED",
+      "username": "saeedanwar01",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX241894",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T13:37:46.379Z",
+      "lastActiveAt": "2026-10-28T13:38:40.898Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10826,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
+    },
     "6672896116": {
       "id": 6672896116,
       "firstName": "UHTKARSH",
@@ -10007,6 +10031,14 @@
   ],
   "logs": [
     {
+      "id": "0ed9f18e-11c4-4901-be85-cb5b060ae130",
+      "timestamp": "2026-10-28T13:37:47.322Z",
+      "type": "BOT_MESSAGE",
+      "userId": 2067241894,
+      "userName": "SAEED",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "76315d66-b7f9-4ea4-a56f-5b2d7a4440b5",
       "timestamp": "2026-10-28T12:45:56.602Z",
       "type": "LOOKUP",
@@ -11197,16 +11229,8 @@
       "userId": 8968071078,
       "userName": "Aura",
       "summary": "Number Lookup 9708398593 (Not found)"
-    },
-    {
-      "id": "53441172-647a-418e-a5d5-368a98f48995",
-      "timestamp": "2026-10-27T01:06:25.950Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168812179,
+  "lastTelegramUpdateId": 168812185,
   "usedEmailIds": []
 }
