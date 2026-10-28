@@ -4429,20 +4429,42 @@
     "8818082018": {
       "id": 8818082018,
       "firstName": "Water Melon",
-      "credits": 1,
+      "credits": 0,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 1,
-      "totalLookups": 1,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 2,
       "referralCode": "HEX082018",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-26T13:34:43.581Z",
-      "lastActiveAt": "2026-10-28T08:02:42.285Z",
+      "lastActiveAt": "2026-10-28T08:08:03.618Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "1f27f559-6536-4c8c-8dc8-86dc8dfbe494",
+          "queryNumber": "6767676767",
+          "timestamp": "2026-10-28T08:08:10.099Z",
+          "source": "bot",
+          "userId": 8818082018,
+          "userName": "Water Melon",
+          "resultSummary": {
+            "name": "VODAFONE KOLKATA",
+            "fatherName": "\"9836307000",
+            "mobile": "6767676767",
+            "altMobile": "QAISER ALAM",
+            "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+            "idNumber": "8337007000",
+            "email": "Not found",
+            "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+            "totalRecords": 8,
+            "lat": 22.5409,
+            "lng": 88.36102,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+          }
+        },
         {
           "id": "3caf467a-fb9e-49e5-ae61-0e7761d584e8",
           "queryNumber": "9876543210",
@@ -4467,7 +4489,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10745,
+      "lastBotMessageId": 10755,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-28",
       "liveLocationUsed": 0,
@@ -7432,6 +7454,28 @@
   },
   "globalHistory": [
     {
+      "id": "1f27f559-6536-4c8c-8dc8-86dc8dfbe494",
+      "queryNumber": "6767676767",
+      "timestamp": "2026-10-28T08:08:10.099Z",
+      "source": "bot",
+      "userId": 8818082018,
+      "userName": "Water Melon",
+      "resultSummary": {
+        "name": "VODAFONE KOLKATA",
+        "fatherName": "\"9836307000",
+        "mobile": "6767676767",
+        "altMobile": "QAISER ALAM",
+        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+        "idNumber": "8337007000",
+        "email": "Not found",
+        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+        "totalRecords": 8,
+        "lat": 22.5409,
+        "lng": 88.36102,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+      }
+    },
+    {
       "id": "3caf467a-fb9e-49e5-ae61-0e7761d584e8",
       "queryNumber": "9876543210",
       "timestamp": "2026-10-28T07:56:45.895Z",
@@ -9608,31 +9652,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "eb8340a1-5c9b-4719-83d4-717a9490b0db",
-      "queryNumber": "9352848725",
-      "timestamp": "2026-10-26T17:59:33.627Z",
-      "source": "bot",
-      "userId": 8917543741,
-      "userName": "Sai",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9352848725",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "b084eef7-982d-44ac-af85-55f1f9e097d3",
+      "timestamp": "2026-10-28T08:08:10.100Z",
+      "type": "LOOKUP",
+      "userId": 8818082018,
+      "userName": "Water Melon",
+      "summary": "Number Lookup 6767676767 (VODAFONE KOLKATA)"
+    },
     {
       "id": "8cb0feed-019a-4a21-8eff-4799e06c8689",
       "timestamp": "2026-10-28T07:56:45.895Z",
@@ -10824,16 +10854,8 @@
       "userId": 7014540509,
       "userName": "Neel",
       "summary": "Number Lookup 8871982180 (Not found)"
-    },
-    {
-      "id": "dbe33493-9549-4f97-8dd1-c189708353de",
-      "timestamp": "2026-10-26T20:47:14.862Z",
-      "type": "LOOKUP",
-      "userId": 5958346782,
-      "userName": "Harshal",
-      "summary": "Number Lookup 8871982180 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812099,
+  "lastTelegramUpdateId": 168812106,
   "usedEmailIds": []
 }
