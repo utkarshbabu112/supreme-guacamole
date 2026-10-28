@@ -7115,6 +7115,30 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-27",
       "liveLocationUsed": 0
+    },
+    "5639303421": {
+      "id": 5639303421,
+      "firstName": "Tushar",
+      "username": "Malhotra25",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX303421",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T00:18:31.182Z",
+      "lastActiveAt": "2026-10-28T00:19:50.885Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10701,
+      "lastBotMessageHasPhoto": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
     }
   },
   "orders": {
@@ -9420,6 +9444,30 @@
   ],
   "logs": [
     {
+      "id": "7e81100c-d549-416c-933c-fb9997246870",
+      "timestamp": "2026-10-28T00:19:25.361Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5639303421,
+      "userName": "Tushar",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "09fdcbd7-7cfd-40b6-88c4-481e950ef8bc",
+      "timestamp": "2026-10-28T00:18:54.557Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5639303421,
+      "userName": "Tushar",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "806ac298-875f-4c47-beb5-e3124843b9c2",
+      "timestamp": "2026-10-28T00:18:32.023Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5639303421,
+      "userName": "Tushar",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "bf12ef35-9532-4951-ba2a-00545a907e5c",
       "timestamp": "2026-10-27T22:17:09.449Z",
       "type": "LOOKUP",
@@ -10594,32 +10642,8 @@
       "userId": 8832918185,
       "userName": "Arsan",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "8eb80380-7af8-4176-930e-518fe8e927cf",
-      "timestamp": "2026-10-26T20:03:05.376Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8672555402,
-      "userName": "‎ -",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "ffbf255d-43d0-4a5f-be1f-d147ea80ac40",
-      "timestamp": "2026-10-26T20:02:42.332Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8832918185,
-      "userName": "Arsan",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "07d996dc-f7a2-47ff-8e47-a0198adc43aa",
-      "timestamp": "2026-10-26T19:40:41.629Z",
-      "type": "LOOKUP",
-      "userId": 8979593550,
-      "userName": "Deep",
-      "summary": "Number Lookup 6297949782 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812054,
+  "lastTelegramUpdateId": 168812064,
   "usedEmailIds": []
 }
