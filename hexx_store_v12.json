@@ -8537,7 +8537,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-28T16:04:00.503Z",
-      "lastActiveAt": "2026-10-28T18:04:17.348Z",
+      "lastActiveAt": "2026-10-28T18:09:12.865Z",
       "isBanned": false,
       "history": [
         {
@@ -8586,8 +8586,8 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11039,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 11054,
+      "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
     },
@@ -8891,6 +8891,53 @@
       "lastBotMessageId": 11041,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false
+    },
+    "8858816399": {
+      "id": 8858816399,
+      "firstName": "x",
+      "username": "kralcanbubapro",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX816399",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T18:06:36.774Z",
+      "lastActiveAt": "2026-10-28T18:08:55.798Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "2632421b-45d7-43bf-a654-fba4b52e490a",
+          "queryNumber": "6710130017",
+          "timestamp": "2026-10-28T18:07:39.431Z",
+          "source": "bot",
+          "userId": 8858816399,
+          "userName": "x",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "6710130017",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11043,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
     }
   },
   "orders": {
@@ -8990,9 +9037,55 @@
       "createdAt": "2026-10-25T19:15:05.595Z",
       "expiresAt": "2026-10-25T19:25:05.595Z",
       "botQrMessageId": 9480
+    },
+    "HEXI2LD1695": {
+      "orderId": "HEXI2LD1695",
+      "famOrderId": "HEXI2LD1695",
+      "userId": 8858491695,
+      "userName": "DIYA",
+      "userUsername": "Diya197",
+      "planId": "plan_7d",
+      "planName": "1 Week Pass",
+      "amount": 29,
+      "payableAmount": "29",
+      "qrImageUrl": "https://hexx-locate.ai.studio/api/qr/HEXI2LD1695",
+      "qrDataUrl": "data:image/png;base64,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",
+      "lastImapScanAt": 0,
+      "credits": 0,
+      "days": 7,
+      "status": "PENDING",
+      "paymentUrl": "https://hexx-locate.ai.studio/?order=HEXI2LD1695",
+      "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXI2LD1695&tr=HEXI2LD1695",
+      "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXI2LD1695&tr=HEXI2LD1695",
+      "gatewaySource": "direct_gmail",
+      "createdAt": "2026-10-28T18:09:12.865Z",
+      "expiresAt": "2026-10-28T18:19:12.865Z",
+      "botQrMessageId": 11054
     }
   },
   "globalHistory": [
+    {
+      "id": "2632421b-45d7-43bf-a654-fba4b52e490a",
+      "queryNumber": "6710130017",
+      "timestamp": "2026-10-28T18:07:39.431Z",
+      "source": "bot",
+      "userId": 8858816399,
+      "userName": "x",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "6710130017",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "2894b79a-777c-4606-8767-7e4a572ff4b7",
       "queryNumber": "9304908903",
@@ -11170,31 +11263,33 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "d51bb156-931a-4788-bf24-7e2d4181e761",
-      "queryNumber": "9971363585",
-      "timestamp": "2026-10-27T07:39:15.255Z",
-      "source": "bot",
-      "userId": 6788534959,
-      "userName": "Aadi",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9971363585",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "c54efa21-1d65-4686-a365-168911adb60b",
+      "timestamp": "2026-10-28T18:09:12.904Z",
+      "type": "PAYMENT",
+      "userId": 8858491695,
+      "userName": "DIYA",
+      "summary": "Created Auto-QR Order HEXI2LD1695 (₹29 for 7 Days VIP)"
+    },
+    {
+      "id": "6f059bce-327c-4759-9714-66f0e5afa771",
+      "timestamp": "2026-10-28T18:07:39.431Z",
+      "type": "LOOKUP",
+      "userId": 8858816399,
+      "userName": "x",
+      "summary": "Number Lookup 6710130017 (Not found)"
+    },
+    {
+      "id": "6ef64b19-408e-4e2e-a86e-29a491f29e96",
+      "timestamp": "2026-10-28T18:06:37.475Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8858816399,
+      "userName": "x",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "1873e2a4-3d17-404f-81a9-d3fcd2f655ca",
       "timestamp": "2026-10-28T18:02:31.783Z",
@@ -12370,32 +12465,8 @@
       "userId": 5798883593,
       "userName": "Shahbaz",
       "summary": "Number Lookup 9555535108 (Not found)"
-    },
-    {
-      "id": "4c1efa76-6564-4697-9be7-59b5e37a26ad",
-      "timestamp": "2026-10-27T13:58:02.379Z",
-      "type": "LOOKUP",
-      "userId": 5798883593,
-      "userName": "Shahbaz",
-      "summary": "Number Lookup 9838077178 (Not found)"
-    },
-    {
-      "id": "6116ed79-80c3-48c6-affa-34ef5bdf51bb",
-      "timestamp": "2026-10-27T13:43:59.740Z",
-      "type": "LOOKUP",
-      "userId": 1810565747,
-      "userName": "Cdeeq",
-      "summary": "Number Lookup 7736750830 (Not found)"
-    },
-    {
-      "id": "1c5347ac-9d33-41d1-920b-380512b47aa4",
-      "timestamp": "2026-10-27T13:43:25.053Z",
-      "type": "LOOKUP",
-      "userId": 1810565747,
-      "userName": "Cdeeq",
-      "summary": "Number Lookup 7736750830 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812408,
+  "lastTelegramUpdateId": 168812428,
   "usedEmailIds": []
 }
