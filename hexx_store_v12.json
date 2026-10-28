@@ -8777,6 +8777,28 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
+    },
+    "6885141147": {
+      "id": 6885141147,
+      "firstName": "Khursid Rangrez",
+      "username": "Khursid_rangrez",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX141147",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T17:54:00.908Z",
+      "lastActiveAt": "2026-10-28T17:54:09.722Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11016,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -11082,6 +11104,14 @@
   ],
   "logs": [
     {
+      "id": "0590f371-d4a3-41d5-b7a0-46b82a2e0c2f",
+      "timestamp": "2026-10-28T17:54:01.519Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6885141147,
+      "userName": "Khursid Rangrez",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "f2342695-b85a-41f4-a3b5-f9e75687588f",
       "timestamp": "2026-10-28T17:44:59.377Z",
       "type": "LOOKUP",
@@ -12272,16 +12302,8 @@
       "userId": 8251808172,
       "userName": "Sa",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "56806129-10ed-416c-878b-a88efd492fa5",
-      "timestamp": "2026-10-27T11:52:31.853Z",
-      "type": "LOOKUP",
-      "userId": 8127292277,
-      "userName": "BOSS",
-      "summary": "Number Lookup 8927435910 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812370,
+  "lastTelegramUpdateId": 168812374,
   "usedEmailIds": []
 }
