@@ -7943,15 +7943,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 1,
+      "totalLookups": 2,
       "referralCode": "HEX843832",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-28T14:15:55.898Z",
-      "lastActiveAt": "2026-10-28T14:16:19.102Z",
+      "lastActiveAt": "2026-10-28T14:27:35.991Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "4ef10ba4-ddb9-48f8-ae75-33823e2e18b5",
+          "queryNumber": "7488722411",
+          "timestamp": "2026-10-28T14:27:42.492Z",
+          "source": "bot",
+          "userId": 8481843832,
+          "userName": "Cheat Master ™",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7488722411",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "210a16f9-7db1-4c21-9def-596c1b1d34f8",
           "queryNumber": "9159700020",
@@ -7976,7 +7998,31 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10886,
+      "lastBotMessageId": 10898,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
+    },
+    "8068089563": {
+      "id": 8068089563,
+      "firstName": "Queen",
+      "username": "Queen18lover",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX089563",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T14:28:50.242Z",
+      "lastActiveAt": "2026-10-28T14:29:01.678Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10900,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
@@ -8082,6 +8128,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "4ef10ba4-ddb9-48f8-ae75-33823e2e18b5",
+      "queryNumber": "7488722411",
+      "timestamp": "2026-10-28T14:27:42.492Z",
+      "source": "bot",
+      "userId": 8481843832,
+      "userName": "Cheat Master ™",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7488722411",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "5dd142d4-d826-4adc-93a7-17c681f80dc2",
       "queryNumber": "9826594783",
@@ -10259,31 +10327,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "e016a557-6329-44c0-a955-6e3438cbbf19",
-      "queryNumber": "7250734721",
-      "timestamp": "2026-10-26T23:39:16.781Z",
-      "source": "bot",
-      "userId": 8702404085,
-      "userName": "Aman Kumar",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7250734721",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "fb42872f-3b9c-4688-9c93-2bc21c4d208a",
+      "timestamp": "2026-10-28T14:28:50.929Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8068089563,
+      "userName": "Queen",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "26f9b7a9-376e-48ac-aeae-3bb51affcebf",
+      "timestamp": "2026-10-28T14:27:42.492Z",
+      "type": "LOOKUP",
+      "userId": 8481843832,
+      "userName": "Cheat Master ™",
+      "summary": "Number Lookup 7488722411 (Not found)"
+    },
     {
       "id": "a036a7f7-f35e-4e51-886f-ea3c2b0eb9c9",
       "timestamp": "2026-10-28T14:23:03.820Z",
@@ -11467,24 +11529,8 @@
       "userId": 8528716001,
       "userName": "Anurag",
       "summary": "Number Lookup 9909523780 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "489a018e-d82b-43ee-8ac6-59f0933fcd89",
-      "timestamp": "2026-10-27T06:40:07.008Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8528716001,
-      "userName": "Anurag",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "7756bd37-a09e-4cd0-b655-b6e18e01252d",
-      "timestamp": "2026-10-27T06:39:45.173Z",
-      "type": "LOOKUP",
-      "userId": 7639119817,
-      "userName": "Yadav ji",
-      "summary": "Number Lookup 9958535378 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812236,
+  "lastTelegramUpdateId": 168812241,
   "usedEmailIds": []
 }
