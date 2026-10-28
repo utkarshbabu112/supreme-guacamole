@@ -7742,11 +7742,11 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-28T13:45:50.356Z",
-      "lastActiveAt": "2026-10-28T13:46:28.479Z",
+      "lastActiveAt": "2026-10-28T13:48:33.622Z",
       "isBanned": false,
       "history": [],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10840,
+      "lastBotMessageId": 10849,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
@@ -11255,6 +11255,6 @@
       "summary": "Number Lookup 9122181105 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812201,
+  "lastTelegramUpdateId": 168812205,
   "usedEmailIds": []
 }
