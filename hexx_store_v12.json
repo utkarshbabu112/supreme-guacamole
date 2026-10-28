@@ -7655,6 +7655,53 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
+    },
+    "8903693040": {
+      "id": 8903693040,
+      "firstName": "🔵 𝐀𝐃𝐈𝐓𝐘𝐀 𝐗 𝐓𝐑𝐀𝐃𝐄𝐑",
+      "username": "ADITYAXTRADERVIP",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX693040",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T12:44:23.892Z",
+      "lastActiveAt": "2026-10-28T12:45:50.100Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "39f57483-1f63-49cf-95b9-437d41d90c5d",
+          "queryNumber": "7294810321",
+          "timestamp": "2026-10-28T12:45:56.602Z",
+          "source": "bot",
+          "userId": 8903693040,
+          "userName": "🔵 𝐀𝐃𝐈𝐓𝐘𝐀 𝐗 𝐓𝐑𝐀𝐃𝐄𝐑",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7294810321",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10824,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
     }
   },
   "orders": {
@@ -7757,6 +7804,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "39f57483-1f63-49cf-95b9-437d41d90c5d",
+      "queryNumber": "7294810321",
+      "timestamp": "2026-10-28T12:45:56.602Z",
+      "source": "bot",
+      "userId": 8903693040,
+      "userName": "🔵 𝐀𝐃𝐈𝐓𝐘𝐀 𝐗 𝐓𝐑𝐀𝐃𝐄𝐑",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7294810321",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "96a55aca-d536-4f12-94ad-592b74b47bf2",
       "queryNumber": "8839072203",
@@ -9934,31 +10003,41 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "eb9aa886-0f1a-4e34-bb7c-aceabefe9192",
-      "queryNumber": "9831407673",
-      "timestamp": "2026-10-26T20:23:33.360Z",
-      "source": "bot",
-      "userId": 8066457304,
-      "userName": "Faizan",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9831407673",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "76315d66-b7f9-4ea4-a56f-5b2d7a4440b5",
+      "timestamp": "2026-10-28T12:45:56.602Z",
+      "type": "LOOKUP",
+      "userId": 8903693040,
+      "userName": "🔵 𝐀𝐃𝐈𝐓𝐘𝐀 𝐗 𝐓𝐑𝐀𝐃𝐄𝐑",
+      "summary": "Number Lookup 7294810321 (Not found)"
+    },
+    {
+      "id": "35a53300-3bee-4234-83e8-4da913ec4313",
+      "timestamp": "2026-10-28T12:45:41.481Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8903693040,
+      "userName": "🔵 𝐀𝐃𝐈𝐓𝐘𝐀 𝐗 𝐓𝐑𝐀𝐃𝐄𝐑",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "5aacacac-530d-471f-9005-f4cc4177c1f8",
+      "timestamp": "2026-10-28T12:45:21.134Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8903693040,
+      "userName": "🔵 𝐀𝐃𝐈𝐓𝐘𝐀 𝐗 𝐓𝐑𝐀𝐃𝐄𝐑",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "782ac7e4-bca4-490b-8de8-b16fa9bad72d",
+      "timestamp": "2026-10-28T12:44:24.829Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8903693040,
+      "userName": "🔵 𝐀𝐃𝐈𝐓𝐘𝐀 𝐗 𝐓𝐑𝐀𝐃𝐄𝐑",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "37d9b7df-c85f-4cd2-9e57-98942de9b3c3",
       "timestamp": "2026-10-28T12:38:42.152Z",
@@ -11126,40 +11205,8 @@
       "userId": 8968071078,
       "userName": "Aura",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "ae24cec4-e5dd-4521-bbdb-cebb1c95e7c3",
-      "timestamp": "2026-10-27T01:06:17.837Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "1a9da284-adf9-4fac-87bc-909c9e12b1b4",
-      "timestamp": "2026-10-27T01:06:16.859Z",
-      "type": "LOOKUP",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Number Lookup 9876543210 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "26d63923-d42b-4d81-b1a0-686edc43bcaa",
-      "timestamp": "2026-10-27T01:05:18.475Z",
-      "type": "LOOKUP",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Number Lookup 9876543210 (Not found)"
-    },
-    {
-      "id": "a87b7506-a0c0-4269-9593-7de058edfe28",
-      "timestamp": "2026-10-27T01:03:06.342Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168812161,
+  "lastTelegramUpdateId": 168812179,
   "usedEmailIds": []
 }
