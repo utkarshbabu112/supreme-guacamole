@@ -7797,6 +7797,53 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28"
+    },
+    "5558968658": {
+      "id": 5558968658,
+      "firstName": "Wantedkid",
+      "username": "w4ntedkid",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 3,
+      "referralCode": "HEX968658",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T14:02:23.645Z",
+      "lastActiveAt": "2026-10-28T14:04:48.993Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "65d71edf-b593-41fb-8326-248fc1e23003",
+          "queryNumber": "9181011339",
+          "timestamp": "2026-10-28T14:04:55.494Z",
+          "source": "bot",
+          "userId": 5558968658,
+          "userName": "Wantedkid",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9181011339",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10868,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
     }
   },
   "orders": {
@@ -7899,6 +7946,72 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "65d71edf-b593-41fb-8326-248fc1e23003",
+      "queryNumber": "9181011339",
+      "timestamp": "2026-10-28T14:04:55.494Z",
+      "source": "bot",
+      "userId": 5558968658,
+      "userName": "Wantedkid",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9181011339",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "2d986bcd-6823-4673-9b6c-4b7c7b5f6582",
+      "queryNumber": "9181011339",
+      "timestamp": "2026-10-28T14:04:38.755Z",
+      "source": "bot",
+      "userId": 5558968658,
+      "userName": "Wantedkid",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9181011339",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "ef196bc9-433f-48ca-a3cf-b088f529194b",
+      "queryNumber": "9181011339",
+      "timestamp": "2026-10-28T14:03:00.716Z",
+      "source": "bot",
+      "userId": 5558968658,
+      "userName": "Wantedkid",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9181011339",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "20582502-87d2-4d70-8e88-a71e55231202",
       "queryNumber": "9174201189",
@@ -10032,75 +10145,41 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "eebb1fdf-0ee8-4b31-a4f9-a0ae93b5f4b9",
-      "queryNumber": "8871982180",
-      "timestamp": "2026-10-26T20:47:14.862Z",
-      "source": "bot",
-      "userId": 5958346782,
-      "userName": "Harshal",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8871982180",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "0abfe40c-cbe3-461f-98e5-70f56e8ae7dc",
-      "queryNumber": "8871982180",
-      "timestamp": "2026-10-26T20:46:54.318Z",
-      "source": "bot",
-      "userId": 5958346782,
-      "userName": "Harshal",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8871982180",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "1bf411e7-fe8d-4a0b-9945-ef8a182d0bac",
-      "queryNumber": "9082264295",
-      "timestamp": "2026-10-26T20:46:10.202Z",
-      "source": "bot",
-      "userId": 5958346782,
-      "userName": "Harshal",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9082264295",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "756ed85c-1a23-4178-a599-c28527d94e5a",
+      "timestamp": "2026-10-28T14:04:55.494Z",
+      "type": "LOOKUP",
+      "userId": 5558968658,
+      "userName": "Wantedkid",
+      "summary": "Number Lookup 9181011339 (Not found)"
+    },
+    {
+      "id": "bba978c5-b9fb-4cee-86de-e1525370df25",
+      "timestamp": "2026-10-28T14:04:38.755Z",
+      "type": "LOOKUP",
+      "userId": 5558968658,
+      "userName": "Wantedkid",
+      "summary": "Number Lookup 9181011339 (Not found)"
+    },
+    {
+      "id": "a2191594-dc55-4f28-8c1c-8fef645101e5",
+      "timestamp": "2026-10-28T14:03:00.716Z",
+      "type": "LOOKUP",
+      "userId": 5558968658,
+      "userName": "Wantedkid",
+      "summary": "Number Lookup 9181011339 (Not found)"
+    },
+    {
+      "id": "3aa3f325-a241-46cd-b6be-84ea388bcae5",
+      "timestamp": "2026-10-28T14:02:24.402Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5558968658,
+      "userName": "Wantedkid",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "57e03966-665a-43aa-afce-d1f4def1fa33",
       "timestamp": "2026-10-28T13:59:55.189Z",
@@ -11268,40 +11347,8 @@
       "userId": 8968071078,
       "userName": "Aura",
       "summary": "Number Lookup 9876543210 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "4fd09981-d721-44bc-b394-1088fac45125",
-      "timestamp": "2026-10-27T01:08:34.165Z",
-      "type": "LOOKUP",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Number Lookup 8676972045 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "f9145147-18c0-4051-b340-7eea614a52a5",
-      "timestamp": "2026-10-27T01:08:21.770Z",
-      "type": "LOOKUP",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Number Lookup 9708398593 (Not found)"
-    },
-    {
-      "id": "bd5d59e1-6fbe-4d1a-a57a-43f1d9c1303b",
-      "timestamp": "2026-10-27T01:08:01.372Z",
-      "type": "LOOKUP",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Number Lookup 9876543210 (Not found)"
-    },
-    {
-      "id": "eddbe37d-1b09-49f2-a6b3-de330ef5a6ac",
-      "timestamp": "2026-10-27T01:07:59.899Z",
-      "type": "LOOKUP",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Number Lookup 9876543210 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168812211,
+  "lastTelegramUpdateId": 168812219,
   "usedEmailIds": []
 }
