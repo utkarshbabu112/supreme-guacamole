@@ -7208,7 +7208,8 @@
       "lastBotMessageId": 10708,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-28"
+      "lastLookupDate": "2026-10-28",
+      "liveLocationUsed": 0
     },
     "5670220817": {
       "id": 5670220817,
@@ -7255,7 +7256,8 @@
       "lastBotMessageId": 10716,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-28"
+      "lastLookupDate": "2026-10-28",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
