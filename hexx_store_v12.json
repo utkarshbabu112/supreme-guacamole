@@ -526,6 +526,30 @@
       "lastLookupDate": "2026-10-25",
       "liveLocationUsed": 0
     },
+    "1196739542": {
+      "id": 1196739542,
+      "firstName": "Utsav",
+      "username": "JokER1245678",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX739542",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-28T06:13:04.736Z",
+      "lastActiveAt": "2026-10-28T06:13:20.205Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 10720,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-28"
+    },
     "1366188889": {
       "id": 1366188889,
       "firstName": "Liungs",
@@ -9563,6 +9587,14 @@
   ],
   "logs": [
     {
+      "id": "41c82c92-df05-447a-a3f3-19f3bfd06f3a",
+      "timestamp": "2026-10-28T06:13:05.757Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1196739542,
+      "userName": "Utsav",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "daffe1e8-68eb-4be5-95a7-d49485aaef59",
       "timestamp": "2026-10-28T03:41:28.641Z",
       "type": "LOOKUP",
@@ -10753,16 +10785,8 @@
       "userId": 5958346782,
       "userName": "Harshal",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "9acce49f-7be2-4b25-a995-c59917ebb474",
-      "timestamp": "2026-10-26T20:42:51.406Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5958346782,
-      "userName": "Harshal",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812078,
+  "lastTelegramUpdateId": 168812082,
   "usedEmailIds": []
 }
