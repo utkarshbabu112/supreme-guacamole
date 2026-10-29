@@ -11204,6 +11204,27 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-29",
       "forceJoinVerified": true
+    },
+    "8856269974": {
+      "id": 8856269974,
+      "firstName": "Semizz63",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX269974",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T20:53:43.396Z",
+      "lastActiveAt": "2026-10-29T20:53:43.396Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 11465,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -13559,6 +13580,14 @@
   ],
   "logs": [
     {
+      "id": "6e299b25-5cd3-4a5e-ad3b-4c45f2a54ce9",
+      "timestamp": "2026-10-29T20:53:44.431Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8856269974,
+      "userName": "Semizz63",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "5ab166f7-c283-43d9-9664-992b2ad4a785",
       "timestamp": "2026-10-29T20:33:48.527Z",
       "type": "BOT_MESSAGE",
@@ -14749,17 +14778,9 @@
       "userId": 8561902230,
       "userName": "Azim",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "3a93ffe6-3082-4358-ae83-b82501ede303",
-      "timestamp": "2026-10-28T16:45:34.038Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8679640348,
-      "userName": "𝕾𝕽 𝕿𝕰𝕬𝕸 𝕭𝕯",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812965,
+  "lastTelegramUpdateId": 168812966,
   "usedEmailIds": [
     "gmail_739"
   ]
