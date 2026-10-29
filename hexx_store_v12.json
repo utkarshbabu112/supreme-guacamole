@@ -10804,6 +10804,74 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-29"
+    },
+    "7512083375": {
+      "id": 7512083375,
+      "firstName": "❔",
+      "username": "Gr4d0_33",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX083375",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T17:43:01.996Z",
+      "lastActiveAt": "2026-10-29T17:43:01.996Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 11369,
+      "lastBotMessageHasPhoto": false
+    },
+    "5494873947": {
+      "id": 5494873947,
+      "firstName": "непознати",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX873947",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T17:43:17.451Z",
+      "lastActiveAt": "2026-10-29T17:44:40.400Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "f6023847-76e3-44b9-8440-0b10468eaf0c",
+          "queryNumber": "7850908950",
+          "timestamp": "2026-10-29T17:44:05.508Z",
+          "source": "bot",
+          "userId": 5494873947,
+          "userName": "непознати",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7850908950",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11386,
+      "lastBotMessageHasPhoto": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-29"
     }
   },
   "orders": {
@@ -10956,6 +11024,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "f6023847-76e3-44b9-8440-0b10468eaf0c",
+      "queryNumber": "7850908950",
+      "timestamp": "2026-10-29T17:44:05.508Z",
+      "source": "bot",
+      "userId": 5494873947,
+      "userName": "непознати",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7850908950",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "7fcde7d3-6fd3-4a90-9f9e-50f406edd65d",
       "queryNumber": "6141542836",
@@ -13133,31 +13223,41 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "6647b8ab-881a-4d70-a581-b503aa51ef58",
-      "queryNumber": "7974607123",
-      "timestamp": "2026-10-28T12:36:35.026Z",
-      "source": "bot",
-      "userId": 7228673447,
-      "userName": "Sameer",
-      "resultSummary": {
-        "name": "VODAFONE KOLKATA",
-        "fatherName": "\"9836307000",
-        "mobile": "7974607123",
-        "altMobile": "QAISER ALAM",
-        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
-        "idNumber": "8337007000",
-        "email": "Not found",
-        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
-        "totalRecords": 8,
-        "lat": 22.54255,
-        "lng": 88.36443,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "32fb7629-2425-4d53-9ed5-ad93f4f2fd18",
+      "timestamp": "2026-10-29T17:44:38.605Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5494873947,
+      "userName": "непознати",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "9e20f467-2db7-42a4-9f6a-8193896a7524",
+      "timestamp": "2026-10-29T17:44:05.508Z",
+      "type": "LOOKUP",
+      "userId": 5494873947,
+      "userName": "непознати",
+      "summary": "Number Lookup 7850908950 (Not found)"
+    },
+    {
+      "id": "eb393c9c-840a-4c58-a367-62998e2c0e04",
+      "timestamp": "2026-10-29T17:43:18.121Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5494873947,
+      "userName": "непознати",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "07fc030e-6e8b-4e95-bc9d-da04402d5c68",
+      "timestamp": "2026-10-29T17:43:03.083Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7512083375,
+      "userName": "❔",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "e2517916-b8d0-47dc-ac68-acc639f35583",
       "timestamp": "2026-10-29T17:12:47.278Z",
@@ -14325,41 +14425,9 @@
       "userId": 8066965283,
       "userName": "Tʀᴜsᴛᴇᴅ Sᴇʟʟᴇʀ",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "9bf9e7b4-c2b6-4654-a972-ed11e885b6c0",
-      "timestamp": "2026-10-28T15:00:22.236Z",
-      "type": "LOOKUP",
-      "userId": 8162431260,
-      "userName": "FREE PANEL",
-      "summary": "Number Lookup 7983468100 (Not found)"
-    },
-    {
-      "id": "2c6e3fd8-e28c-45ae-a3e1-877a098f21bb",
-      "timestamp": "2026-10-28T15:00:02.701Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8162431260,
-      "userName": "FREE PANEL",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "795aeb8f-b84b-42e5-b424-50408f40e31d",
-      "timestamp": "2026-10-28T14:49:59.982Z",
-      "type": "LOOKUP",
-      "userId": 8431562203,
-      "userName": "Sell",
-      "summary": "Number Lookup 8918298808 (Not found)"
-    },
-    {
-      "id": "74dbfee0-2d3f-465b-9b76-77944947d34e",
-      "timestamp": "2026-10-28T14:48:43.100Z",
-      "type": "LOOKUP",
-      "userId": 8431562203,
-      "userName": "Sell",
-      "summary": "Number Lookup 8250518926 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812834,
+  "lastTelegramUpdateId": 168812852,
   "usedEmailIds": [
     "gmail_739"
   ]
