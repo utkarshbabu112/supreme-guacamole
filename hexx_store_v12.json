@@ -10295,7 +10295,8 @@
       "lastBotMessageId": 11290,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "6565220266": {
       "id": 6565220266,
@@ -10341,7 +10342,8 @@
       "lastBotMessageId": 11298,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "9155783898": {
       "id": 9155783898,
@@ -10362,7 +10364,8 @@
       "history": [],
       "forceJoinVerified": false,
       "lastBotMessageId": 11300,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "7933477413": {
       "id": 7933477413,
@@ -10453,7 +10456,8 @@
       "lastBotMessageId": 11310,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "7047496805": {
       "id": 7047496805,
@@ -10522,7 +10526,8 @@
       "lastBotMessageId": 11327,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "8117014455": {
       "id": 8117014455,
@@ -10569,7 +10574,8 @@
       "lastBotMessageId": 11333,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
