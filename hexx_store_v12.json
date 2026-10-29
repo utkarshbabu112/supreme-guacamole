@@ -9814,17 +9814,40 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "totalLookups": 1,
       "referralCode": "HEX326427",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-29T07:00:12.380Z",
-      "lastActiveAt": "2026-10-29T07:00:26.257Z",
+      "lastActiveAt": "2026-10-29T07:01:11.297Z",
       "isBanned": false,
-      "history": [],
+      "history": [
+        {
+          "id": "c4f424d1-e5cf-4428-81ba-7980eb2ff63c",
+          "queryNumber": "7719502748",
+          "timestamp": "2026-10-29T07:00:59.891Z",
+          "source": "bot",
+          "userId": 6594326427,
+          "userName": "Mohan",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7719502748",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11198,
+      "lastBotMessageId": 11201,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-29"
@@ -9980,6 +10003,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "c4f424d1-e5cf-4428-81ba-7980eb2ff63c",
+      "queryNumber": "7719502748",
+      "timestamp": "2026-10-29T07:00:59.891Z",
+      "source": "bot",
+      "userId": 6594326427,
+      "userName": "Mohan",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7719502748",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "de4476cf-3dc9-4106-999b-63ba56604854",
       "queryNumber": "6359589559",
@@ -12157,31 +12202,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "8a4ce7e5-afd4-43cc-a3ad-0ce279aa7439",
-      "queryNumber": "9518012090",
-      "timestamp": "2026-10-27T16:31:17.739Z",
-      "source": "bot",
-      "userId": 8038426242,
-      "userName": "Anshu",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9518012090",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "093b6ed8-76bc-47ed-b961-092602e5f001",
+      "timestamp": "2026-10-29T07:00:59.891Z",
+      "type": "LOOKUP",
+      "userId": 6594326427,
+      "userName": "Mohan",
+      "summary": "Number Lookup 7719502748 (Not found)"
+    },
     {
       "id": "630eb6cb-e9ec-44e1-a1d0-93a367ba63b4",
       "timestamp": "2026-10-29T06:57:00.490Z",
@@ -13373,17 +13404,9 @@
       "userId": 433194023,
       "userName": "M...",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "60465a2c-9e56-4b74-989d-8dc907b30cd6",
-      "timestamp": "2026-10-27T19:59:53.773Z",
-      "type": "LOOKUP",
-      "userId": 5514369560,
-      "userName": "CENCORED",
-      "summary": "Number Lookup 9888771779 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168812610,
+  "lastTelegramUpdateId": 168812613,
   "usedEmailIds": [
     "gmail_739"
   ]
