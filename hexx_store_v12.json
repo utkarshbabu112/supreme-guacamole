@@ -6777,7 +6777,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-27T09:03:24.927Z",
-      "lastActiveAt": "2026-10-29T18:23:00.921Z",
+      "lastActiveAt": "2026-10-29T19:09:28.976Z",
       "isBanned": false,
       "history": [
         {
@@ -6848,8 +6848,8 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11413,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 11423,
+      "lastBotMessageHasPhoto": true,
       "lastLookupDate": "2026-10-29",
       "liveLocationUsed": 0
     },
@@ -13432,6 +13432,14 @@
   ],
   "logs": [
     {
+      "id": "008f2973-fa07-4d6a-a4c8-637f29249124",
+      "timestamp": "2026-10-29T19:09:29.618Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6001338045,
+      "userName": "⚡ 𝐊𝐫𝐢𝐬𝐡𝐮 ⚡",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "5f899be7-527a-475a-a833-2dcd3bf2040c",
       "timestamp": "2026-10-29T18:30:52.011Z",
       "type": "LOOKUP",
@@ -14622,17 +14630,9 @@
       "userId": 8015392477,
       "userName": "Shubham",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "49e54523-80d9-4da5-a0ed-7907b02198d6",
-      "timestamp": "2026-10-28T16:06:58.839Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8756212747,
-      "userName": "Anish",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812907,
+  "lastTelegramUpdateId": 168812908,
   "usedEmailIds": [
     "gmail_739"
   ]
