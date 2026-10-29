@@ -10988,22 +10988,45 @@
     "6580110315": {
       "id": 6580110315,
       "firstName": "Eww",
-      "credits": 2,
+      "credits": 1,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
       "referralCode": "HEX110315",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-29T18:24:24.055Z",
-      "lastActiveAt": "2026-10-29T18:24:47.666Z",
+      "lastActiveAt": "2026-10-29T18:27:04.130Z",
       "isBanned": false,
-      "history": [],
+      "history": [
+        {
+          "id": "e92f04e1-84d9-4de0-9802-2071f8ca25df",
+          "queryNumber": "8532947038",
+          "timestamp": "2026-10-29T18:25:16.674Z",
+          "source": "bot",
+          "userId": 6580110315,
+          "userName": "Eww",
+          "resultSummary": {
+            "name": "VODAFONE KOLKATA",
+            "fatherName": "\"9836307000",
+            "mobile": "8532947038",
+            "altMobile": "QAISER ALAM",
+            "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+            "idNumber": "8337007000",
+            "email": "Not found",
+            "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+            "totalRecords": 8,
+            "lat": 22.5409,
+            "lng": 88.36102,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+          }
+        }
+      ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11415,
+      "lastBotMessageId": 11417,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-29"
@@ -11159,6 +11182,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "e92f04e1-84d9-4de0-9802-2071f8ca25df",
+      "queryNumber": "8532947038",
+      "timestamp": "2026-10-29T18:25:16.674Z",
+      "source": "bot",
+      "userId": 6580110315,
+      "userName": "Eww",
+      "resultSummary": {
+        "name": "VODAFONE KOLKATA",
+        "fatherName": "\"9836307000",
+        "mobile": "8532947038",
+        "altMobile": "QAISER ALAM",
+        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+        "idNumber": "8337007000",
+        "email": "Not found",
+        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+        "totalRecords": 8,
+        "lat": 22.5409,
+        "lng": 88.36102,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+      }
+    },
     {
       "id": "5ba89e77-900e-446a-994d-c22ddac110c1",
       "queryNumber": "8989062863",
@@ -13336,31 +13381,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "65d71edf-b593-41fb-8326-248fc1e23003",
-      "queryNumber": "9181011339",
-      "timestamp": "2026-10-28T14:04:55.494Z",
-      "source": "bot",
-      "userId": 5558968658,
-      "userName": "Wantedkid",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9181011339",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "16418b79-64d1-41f8-a705-20b22e42ac31",
+      "timestamp": "2026-10-29T18:25:16.674Z",
+      "type": "LOOKUP",
+      "userId": 6580110315,
+      "userName": "Eww",
+      "summary": "Number Lookup 8532947038 (VODAFONE KOLKATA)"
+    },
     {
       "id": "79be7316-c926-4f92-8784-c22b021e0497",
       "timestamp": "2026-10-29T18:24:24.712Z",
@@ -14552,17 +14583,9 @@
       "userId": 8858491695,
       "userName": "DIYA",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "5d86de00-b8ac-4038-91bf-c44b65c1eb03",
-      "timestamp": "2026-10-28T16:04:01.148Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8858491695,
-      "userName": "DIYA",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812888,
+  "lastTelegramUpdateId": 168812902,
   "usedEmailIds": [
     "gmail_739"
   ]
