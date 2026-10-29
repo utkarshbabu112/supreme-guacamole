@@ -273,6 +273,53 @@
       "lastLookupDate": "2026-10-27",
       "liveLocationUsed": 0
     },
+    "721987305": {
+      "id": 721987305,
+      "firstName": "Roshan Kumar",
+      "username": "Roshangupta0102",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX987305",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T18:30:00.990Z",
+      "lastActiveAt": "2026-10-29T18:30:45.511Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "7262441f-e025-4e54-83d6-6a209ac569dc",
+          "queryNumber": "7093928016",
+          "timestamp": "2026-10-29T18:30:52.011Z",
+          "source": "bot",
+          "userId": 721987305,
+          "userName": "Roshan Kumar",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7093928016",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11421,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-29"
+    },
     "871179765": {
       "id": 871179765,
       "firstName": "Blue",
@@ -11183,6 +11230,28 @@
   },
   "globalHistory": [
     {
+      "id": "7262441f-e025-4e54-83d6-6a209ac569dc",
+      "queryNumber": "7093928016",
+      "timestamp": "2026-10-29T18:30:52.011Z",
+      "source": "bot",
+      "userId": 721987305,
+      "userName": "Roshan Kumar",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7093928016",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
       "id": "e92f04e1-84d9-4de0-9802-2071f8ca25df",
       "queryNumber": "8532947038",
       "timestamp": "2026-10-29T18:25:16.674Z",
@@ -13359,31 +13428,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "a6225702-bac1-4e55-9279-f1001f026ee9",
-      "queryNumber": "9368741875",
-      "timestamp": "2026-10-28T14:12:17.805Z",
-      "source": "bot",
-      "userId": 8678125218,
-      "userName": "Fih",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9368741875",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "5f899be7-527a-475a-a833-2dcd3bf2040c",
+      "timestamp": "2026-10-29T18:30:52.011Z",
+      "type": "LOOKUP",
+      "userId": 721987305,
+      "userName": "Roshan Kumar",
+      "summary": "Number Lookup 7093928016 (Not found)"
+    },
+    {
+      "id": "b67f1f27-5984-40c5-bf37-1579a7066188",
+      "timestamp": "2026-10-29T18:30:01.687Z",
+      "type": "BOT_MESSAGE",
+      "userId": 721987305,
+      "userName": "Roshan Kumar",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "16418b79-64d1-41f8-a705-20b22e42ac31",
       "timestamp": "2026-10-29T18:25:16.674Z",
@@ -14567,25 +14630,9 @@
       "userId": 8756212747,
       "userName": "Anish",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "e1a7d662-a966-45a5-8733-97d949cb3d3d",
-      "timestamp": "2026-10-28T16:05:21.494Z",
-      "type": "LOOKUP",
-      "userId": 8858491695,
-      "userName": "DIYA",
-      "summary": "Number Lookup 9504751323 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "93ea153d-a1d6-4254-a0e7-daa34bcb697c",
-      "timestamp": "2026-10-28T16:04:54.133Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8858491695,
-      "userName": "DIYA",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168812902,
+  "lastTelegramUpdateId": 168812907,
   "usedEmailIds": [
     "gmail_739"
   ]
