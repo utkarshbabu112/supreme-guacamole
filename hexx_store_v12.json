@@ -11077,6 +11077,30 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-29"
+    },
+    "7764242644": {
+      "id": 7764242644,
+      "firstName": "Jesko",
+      "username": "JeskoXP",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX242644",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T19:23:18.851Z",
+      "lastActiveAt": "2026-10-29T19:23:27.315Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11425,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-29"
     }
   },
   "orders": {
@@ -13432,6 +13456,14 @@
   ],
   "logs": [
     {
+      "id": "174849c2-d3dd-4cc6-b105-eb3846f81953",
+      "timestamp": "2026-10-29T19:23:19.491Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7764242644,
+      "userName": "Jesko",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "008f2973-fa07-4d6a-a4c8-637f29249124",
       "timestamp": "2026-10-29T19:09:29.618Z",
       "type": "BOT_MESSAGE",
@@ -14622,17 +14654,9 @@
       "userId": 8015392477,
       "userName": "Shubham",
       "summary": "Number Lookup 8229807816 (Not found)"
-    },
-    {
-      "id": "22c1793a-919c-48f8-aab4-b4de2e25386d",
-      "timestamp": "2026-10-28T16:20:08.843Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8015392477,
-      "userName": "Shubham",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812908,
+  "lastTelegramUpdateId": 168812911,
   "usedEmailIds": [
     "gmail_739"
   ]
