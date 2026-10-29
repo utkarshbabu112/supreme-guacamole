@@ -8420,7 +8420,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-28T15:10:19.911Z",
-      "lastActiveAt": "2026-10-28T17:29:50.099Z",
+      "lastActiveAt": "2026-10-29T04:43:47.614Z",
       "isBanned": false,
       "history": [
         {
@@ -8469,8 +8469,8 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11001,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 11152,
+      "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28",
       "liveLocationUsed": 0
@@ -11857,6 +11857,14 @@
   ],
   "logs": [
     {
+      "id": "f548514b-d127-4a85-9f8a-fbccc8f72236",
+      "timestamp": "2026-10-29T04:43:47.923Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8066965283,
+      "userName": "Tʀᴜsᴛᴇᴅ Sᴇʟʟᴇʀ",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "d1f1ea33-c53f-4116-8b58-85bbc03c13a2",
       "timestamp": "2026-10-29T04:42:09.855Z",
       "type": "LOOKUP",
@@ -13047,17 +13055,9 @@
       "userId": 8824406423,
       "userName": "X4MOD FF",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "20d9107d-d4c7-4b3d-9270-e66dafcfa586",
-      "timestamp": "2026-10-27T18:03:40.790Z",
-      "type": "LOOKUP",
-      "userId": 8824406423,
-      "userName": "X4MOD FF",
-      "summary": "Number Lookup 9603725574 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812543,
+  "lastTelegramUpdateId": 168812544,
   "usedEmailIds": [
     "gmail_739"
   ]
