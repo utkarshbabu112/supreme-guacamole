@@ -509,22 +509,45 @@
       "id": 898463342,
       "firstName": "Saket Ranjan",
       "username": "SaketRanjan126",
-      "credits": 2,
+      "credits": 1,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
       "referralCode": "HEX463342",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-29T16:04:05.814Z",
-      "lastActiveAt": "2026-10-29T16:04:18.133Z",
+      "lastActiveAt": "2026-10-29T16:08:15.615Z",
       "isBanned": false,
-      "history": [],
+      "history": [
+        {
+          "id": "79785f01-8379-4f76-b0a6-2b122f3023df",
+          "queryNumber": "8146796464",
+          "timestamp": "2026-10-29T16:05:23.211Z",
+          "source": "bot",
+          "userId": 898463342,
+          "userName": "Saket Ranjan",
+          "resultSummary": {
+            "name": "VODAFONE KOLKATA",
+            "fatherName": "\"9836307000",
+            "mobile": "8146796464",
+            "altMobile": "QAISER ALAM",
+            "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+            "idNumber": "8337007000",
+            "email": "Not found",
+            "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+            "totalRecords": 8,
+            "lat": 22.54318,
+            "lng": 88.3619,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+          }
+        }
+      ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11337,
+      "lastBotMessageId": 11343,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-29"
@@ -10775,6 +10798,28 @@
   },
   "globalHistory": [
     {
+      "id": "79785f01-8379-4f76-b0a6-2b122f3023df",
+      "queryNumber": "8146796464",
+      "timestamp": "2026-10-29T16:05:23.211Z",
+      "source": "bot",
+      "userId": 898463342,
+      "userName": "Saket Ranjan",
+      "resultSummary": {
+        "name": "VODAFONE KOLKATA",
+        "fatherName": "\"9836307000",
+        "mobile": "8146796464",
+        "altMobile": "QAISER ALAM",
+        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+        "idNumber": "8337007000",
+        "email": "Not found",
+        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+        "totalRecords": 8,
+        "lat": 22.54318,
+        "lng": 88.3619,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+      }
+    },
+    {
       "id": "9763bf23-49f7-4655-b78b-d141d2aef8b5",
       "queryNumber": "9572825700",
       "timestamp": "2026-10-29T16:01:33.797Z",
@@ -12951,31 +12996,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "75bbcfe0-8e40-4f8d-ab14-9ab40fb5e362",
-      "queryNumber": "7096652996",
-      "timestamp": "2026-10-28T09:04:05.869Z",
-      "source": "bot",
-      "userId": 6585083179,
-      "userName": "Flnkr",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7096652996",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "7c74e607-216a-44bd-9bfb-e941713aa9b2",
+      "timestamp": "2026-10-29T16:05:23.211Z",
+      "type": "LOOKUP",
+      "userId": 898463342,
+      "userName": "Saket Ranjan",
+      "summary": "Number Lookup 8146796464 (VODAFONE KOLKATA)"
+    },
+    {
+      "id": "53490d40-c8dd-42b2-ba6f-8042f55c514f",
+      "timestamp": "2026-10-29T16:05:07.256Z",
+      "type": "BOT_MESSAGE",
+      "userId": 898463342,
+      "userName": "Saket Ranjan",
+      "summary": "Started bot (/start)"
+    },
     {
       "id": "ef130bf0-add5-4011-870a-9fbe77a6b4be",
       "timestamp": "2026-10-29T16:04:06.864Z",
@@ -14159,25 +14198,9 @@
       "userId": 7183197265,
       "userName": "OG",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "8185f49f-f43f-49df-93f9-07553e6dd103",
-      "timestamp": "2026-10-28T14:16:25.603Z",
-      "type": "LOOKUP",
-      "userId": 8481843832,
-      "userName": "Cheat Master ™",
-      "summary": "Number Lookup 9159700020 (Not found)"
-    },
-    {
-      "id": "f260cd23-10f1-49d8-b623-a362b8b6f41c",
-      "timestamp": "2026-10-28T14:16:04.698Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168812778,
+  "lastTelegramUpdateId": 168812797,
   "usedEmailIds": [
     "gmail_739"
   ]
