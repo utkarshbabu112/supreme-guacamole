@@ -10712,6 +10712,27 @@
       "lastBotMessageId": 11349,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-29"
+    },
+    "7204486985": {
+      "id": 7204486985,
+      "firstName": "nyxonn",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX486985",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T16:54:26.736Z",
+      "lastActiveAt": "2026-10-29T16:54:36.251Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11353,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -13067,6 +13088,14 @@
   ],
   "logs": [
     {
+      "id": "3f4eee2e-2468-452b-b3e6-e18bf53b03ee",
+      "timestamp": "2026-10-29T16:54:27.720Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7204486985,
+      "userName": "nyxonn",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "49342e25-2ed5-46bb-9dc7-4061eb93ce4c",
       "timestamp": "2026-10-29T16:18:51.827Z",
       "type": "LOOKUP",
@@ -14257,17 +14286,9 @@
       "userId": 8968386457,
       "userName": "Miss",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "fb42872f-3b9c-4688-9c93-2bc21c4d208a",
-      "timestamp": "2026-10-28T14:28:50.929Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8068089563,
-      "userName": "Queen",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812802,
+  "lastTelegramUpdateId": 168812804,
   "usedEmailIds": [
     "gmail_739"
   ]
