@@ -2509,15 +2509,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 5,
+      "totalLookups": 6,
       "referralCode": "HEX197265",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:33:05.153Z",
-      "lastActiveAt": "2026-10-28T14:22:57.319Z",
+      "lastActiveAt": "2026-10-29T04:23:17.669Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "4b40850f-7aa4-4451-9838-39ea0c3288f2",
+          "queryNumber": "9993418938",
+          "timestamp": "2026-10-29T04:23:24.169Z",
+          "source": "bot",
+          "userId": 7183197265,
+          "userName": "OG",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9993418938",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "5dd142d4-d826-4adc-93a7-17c681f80dc2",
           "queryNumber": "9826594783",
@@ -2631,9 +2653,9 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10895,
+      "lastBotMessageId": 11137,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-10-28",
+      "lastLookupDate": "2026-10-29",
       "awaitingRedeemCode": false,
       "liveLocationUsed": 0
     },
@@ -9587,6 +9609,28 @@
   },
   "globalHistory": [
     {
+      "id": "4b40850f-7aa4-4451-9838-39ea0c3288f2",
+      "queryNumber": "9993418938",
+      "timestamp": "2026-10-29T04:23:24.169Z",
+      "source": "bot",
+      "userId": 7183197265,
+      "userName": "OG",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9993418938",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
       "id": "18e436be-f743-4d00-90e0-d5dcae8c96e7",
       "queryNumber": "7369901349",
       "timestamp": "2026-10-29T03:42:54.445Z",
@@ -11763,31 +11807,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "467c36a8-336b-495b-8a8a-d3ced9a858ca",
-      "queryNumber": "9838077178",
-      "timestamp": "2026-10-27T13:58:02.379Z",
-      "source": "bot",
-      "userId": 5798883593,
-      "userName": "Shahbaz",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9838077178",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "66f0749e-c7da-4103-b6fc-eb5f880a412e",
+      "timestamp": "2026-10-29T04:23:24.169Z",
+      "type": "LOOKUP",
+      "userId": 7183197265,
+      "userName": "OG",
+      "summary": "Number Lookup 9993418938 (Not found)"
+    },
     {
       "id": "5eb87586-1a6d-45bd-b8e3-2cd81d7e8e63",
       "timestamp": "2026-10-29T03:42:54.445Z",
@@ -12979,17 +13009,9 @@
       "userId": 8824406423,
       "userName": "X4MOD FF",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "78bad00f-2df0-4136-b007-c47ed4d39821",
-      "timestamp": "2026-10-27T18:00:59.084Z",
-      "type": "LOOKUP",
-      "userId": 8824406423,
-      "userName": "X4MOD FF",
-      "summary": "Number Lookup 8788059833 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168812534,
+  "lastTelegramUpdateId": 168812536,
   "usedEmailIds": [
     "gmail_739"
   ]
