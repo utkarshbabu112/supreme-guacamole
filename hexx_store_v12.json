@@ -11123,6 +11123,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-29"
+    },
+    "7690749742": {
+      "id": 7690749742,
+      "firstName": "Rajab",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX749742",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T20:02:10.829Z",
+      "lastActiveAt": "2026-10-29T20:03:16.813Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11441,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-29"
     }
   },
   "orders": {
@@ -13478,6 +13501,22 @@
   ],
   "logs": [
     {
+      "id": "651e77d8-256f-47ed-8beb-639f4f4aa018",
+      "timestamp": "2026-10-29T20:02:44.290Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7690749742,
+      "userName": "Rajab",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "a24e668a-c194-4753-a363-d298558568a9",
+      "timestamp": "2026-10-29T20:02:11.484Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7690749742,
+      "userName": "Rajab",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "a8a0e53e-d94b-400d-8a39-f4d8cabc16ce",
       "timestamp": "2026-10-29T19:44:46.269Z",
       "type": "LOOKUP",
@@ -14660,25 +14699,9 @@
       "userId": 8850142093,
       "userName": "DWK",
       "summary": "Number Lookup 8859595000 (Not found)"
-    },
-    {
-      "id": "9c70661c-8f25-4098-9b1e-f3fc6d466059",
-      "timestamp": "2026-10-28T16:25:27.693Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8850142093,
-      "userName": "DWK",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "28d90106-9067-45a5-8572-11bb477ecc3f",
-      "timestamp": "2026-10-28T16:21:47.526Z",
-      "type": "LOOKUP",
-      "userId": 8015392477,
-      "userName": "Shubham",
-      "summary": "Number Lookup 9123284866 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812937,
+  "lastTelegramUpdateId": 168812945,
   "usedEmailIds": [
     "gmail_739"
   ]
