@@ -10320,6 +10320,27 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-29"
+    },
+    "9155783898": {
+      "id": 9155783898,
+      "firstName": "Nazmuddin Akbar",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX783898",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T13:20:44.361Z",
+      "lastActiveAt": "2026-10-29T13:20:54.875Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 11300,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -12675,6 +12696,14 @@
   ],
   "logs": [
     {
+      "id": "e15bfbc3-0b6e-4680-bf52-3152914f46aa",
+      "timestamp": "2026-10-29T13:20:45.069Z",
+      "type": "BOT_MESSAGE",
+      "userId": 9155783898,
+      "userName": "Nazmuddin Akbar",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "67ac3e8b-1183-43b2-9047-678b638aaa71",
       "timestamp": "2026-10-29T13:14:41.046Z",
       "type": "LOOKUP",
@@ -13865,17 +13894,9 @@
       "userId": 8903693040,
       "userName": "🔵 𝐀𝐃𝐈𝐓𝐘𝐀 𝐗 𝐓𝐑𝐀𝐃𝐄𝐑",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "5aacacac-530d-471f-9005-f4cc4177c1f8",
-      "timestamp": "2026-10-28T12:45:21.134Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8903693040,
-      "userName": "🔵 𝐀𝐃𝐈𝐓𝐘𝐀 𝐗 𝐓𝐑𝐀𝐃𝐄𝐑",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168812746,
+  "lastTelegramUpdateId": 168812749,
   "usedEmailIds": [
     "gmail_739"
   ]
