@@ -318,7 +318,8 @@
       "lastBotMessageId": 11421,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "871179765": {
       "id": 871179765,
@@ -619,7 +620,8 @@
       "lastBotMessageId": 11351,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "968783051": {
       "id": 968783051,
@@ -10802,7 +10804,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 11349,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "7204486985": {
       "id": 7204486985,
@@ -10848,7 +10851,8 @@
       "lastBotMessageId": 11355,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "7191737383": {
       "id": 7191737383,
@@ -10894,7 +10898,8 @@
       "lastBotMessageId": 11357,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "7512083375": {
       "id": 7512083375,
@@ -10916,7 +10921,8 @@
       "history": [],
       "forceJoinVerified": false,
       "lastBotMessageId": 11369,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "5494873947": {
       "id": 5494873947,
@@ -10984,7 +10990,8 @@
       "lastBotMessageId": 11394,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "8423136488": {
       "id": 8423136488,
@@ -11052,7 +11059,8 @@
       "lastBotMessageId": 11404,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "6580110315": {
       "id": 6580110315,
@@ -11098,7 +11106,8 @@
       "lastBotMessageId": 11417,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "7764242644": {
       "id": 7764242644,
@@ -11122,7 +11131,8 @@
       "lastBotMessageId": 11425,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "7690749742": {
       "id": 7690749742,
@@ -11145,7 +11155,55 @@
       "lastBotMessageId": 11441,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
+    },
+    "8952595735": {
+      "id": 8952595735,
+      "firstName": "علي يوسف (أَبُو أبيّ)",
+      "username": "Aliyousefe_Aboobaai",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX595735",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T20:30:20.674Z",
+      "lastActiveAt": "2026-10-29T20:34:37.733Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "22520ae5-0d71-432e-b7b2-a499c2143829",
+          "queryNumber": "8914801513",
+          "timestamp": "2026-10-29T20:31:33.861Z",
+          "source": "bot",
+          "userId": 8952595735,
+          "userName": "علي يوسف (أَبُو أبيّ)",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8914801513",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 11463,
+      "lastBotMessageHasPhoto": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-29",
+      "forceJoinVerified": true
     }
   },
   "orders": {
@@ -11298,6 +11356,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "22520ae5-0d71-432e-b7b2-a499c2143829",
+      "queryNumber": "8914801513",
+      "timestamp": "2026-10-29T20:31:33.861Z",
+      "source": "bot",
+      "userId": 8952595735,
+      "userName": "علي يوسف (أَبُو أبيّ)",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8914801513",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "39f113cc-b0c5-48c5-809c-a901318cd853",
       "queryNumber": "7084132364",
@@ -13475,31 +13555,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "2f1faae8-a330-4540-95a0-ac8b2bdc7044",
-      "queryNumber": "8450899428",
-      "timestamp": "2026-10-28T14:21:20.746Z",
-      "source": "bot",
-      "userId": 7183197265,
-      "userName": "OG",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8450899428",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "5ab166f7-c283-43d9-9664-992b2ad4a785",
+      "timestamp": "2026-10-29T20:33:48.527Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8952595735,
+      "userName": "علي يوسف (أَبُو أبيّ)",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "741efc47-ee5b-4759-9111-f281cef17ea6",
+      "timestamp": "2026-10-29T20:31:33.861Z",
+      "type": "LOOKUP",
+      "userId": 8952595735,
+      "userName": "علي يوسف (أَبُو أبيّ)",
+      "summary": "Number Lookup 8914801513 (Not found)"
+    },
     {
       "id": "651e77d8-256f-47ed-8beb-639f4f4aa018",
       "timestamp": "2026-10-29T20:02:44.290Z",
@@ -14683,25 +14757,9 @@
       "userId": 8679640348,
       "userName": "𝕾𝕽 𝕿𝕰𝕬𝕸 𝕭𝕯",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "267b8f30-a25c-447b-9edb-a1f715d93ddb",
-      "timestamp": "2026-10-28T16:27:54.684Z",
-      "type": "LOOKUP",
-      "userId": 6247554367,
-      "userName": "Divya",
-      "summary": "Number Lookup 9825258116 (Not found)"
-    },
-    {
-      "id": "ed35b314-c41b-40ae-bf25-bbcf17594390",
-      "timestamp": "2026-10-28T16:25:45.966Z",
-      "type": "LOOKUP",
-      "userId": 8850142093,
-      "userName": "DWK",
-      "summary": "Number Lookup 8859595000 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812945,
+  "lastTelegramUpdateId": 168812965,
   "usedEmailIds": [
     "gmail_739"
   ]
