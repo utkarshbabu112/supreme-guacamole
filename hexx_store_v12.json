@@ -9502,6 +9502,30 @@
       "lastBotMessageId": 11150,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-29"
+    },
+    "7069002718": {
+      "id": 7069002718,
+      "firstName": "Lakshay",
+      "username": "yourpcmedia1",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX002718",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T04:57:42.232Z",
+      "lastActiveAt": "2026-10-29T04:58:46.706Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11154,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-29"
     }
   },
   "orders": {
@@ -11857,6 +11881,14 @@
   ],
   "logs": [
     {
+      "id": "bc7d25a0-0b34-4cb8-9e10-6081bb522979",
+      "timestamp": "2026-10-29T04:57:42.804Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7069002718,
+      "userName": "Lakshay",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "f548514b-d127-4a85-9f8a-fbccc8f72236",
       "timestamp": "2026-10-29T04:43:47.923Z",
       "type": "BOT_MESSAGE",
@@ -13047,17 +13079,9 @@
       "userId": 8824406423,
       "userName": "X4MOD FF",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "c798d18d-f560-4e41-899d-ffb99bdfcef6",
-      "timestamp": "2026-10-27T18:04:07.066Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8824406423,
-      "userName": "X4MOD FF",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168812544,
+  "lastTelegramUpdateId": 168812549,
   "usedEmailIds": [
     "gmail_739"
   ]
