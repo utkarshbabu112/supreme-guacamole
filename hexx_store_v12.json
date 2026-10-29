@@ -8533,7 +8533,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-28T15:10:19.911Z",
-      "lastActiveAt": "2026-10-29T04:43:47.614Z",
+      "lastActiveAt": "2026-10-29T10:13:30.153Z",
       "isBanned": false,
       "history": [
         {
@@ -8582,7 +8582,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11152,
+      "lastBotMessageId": 11270,
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-28",
@@ -12502,6 +12502,14 @@
   ],
   "logs": [
     {
+      "id": "cc5df5c0-f463-4567-b1bb-178008da24af",
+      "timestamp": "2026-10-29T10:13:30.593Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8066965283,
+      "userName": "Tʀᴜsᴛᴇᴅ Sᴇʟʟᴇʀ",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "efbf08e2-310a-4f06-ad7a-2a4632332af5",
       "timestamp": "2026-10-29T09:58:31.133Z",
       "type": "LOOKUP",
@@ -13692,17 +13700,9 @@
       "userId": 8127527795,
       "userName": "..",
       "summary": "Number Lookup 9306478010 (Not found)"
-    },
-    {
-      "id": "8ada40bf-fce9-407b-9770-9966eefe8fed",
-      "timestamp": "2026-10-28T10:48:06.792Z",
-      "type": "LOOKUP",
-      "userId": 7423191896,
-      "userName": "Gojo",
-      "summary": "Number Lookup 7897539708 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812711,
+  "lastTelegramUpdateId": 168812712,
   "usedEmailIds": [
     "gmail_739"
   ]
