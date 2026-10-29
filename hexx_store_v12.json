@@ -5871,11 +5871,11 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-26T20:03:04.807Z",
-      "lastActiveAt": "2026-10-26T20:03:27.153Z",
+      "lastActiveAt": "2026-10-29T09:54:24.693Z",
       "isBanned": false,
       "history": [],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10096,
+      "lastBotMessageId": 11264,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26",
@@ -12502,6 +12502,14 @@
   ],
   "logs": [
     {
+      "id": "51cb09eb-7741-4a20-b0ed-a610d0d4c1f9",
+      "timestamp": "2026-10-29T09:54:19.147Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8672555402,
+      "userName": "‎ -",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "eab04079-a7ba-4299-b9cc-0cc9ce766495",
       "timestamp": "2026-10-29T09:43:32.130Z",
       "type": "LOOKUP",
@@ -13692,17 +13700,9 @@
       "userId": 6047813668,
       "userName": "Ankit",
       "summary": "Number Lookup 9727169516 (Not found)"
-    },
-    {
-      "id": "7947d5fa-6f5c-4a3b-8a0a-c2eee6524881",
-      "timestamp": "2026-10-28T10:12:13.177Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6047813668,
-      "userName": "Ankit",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812675,
+  "lastTelegramUpdateId": 168812679,
   "usedEmailIds": [
     "gmail_739"
   ]
