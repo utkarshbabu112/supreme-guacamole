@@ -11225,6 +11225,27 @@
       "forceJoinVerified": false,
       "lastBotMessageId": 11465,
       "lastBotMessageHasPhoto": false
+    },
+    "8942147483": {
+      "id": 8942147483,
+      "firstName": "sana",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX147483",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T21:36:27.616Z",
+      "lastActiveAt": "2026-10-29T21:36:33.450Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 11471,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -14780,7 +14801,7 @@
       "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812966,
+  "lastTelegramUpdateId": 168812970,
   "usedEmailIds": [
     "gmail_739"
   ]
