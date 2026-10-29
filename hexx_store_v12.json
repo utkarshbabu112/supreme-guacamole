@@ -9320,6 +9320,29 @@
       "lastBotMessageId": 11120,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-29"
+    },
+    "8030619887": {
+      "id": 8030619887,
+      "firstName": "SHUBHAM",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX619887",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T02:53:22.248Z",
+      "lastActiveAt": "2026-10-29T02:53:37.047Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11122,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-29"
     }
   },
   "orders": {
@@ -11675,6 +11698,14 @@
   ],
   "logs": [
     {
+      "id": "73374e40-ebbf-4e49-8812-ae22db69615f",
+      "timestamp": "2026-10-29T02:53:22.977Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8030619887,
+      "userName": "SHUBHAM",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "c880a389-3180-4e27-9d9f-f11cfa455c56",
       "timestamp": "2026-10-29T01:56:34.510Z",
       "type": "LOOKUP",
@@ -12865,17 +12896,9 @@
       "userId": 8664466482,
       "userName": "𝙎𝙒𝘼𝙃𝘼🍉",
       "summary": "Number Lookup 9242497116 (Not found)"
-    },
-    {
-      "id": "102ec511-69f0-42fe-96a5-de6705f288bf",
-      "timestamp": "2026-10-27T16:51:49.768Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8664466482,
-      "userName": "𝙎𝙒𝘼𝙃𝘼🍉",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168812520,
+  "lastTelegramUpdateId": 168812524,
   "usedEmailIds": [
     "gmail_739"
   ]
