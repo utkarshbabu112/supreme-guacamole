@@ -435,6 +435,30 @@
       "lastLookupDate": "2026-10-26",
       "liveLocationUsed": 0
     },
+    "883833167": {
+      "id": 883833167,
+      "firstName": "Pramod",
+      "username": "Pramod_Chavan25",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX833167",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T05:34:07.276Z",
+      "lastActiveAt": "2026-10-29T05:35:11.560Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11160,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-29"
+    },
     "968783051": {
       "id": 968783051,
       "firstName": "Arbaz",
@@ -687,7 +711,8 @@
       "lastBotMessageId": 11133,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "1366188889": {
       "id": 1366188889,
@@ -9387,7 +9412,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 11120,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "8030619887": {
       "id": 8030619887,
@@ -9455,7 +9481,8 @@
       "lastBotMessageId": 11126,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "6600513445": {
       "id": 6600513445,
@@ -9501,7 +9528,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 11150,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     },
     "7069002718": {
       "id": 7069002718,
@@ -9570,7 +9598,8 @@
       "lastBotMessageId": 11158,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-29"
+      "lastLookupDate": "2026-10-29",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
@@ -11926,6 +11955,14 @@
   ],
   "logs": [
     {
+      "id": "d469156d-a556-4499-938e-e886135fb02b",
+      "timestamp": "2026-10-29T05:34:07.973Z",
+      "type": "BOT_MESSAGE",
+      "userId": 883833167,
+      "userName": "Pramod",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "091ffb3b-48b1-4f3f-a781-e958c36d5371",
       "timestamp": "2026-10-29T04:59:20.181Z",
       "type": "LOOKUP",
@@ -13116,17 +13153,9 @@
       "userId": 8824406423,
       "userName": "X4MOD FF",
       "summary": "Number Lookup 9110758196 (Not found)"
-    },
-    {
-      "id": "9a11825b-3436-4732-8110-53c24d647673",
-      "timestamp": "2026-10-27T18:05:03.221Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8824406423,
-      "userName": "X4MOD FF",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168812550,
+  "lastTelegramUpdateId": 168812556,
   "usedEmailIds": [
     "gmail_739"
   ]
