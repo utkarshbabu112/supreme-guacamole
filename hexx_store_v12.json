@@ -10008,6 +10008,28 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-29"
+    },
+    "5977291041": {
+      "id": 5977291041,
+      "firstName": "Juel",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX291041",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-29T08:39:01.055Z",
+      "lastActiveAt": "2026-10-29T08:40:37.337Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11245,
+      "lastBotMessageHasPhoto": false,
+      "lastLookupDate": "2026-10-29"
     }
   },
   "orders": {
@@ -12363,6 +12385,14 @@
   ],
   "logs": [
     {
+      "id": "16a36dfe-867f-48b9-a606-dd3a8225c181",
+      "timestamp": "2026-10-29T08:39:02.102Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5977291041,
+      "userName": "Juel",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "db79581c-3811-4a9a-a284-1300bfa22bbd",
       "timestamp": "2026-10-29T08:21:00.699Z",
       "type": "LOOKUP",
@@ -13553,17 +13583,9 @@
       "userId": 5999296494,
       "userName": "Nawab",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "b084eef7-982d-44ac-af85-55f1f9e097d3",
-      "timestamp": "2026-10-28T08:08:10.100Z",
-      "type": "LOOKUP",
-      "userId": 8818082018,
-      "userName": "Water Melon",
-      "summary": "Number Lookup 6767676767 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168812657,
+  "lastTelegramUpdateId": 168812661,
   "usedEmailIds": [
     "gmail_739"
   ]
