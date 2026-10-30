@@ -179,6 +179,28 @@
     "telegramFileId": "AgACAgUAAxkBAAIkcGreFb4H8I6NtzP0AWgxs6M-BI7IAAJnEWsbxb35Vukm72aqPITxAQADAgADdwADPQQ"
   },
   "users": {
+    "100773352": {
+      "id": 100773352,
+      "firstName": "A.",
+      "username": "Tinkerbell167",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX773352",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-30T23:11:11.920Z",
+      "lastActiveAt": "2026-10-30T23:11:11.920Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 11802,
+      "lastBotMessageHasPhoto": false
+    },
     "205041229": {
       "id": 205041229,
       "firstName": "🟡🟢",
@@ -15301,6 +15323,14 @@
   ],
   "logs": [
     {
+      "id": "9d551ccc-9aee-4a22-9100-d97560e04e36",
+      "timestamp": "2026-10-30T23:11:12.872Z",
+      "type": "BOT_MESSAGE",
+      "userId": 100773352,
+      "userName": "A.",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "a67ed6bc-a340-432f-a455-450398ef81d9",
       "timestamp": "2026-10-30T22:18:22.293Z",
       "type": "LOOKUP",
@@ -16491,17 +16521,9 @@
       "userId": 5930445688,
       "userName": "Shadow",
       "summary": "Number Lookup 7470894794 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "152051ba-373e-49d6-85e4-bb9d03a9be8b",
-      "timestamp": "2026-10-29T12:34:55.672Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5930445688,
-      "userName": "Shadow",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813311,
+  "lastTelegramUpdateId": 168813312,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
