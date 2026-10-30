@@ -12708,6 +12708,30 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-30"
+    },
+    "5659546750": {
+      "id": 5659546750,
+      "firstName": "Venzorã",
+      "username": "venzora_1",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX546750",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-30T18:24:27.142Z",
+      "lastActiveAt": "2026-10-30T18:25:29.187Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11765,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-30"
     }
   },
   "orders": {
@@ -15088,6 +15112,14 @@
   ],
   "logs": [
     {
+      "id": "dc9dbeea-68f3-491e-a79b-3ac07fe57d88",
+      "timestamp": "2026-10-30T18:24:27.834Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5659546750,
+      "userName": "Venzorã",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "278266fa-1184-4aae-9a6c-92abf94ba109",
       "timestamp": "2026-10-30T18:16:23.257Z",
       "type": "BOT_MESSAGE",
@@ -16278,17 +16310,9 @@
       "userId": 8969709279,
       "userName": "Local",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "da73399d-0bdf-4b25-953a-856f62345a66",
-      "timestamp": "2026-10-29T08:40:43.837Z",
-      "type": "LOOKUP",
-      "userId": 5977291041,
-      "userName": "Juel",
-      "summary": "Number Lookup 9876543219 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813269,
+  "lastTelegramUpdateId": 168813276,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
