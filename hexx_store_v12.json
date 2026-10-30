@@ -193,7 +193,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T17:32:13.678Z",
-      "lastActiveAt": "2026-10-25T17:33:08.129Z",
+      "lastActiveAt": "2026-10-30T12:03:41.236Z",
       "isBanned": false,
       "history": [
         {
@@ -219,10 +219,10 @@
           }
         }
       ],
-      "lastBotMessageId": 9467,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 11633,
+      "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-25",
+      "lastLookupDate": "2026-10-30",
       "forceJoinVerified": true,
       "liveLocationUsed": 0
     },
@@ -14367,6 +14367,22 @@
   ],
   "logs": [
     {
+      "id": "85f7f433-7e05-49c8-b9f4-f25101c3a887",
+      "timestamp": "2026-10-30T12:03:41.559Z",
+      "type": "BOT_MESSAGE",
+      "userId": 205041229,
+      "userName": "🟡🟢",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "c1f3416c-3b02-42e3-9b64-4e5f124b7338",
+      "timestamp": "2026-10-30T12:03:17.019Z",
+      "type": "BOT_MESSAGE",
+      "userId": 205041229,
+      "userName": "🟡🟢",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "4a221739-c8ed-4395-86ab-3679b6713f9b",
       "timestamp": "2026-10-30T11:20:02.433Z",
       "type": "LOOKUP",
@@ -15549,25 +15565,9 @@
       "userId": 1360970489,
       "userName": "Gyan",
       "summary": "Number Lookup 7369901349 (Not found)"
-    },
-    {
-      "id": "6652a0c5-1fcb-4858-b5d8-05289b892040",
-      "timestamp": "2026-10-29T03:42:31.370Z",
-      "type": "BOT_MESSAGE",
-      "userId": 1360970489,
-      "userName": "Gyan",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "c3707e62-3b50-4935-99a6-9dfa6d99e19b",
-      "timestamp": "2026-10-29T03:41:37.230Z",
-      "type": "BOT_MESSAGE",
-      "userId": 1360970489,
-      "userName": "Gyan",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813146,
+  "lastTelegramUpdateId": 168813149,
   "usedEmailIds": [
     "gmail_739"
   ]
