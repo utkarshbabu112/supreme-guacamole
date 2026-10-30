@@ -11040,9 +11040,9 @@
       "id": 6822959930,
       "firstName": "Singh",
       "credits": 2,
-      "isPremium": false,
-      "premiumUntil": null,
-      "totalSpent": 0,
+      "isPremium": true,
+      "premiumUntil": "2026-11-06T14:04:27.985Z",
+      "totalSpent": 29,
       "dailyLookupsUsed": 0,
       "totalLookups": 2,
       "referralCode": "HEX959930",
@@ -11103,7 +11103,8 @@
       "lastBotMessageHasPhoto": true,
       "lastLookupDate": "2026-10-30",
       "liveLocationUsed": 0,
-      "awaitingRedeemCode": false
+      "awaitingRedeemCode": false,
+      "lastPlanName": "1 Week Pass"
     },
     "7204486985": {
       "id": 7204486985,
@@ -12292,14 +12293,16 @@
       "lastImapScanAt": 0,
       "credits": 0,
       "days": 7,
-      "status": "PENDING",
+      "status": "PAID",
       "paymentUrl": "https://hexx-locate.ai.studio/?order=HEX2KTV9930",
       "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX2KTV9930&tr=HEX2KTV9930",
       "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX2KTV9930&tr=HEX2KTV9930",
       "gatewaySource": "direct_gmail",
       "createdAt": "2026-10-30T13:48:33.907Z",
       "expiresAt": "2026-10-30T13:58:33.907Z",
-      "botQrMessageId": 11658
+      "botQrMessageId": 11658,
+      "utr": "GMAIL_754",
+      "paidAt": "2026-10-30T14:04:27.985Z"
     }
   },
   "globalHistory": [
@@ -14506,6 +14509,14 @@
   ],
   "logs": [
     {
+      "id": "f88e8798-7709-4dd3-9d8b-2e1d7d4a51e1",
+      "timestamp": "2026-10-30T14:04:27.985Z",
+      "type": "PAYMENT",
+      "userId": 6822959930,
+      "userName": "Singh",
+      "summary": "Order HEX2KTV9930 PAID (7 Days VIP, Rs.29)"
+    },
+    {
       "id": "387ba8ed-705f-454b-b29c-0262cc50d488",
       "timestamp": "2026-10-30T13:48:33.957Z",
       "type": "PAYMENT",
@@ -15696,18 +15707,11 @@
       "userId": 7069002718,
       "userName": "Lakshay",
       "summary": "Number Lookup 8354888884 (Not found)"
-    },
-    {
-      "id": "bc7d25a0-0b34-4cb8-9e10-6081bb522979",
-      "timestamp": "2026-10-29T04:57:42.804Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7069002718,
-      "userName": "Lakshay",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
   "lastTelegramUpdateId": 168813185,
   "usedEmailIds": [
-    "gmail_739"
+    "gmail_739",
+    "gmail_754"
   ]
 }
