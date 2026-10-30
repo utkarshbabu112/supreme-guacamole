@@ -273,6 +273,30 @@
       "lastLookupDate": "2026-10-27",
       "liveLocationUsed": 0
     },
+    "719362524": {
+      "id": 719362524,
+      "firstName": "Gujjar",
+      "username": "Gujjar_Sahab",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX362524",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-30T12:11:52.251Z",
+      "lastActiveAt": "2026-10-30T12:13:09.861Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11643,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-30"
+    },
     "721987305": {
       "id": 721987305,
       "firstName": "Roshan Kumar",
@@ -14367,6 +14391,14 @@
   ],
   "logs": [
     {
+      "id": "b0284611-eeb8-4e73-8016-c2e95b6cc087",
+      "timestamp": "2026-10-30T12:11:52.974Z",
+      "type": "BOT_MESSAGE",
+      "userId": 719362524,
+      "userName": "Gujjar",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "85f7f433-7e05-49c8-b9f4-f25101c3a887",
       "timestamp": "2026-10-30T12:03:41.559Z",
       "type": "BOT_MESSAGE",
@@ -15557,17 +15589,9 @@
       "userId": 7183197265,
       "userName": "OG",
       "summary": "Number Lookup 9993418938 (Not found)"
-    },
-    {
-      "id": "5eb87586-1a6d-45bd-b8e3-2cd81d7e8e63",
-      "timestamp": "2026-10-29T03:42:54.445Z",
-      "type": "LOOKUP",
-      "userId": 1360970489,
-      "userName": "Gyan",
-      "summary": "Number Lookup 7369901349 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813149,
+  "lastTelegramUpdateId": 168813162,
   "usedEmailIds": [
     "gmail_739"
   ]
