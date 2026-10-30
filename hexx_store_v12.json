@@ -6361,12 +6361,12 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-26T20:03:04.807Z",
-      "lastActiveAt": "2026-10-29T09:54:24.693Z",
+      "lastActiveAt": "2026-10-30T16:16:15.544Z",
       "isBanned": false,
       "history": [],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11264,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 11718,
+      "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-26",
       "liveLocationUsed": 0
@@ -14882,6 +14882,14 @@
   ],
   "logs": [
     {
+      "id": "75094ca9-01d5-4a7e-b7e6-ba490311e2db",
+      "timestamp": "2026-10-30T16:16:08.572Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8672555402,
+      "userName": "‎ -",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "6bcd67a7-579e-4210-a579-f8b0b8f41111",
       "timestamp": "2026-10-30T15:41:15.459Z",
       "type": "LOOKUP",
@@ -16072,17 +16080,9 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Number Lookup 9708398593 (Not found)"
-    },
-    {
-      "id": "c23fb09e-1509-4036-b691-982043114808",
-      "timestamp": "2026-10-29T08:05:58.066Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168813237,
+  "lastTelegramUpdateId": 168813240,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
