@@ -12647,18 +12647,43 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "totalLookups": 1,
       "referralCode": "HEX372657",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-30T17:33:45.768Z",
-      "lastActiveAt": "2026-10-30T17:33:45.768Z",
+      "lastActiveAt": "2026-10-30T17:35:24.142Z",
       "isBanned": false,
-      "history": [],
-      "forceJoinVerified": false,
-      "lastBotMessageId": 11749,
-      "lastBotMessageHasPhoto": false
+      "history": [
+        {
+          "id": "11c41a44-6124-460c-8fdb-c8314aa87719",
+          "queryNumber": "8002963905",
+          "timestamp": "2026-10-30T17:34:59.763Z",
+          "source": "bot",
+          "userId": 5319372657,
+          "userName": "MR",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8002963905",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11753,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-30"
     }
   },
   "orders": {
@@ -12836,6 +12861,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "11c41a44-6124-460c-8fdb-c8314aa87719",
+      "queryNumber": "8002963905",
+      "timestamp": "2026-10-30T17:34:59.763Z",
+      "source": "bot",
+      "userId": 5319372657,
+      "userName": "MR",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8002963905",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "fe9bc7e4-8e25-4d42-b12c-b661e1eb2453",
       "queryNumber": "9372358075",
@@ -15013,31 +15060,17 @@
         "lng": 88.36102,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
       }
-    },
-    {
-      "id": "83387f42-236f-44e3-8564-ca6b7c63471b",
-      "queryNumber": "8975111535",
-      "timestamp": "2026-10-29T05:36:05.982Z",
-      "source": "bot",
-      "userId": 883833167,
-      "userName": "Pramod",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8975111535",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "0afce2e8-3232-44f0-8b75-5fac8fda53a8",
+      "timestamp": "2026-10-30T17:34:59.763Z",
+      "type": "LOOKUP",
+      "userId": 5319372657,
+      "userName": "MR",
+      "summary": "Number Lookup 8002963905 (Not found)"
+    },
     {
       "id": "6d7bbbe7-f35b-4234-bcae-5e1ba2baecc5",
       "timestamp": "2026-10-30T17:33:46.486Z",
@@ -16229,17 +16262,9 @@
       "userId": 5977291041,
       "userName": "Juel",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "db79581c-3811-4a9a-a284-1300bfa22bbd",
-      "timestamp": "2026-10-29T08:21:00.699Z",
-      "type": "LOOKUP",
-      "userId": 8658392254,
-      "userName": "X1ADS",
-      "summary": "Number Lookup 9281033581 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168813260,
+  "lastTelegramUpdateId": 168813265,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
