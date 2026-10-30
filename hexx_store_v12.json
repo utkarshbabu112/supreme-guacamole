@@ -11279,20 +11279,42 @@
       "id": 8800049547,
       "firstName": "Goutam Shroff",
       "username": "Goutam_shroff",
-      "credits": 2,
+      "credits": 1,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 0,
-      "totalLookups": 2,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 3,
       "referralCode": "HEX049547",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-30T02:51:55.230Z",
-      "lastActiveAt": "2026-10-30T02:54:03.562Z",
+      "lastActiveAt": "2026-10-30T02:55:27.570Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "fe1a57e5-9ce1-48ac-9384-9861d2455300",
+          "queryNumber": "9734050879",
+          "timestamp": "2026-10-30T02:54:51.181Z",
+          "source": "bot",
+          "userId": 8800049547,
+          "userName": "Goutam Shroff",
+          "resultSummary": {
+            "name": "VODAFONE KOLKATA",
+            "fatherName": "\"9836307000",
+            "mobile": "9734050879",
+            "altMobile": "QAISER ALAM",
+            "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+            "idNumber": "8337007000",
+            "email": "Not found",
+            "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+            "totalRecords": 8,
+            "lat": 22.54163,
+            "lng": 88.36283,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+          }
+        },
         {
           "id": "aaa09df7-2737-43ff-b4b7-0421a21a5e3a",
           "queryNumber": "8918191759",
@@ -11339,7 +11361,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11489,
+      "lastBotMessageId": 11491,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-30"
@@ -11495,6 +11517,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "fe1a57e5-9ce1-48ac-9384-9861d2455300",
+      "queryNumber": "9734050879",
+      "timestamp": "2026-10-30T02:54:51.181Z",
+      "source": "bot",
+      "userId": 8800049547,
+      "userName": "Goutam Shroff",
+      "resultSummary": {
+        "name": "VODAFONE KOLKATA",
+        "fatherName": "\"9836307000",
+        "mobile": "9734050879",
+        "altMobile": "QAISER ALAM",
+        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+        "idNumber": "8337007000",
+        "email": "Not found",
+        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+        "totalRecords": 8,
+        "lat": 22.54163,
+        "lng": 88.36283,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+      }
+    },
     {
       "id": "aaa09df7-2737-43ff-b4b7-0421a21a5e3a",
       "queryNumber": "8918191759",
@@ -13672,31 +13716,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "e5923b6d-45d5-424b-8a02-b5dea22c8789",
-      "queryNumber": "8250518926",
-      "timestamp": "2026-10-28T14:48:11.542Z",
-      "source": "bot",
-      "userId": 8968386457,
-      "userName": "Miss",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8250518926",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "6e139c7e-41ac-497c-90e6-c996f13730e6",
+      "timestamp": "2026-10-30T02:54:51.181Z",
+      "type": "LOOKUP",
+      "userId": 8800049547,
+      "userName": "Goutam Shroff",
+      "summary": "Number Lookup 9734050879 (VODAFONE KOLKATA)"
+    },
     {
       "id": "5714982b-997c-454d-ac2d-c59f4ff089c3",
       "timestamp": "2026-10-30T02:54:10.063Z",
@@ -14888,17 +14918,9 @@
       "userId": 1987664153,
       "userName": "Siuuuuuu",
       "summary": "Number Lookup 9559557369 (Not found)"
-    },
-    {
-      "id": "acf4a1c8-8712-401c-a81c-ebf954f86927",
-      "timestamp": "2026-10-28T17:44:05.949Z",
-      "type": "LOOKUP",
-      "userId": 1987664153,
-      "userName": "Siuuuuuu",
-      "summary": "Number Lookup 9235227961 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168812986,
+  "lastTelegramUpdateId": 168812991,
   "usedEmailIds": [
     "gmail_739"
   ]
