@@ -12684,6 +12684,30 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-30"
+    },
+    "5674634292": {
+      "id": 5674634292,
+      "firstName": "Ť",
+      "username": "Aura_sparta",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX634292",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-30T18:16:22.157Z",
+      "lastActiveAt": "2026-10-30T18:16:46.489Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11757,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-30"
     }
   },
   "orders": {
@@ -15064,6 +15088,14 @@
   ],
   "logs": [
     {
+      "id": "278266fa-1184-4aae-9a6c-92abf94ba109",
+      "timestamp": "2026-10-30T18:16:23.257Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5674634292,
+      "userName": "Ť",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "0afce2e8-3232-44f0-8b75-5fac8fda53a8",
       "timestamp": "2026-10-30T17:34:59.763Z",
       "type": "LOOKUP",
@@ -16254,17 +16286,9 @@
       "userId": 5977291041,
       "userName": "Juel",
       "summary": "Number Lookup 9876543219 (Not found)"
-    },
-    {
-      "id": "16a36dfe-867f-48b9-a606-dd3a8225c181",
-      "timestamp": "2026-10-29T08:39:02.102Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5977291041,
-      "userName": "Juel",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813265,
+  "lastTelegramUpdateId": 168813269,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
