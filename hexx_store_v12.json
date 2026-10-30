@@ -2596,7 +2596,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-10-28T14:16:09.176Z",
+      "lastActiveAt": "2026-10-30T14:47:18.358Z",
       "isBanned": false,
       "history": [
         {
@@ -2780,7 +2780,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10884,
+      "lastBotMessageId": 11678,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-27",
@@ -12241,6 +12241,53 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-30"
+    },
+    "8886423770": {
+      "id": 8886423770,
+      "firstName": "HANTA VIRUS",
+      "username": "m4navx",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX423770",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-30T14:48:12.561Z",
+      "lastActiveAt": "2026-10-30T14:48:31.090Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "3691d9ae-ae4a-46a9-a6d8-4ddb1f8cbc37",
+          "queryNumber": "9046639376",
+          "timestamp": "2026-10-30T14:48:37.590Z",
+          "source": "bot",
+          "userId": 8886423770,
+          "userName": "HANTA VIRUS",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9046639376",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11682,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-30"
     }
   },
   "orders": {
@@ -12418,6 +12465,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "3691d9ae-ae4a-46a9-a6d8-4ddb1f8cbc37",
+      "queryNumber": "9046639376",
+      "timestamp": "2026-10-30T14:48:37.590Z",
+      "source": "bot",
+      "userId": 8886423770,
+      "userName": "HANTA VIRUS",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9046639376",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "48e16143-9371-4a23-8fe9-1ba956fd88ab",
       "queryNumber": "9520783447",
@@ -14595,31 +14664,33 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "539424fc-fe73-4b5e-b737-0132af600623",
-      "queryNumber": "9838949942",
-      "timestamp": "2026-10-28T22:56:15.047Z",
-      "source": "bot",
-      "userId": 8426699501,
-      "userName": "Hell",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9838949942",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "130d83b2-fb2a-40ad-a6b5-596cfdbdf4ea",
+      "timestamp": "2026-10-30T14:48:37.590Z",
+      "type": "LOOKUP",
+      "userId": 8886423770,
+      "userName": "HANTA VIRUS",
+      "summary": "Number Lookup 9046639376 (Not found)"
+    },
+    {
+      "id": "934eafb8-c3c1-47a7-a28e-bdfd0663371a",
+      "timestamp": "2026-10-30T14:48:13.788Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8886423770,
+      "userName": "HANTA VIRUS",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "5c721be2-341b-48f7-b6d8-ceb81c0604ef",
+      "timestamp": "2026-10-30T14:47:15.683Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
     {
       "id": "801028d0-26e5-487c-9f41-704a2a703257",
       "timestamp": "2026-10-30T14:30:36.377Z",
@@ -15795,33 +15866,9 @@
       "userId": 8411835248,
       "userName": "Xavi",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "985cbb01-4cc4-4a6a-8011-be806ec6783e",
-      "timestamp": "2026-10-29T06:46:20.734Z",
-      "type": "LOOKUP",
-      "userId": 6247554367,
-      "userName": "Divya",
-      "summary": "Number Lookup 9693407245 (Not found)"
-    },
-    {
-      "id": "4a73e613-0ab8-446e-8d95-8a2123d5ef09",
-      "timestamp": "2026-10-29T06:39:50.950Z",
-      "type": "LOOKUP",
-      "userId": 5026167445,
-      "userName": "BABA",
-      "summary": "Number Lookup 9892200280 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "66bb3bfd-b6c7-447a-8a4b-2d27fe58efcc",
-      "timestamp": "2026-10-29T06:39:26.754Z",
-      "type": "LOOKUP",
-      "userId": 5026167445,
-      "userName": "BABA",
-      "summary": "Number Lookup 9892200280 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168813200,
+  "lastTelegramUpdateId": 168813206,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
