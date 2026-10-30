@@ -12747,7 +12747,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-30T18:54:32.746Z",
-      "lastActiveAt": "2026-10-30T18:54:58.781Z",
+      "lastActiveAt": "2026-10-30T19:03:58.840Z",
       "isBanned": false,
       "history": [
         {
@@ -12774,7 +12774,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11772,
+      "lastBotMessageId": 11777,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-30"
     }
@@ -16357,7 +16357,7 @@
       "summary": "Number Lookup 9798982440 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813281,
+  "lastTelegramUpdateId": 168813285,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
