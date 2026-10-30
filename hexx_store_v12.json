@@ -12637,6 +12637,28 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-30"
+    },
+    "5319372657": {
+      "id": 5319372657,
+      "firstName": "MR",
+      "username": "jaysingh440",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX372657",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-30T17:33:45.768Z",
+      "lastActiveAt": "2026-10-30T17:33:45.768Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 11749,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -15017,6 +15039,14 @@
   ],
   "logs": [
     {
+      "id": "6d7bbbe7-f35b-4234-bcae-5e1ba2baecc5",
+      "timestamp": "2026-10-30T17:33:46.486Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5319372657,
+      "userName": "MR",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "20c45dec-87fd-4312-830d-af0fb914f353",
       "timestamp": "2026-10-30T17:25:35.863Z",
       "type": "LOOKUP",
@@ -16207,17 +16237,9 @@
       "userId": 8658392254,
       "userName": "X1ADS",
       "summary": "Number Lookup 9281033581 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "c5419875-8320-4d94-bc69-19dc6f1edcc7",
-      "timestamp": "2026-10-29T08:19:05.850Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8658392254,
-      "userName": "X1ADS",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813259,
+  "lastTelegramUpdateId": 168813260,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
