@@ -12356,6 +12356,30 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-30"
+    },
+    "5433588601": {
+      "id": 5433588601,
+      "firstName": "Нурс",
+      "username": "zhakeep",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX588601",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-30T15:21:51.661Z",
+      "lastActiveAt": "2026-10-30T15:22:32.982Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11698,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-30"
     }
   },
   "orders": {
@@ -14736,6 +14760,14 @@
   ],
   "logs": [
     {
+      "id": "996cf339-74c7-4357-9b90-ae5457ec0447",
+      "timestamp": "2026-10-30T15:21:52.237Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5433588601,
+      "userName": "Нурс",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "8ef4bb77-5a90-4263-a58d-835b164505ed",
       "timestamp": "2026-10-30T15:13:15.830Z",
       "type": "LOOKUP",
@@ -15926,17 +15958,9 @@
       "userId": 6594326427,
       "userName": "Mohan",
       "summary": "Number Lookup 7719502748 (Not found)"
-    },
-    {
-      "id": "630eb6cb-e9ec-44e1-a1d0-93a367ba63b4",
-      "timestamp": "2026-10-29T06:57:00.490Z",
-      "type": "LOOKUP",
-      "userId": 7689414932,
-      "userName": "Rahul",
-      "summary": "Number Lookup 6359589559 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813213,
+  "lastTelegramUpdateId": 168813221,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
