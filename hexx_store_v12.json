@@ -3104,18 +3104,18 @@
       "id": 8389339993,
       "firstName": "Alex",
       "username": "Alex0xelA0",
-      "credits": 1,
+      "credits": 2,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 1,
+      "dailyLookupsUsed": 0,
       "totalLookups": 1,
       "referralCode": "HEX339993",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T13:10:18.241Z",
-      "lastActiveAt": "2026-10-25T13:11:00.839Z",
+      "lastActiveAt": "2026-10-30T09:47:40.900Z",
       "isBanned": false,
       "history": [
         {
@@ -3143,8 +3143,8 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastLookupDate": "2026-10-25",
-      "lastBotMessageId": 9284,
+      "lastLookupDate": "2026-10-30",
+      "lastBotMessageId": 11606,
       "lastBotMessageHasPhoto": false,
       "liveLocationUsed": 0
     },
@@ -15496,7 +15496,7 @@
       "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813125,
+  "lastTelegramUpdateId": 168813127,
   "usedEmailIds": [
     "gmail_739"
   ]
