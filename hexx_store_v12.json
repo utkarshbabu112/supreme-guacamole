@@ -11203,7 +11203,8 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-29",
-      "forceJoinVerified": true
+      "forceJoinVerified": true,
+      "liveLocationUsed": 0
     },
     "8856269974": {
       "id": 8856269974,
@@ -11224,7 +11225,8 @@
       "history": [],
       "forceJoinVerified": false,
       "lastBotMessageId": 11465,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "8942147483": {
       "id": 8942147483,
@@ -11245,7 +11247,8 @@
       "history": [],
       "forceJoinVerified": false,
       "lastBotMessageId": 11471,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     }
   },
   "orders": {
