@@ -11274,6 +11274,75 @@
       "lastBotMessageId": 11471,
       "lastBotMessageHasPhoto": false,
       "liveLocationUsed": 0
+    },
+    "8800049547": {
+      "id": 8800049547,
+      "firstName": "Goutam Shroff",
+      "username": "Goutam_shroff",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 2,
+      "referralCode": "HEX049547",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-30T02:51:55.230Z",
+      "lastActiveAt": "2026-10-30T02:54:03.562Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "aaa09df7-2737-43ff-b4b7-0421a21a5e3a",
+          "queryNumber": "8918191759",
+          "timestamp": "2026-10-30T02:54:10.062Z",
+          "source": "bot",
+          "userId": 8800049547,
+          "userName": "Goutam Shroff",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8918191759",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
+        {
+          "id": "2ef124ff-e1ed-4c0d-a9e6-aa341ea16944",
+          "queryNumber": "8918638940",
+          "timestamp": "2026-10-30T02:53:25.054Z",
+          "source": "bot",
+          "userId": 8800049547,
+          "userName": "Goutam Shroff",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8918638940",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11489,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-30"
     }
   },
   "orders": {
@@ -11426,6 +11495,50 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "aaa09df7-2737-43ff-b4b7-0421a21a5e3a",
+      "queryNumber": "8918191759",
+      "timestamp": "2026-10-30T02:54:10.062Z",
+      "source": "bot",
+      "userId": 8800049547,
+      "userName": "Goutam Shroff",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8918191759",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "2ef124ff-e1ed-4c0d-a9e6-aa341ea16944",
+      "queryNumber": "8918638940",
+      "timestamp": "2026-10-30T02:53:25.054Z",
+      "source": "bot",
+      "userId": 8800049547,
+      "userName": "Goutam Shroff",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8918638940",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "a85837b1-5d98-4fa0-a446-087556e8cace",
       "queryNumber": "8797616956",
@@ -13581,53 +13694,33 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "58afdcd8-d5c0-4eba-893e-78a11e91eb4b",
-      "queryNumber": "9641407655",
-      "timestamp": "2026-10-28T14:44:16.534Z",
-      "source": "bot",
-      "userId": 8968386457,
-      "userName": "Miss",
-      "resultSummary": {
-        "name": "VODAFONE KOLKATA",
-        "fatherName": "\"9836307000",
-        "mobile": "9641407655",
-        "altMobile": "QAISER ALAM",
-        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
-        "idNumber": "8337007000",
-        "email": "Not found",
-        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
-        "totalRecords": 8,
-        "lat": 22.54255,
-        "lng": 88.36443,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
-      }
-    },
-    {
-      "id": "4ef10ba4-ddb9-48f8-ae75-33823e2e18b5",
-      "queryNumber": "7488722411",
-      "timestamp": "2026-10-28T14:27:42.492Z",
-      "source": "bot",
-      "userId": 8481843832,
-      "userName": "Cheat Master ™",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7488722411",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "5714982b-997c-454d-ac2d-c59f4ff089c3",
+      "timestamp": "2026-10-30T02:54:10.063Z",
+      "type": "LOOKUP",
+      "userId": 8800049547,
+      "userName": "Goutam Shroff",
+      "summary": "Number Lookup 8918191759 (Not found)"
+    },
+    {
+      "id": "5b2e7948-7dbe-469f-b208-b650a493df02",
+      "timestamp": "2026-10-30T02:53:25.054Z",
+      "type": "LOOKUP",
+      "userId": 8800049547,
+      "userName": "Goutam Shroff",
+      "summary": "Number Lookup 8918638940 (Not found)"
+    },
+    {
+      "id": "9ae9b0a9-f2bf-4f6d-bf91-d241581ed5ae",
+      "timestamp": "2026-10-30T02:51:56.060Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8800049547,
+      "userName": "Goutam Shroff",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "2675a0a0-942d-45c5-9edd-59ec860a7c74",
       "timestamp": "2026-10-30T01:40:52.062Z",
@@ -14803,33 +14896,9 @@
       "userId": 1987664153,
       "userName": "Siuuuuuu",
       "summary": "Number Lookup 9235227961 (Not found)"
-    },
-    {
-      "id": "896d28e2-637f-4f14-a9ac-595fecdf1af3",
-      "timestamp": "2026-10-28T17:42:35.226Z",
-      "type": "BOT_MESSAGE",
-      "userId": 1987664153,
-      "userName": "Siuuuuuu",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "e938f394-6ffa-4d24-9649-f39b741c3639",
-      "timestamp": "2026-10-28T17:29:56.600Z",
-      "type": "LOOKUP",
-      "userId": 8066965283,
-      "userName": "Tʀᴜsᴛᴇᴅ Sᴇʟʟᴇʀ",
-      "summary": "Number Lookup 8400002324 (Not found)"
-    },
-    {
-      "id": "5e793aff-e2c5-45c9-9862-6b7874efc4eb",
-      "timestamp": "2026-10-28T17:20:22.119Z",
-      "type": "LOOKUP",
-      "userId": 8561902230,
-      "userName": "Azim",
-      "summary": "Number Lookup 7450854788 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168812978,
+  "lastTelegramUpdateId": 168812986,
   "usedEmailIds": [
     "gmail_739"
   ]
