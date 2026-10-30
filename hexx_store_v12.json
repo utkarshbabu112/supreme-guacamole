@@ -11044,15 +11044,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 1,
+      "totalLookups": 2,
       "referralCode": "HEX959930",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-29T16:17:27.795Z",
-      "lastActiveAt": "2026-10-29T16:17:45.644Z",
+      "lastActiveAt": "2026-10-30T13:49:42.172Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "9b44d107-202b-4f70-8811-993b8d7ac0b2",
+          "queryNumber": "9572474785",
+          "timestamp": "2026-10-30T13:48:13.775Z",
+          "source": "bot",
+          "userId": 6822959930,
+          "userName": "Singh",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9572474785",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "a68ed3da-4600-419a-8721-9c3192f4fd6d",
           "queryNumber": "6299335618",
@@ -11077,10 +11099,11 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11349,
-      "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-10-29",
-      "liveLocationUsed": 0
+      "lastBotMessageId": 11658,
+      "lastBotMessageHasPhoto": true,
+      "lastLookupDate": "2026-10-30",
+      "liveLocationUsed": 0,
+      "awaitingRedeemCode": false
     },
     "7204486985": {
       "id": 7204486985,
@@ -12254,9 +12277,54 @@
       "createdAt": "2026-10-28T18:16:10.194Z",
       "expiresAt": "2026-10-28T18:26:10.194Z",
       "botQrMessageId": 11068
+    },
+    "HEX2KTV9930": {
+      "orderId": "HEX2KTV9930",
+      "famOrderId": "HEX2KTV9930",
+      "userId": 6822959930,
+      "userName": "Singh",
+      "planId": "plan_7d",
+      "planName": "1 Week Pass",
+      "amount": 29,
+      "payableAmount": "29",
+      "qrImageUrl": "https://hexx-locate.ai.studio/api/qr/HEX2KTV9930",
+      "qrDataUrl": "data:image/png;base64,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",
+      "lastImapScanAt": 0,
+      "credits": 0,
+      "days": 7,
+      "status": "PENDING",
+      "paymentUrl": "https://hexx-locate.ai.studio/?order=HEX2KTV9930",
+      "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX2KTV9930&tr=HEX2KTV9930",
+      "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX2KTV9930&tr=HEX2KTV9930",
+      "gatewaySource": "direct_gmail",
+      "createdAt": "2026-10-30T13:48:33.907Z",
+      "expiresAt": "2026-10-30T13:58:33.907Z",
+      "botQrMessageId": 11658
     }
   },
   "globalHistory": [
+    {
+      "id": "9b44d107-202b-4f70-8811-993b8d7ac0b2",
+      "queryNumber": "9572474785",
+      "timestamp": "2026-10-30T13:48:13.775Z",
+      "source": "bot",
+      "userId": 6822959930,
+      "userName": "Singh",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9572474785",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "692e5a31-068d-45b8-b712-72aed54fb21d",
       "queryNumber": "8544806912",
@@ -14434,31 +14502,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "42de102d-8ac2-41bf-a6d6-fd7eb570b6ea",
-      "queryNumber": "9771063611",
-      "timestamp": "2026-10-28T19:29:17.587Z",
-      "source": "bot",
-      "userId": 8858491695,
-      "userName": "DIYA",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9771063611",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "387ba8ed-705f-454b-b29c-0262cc50d488",
+      "timestamp": "2026-10-30T13:48:33.957Z",
+      "type": "PAYMENT",
+      "userId": 6822959930,
+      "userName": "Singh",
+      "summary": "Created Auto-QR Order HEX2KTV9930 (₹29 for 7 Days VIP)"
+    },
+    {
+      "id": "d72ead19-14b1-40f5-ad6c-29d890de80f8",
+      "timestamp": "2026-10-30T13:48:13.775Z",
+      "type": "LOOKUP",
+      "userId": 6822959930,
+      "userName": "Singh",
+      "summary": "Number Lookup 9572474785 (Not found)"
+    },
     {
       "id": "90c3006a-fb5d-4194-970d-81880280d8e8",
       "timestamp": "2026-10-30T13:12:56.406Z",
@@ -15642,25 +15704,9 @@
       "userId": 7069002718,
       "userName": "Lakshay",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "f548514b-d127-4a85-9f8a-fbccc8f72236",
-      "timestamp": "2026-10-29T04:43:47.923Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8066965283,
-      "userName": "Tʀᴜsᴛᴇᴅ Sᴇʟʟᴇʀ",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "d1f1ea33-c53f-4116-8b58-85bbc03c13a2",
-      "timestamp": "2026-10-29T04:42:09.855Z",
-      "type": "LOOKUP",
-      "userId": 6600513445,
-      "userName": "KA9U",
-      "summary": "Number Lookup 9151611288 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813172,
+  "lastTelegramUpdateId": 168813178,
   "usedEmailIds": [
     "gmail_739"
   ]
