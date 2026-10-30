@@ -11526,6 +11526,29 @@
       "lastBotMessageId": 11531,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-30"
+    },
+    "8669780487": {
+      "id": 8669780487,
+      "firstName": "Sattu",
+      "username": "sul4kshuu",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX780487",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-30T05:09:20.989Z",
+      "lastActiveAt": "2026-10-30T05:09:33.323Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11535,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false
     }
   },
   "orders": {
@@ -13881,6 +13904,14 @@
   ],
   "logs": [
     {
+      "id": "c65bed3e-b3a6-40b0-afa9-e0e533501908",
+      "timestamp": "2026-10-30T05:09:21.847Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8669780487,
+      "userName": "Sattu",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "f81ded41-8dac-44a1-aa48-d53ef1089982",
       "timestamp": "2026-10-30T04:33:35.854Z",
       "type": "LOOKUP",
@@ -15071,17 +15102,9 @@
       "userId": 8858491695,
       "userName": "DIYA",
       "summary": "Created Auto-QR Order HEXR0LU1695 (₹49 for 30 Days VIP)"
-    },
-    {
-      "id": "8d51d9b9-04b9-492d-9acd-c918d97d9f92",
-      "timestamp": "2026-10-28T18:10:52.461Z",
-      "type": "PAYMENT",
-      "userId": 8858491695,
-      "userName": "DIYA",
-      "summary": "Order HEXI2LD1695 PAID (7 Days VIP, Rs.29)"
     }
   ],
-  "lastTelegramUpdateId": 168813055,
+  "lastTelegramUpdateId": 168813063,
   "usedEmailIds": [
     "gmail_739"
   ]
