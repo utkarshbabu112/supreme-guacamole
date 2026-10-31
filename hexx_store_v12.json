@@ -296,6 +296,30 @@
       "lastLookupDate": "2026-10-27",
       "liveLocationUsed": 0
     },
+    "672223865": {
+      "id": 672223865,
+      "firstName": "A P",
+      "username": "HyperterminalReborn",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX223865",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T18:29:56.646Z",
+      "lastActiveAt": "2026-10-31T18:30:44.386Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 11996,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-31"
+    },
     "683547197": {
       "id": 683547197,
       "firstName": "Rakesh",
@@ -16380,6 +16404,14 @@
   ],
   "logs": [
     {
+      "id": "17a2eb5e-c35a-47fb-81e6-f5e7858f8a7b",
+      "timestamp": "2026-10-31T18:29:57.249Z",
+      "type": "BOT_MESSAGE",
+      "userId": 672223865,
+      "userName": "A P",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "a8189d61-fff0-4f3e-9d92-0289509ff322",
       "timestamp": "2026-10-31T18:19:20.726Z",
       "type": "LOOKUP",
@@ -17570,17 +17602,9 @@
       "userId": 8800049547,
       "userName": "Goutam Shroff",
       "summary": "Number Lookup 9734050879 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "5714982b-997c-454d-ac2d-c59f4ff089c3",
-      "timestamp": "2026-10-30T02:54:10.063Z",
-      "type": "LOOKUP",
-      "userId": 8800049547,
-      "userName": "Goutam Shroff",
-      "summary": "Number Lookup 8918191759 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813591,
+  "lastTelegramUpdateId": 168813597,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
