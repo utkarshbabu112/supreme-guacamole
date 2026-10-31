@@ -11382,19 +11382,19 @@
       "premiumUntil": "2026-11-06T14:04:27.985Z",
       "totalSpent": 29,
       "dailyLookupsUsed": 0,
-      "totalLookups": 2,
+      "totalLookups": 3,
       "referralCode": "HEX959930",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-29T16:17:27.795Z",
-      "lastActiveAt": "2026-10-30T13:52:27.409Z",
+      "lastActiveAt": "2026-10-31T09:15:27.140Z",
       "isBanned": false,
       "history": [
         {
-          "id": "9b44d107-202b-4f70-8811-993b8d7ac0b2",
+          "id": "e218cd5d-8604-447c-bb58-e32c9bf3bcde",
           "queryNumber": "9572474785",
-          "timestamp": "2026-10-30T13:48:13.775Z",
+          "timestamp": "2026-10-31T09:15:33.641Z",
           "source": "bot",
           "userId": 6822959930,
           "userName": "Singh",
@@ -11437,9 +11437,9 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 2237,
-      "lastBotMessageHasPhoto": true,
-      "lastLookupDate": "2026-10-30",
+      "lastBotMessageId": 11892,
+      "lastBotMessageHasPhoto": false,
+      "lastLookupDate": "2026-10-31",
       "liveLocationUsed": 0,
       "awaitingRedeemCode": false,
       "lastPlanName": "1 Week Pass"
@@ -13579,6 +13579,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "e218cd5d-8604-447c-bb58-e32c9bf3bcde",
+      "queryNumber": "9572474785",
+      "timestamp": "2026-10-31T09:15:33.641Z",
+      "source": "bot",
+      "userId": 6822959930,
+      "userName": "Singh",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9572474785",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "c2b3b658-3fb4-47c0-bad3-fc32db84c15a",
       "queryNumber": "9153765431",
@@ -15756,31 +15778,25 @@
         "lng": 88.36102,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
       }
-    },
-    {
-      "id": "555cb9c1-ee2b-4c51-b6e2-14672983d1cd",
-      "queryNumber": "9993418938",
-      "timestamp": "2026-10-29T09:56:18.640Z",
-      "source": "bot",
-      "userId": 7183197265,
-      "userName": "OG",
-      "resultSummary": {
-        "name": "VODAFONE KOLKATA",
-        "fatherName": "\"9836307000",
-        "mobile": "9993418938",
-        "altMobile": "QAISER ALAM",
-        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
-        "idNumber": "8337007000",
-        "email": "Not found",
-        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
-        "totalRecords": 8,
-        "lat": 22.5409,
-        "lng": 88.36102,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "ba4f86cf-1620-42e0-b800-58d5cfd74ec8",
+      "timestamp": "2026-10-31T09:15:33.641Z",
+      "type": "LOOKUP",
+      "userId": 6822959930,
+      "userName": "Singh",
+      "summary": "Number Lookup 9572474785 (Not found)"
+    },
+    {
+      "id": "e456c939-c84a-4afc-a255-ee6697c4ecbf",
+      "timestamp": "2026-10-31T09:12:25.135Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6822959930,
+      "userName": "Singh",
+      "summary": "Started bot (/start)"
+    },
     {
       "id": "59388335-c52b-4838-b234-06b2676733d4",
       "timestamp": "2026-10-31T07:58:20.318Z",
@@ -16964,25 +16980,9 @@
       "userId": 7191737383,
       "userName": "FENIX",
       "summary": "Number Lookup 6141542836 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "7e41c228-0752-4fc3-bc05-1551f39d74c8",
-      "timestamp": "2026-10-29T17:11:32.186Z",
-      "type": "LOOKUP",
-      "userId": 7191737383,
-      "userName": "FENIX",
-      "summary": "Number Lookup 6141542836 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "04db439b-fe86-4f9f-aaf5-e16f05ea2e84",
-      "timestamp": "2026-10-29T17:10:13.431Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7191737383,
-      "userName": "FENIX",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813461,
+  "lastTelegramUpdateId": 168813466,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
