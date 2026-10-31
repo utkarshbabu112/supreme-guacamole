@@ -13840,6 +13840,30 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-31"
+    },
+    "7325683863": {
+      "id": 7325683863,
+      "firstName": "Shaxumye",
+      "username": "shaxumye",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX683863",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T16:50:38.718Z",
+      "lastActiveAt": "2026-10-31T16:51:04.505Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 11965,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-31"
     }
   },
   "orders": {
@@ -16243,6 +16267,14 @@
   ],
   "logs": [
     {
+      "id": "e1cd3007-90c8-4469-b73f-2661897cd314",
+      "timestamp": "2026-10-31T16:50:39.315Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7325683863,
+      "userName": "Shaxumye",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "770b946e-c6b8-4eb1-919d-323af2d2eb08",
       "timestamp": "2026-10-31T16:40:44.032Z",
       "type": "LOOKUP",
@@ -17433,17 +17465,9 @@
       "userId": 8952595735,
       "userName": "علي يوسف (أَبُو أبيّ)",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "741efc47-ee5b-4759-9111-f281cef17ea6",
-      "timestamp": "2026-10-29T20:31:33.861Z",
-      "type": "LOOKUP",
-      "userId": 8952595735,
-      "userName": "علي يوسف (أَبُو أبيّ)",
-      "summary": "Number Lookup 8914801513 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813557,
+  "lastTelegramUpdateId": 168813561,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
