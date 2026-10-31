@@ -341,7 +341,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     },
     "683547197": {
       "id": 683547197,
@@ -1597,7 +1598,8 @@
       "lastBotMessageId": 11957,
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     },
     "1672440707": {
       "id": 1672440707,
@@ -13930,7 +13932,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     },
     "7325683863": {
       "id": 7325683863,
@@ -13999,7 +14002,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     },
     "7116818444": {
       "id": 7116818444,
@@ -14023,7 +14027,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     },
     "6381082700": {
       "id": 6381082700,
@@ -14047,7 +14052,8 @@
       "lastBotMessageHasPhoto": true,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     },
     "5620489714": {
       "id": 5620489714,
@@ -14116,7 +14122,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
@@ -14330,7 +14337,7 @@
       "lastImapScanAt": 0,
       "credits": 0,
       "days": 7,
-      "status": "PENDING",
+      "status": "EXPIRED",
       "paymentUrl": "https://hexx-locate.ai.studio/?order=HEX7CM62700",
       "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX7CM62700&tr=HEX7CM62700",
       "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX7CM62700&tr=HEX7CM62700",
