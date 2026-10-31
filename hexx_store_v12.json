@@ -13606,6 +13606,75 @@
       "history": [],
       "lastBotMessageId": 11925,
       "lastBotMessageHasPhoto": false
+    },
+    "8213078100": {
+      "id": 8213078100,
+      "firstName": "Lemon",
+      "username": "L1mo9",
+      "credits": 1,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 2,
+      "referralCode": "HEX078100",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T14:54:40.624Z",
+      "lastActiveAt": "2026-10-31T14:57:28.315Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "7de415f6-aa17-47d7-85f6-c9e3e7d0a435",
+          "queryNumber": "6378242627",
+          "timestamp": "2026-10-31T14:56:58.297Z",
+          "source": "bot",
+          "userId": 8213078100,
+          "userName": "Lemon",
+          "resultSummary": {
+            "name": "Sampurna Nand Dobriyal",
+            "fatherName": "B D Dobriyal",
+            "mobile": "6378242627",
+            "altMobile": "9876543210",
+            "circle": "AIRTEL DELHI",
+            "idNumber": "572783453594",
+            "email": "Not found",
+            "address": "Molarband Extn 60 Futa Road 3 Badarpur, South Delhi, Delhi, 110044",
+            "totalRecords": 8,
+            "lat": 28.49926,
+            "lng": 77.17436,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Molarband%20Extn%2060%20Futa%20Road%203%20Badarpur%2C%20South%20Delhi%2C%20Delhi%2C%20110044%2C%20India"
+          }
+        },
+        {
+          "id": "718fb282-a62a-47b2-9899-fa58a6ad93f2",
+          "queryNumber": "7291961383",
+          "timestamp": "2026-10-31T14:56:20.678Z",
+          "source": "bot",
+          "userId": 8213078100,
+          "userName": "Lemon",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7291961383",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 11934,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-31"
     }
   },
   "orders": {
@@ -13806,6 +13875,50 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "7de415f6-aa17-47d7-85f6-c9e3e7d0a435",
+      "queryNumber": "6378242627",
+      "timestamp": "2026-10-31T14:56:58.297Z",
+      "source": "bot",
+      "userId": 8213078100,
+      "userName": "Lemon",
+      "resultSummary": {
+        "name": "Sampurna Nand Dobriyal",
+        "fatherName": "B D Dobriyal",
+        "mobile": "6378242627",
+        "altMobile": "9876543210",
+        "circle": "AIRTEL DELHI",
+        "idNumber": "572783453594",
+        "email": "Not found",
+        "address": "Molarband Extn 60 Futa Road 3 Badarpur, South Delhi, Delhi, 110044",
+        "totalRecords": 8,
+        "lat": 28.49926,
+        "lng": 77.17436,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Molarband%20Extn%2060%20Futa%20Road%203%20Badarpur%2C%20South%20Delhi%2C%20Delhi%2C%20110044%2C%20India"
+      }
+    },
+    {
+      "id": "718fb282-a62a-47b2-9899-fa58a6ad93f2",
+      "queryNumber": "7291961383",
+      "timestamp": "2026-10-31T14:56:20.678Z",
+      "source": "bot",
+      "userId": 8213078100,
+      "userName": "Lemon",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7291961383",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "2d55ff8d-f7ad-440f-b83a-2d4c9bf333c6",
       "queryNumber": "9599218925",
@@ -15961,53 +16074,41 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "34d35bc9-4d54-40bf-967b-87ed159d6ced",
-      "queryNumber": "9241430084",
-      "timestamp": "2026-10-29T13:26:45.071Z",
-      "source": "bot",
-      "userId": 7933477413,
-      "userName": "HUNTER",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9241430084",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "a3dd0e88-683d-47a9-9fa9-979f25f5cdff",
-      "queryNumber": "8298788768",
-      "timestamp": "2026-10-29T13:14:41.046Z",
-      "source": "bot",
-      "userId": 6565220266,
-      "userName": "Mohseen",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8298788768",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "b7f25b0e-29d8-45c5-88c4-0a7128513eba",
+      "timestamp": "2026-10-31T14:56:58.297Z",
+      "type": "LOOKUP",
+      "userId": 8213078100,
+      "userName": "Lemon",
+      "summary": "Number Lookup 6378242627 (Sampurna Nand Dobriyal)"
+    },
+    {
+      "id": "9f8b6e82-6c5c-444f-9d3b-b6f13248f471",
+      "timestamp": "2026-10-31T14:56:20.678Z",
+      "type": "LOOKUP",
+      "userId": 8213078100,
+      "userName": "Lemon",
+      "summary": "Number Lookup 7291961383 (Not found)"
+    },
+    {
+      "id": "f8464bc2-df1e-428e-8b93-472fc4e41631",
+      "timestamp": "2026-10-31T14:55:09.909Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8213078100,
+      "userName": "Lemon",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "0e3c8fb9-1ce0-492a-9ca3-a2f0235542be",
+      "timestamp": "2026-10-31T14:54:41.214Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8213078100,
+      "userName": "Lemon",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "d230aea2-f347-4490-a77e-8324598d50e5",
       "timestamp": "2026-10-31T14:48:02.925Z",
@@ -17175,41 +17276,9 @@
       "userId": 6580110315,
       "userName": "Eww",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "5c943ce1-9907-49ab-8c9e-91abf9a63733",
-      "timestamp": "2026-10-29T18:23:07.423Z",
-      "type": "LOOKUP",
-      "userId": 6001338045,
-      "userName": "⚡ 𝐊𝐫𝐢𝐬𝐡𝐮 ⚡",
-      "summary": "Number Lookup 8989062863 (Not found)"
-    },
-    {
-      "id": "c009b43b-a1cc-46eb-a9bf-a7ed8b092530",
-      "timestamp": "2026-10-29T18:20:11.058Z",
-      "type": "LOOKUP",
-      "userId": 8423136488,
-      "userName": "Rishiii",
-      "summary": "Number Lookup 7051048427 (Not found)"
-    },
-    {
-      "id": "abe92c0d-6125-4c81-a467-1bd12e14e86a",
-      "timestamp": "2026-10-29T18:19:51.323Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8423136488,
-      "userName": "Rishiii",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "03b2b4c7-6e22-4b48-84a1-335d5e742d14",
-      "timestamp": "2026-10-29T18:16:52.769Z",
-      "type": "LOOKUP",
-      "userId": 8423136488,
-      "userName": "Rishiii",
-      "summary": "Number Lookup 9149690360 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168813510,
+  "lastTelegramUpdateId": 168813526,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
