@@ -14170,6 +14170,52 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-31"
+    },
+    "5126228275": {
+      "id": 5126228275,
+      "firstName": "Nobita",
+      "username": "nobitaaa98",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX228275",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T22:35:13.564Z",
+      "lastActiveAt": "2026-10-31T22:35:49.175Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "d9a76c98-804c-4554-85b0-24ee5f091480",
+          "queryNumber": "6280562145",
+          "timestamp": "2026-10-31T22:35:33.861Z",
+          "source": "bot",
+          "userId": 5126228275,
+          "userName": "Nobita",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "6280562145",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 12028,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "lastLookupDate": "2026-10-31"
     }
   },
   "orders": {
@@ -14394,6 +14440,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "d9a76c98-804c-4554-85b0-24ee5f091480",
+      "queryNumber": "6280562145",
+      "timestamp": "2026-10-31T22:35:33.861Z",
+      "source": "bot",
+      "userId": 5126228275,
+      "userName": "Nobita",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "6280562145",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "fcfae9fe-856f-4ef4-8d8c-42b4f6526d4e",
       "queryNumber": "8594029676",
@@ -16571,31 +16639,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "f6023847-76e3-44b9-8440-0b10468eaf0c",
-      "queryNumber": "7850908950",
-      "timestamp": "2026-10-29T17:44:05.508Z",
-      "source": "bot",
-      "userId": 5494873947,
-      "userName": "непознати",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7850908950",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "e61d033d-926a-45c5-8ed4-2e01f349d8c4",
+      "timestamp": "2026-10-31T22:35:33.861Z",
+      "type": "LOOKUP",
+      "userId": 5126228275,
+      "userName": "Nobita",
+      "summary": "Number Lookup 6280562145 (Not found)"
+    },
+    {
+      "id": "9df5ea50-5f81-45d2-816f-23467147c0e4",
+      "timestamp": "2026-10-31T22:35:14.461Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5126228275,
+      "userName": "Nobita",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "cab0ab06-ff5e-4ebc-8230-7c25b1e36f4d",
       "timestamp": "2026-10-31T20:41:51.897Z",
@@ -17779,25 +17841,9 @@
       "userId": 8366903742,
       "userName": "Manoj",
       "summary": "Number Lookup 7877605465 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "a5736f98-437a-4434-a7cb-39e9eef35b79",
-      "timestamp": "2026-10-30T04:31:56.728Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8366903742,
-      "userName": "Manoj",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "25b0a575-644a-4be6-8f99-f6fbbaeedd0b",
-      "timestamp": "2026-10-30T03:38:08.436Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8682880015,
-      "userName": "Alex",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168813626,
+  "lastTelegramUpdateId": 168813632,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
