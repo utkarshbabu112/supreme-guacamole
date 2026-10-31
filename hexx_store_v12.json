@@ -13334,6 +13334,27 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-31"
+    },
+    "8903408238": {
+      "id": 8903408238,
+      "firstName": "Satyam",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX408238",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T07:57:09.975Z",
+      "lastActiveAt": "2026-10-31T07:57:09.975Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 11882,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -15714,6 +15735,14 @@
   ],
   "logs": [
     {
+      "id": "e55fcae5-bd5a-4f74-a73f-718f3b233972",
+      "timestamp": "2026-10-31T07:57:10.972Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8903408238,
+      "userName": "Satyam",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "1289f877-e4ba-44fa-83f4-9563703515f0",
       "timestamp": "2026-10-31T07:12:13.840Z",
       "type": "LOOKUP",
@@ -16904,17 +16933,9 @@
       "userId": 7204486985,
       "userName": "nyxonn",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "49342e25-2ed5-46bb-9dc7-4061eb93ce4c",
-      "timestamp": "2026-10-29T16:18:51.827Z",
-      "type": "LOOKUP",
-      "userId": 898463342,
-      "userName": "Saket Ranjan",
-      "summary": "Number Lookup 8209392669 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813449,
+  "lastTelegramUpdateId": 168813450,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
