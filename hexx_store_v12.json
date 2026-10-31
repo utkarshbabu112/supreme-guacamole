@@ -13611,24 +13611,24 @@
       "id": 8213078100,
       "firstName": "Lemon",
       "username": "L1mo9",
-      "credits": 1,
+      "credits": 0,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 1,
-      "totalLookups": 2,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 3,
       "referralCode": "HEX078100",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-31T14:54:40.624Z",
-      "lastActiveAt": "2026-10-31T14:57:28.315Z",
+      "lastActiveAt": "2026-10-31T15:02:08.941Z",
       "isBanned": false,
       "history": [
         {
-          "id": "7de415f6-aa17-47d7-85f6-c9e3e7d0a435",
+          "id": "fbfc0223-68e3-4a9e-b4fe-7fdbfcbfb1df",
           "queryNumber": "6378242627",
-          "timestamp": "2026-10-31T14:56:58.297Z",
+          "timestamp": "2026-10-31T15:01:50.549Z",
           "source": "bot",
           "userId": 8213078100,
           "userName": "Lemon",
@@ -13670,7 +13670,7 @@
           }
         }
       ],
-      "lastBotMessageId": 11934,
+      "lastBotMessageId": 11940,
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
@@ -13875,6 +13875,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "fbfc0223-68e3-4a9e-b4fe-7fdbfcbfb1df",
+      "queryNumber": "6378242627",
+      "timestamp": "2026-10-31T15:01:50.549Z",
+      "source": "bot",
+      "userId": 8213078100,
+      "userName": "Lemon",
+      "resultSummary": {
+        "name": "Sampurna Nand Dobriyal",
+        "fatherName": "B D Dobriyal",
+        "mobile": "6378242627",
+        "altMobile": "9876543210",
+        "circle": "AIRTEL DELHI",
+        "idNumber": "572783453594",
+        "email": "Not found",
+        "address": "Molarband Extn 60 Futa Road 3 Badarpur, South Delhi, Delhi, 110044",
+        "totalRecords": 8,
+        "lat": 28.49926,
+        "lng": 77.17436,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Molarband%20Extn%2060%20Futa%20Road%203%20Badarpur%2C%20South%20Delhi%2C%20Delhi%2C%20110044%2C%20India"
+      }
+    },
     {
       "id": "7de415f6-aa17-47d7-85f6-c9e3e7d0a435",
       "queryNumber": "6378242627",
@@ -16052,31 +16074,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "d887b679-a6df-4c1f-8281-d3d71322db2c",
-      "queryNumber": "9263265352",
-      "timestamp": "2026-10-29T13:27:14.008Z",
-      "source": "bot",
-      "userId": 7933477413,
-      "userName": "HUNTER",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9263265352",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "1a89faae-696e-417b-a3ba-1090afd7d76a",
+      "timestamp": "2026-10-31T15:01:50.549Z",
+      "type": "LOOKUP",
+      "userId": 8213078100,
+      "userName": "Lemon",
+      "summary": "Number Lookup 6378242627 (Sampurna Nand Dobriyal)"
+    },
     {
       "id": "b7f25b0e-29d8-45c5-88c4-0a7128513eba",
       "timestamp": "2026-10-31T14:56:58.297Z",
@@ -17268,17 +17276,9 @@
       "userId": 6580110315,
       "userName": "Eww",
       "summary": "Number Lookup 8532947038 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "79be7316-c926-4f92-8784-c22b021e0497",
-      "timestamp": "2026-10-29T18:24:24.712Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6580110315,
-      "userName": "Eww",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813526,
+  "lastTelegramUpdateId": 168813539,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
