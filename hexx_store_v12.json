@@ -13402,6 +13402,30 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-31"
+    },
+    "8138876724": {
+      "id": 8138876724,
+      "firstName": "Макс",
+      "username": "c71rr",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX876724",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T09:48:21.016Z",
+      "lastActiveAt": "2026-10-31T09:48:52.127Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11894,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-31"
     }
   },
   "orders": {
@@ -15782,6 +15806,14 @@
   ],
   "logs": [
     {
+      "id": "790d2276-682b-4109-acc6-819eb2b18bd5",
+      "timestamp": "2026-10-31T09:48:22.057Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8138876724,
+      "userName": "Макс",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "ba4f86cf-1620-42e0-b800-58d5cfd74ec8",
       "timestamp": "2026-10-31T09:15:33.641Z",
       "type": "LOOKUP",
@@ -16972,17 +17004,9 @@
       "userId": 7512083375,
       "userName": "❔",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "e2517916-b8d0-47dc-ac68-acc639f35583",
-      "timestamp": "2026-10-29T17:12:47.278Z",
-      "type": "LOOKUP",
-      "userId": 7191737383,
-      "userName": "FENIX",
-      "summary": "Number Lookup 6141542836 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168813466,
+  "lastTelegramUpdateId": 168813473,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
