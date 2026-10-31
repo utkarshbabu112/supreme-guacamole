@@ -362,7 +362,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "lastLookupDate": "2026-10-31",
-      "awaitingRedeemCode": false
+      "awaitingRedeemCode": false,
+      "liveLocationUsed": 0
     },
     "719362524": {
       "id": 719362524,
@@ -870,7 +871,8 @@
       "lastActiveAt": "2026-10-31T10:23:02.280Z",
       "isBanned": false,
       "history": [],
-      "forceJoinVerified": false
+      "forceJoinVerified": false,
+      "liveLocationUsed": 0
     },
     "1135662406": {
       "id": 1135662406,
@@ -13607,7 +13609,8 @@
       "isBanned": false,
       "history": [],
       "lastBotMessageId": 11912,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "8951446120": {
       "id": 8951446120,
@@ -13653,7 +13656,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     },
     "8795599735": {
       "id": 8795599735,
@@ -13673,7 +13677,8 @@
       "isBanned": false,
       "history": [],
       "lastBotMessageId": 11925,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "8213078100": {
       "id": 8213078100,
@@ -13742,7 +13747,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
@@ -13932,7 +13938,7 @@
       "lastImapScanAt": 0,
       "credits": 0,
       "days": 7,
-      "status": "PENDING",
+      "status": "EXPIRED",
       "paymentUrl": "https://hexx-locate.ai.studio/?order=HEXKS5T9930",
       "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXKS5T9930&tr=HEXKS5T9930",
       "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXKS5T9930&tr=HEXKS5T9930",
