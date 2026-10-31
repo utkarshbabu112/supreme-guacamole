@@ -14024,6 +14024,30 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-31"
+    },
+    "6381082700": {
+      "id": 6381082700,
+      "firstName": "SHOHan",
+      "username": "shohanurrahman9",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX082700",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T19:15:33.585Z",
+      "lastActiveAt": "2026-10-31T19:15:52.349Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12003,
+      "lastBotMessageHasPhoto": true,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-31"
     }
   },
   "orders": {
@@ -14221,6 +14245,30 @@
       "createdAt": "2026-10-31T13:50:23.633Z",
       "expiresAt": "2026-10-31T14:00:23.633Z",
       "botQrMessageId": 11913
+    },
+    "HEX7CM62700": {
+      "orderId": "HEX7CM62700",
+      "famOrderId": "HEX7CM62700",
+      "userId": 6381082700,
+      "userName": "SHOHan",
+      "userUsername": "shohanurrahman9",
+      "planId": "plan_7d",
+      "planName": "1 Week Pass",
+      "amount": 29,
+      "payableAmount": "29",
+      "qrImageUrl": "https://hexx-locate.ai.studio/api/qr/HEX7CM62700",
+      "qrDataUrl": "data:image/png;base64,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",
+      "lastImapScanAt": 0,
+      "credits": 0,
+      "days": 7,
+      "status": "PENDING",
+      "paymentUrl": "https://hexx-locate.ai.studio/?order=HEX7CM62700",
+      "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX7CM62700&tr=HEX7CM62700",
+      "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX7CM62700&tr=HEX7CM62700",
+      "gatewaySource": "direct_gmail",
+      "createdAt": "2026-10-31T19:15:52.350Z",
+      "expiresAt": "2026-10-31T19:25:52.350Z",
+      "botQrMessageId": 12003
     }
   },
   "globalHistory": [
@@ -16427,6 +16475,22 @@
   ],
   "logs": [
     {
+      "id": "a777e408-a3ca-4483-8867-47ac223dc041",
+      "timestamp": "2026-10-31T19:15:52.402Z",
+      "type": "PAYMENT",
+      "userId": 6381082700,
+      "userName": "SHOHan",
+      "summary": "Created Auto-QR Order HEX7CM62700 (₹29 for 7 Days VIP)"
+    },
+    {
+      "id": "26e4f581-731b-44c1-b371-45e1136f8569",
+      "timestamp": "2026-10-31T19:15:34.330Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6381082700,
+      "userName": "SHOHan",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "c8cfaf21-051e-43d6-9a2b-3d7087a364b0",
       "timestamp": "2026-10-31T18:31:33.390Z",
       "type": "LOOKUP",
@@ -17609,25 +17673,9 @@
       "userId": 7453498158,
       "userName": "𝙲𝘢𝕝𝕝 𝘮ᶓ 𝐣𝘢𝘢τ❣️",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "28aac8c8-8ed6-4f77-b6aa-8b4d54c36579",
-      "timestamp": "2026-10-30T03:05:15.425Z",
-      "type": "LOOKUP",
-      "userId": 5930445688,
-      "userName": "Shadow",
-      "summary": "Number Lookup 7470894794 (Not found)"
-    },
-    {
-      "id": "fbcac5f5-f3e9-418a-be7e-d228fbe9b5e0",
-      "timestamp": "2026-10-30T03:04:45.083Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5930445688,
-      "userName": "Shadow",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168813599,
+  "lastTelegramUpdateId": 168813603,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
