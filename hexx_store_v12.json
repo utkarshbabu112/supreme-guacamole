@@ -296,6 +296,26 @@
       "lastLookupDate": "2026-10-27",
       "liveLocationUsed": 0
     },
+    "683547197": {
+      "id": 683547197,
+      "firstName": "Rakesh",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX547197",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T15:12:11.562Z",
+      "lastActiveAt": "2026-10-31T15:12:11.562Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 11943,
+      "lastBotMessageHasPhoto": false
+    },
     "719362524": {
       "id": 719362524,
       "firstName": "Gujjar",
@@ -16078,6 +16098,14 @@
   ],
   "logs": [
     {
+      "id": "3b2cb7db-96d2-47d6-bcbf-be3a5b723f4b",
+      "timestamp": "2026-10-31T15:12:13.566Z",
+      "type": "BOT_MESSAGE",
+      "userId": 683547197,
+      "userName": "Rakesh",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "1a89faae-696e-417b-a3ba-1090afd7d76a",
       "timestamp": "2026-10-31T15:01:50.549Z",
       "type": "LOOKUP",
@@ -17268,17 +17296,9 @@
       "userId": 721987305,
       "userName": "Roshan Kumar",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "16418b79-64d1-41f8-a705-20b22e42ac31",
-      "timestamp": "2026-10-29T18:25:16.674Z",
-      "type": "LOOKUP",
-      "userId": 6580110315,
-      "userName": "Eww",
-      "summary": "Number Lookup 8532947038 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168813539,
+  "lastTelegramUpdateId": 168813540,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
