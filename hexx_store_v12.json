@@ -13188,7 +13188,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-31T04:58:25.842Z",
-      "lastActiveAt": "2026-10-31T05:01:45.809Z",
+      "lastActiveAt": "2026-10-31T05:06:32.773Z",
       "isBanned": false,
       "history": [
         {
@@ -13215,8 +13215,8 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11842,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 11846,
+      "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-31"
     }
@@ -15599,6 +15599,14 @@
   ],
   "logs": [
     {
+      "id": "5207b11f-e283-4cde-a500-df2615984e34",
+      "timestamp": "2026-10-31T05:06:33.186Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8463673971,
+      "userName": "⚡🄻🄴🄶🄴🄽🄳🄱🄾🅈⚡",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "65a905bc-1dc8-4a42-8e2a-c6534905e0d4",
       "timestamp": "2026-10-31T04:59:41.719Z",
       "type": "LOOKUP",
@@ -16789,17 +16797,9 @@
       "userId": 6247554367,
       "userName": "Divya",
       "summary": "Number Lookup 9572825700 (Not found)"
-    },
-    {
-      "id": "d516b60e-25af-4396-b2fe-f239f52a2164",
-      "timestamp": "2026-10-29T15:00:03.308Z",
-      "type": "LOOKUP",
-      "userId": 8117014455,
-      "userName": "LEVI",
-      "summary": "Number Lookup 9450075598 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813413,
+  "lastTelegramUpdateId": 168813415,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
