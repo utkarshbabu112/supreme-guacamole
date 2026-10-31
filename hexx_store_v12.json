@@ -781,7 +781,28 @@
       "history": [],
       "forceJoinVerified": false,
       "lastBotMessageId": 11878,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
+    },
+    "1087968824": {
+      "id": 1087968824,
+      "firstName": "Group",
+      "username": "GroupAnonymousBot",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX968824",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T10:23:02.280Z",
+      "lastActiveAt": "2026-10-31T10:23:02.280Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false
     },
     "1135662406": {
       "id": 1135662406,
@@ -13333,7 +13354,8 @@
       "lastBotMessageId": 11876,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     },
     "8903408238": {
       "id": 8903408238,
@@ -13401,7 +13423,8 @@
       "lastBotMessageId": 11886,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     },
     "8138876724": {
       "id": 8138876724,
@@ -13425,7 +13448,8 @@
       "lastBotMessageId": 11894,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     },
     "8763661333": {
       "id": 8763661333,
@@ -13493,7 +13517,8 @@
       "lastBotMessageId": 11910,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
@@ -17074,7 +17099,7 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168813495,
+  "lastTelegramUpdateId": 168813496,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
