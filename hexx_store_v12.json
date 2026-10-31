@@ -1507,6 +1507,28 @@
       "lastLookupDate": "2026-10-30",
       "forceJoinVerified": true
     },
+    "1588517266": {
+      "id": 1588517266,
+      "firstName": "Nivedita",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX517266",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T16:35:27.746Z",
+      "lastActiveAt": "2026-10-31T16:36:10.159Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 11952,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "lastLookupDate": "2026-10-31"
+    },
     "1672440707": {
       "id": 1672440707,
       "firstName": "Jaat",
@@ -16152,6 +16174,14 @@
   ],
   "logs": [
     {
+      "id": "88838600-1f70-4889-9ea3-aac9fc89229b",
+      "timestamp": "2026-10-31T16:35:28.510Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1588517266,
+      "userName": "Nivedita",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "1b207e37-a26c-4532-a5c1-aa939db868de",
       "timestamp": "2026-10-31T15:15:14.686Z",
       "type": "LOOKUP",
@@ -17342,17 +17372,9 @@
       "userId": 7764242644,
       "userName": "Jesko",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "008f2973-fa07-4d6a-a4c8-637f29249124",
-      "timestamp": "2026-10-29T19:09:29.618Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6001338045,
-      "userName": "⚡ 𝐊𝐫𝐢𝐬𝐡𝐮 ⚡",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168813547,
+  "lastTelegramUpdateId": 168813550,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
