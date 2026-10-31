@@ -13141,7 +13141,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-31T04:53:08.535Z",
-      "lastActiveAt": "2026-10-31T04:57:22.212Z",
+      "lastActiveAt": "2026-10-31T04:58:59.103Z",
       "isBanned": false,
       "history": [
         {
@@ -13169,6 +13169,53 @@
       ],
       "forceJoinVerified": true,
       "lastBotMessageId": 11832,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-31"
+    },
+    "8463673971": {
+      "id": 8463673971,
+      "firstName": "⚡🄻🄴🄶🄴🄽🄳🄱🄾🅈⚡",
+      "username": "Bobbybhai96",
+      "credits": 1,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
+      "referralCode": "HEX673971",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T04:58:25.842Z",
+      "lastActiveAt": "2026-10-31T05:01:45.809Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "4fc33152-edee-46ae-85bc-345e4f669807",
+          "queryNumber": "9256833768",
+          "timestamp": "2026-10-31T04:59:41.719Z",
+          "source": "bot",
+          "userId": 8463673971,
+          "userName": "⚡🄻🄴🄶🄴🄽🄳🄱🄾🅈⚡",
+          "resultSummary": {
+            "name": "VODAFONE KOLKATA",
+            "fatherName": "\"9836307000",
+            "mobile": "9256833768",
+            "altMobile": "QAISER ALAM",
+            "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+            "idNumber": "8337007000",
+            "email": "Not found",
+            "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+            "totalRecords": 8,
+            "lat": 22.54163,
+            "lng": 88.36283,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11842,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-31"
@@ -13349,6 +13396,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "4fc33152-edee-46ae-85bc-345e4f669807",
+      "queryNumber": "9256833768",
+      "timestamp": "2026-10-31T04:59:41.719Z",
+      "source": "bot",
+      "userId": 8463673971,
+      "userName": "⚡🄻🄴🄶🄴🄽🄳🄱🄾🅈⚡",
+      "resultSummary": {
+        "name": "VODAFONE KOLKATA",
+        "fatherName": "\"9836307000",
+        "mobile": "9256833768",
+        "altMobile": "QAISER ALAM",
+        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
+        "idNumber": "8337007000",
+        "email": "Not found",
+        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
+        "totalRecords": 8,
+        "lat": 22.54163,
+        "lng": 88.36283,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
+      }
+    },
     {
       "id": "c1457752-3e6c-44ed-8716-b2c3bf30498e",
       "queryNumber": "9332045545",
@@ -15526,31 +15595,33 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "6800f893-27b7-41c5-a299-1583a544ee57",
-      "queryNumber": "8676972045",
-      "timestamp": "2026-10-29T08:07:37.160Z",
-      "source": "bot",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8676972045",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "65a905bc-1dc8-4a42-8e2a-c6534905e0d4",
+      "timestamp": "2026-10-31T04:59:41.719Z",
+      "type": "LOOKUP",
+      "userId": 8463673971,
+      "userName": "⚡🄻🄴🄶🄴🄽🄳🄱🄾🅈⚡",
+      "summary": "Number Lookup 9256833768 (VODAFONE KOLKATA)"
+    },
+    {
+      "id": "7d20b0a9-3bd0-442a-9599-6c6b8cee2b4a",
+      "timestamp": "2026-10-31T04:59:26.328Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8463673971,
+      "userName": "⚡🄻🄴🄶🄴🄽🄳🄱🄾🅈⚡",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "d1b0cc77-3697-4ae8-98c1-704c489dda49",
+      "timestamp": "2026-10-31T04:58:26.558Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8463673971,
+      "userName": "⚡🄻🄴🄶🄴🄽🄳🄱🄾🅈⚡",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "49a878f9-3e81-4f38-af12-8a294605463a",
       "timestamp": "2026-10-31T04:55:11.410Z",
@@ -16726,33 +16797,9 @@
       "userId": 8117014455,
       "userName": "LEVI",
       "summary": "Number Lookup 9450075598 (Not found)"
-    },
-    {
-      "id": "b67e5b48-8bbf-4b0d-b8d3-fb407859b689",
-      "timestamp": "2026-10-29T14:59:29.639Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8117014455,
-      "userName": "LEVI",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "658253b1-07f7-48a7-90b3-98a7c8904af0",
-      "timestamp": "2026-10-29T14:51:18.831Z",
-      "type": "LOOKUP",
-      "userId": 7047496805,
-      "userName": "💀🔥 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗛𝗔𝗖𝗞𝗘𝗥 🔥💀",
-      "summary": "Number Lookup 9836307000 (Not found)"
-    },
-    {
-      "id": "7604be9e-d930-4604-8394-0f1b8d844657",
-      "timestamp": "2026-10-29T14:49:19.281Z",
-      "type": "LOOKUP",
-      "userId": 7047496805,
-      "userName": "💀🔥 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗛𝗔𝗖𝗞𝗘𝗥 🔥💀",
-      "summary": "Number Lookup 7055162376 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168813382,
+  "lastTelegramUpdateId": 168813413,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
