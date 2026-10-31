@@ -13909,6 +13909,30 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-31"
+    },
+    "7116818444": {
+      "id": 7116818444,
+      "firstName": "MADHAV🔥",
+      "username": "MadhavEdits12",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX818444",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T17:38:55.530Z",
+      "lastActiveAt": "2026-10-31T17:39:09.452Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 11984,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-31"
     }
   },
   "orders": {
@@ -16312,6 +16336,14 @@
   ],
   "logs": [
     {
+      "id": "607c5432-1592-4f32-affa-f7eb0a401baa",
+      "timestamp": "2026-10-31T17:38:56.282Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7116818444,
+      "userName": "MADHAV🔥",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "7e82291a-7125-4557-898b-3eb100706ad9",
       "timestamp": "2026-10-31T16:54:06.780Z",
       "type": "LOOKUP",
@@ -17502,17 +17534,9 @@
       "userId": 8800049547,
       "userName": "Goutam Shroff",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "2675a0a0-942d-45c5-9edd-59ec860a7c74",
-      "timestamp": "2026-10-30T01:40:52.062Z",
-      "type": "LOOKUP",
-      "userId": 1545684588,
-      "userName": "Shyam",
-      "summary": "Number Lookup 8797616956 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813580,
+  "lastTelegramUpdateId": 168813586,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
