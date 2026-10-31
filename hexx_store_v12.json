@@ -762,6 +762,27 @@
       "lastLookupDate": "2026-10-25",
       "liveLocationUsed": 0
     },
+    "1080735922": {
+      "id": 1080735922,
+      "firstName": "Bu",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX735922",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T06:41:22.058Z",
+      "lastActiveAt": "2026-10-31T06:41:27.711Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 11878,
+      "lastBotMessageHasPhoto": false
+    },
     "1135662406": {
       "id": 1135662406,
       "firstName": "Shivang",
@@ -15671,6 +15692,14 @@
   ],
   "logs": [
     {
+      "id": "584524a0-be3a-49d0-a155-8732a9db41c8",
+      "timestamp": "2026-10-31T06:41:23.289Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1080735922,
+      "userName": "Bu",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "24023cc6-9d5b-4719-9eaa-70d5298fb948",
       "timestamp": "2026-10-31T05:29:50.259Z",
       "type": "LOOKUP",
@@ -16861,17 +16890,9 @@
       "userId": 6822959930,
       "userName": "Singh",
       "summary": "Number Lookup 6299335618 (Not found)"
-    },
-    {
-      "id": "e5bf014e-9ae3-47ab-a561-025cb92acbe5",
-      "timestamp": "2026-10-29T16:17:29.158Z",
-      "type": "LOOKUP",
-      "userId": 898463342,
-      "userName": "Saket Ranjan",
-      "summary": "Number Lookup 8209392669 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813438,
+  "lastTelegramUpdateId": 168813440,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
