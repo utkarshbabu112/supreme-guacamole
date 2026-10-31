@@ -875,7 +875,8 @@
       "lastBotMessageId": 11820,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-10-31",
-      "awaitingRedeemCode": false
+      "awaitingRedeemCode": false,
+      "liveLocationUsed": 0
     },
     "1196739542": {
       "id": 1196739542,
@@ -13125,7 +13126,8 @@
       "lastBotMessageId": 11824,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     },
     "8644932849": {
       "id": 8644932849,
@@ -13193,7 +13195,8 @@
       "lastBotMessageId": 11859,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     },
     "8463673971": {
       "id": 8463673971,
@@ -13239,6 +13242,53 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 11846,
       "lastBotMessageHasPhoto": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
+    },
+    "8239306848": {
+      "id": 8239306848,
+      "firstName": "ˢᵃⁿᵈʸ🧃",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX306848",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T05:27:25.292Z",
+      "lastActiveAt": "2026-10-31T05:29:43.753Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "fa424dfa-8bed-4858-82ae-277e0adee93f",
+          "queryNumber": "7893776764",
+          "timestamp": "2026-10-31T05:29:50.259Z",
+          "source": "bot",
+          "userId": 8239306848,
+          "userName": "ˢᵃⁿᵈʸ🧃",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7893776764",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 11876,
+      "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-31"
     }
@@ -13418,6 +13468,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "fa424dfa-8bed-4858-82ae-277e0adee93f",
+      "queryNumber": "7893776764",
+      "timestamp": "2026-10-31T05:29:50.259Z",
+      "source": "bot",
+      "userId": 8239306848,
+      "userName": "ˢᵃⁿᵈʸ🧃",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7893776764",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "b70bb28d-7d67-49ea-ac7a-7f699d19f2a9",
       "queryNumber": "9836307000",
@@ -15595,31 +15667,41 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "7ed19f16-bcf2-4bcf-98ae-7b3980aae20f",
-      "queryNumber": "9281033581",
-      "timestamp": "2026-10-29T08:21:00.699Z",
-      "source": "bot",
-      "userId": 8658392254,
-      "userName": "X1ADS",
-      "resultSummary": {
-        "name": "VODAFONE KOLKATA",
-        "fatherName": "\"9836307000",
-        "mobile": "9281033581",
-        "altMobile": "QAISER ALAM",
-        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
-        "idNumber": "8337007000",
-        "email": "Not found",
-        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
-        "totalRecords": 8,
-        "lat": 22.5409,
-        "lng": 88.36102,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "24023cc6-9d5b-4719-9eaa-70d5298fb948",
+      "timestamp": "2026-10-31T05:29:50.259Z",
+      "type": "LOOKUP",
+      "userId": 8239306848,
+      "userName": "ˢᵃⁿᵈʸ🧃",
+      "summary": "Number Lookup 7893776764 (Not found)"
+    },
+    {
+      "id": "be9f8382-7636-4998-a824-1244386cf2f9",
+      "timestamp": "2026-10-31T05:29:29.121Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8239306848,
+      "userName": "ˢᵃⁿᵈʸ🧃",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "e0a924d2-aeb8-44f6-827a-96a42b62be80",
+      "timestamp": "2026-10-31T05:28:18.744Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8239306848,
+      "userName": "ˢᵃⁿᵈʸ🧃",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "0a5cd4df-066d-41be-b378-20ab673103a8",
+      "timestamp": "2026-10-31T05:27:26.027Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8239306848,
+      "userName": "ˢᵃⁿᵈʸ🧃",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "646f768e-13a2-4e4f-9973-43ecc2d61fbb",
       "timestamp": "2026-10-31T05:09:06.977Z",
@@ -16787,41 +16869,9 @@
       "userId": 898463342,
       "userName": "Saket Ranjan",
       "summary": "Number Lookup 8209392669 (Not found)"
-    },
-    {
-      "id": "2f9e1674-5935-487b-99fd-8557df0a215b",
-      "timestamp": "2026-10-29T16:17:28.930Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6822959930,
-      "userName": "Singh",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "7c74e607-216a-44bd-9bfb-e941713aa9b2",
-      "timestamp": "2026-10-29T16:05:23.211Z",
-      "type": "LOOKUP",
-      "userId": 898463342,
-      "userName": "Saket Ranjan",
-      "summary": "Number Lookup 8146796464 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "53490d40-c8dd-42b2-ba6f-8042f55c514f",
-      "timestamp": "2026-10-29T16:05:07.256Z",
-      "type": "BOT_MESSAGE",
-      "userId": 898463342,
-      "userName": "Saket Ranjan",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "ef130bf0-add5-4011-870a-9fbe77a6b4be",
-      "timestamp": "2026-10-29T16:04:06.864Z",
-      "type": "BOT_MESSAGE",
-      "userId": 898463342,
-      "userName": "Saket Ranjan",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813425,
+  "lastTelegramUpdateId": 168813438,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
