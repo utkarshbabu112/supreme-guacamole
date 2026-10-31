@@ -13586,6 +13586,26 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-31"
+    },
+    "8795599735": {
+      "id": 8795599735,
+      "firstName": "Dking",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX599735",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T14:48:02.178Z",
+      "lastActiveAt": "2026-10-31T14:48:02.178Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 11925,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -15989,6 +16009,14 @@
   ],
   "logs": [
     {
+      "id": "d230aea2-f347-4490-a77e-8324598d50e5",
+      "timestamp": "2026-10-31T14:48:02.925Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8795599735,
+      "userName": "Dking",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "d73023b7-7759-4792-8a91-de0aefe64032",
       "timestamp": "2026-10-31T14:35:19.963Z",
       "type": "LOOKUP",
@@ -17179,17 +17207,9 @@
       "userId": 8423136488,
       "userName": "Rishiii",
       "summary": "Number Lookup 9149690360 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "b48fa764-ad8d-4766-bd38-3e5d1c853a9c",
-      "timestamp": "2026-10-29T18:16:12.493Z",
-      "type": "LOOKUP",
-      "userId": 8423136488,
-      "userName": "Rishiii",
-      "summary": "Number Lookup 7051048427 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813509,
+  "lastTelegramUpdateId": 168813510,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
