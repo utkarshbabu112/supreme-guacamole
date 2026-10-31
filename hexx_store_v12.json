@@ -14048,6 +14048,53 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-31"
+    },
+    "5620489714": {
+      "id": 5620489714,
+      "firstName": "Steel / metal",
+      "username": "Ironmetalshop1123",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX489714",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-10-31T20:09:34.664Z",
+      "lastActiveAt": "2026-10-31T20:10:48.179Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "ba53b74c-8d92-488e-99ed-3a86c4e84057",
+          "queryNumber": "8302640861",
+          "timestamp": "2026-10-31T20:10:48.573Z",
+          "source": "bot",
+          "userId": 5620489714,
+          "userName": "Steel / metal",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8302640861",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 12009,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-10-31"
     }
   },
   "orders": {
@@ -14272,6 +14319,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "ba53b74c-8d92-488e-99ed-3a86c4e84057",
+      "queryNumber": "8302640861",
+      "timestamp": "2026-10-31T20:10:48.573Z",
+      "source": "bot",
+      "userId": 5620489714,
+      "userName": "Steel / metal",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8302640861",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "1e0fd3c0-0756-4e55-aed8-940746ede2c7",
       "queryNumber": "9183394934",
@@ -16449,31 +16518,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "cf25cc7b-b803-40f8-bd33-6beeb8545c57",
-      "queryNumber": "8209392669",
-      "timestamp": "2026-10-29T16:18:51.827Z",
-      "source": "bot",
-      "userId": 898463342,
-      "userName": "Saket Ranjan",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8209392669",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "174f6888-df7d-4764-aaca-a3d123f9ddaa",
+      "timestamp": "2026-10-31T20:10:48.573Z",
+      "type": "LOOKUP",
+      "userId": 5620489714,
+      "userName": "Steel / metal",
+      "summary": "Number Lookup 8302640861 (Not found)"
+    },
+    {
+      "id": "99a6f88e-9a49-4b15-89dd-46e5e8e21419",
+      "timestamp": "2026-10-31T20:09:35.433Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5620489714,
+      "userName": "Steel / metal",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "a777e408-a3ca-4483-8867-47ac223dc041",
       "timestamp": "2026-10-31T19:15:52.402Z",
@@ -17657,25 +17720,9 @@
       "userId": 7453498158,
       "userName": "𝙲𝘢𝕝𝕝 𝘮ᶓ 𝐣𝘢𝘢τ❣️",
       "summary": "Number Lookup 8278402292 (Not found)"
-    },
-    {
-      "id": "a2b51237-7a52-495d-8ae3-417cef0808ba",
-      "timestamp": "2026-10-30T03:17:17.916Z",
-      "type": "LOOKUP",
-      "userId": 7453498158,
-      "userName": "𝙲𝘢𝕝𝕝 𝘮ᶓ 𝐣𝘢𝘢τ❣️",
-      "summary": "Number Lookup 8278402292 (Not found)"
-    },
-    {
-      "id": "1378918d-ff44-4994-9faf-a815fc7cb1b0",
-      "timestamp": "2026-10-30T03:16:34.806Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7453498158,
-      "userName": "𝙲𝘢𝕝𝕝 𝘮ᶓ 𝐣𝘢𝘢τ❣️",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813603,
+  "lastTelegramUpdateId": 168813615,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
