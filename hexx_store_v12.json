@@ -1038,6 +1038,53 @@
       "awaitingRedeemCode": false,
       "liveLocationUsed": 0
     },
+    "1191090848": {
+      "id": 1191090848,
+      "firstName": "Venus",
+      "username": "Venusshukla",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX090848",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-01T15:48:40.834Z",
+      "lastActiveAt": "2026-11-01T15:50:44.311Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "0b3c11dc-b7f5-4cea-bbe4-239c992f5cb7",
+          "queryNumber": "7291821553",
+          "timestamp": "2026-11-01T15:50:24.055Z",
+          "source": "bot",
+          "userId": 1191090848,
+          "userName": "Venus",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7291821553",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 12149,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-01"
+    },
     "1196739542": {
       "id": 1196739542,
       "firstName": "Utsav",
@@ -15067,6 +15114,28 @@
   },
   "globalHistory": [
     {
+      "id": "0b3c11dc-b7f5-4cea-bbe4-239c992f5cb7",
+      "queryNumber": "7291821553",
+      "timestamp": "2026-11-01T15:50:24.055Z",
+      "source": "bot",
+      "userId": 1191090848,
+      "userName": "Venus",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7291821553",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
       "id": "6fe7ce81-aa79-4890-ac3e-8e3f140e0c47",
       "queryNumber": "8127247500",
       "timestamp": "2026-11-01T15:26:13.432Z",
@@ -17243,31 +17312,25 @@
         "lng": 88.36283,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
       }
-    },
-    {
-      "id": "582ecc51-ec1a-4aee-b0db-5e4a372c3aff",
-      "queryNumber": "9580297079",
-      "timestamp": "2026-10-30T03:36:26.184Z",
-      "source": "bot",
-      "userId": 8682880015,
-      "userName": "Alex",
-      "resultSummary": {
-        "name": "VODAFONE KOLKATA",
-        "fatherName": "\"9836307000",
-        "mobile": "9580297079",
-        "altMobile": "QAISER ALAM",
-        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
-        "idNumber": "8337007000",
-        "email": "Not found",
-        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
-        "totalRecords": 8,
-        "lat": 22.54163,
-        "lng": 88.36283,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "f1df1654-925d-42a1-87ab-03a961cc5d80",
+      "timestamp": "2026-11-01T15:50:24.055Z",
+      "type": "LOOKUP",
+      "userId": 1191090848,
+      "userName": "Venus",
+      "summary": "Number Lookup 7291821553 (Not found)"
+    },
+    {
+      "id": "c12139e0-22b3-4da9-a0e2-37f344e9b5b1",
+      "timestamp": "2026-11-01T15:48:41.773Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1191090848,
+      "userName": "Venus",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "791bad5f-dcad-434d-874b-b8b6223e3464",
       "timestamp": "2026-11-01T15:26:13.432Z",
@@ -18451,25 +18514,9 @@
       "userId": 8658392254,
       "userName": "X1ADS",
       "summary": "Number Lookup 9392790054 (Not found)"
-    },
-    {
-      "id": "28107f71-9835-4648-a60a-1d30a8056e7c",
-      "timestamp": "2026-10-30T12:52:46.770Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "b0284611-eeb8-4e73-8016-c2e95b6cc087",
-      "timestamp": "2026-10-30T12:11:52.974Z",
-      "type": "BOT_MESSAGE",
-      "userId": 719362524,
-      "userName": "Gujjar",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813723,
+  "lastTelegramUpdateId": 168813732,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
