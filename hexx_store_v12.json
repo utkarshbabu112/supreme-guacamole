@@ -14464,10 +14464,10 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-01T08:10:57.662Z",
-      "lastActiveAt": "2026-11-01T08:10:57.662Z",
+      "lastActiveAt": "2026-11-01T09:40:03.710Z",
       "isBanned": false,
       "history": [],
-      "lastBotMessageId": 12082,
+      "lastBotMessageId": 12087,
       "lastBotMessageHasPhoto": false
     },
     "5226078386": {
@@ -16917,6 +16917,14 @@
   ],
   "logs": [
     {
+      "id": "e46b1c47-0aa1-4235-9715-fb1635edca62",
+      "timestamp": "2026-11-01T09:40:04.373Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8944683168,
+      "userName": "PETER",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "e149854d-a0f7-4308-b172-222aa8f78f34",
       "timestamp": "2026-11-01T09:32:04.172Z",
       "type": "BOT_MESSAGE",
@@ -18107,17 +18115,9 @@
       "userId": 8880573535,
       "userName": "Saurabh....",
       "summary": "Number Lookup 8102824045 (Not found)"
-    },
-    {
-      "id": "91261c11-c7e3-4a73-8389-3f1e5f97dd43",
-      "timestamp": "2026-10-30T08:52:34.997Z",
-      "type": "LOOKUP",
-      "userId": 8880573535,
-      "userName": "Saurabh....",
-      "summary": "Number Lookup 9196032503 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813668,
+  "lastTelegramUpdateId": 168813670,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
