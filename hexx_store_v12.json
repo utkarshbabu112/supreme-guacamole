@@ -14563,6 +14563,30 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-01"
+    },
+    "6526528915": {
+      "id": 6526528915,
+      "firstName": "Anshul",
+      "username": "Itzz_anshulydv006",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX528915",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-01T13:37:20.708Z",
+      "lastActiveAt": "2026-11-01T13:37:36.480Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12109,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-01"
     }
   },
   "orders": {
@@ -16990,6 +17014,14 @@
   ],
   "logs": [
     {
+      "id": "97b98840-a4fa-4fb5-9892-172109094219",
+      "timestamp": "2026-11-01T13:37:21.529Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6526528915,
+      "userName": "Anshul",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "e7d5863d-3cd1-4e30-a2c9-7d90644ac24f",
       "timestamp": "2026-11-01T10:51:35.998Z",
       "type": "BOT_MESSAGE",
@@ -18180,17 +18212,9 @@
       "userId": 7260415680,
       "userName": "Am",
       "summary": "Number Lookup 9368351520 (Not found)"
-    },
-    {
-      "id": "4fe1575f-0779-44bb-bfc3-ee44bb6f7988",
-      "timestamp": "2026-10-30T09:04:55.343Z",
-      "type": "LOOKUP",
-      "userId": 7260415680,
-      "userName": "Am",
-      "summary": "Number Lookup 8126706629 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813687,
+  "lastTelegramUpdateId": 168813692,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
