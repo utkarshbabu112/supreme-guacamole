@@ -14449,6 +14449,26 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-01"
+    },
+    "8944683168": {
+      "id": 8944683168,
+      "firstName": "PETER",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX683168",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-01T08:10:57.662Z",
+      "lastActiveAt": "2026-11-01T08:10:57.662Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12082,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -16876,6 +16896,14 @@
   ],
   "logs": [
     {
+      "id": "6463edcd-f00b-4516-8a57-9e4f0ef3e342",
+      "timestamp": "2026-11-01T08:10:58.662Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8944683168,
+      "userName": "PETER",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "662ddafe-5015-496e-92bf-40810e3290e0",
       "timestamp": "2026-11-01T07:50:50.196Z",
       "type": "LOOKUP",
@@ -18066,17 +18094,9 @@
       "userId": 8880573535,
       "userName": "Saurabh....",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "16df8adb-649b-4da5-b386-94bdffa93f2f",
-      "timestamp": "2026-10-30T08:30:20.316Z",
-      "type": "LOOKUP",
-      "userId": 1135662406,
-      "userName": "Shivang",
-      "summary": "Number Lookup 8200695055 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813664,
+  "lastTelegramUpdateId": 168813666,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
