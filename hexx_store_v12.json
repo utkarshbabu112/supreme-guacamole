@@ -14587,6 +14587,27 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-01"
+    },
+    "8818175138": {
+      "id": 8818175138,
+      "firstName": "Philophobia 🦊",
+      "username": "Philophobia69",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX175138",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-01T14:42:59.704Z",
+      "lastActiveAt": "2026-11-01T14:42:59.704Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12113,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -17014,6 +17035,14 @@
   ],
   "logs": [
     {
+      "id": "089b106b-8099-4ad4-a0ef-1439332b4647",
+      "timestamp": "2026-11-01T14:43:00.491Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8818175138,
+      "userName": "Philophobia 🦊",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "97b98840-a4fa-4fb5-9892-172109094219",
       "timestamp": "2026-11-01T13:37:21.529Z",
       "type": "BOT_MESSAGE",
@@ -18204,17 +18233,9 @@
       "userId": 6186568158,
       "userName": "Prince",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "16faa335-4175-422f-ac0d-701502a35b3f",
-      "timestamp": "2026-10-30T09:05:25.113Z",
-      "type": "LOOKUP",
-      "userId": 7260415680,
-      "userName": "Am",
-      "summary": "Number Lookup 9368351520 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813692,
+  "lastTelegramUpdateId": 168813694,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
