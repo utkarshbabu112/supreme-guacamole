@@ -15069,6 +15069,52 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-01"
+    },
+    "6021857005": {
+      "id": 6021857005,
+      "firstName": "Shanx",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX857005",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-01T19:16:31.333Z",
+      "lastActiveAt": "2026-11-01T19:17:21.766Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12177,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-01"
+    },
+    "8534285249": {
+      "id": 8534285249,
+      "firstName": "Mak",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX285249",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-01T19:17:51.901Z",
+      "lastActiveAt": "2026-11-01T19:18:26.726Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12179,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-01"
     }
   },
   "orders": {
@@ -17496,6 +17542,22 @@
   ],
   "logs": [
     {
+      "id": "6472f257-6eb6-4a14-8472-f1ed4cadcd68",
+      "timestamp": "2026-11-01T19:17:52.601Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8534285249,
+      "userName": "Mak",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "beda1aa0-a0dd-4f98-a175-e0e1efacfb23",
+      "timestamp": "2026-11-01T19:16:32.186Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6021857005,
+      "userName": "Shanx",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "a0c968f6-b927-4f35-a15e-2a31c7825201",
       "timestamp": "2026-11-01T17:58:49.876Z",
       "type": "LOOKUP",
@@ -18678,25 +18740,9 @@
       "userId": 8871815037,
       "userName": "Johnson",
       "summary": "Number Lookup 8708714930 (Not found)"
-    },
-    {
-      "id": "cc97230c-514b-4009-8530-3534c426bdae",
-      "timestamp": "2026-10-30T14:29:59.057Z",
-      "type": "LOOKUP",
-      "userId": 8871815037,
-      "userName": "Johnson",
-      "summary": "Number Lookup 9557268747 (Not found)"
-    },
-    {
-      "id": "a9d70f59-cf6e-472d-9f34-702c0fbf820a",
-      "timestamp": "2026-10-30T14:28:53.511Z",
-      "type": "LOOKUP",
-      "userId": 8871815037,
-      "userName": "Johnson",
-      "summary": "Number Lookup 9456344284 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813766,
+  "lastTelegramUpdateId": 168813774,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
