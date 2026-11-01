@@ -718,6 +718,27 @@
       "lastLookupDate": "2026-10-29",
       "liveLocationUsed": 0
     },
+    "893274885": {
+      "id": 893274885,
+      "firstName": "Rajnish",
+      "username": "RajnisHx20",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX274885",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-01T17:15:30.012Z",
+      "lastActiveAt": "2026-11-01T17:15:30.012Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12159,
+      "lastBotMessageHasPhoto": false
+    },
     "898463342": {
       "id": 898463342,
       "firstName": "Saket Ranjan",
@@ -17384,6 +17405,14 @@
   ],
   "logs": [
     {
+      "id": "68cae0bf-6894-40f0-8b4a-aff5d1f757c8",
+      "timestamp": "2026-11-01T17:15:30.641Z",
+      "type": "BOT_MESSAGE",
+      "userId": 893274885,
+      "userName": "Rajnish",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "387b9ccc-f6ef-4341-a4b3-8fcca7b7e339",
       "timestamp": "2026-11-01T16:10:37.589Z",
       "type": "LOOKUP",
@@ -18574,17 +18603,9 @@
       "userId": 6822959930,
       "userName": "Singh",
       "summary": "Created Auto-QR Order HEX2KTV9930 (₹29 for 7 Days VIP)"
-    },
-    {
-      "id": "d72ead19-14b1-40f5-ad6c-29d890de80f8",
-      "timestamp": "2026-10-30T13:48:13.775Z",
-      "type": "LOOKUP",
-      "userId": 6822959930,
-      "userName": "Singh",
-      "summary": "Number Lookup 9572474785 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813741,
+  "lastTelegramUpdateId": 168813743,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
