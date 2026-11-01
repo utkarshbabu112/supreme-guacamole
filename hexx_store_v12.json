@@ -14331,6 +14331,53 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-01"
+    },
+    "7665148162": {
+      "id": 7665148162,
+      "firstName": "𝙈𝙙︵𝙃𝙖𝙨𝙞𝙗𝙪𝙡",
+      "username": "ItzHasib09",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX148162",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-01T04:52:00.297Z",
+      "lastActiveAt": "2026-11-01T04:52:37.118Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "d4b7d422-b7e0-41bf-9b4b-2d93a1155106",
+          "queryNumber": "7611594129",
+          "timestamp": "2026-11-01T04:52:37.558Z",
+          "source": "bot",
+          "userId": 7665148162,
+          "userName": "𝙈𝙙︵𝙃𝙖𝙨𝙞𝙗𝙪𝙡",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7611594129",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 12061,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-01"
     }
   },
   "orders": {
@@ -14555,6 +14602,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "d4b7d422-b7e0-41bf-9b4b-2d93a1155106",
+      "queryNumber": "7611594129",
+      "timestamp": "2026-11-01T04:52:37.558Z",
+      "source": "bot",
+      "userId": 7665148162,
+      "userName": "𝙈𝙙︵𝙃𝙖𝙨𝙞𝙗𝙪𝙡",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7611594129",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "ef48f093-ffc3-41e0-9e8e-53ab70b9bb52",
       "queryNumber": "7636857552",
@@ -16732,31 +16801,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "e92f04e1-84d9-4de0-9802-2071f8ca25df",
-      "queryNumber": "8532947038",
-      "timestamp": "2026-10-29T18:25:16.674Z",
-      "source": "bot",
-      "userId": 6580110315,
-      "userName": "Eww",
-      "resultSummary": {
-        "name": "VODAFONE KOLKATA",
-        "fatherName": "\"9836307000",
-        "mobile": "8532947038",
-        "altMobile": "QAISER ALAM",
-        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
-        "idNumber": "8337007000",
-        "email": "Not found",
-        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
-        "totalRecords": 8,
-        "lat": 22.5409,
-        "lng": 88.36102,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "c604afcb-b5e6-4f72-b279-0a64cb9d0f0d",
+      "timestamp": "2026-11-01T04:52:37.558Z",
+      "type": "LOOKUP",
+      "userId": 7665148162,
+      "userName": "𝙈𝙙︵𝙃𝙖𝙨𝙞𝙗𝙪𝙡",
+      "summary": "Number Lookup 7611594129 (Not found)"
+    },
     {
       "id": "ad4fe2da-5c93-43d4-8fda-58f7b5327cee",
       "timestamp": "2026-11-01T03:49:23.398Z",
@@ -17948,17 +18003,9 @@
       "userId": 1262641268,
       "userName": "Royal",
       "summary": "Number Lookup 7681944669 (Not found)"
-    },
-    {
-      "id": "3b0ca750-32e8-4960-a5bd-a9b235a4b53e",
-      "timestamp": "2026-10-30T07:05:09.017Z",
-      "type": "BOT_MESSAGE",
-      "userId": 1262641268,
-      "userName": "Royal",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813644,
+  "lastTelegramUpdateId": 168813652,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
