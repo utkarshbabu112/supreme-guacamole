@@ -12820,15 +12820,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 1,
+      "totalLookups": 2,
       "referralCode": "HEX423770",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-30T14:48:12.561Z",
-      "lastActiveAt": "2026-10-30T15:33:31.160Z",
+      "lastActiveAt": "2026-11-01T03:38:20.414Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "54df3091-6fcd-4d1a-814a-e8713e77f16c",
+          "queryNumber": "7001987456",
+          "timestamp": "2026-11-01T03:38:20.816Z",
+          "source": "bot",
+          "userId": 8886423770,
+          "userName": "HANTA VIRUS",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7001987456",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "3691d9ae-ae4a-46a9-a6d8-4ddb1f8cbc37",
           "queryNumber": "9046639376",
@@ -12853,10 +12875,10 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11699,
+      "lastBotMessageId": 12043,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-30",
+      "lastLookupDate": "2026-11-01",
       "liveLocationUsed": 0
     },
     "8496742407": {
@@ -14486,6 +14508,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "54df3091-6fcd-4d1a-814a-e8713e77f16c",
+      "queryNumber": "7001987456",
+      "timestamp": "2026-11-01T03:38:20.816Z",
+      "source": "bot",
+      "userId": 8886423770,
+      "userName": "HANTA VIRUS",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7001987456",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "689fed70-8cee-4eb4-aadc-7664dcb12880",
       "queryNumber": "7025946828",
@@ -16663,31 +16707,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "0b2e4c21-b4f7-4f53-9108-070cb114409c",
-      "queryNumber": "7051048427",
-      "timestamp": "2026-10-29T18:20:11.058Z",
-      "source": "bot",
-      "userId": 8423136488,
-      "userName": "Rishiii",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7051048427",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "c9cd8f1e-22d5-431b-ac63-cc1847464d81",
+      "timestamp": "2026-11-01T03:38:20.816Z",
+      "type": "LOOKUP",
+      "userId": 8886423770,
+      "userName": "HANTA VIRUS",
+      "summary": "Number Lookup 7001987456 (Not found)"
+    },
     {
       "id": "6af5aa4a-c868-49b6-bccd-b7c2d303a486",
       "timestamp": "2026-11-01T03:07:34.792Z",
@@ -17879,17 +17909,9 @@
       "userId": 8669780487,
       "userName": "Sattu",
       "summary": "Number Lookup 9140287082 (Not found)"
-    },
-    {
-      "id": "236aebe4-2331-42c1-ab2e-4b99918b4c9b",
-      "timestamp": "2026-10-30T05:10:29.075Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8669780487,
-      "userName": "Sattu",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168813638,
+  "lastTelegramUpdateId": 168813639,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
