@@ -14469,6 +14469,27 @@
       "history": [],
       "lastBotMessageId": 12082,
       "lastBotMessageHasPhoto": false
+    },
+    "5226078386": {
+      "id": 5226078386,
+      "firstName": "Radhe",
+      "username": "Bot_887",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX078386",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-01T09:32:03.239Z",
+      "lastActiveAt": "2026-11-01T09:32:03.239Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12084,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -16896,6 +16917,14 @@
   ],
   "logs": [
     {
+      "id": "e149854d-a0f7-4308-b172-222aa8f78f34",
+      "timestamp": "2026-11-01T09:32:04.172Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5226078386,
+      "userName": "Radhe",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "6463edcd-f00b-4516-8a57-9e4f0ef3e342",
       "timestamp": "2026-11-01T08:10:58.662Z",
       "type": "BOT_MESSAGE",
@@ -18086,17 +18115,9 @@
       "userId": 8880573535,
       "userName": "Saurabh....",
       "summary": "Number Lookup 9196032503 (Not found)"
-    },
-    {
-      "id": "7f5b8e1c-d5a5-4af5-b87b-c0d149f37044",
-      "timestamp": "2026-10-30T08:51:26.962Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8880573535,
-      "userName": "Saurabh....",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813666,
+  "lastTelegramUpdateId": 168813668,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
