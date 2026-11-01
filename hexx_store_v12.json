@@ -14169,7 +14169,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     },
     "5126228275": {
       "id": 5126228275,
@@ -14237,7 +14238,8 @@
       "lastBotMessageId": 12032,
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
-      "lastLookupDate": "2026-10-31"
+      "lastLookupDate": "2026-10-31",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
