@@ -14353,7 +14353,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-01"
+      "lastLookupDate": "2026-11-01",
+      "liveLocationUsed": 0
     },
     "7665148162": {
       "id": 7665148162,
@@ -14400,7 +14401,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-01"
+      "lastLookupDate": "2026-11-01",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
