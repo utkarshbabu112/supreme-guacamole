@@ -10518,15 +10518,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 2,
+      "totalLookups": 3,
       "referralCode": "HEX699501",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-28T22:53:17.552Z",
-      "lastActiveAt": "2026-10-28T23:15:20.308Z",
+      "lastActiveAt": "2026-11-01T21:11:44.784Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "f3fe369f-7f9b-4fe1-a42d-5f0f3fedd312",
+          "queryNumber": "7336183602",
+          "timestamp": "2026-11-01T21:11:45.374Z",
+          "source": "bot",
+          "userId": 8426699501,
+          "userName": "Hell",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7336183602",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "539424fc-fe73-4b5e-b737-0132af600623",
           "queryNumber": "9838949942",
@@ -10573,11 +10595,12 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11111,
-      "lastBotMessageHasPhoto": true,
+      "lastBotMessageId": 12190,
+      "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-28",
-      "liveLocationUsed": 0
+      "lastLookupDate": "2026-11-01",
+      "liveLocationUsed": 0,
+      "username": "HellNaw777"
     },
     "7655795790": {
       "id": 7655795790,
@@ -15393,6 +15416,28 @@
   },
   "globalHistory": [
     {
+      "id": "f3fe369f-7f9b-4fe1-a42d-5f0f3fedd312",
+      "queryNumber": "7336183602",
+      "timestamp": "2026-11-01T21:11:45.374Z",
+      "source": "bot",
+      "userId": 8426699501,
+      "userName": "Hell",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7336183602",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
       "id": "45f0b2e0-dee5-4fd3-9225-ddb1838b4700",
       "queryNumber": "9311484424",
       "timestamp": "2026-11-01T19:19:43.484Z",
@@ -17569,31 +17614,17 @@
         "lng": 88.36283,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
       }
-    },
-    {
-      "id": "6cdb70c6-37da-4cf4-96f9-d1265a3543c0",
-      "queryNumber": "7667396384",
-      "timestamp": "2026-10-30T07:23:02.230Z",
-      "source": "bot",
-      "userId": 6247554367,
-      "userName": "Divya",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7667396384",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "0502e30a-51a2-4760-922a-9f6441b67aae",
+      "timestamp": "2026-11-01T21:11:45.374Z",
+      "type": "LOOKUP",
+      "userId": 8426699501,
+      "userName": "Hell",
+      "summary": "Number Lookup 7336183602 (Not found)"
+    },
     {
       "id": "95cc9fe4-2824-4056-8cda-e2ca0c6af30a",
       "timestamp": "2026-11-01T19:19:43.484Z",
@@ -18785,17 +18816,9 @@
       "userId": 8886423770,
       "userName": "HANTA VIRUS",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "5c721be2-341b-48f7-b6d8-ceb81c0604ef",
-      "timestamp": "2026-10-30T14:47:15.683Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168813778,
+  "lastTelegramUpdateId": 168813782,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
