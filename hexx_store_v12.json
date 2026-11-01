@@ -2145,16 +2145,39 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "totalLookups": 1,
       "referralCode": "HEX837211",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-01T21:37:07.923Z",
-      "lastActiveAt": "2026-11-01T21:37:42.235Z",
+      "lastActiveAt": "2026-11-01T21:39:29.169Z",
       "isBanned": false,
-      "history": [],
-      "lastBotMessageId": 12194,
+      "history": [
+        {
+          "id": "9150c2bd-9696-4ee4-83dc-69b8693b82a0",
+          "queryNumber": "9560322791",
+          "timestamp": "2026-11-01T21:39:29.724Z",
+          "source": "bot",
+          "userId": 2084837211,
+          "userName": "BHARDWAJ",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9560322791",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 12204,
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
@@ -15440,6 +15463,28 @@
   },
   "globalHistory": [
     {
+      "id": "9150c2bd-9696-4ee4-83dc-69b8693b82a0",
+      "queryNumber": "9560322791",
+      "timestamp": "2026-11-01T21:39:29.724Z",
+      "source": "bot",
+      "userId": 2084837211,
+      "userName": "BHARDWAJ",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9560322791",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
       "id": "f3fe369f-7f9b-4fe1-a42d-5f0f3fedd312",
       "queryNumber": "7336183602",
       "timestamp": "2026-11-01T21:11:45.374Z",
@@ -17616,31 +17661,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "54b051f5-30e2-4d5a-abe8-13b0c357cbdd",
-      "queryNumber": "7667396384",
-      "timestamp": "2026-10-30T07:23:10.490Z",
-      "source": "bot",
-      "userId": 6247554367,
-      "userName": "Divya",
-      "resultSummary": {
-        "name": "VODAFONE KOLKATA",
-        "fatherName": "\"9836307000",
-        "mobile": "7667396384",
-        "altMobile": "QAISER ALAM",
-        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
-        "idNumber": "8337007000",
-        "email": "Not found",
-        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
-        "totalRecords": 8,
-        "lat": 22.54163,
-        "lng": 88.36283,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "668441e5-85f7-4a2f-87fe-850f1f5c0d1f",
+      "timestamp": "2026-11-01T21:39:29.724Z",
+      "type": "LOOKUP",
+      "userId": 2084837211,
+      "userName": "BHARDWAJ",
+      "summary": "Number Lookup 9560322791 (Not found)"
+    },
+    {
+      "id": "94754390-3440-4845-b353-5eb983b2faa8",
+      "timestamp": "2026-11-01T21:39:19.401Z",
+      "type": "BOT_MESSAGE",
+      "userId": 2084837211,
+      "userName": "BHARDWAJ",
+      "summary": "Started bot (/start)"
+    },
     {
       "id": "f159674c-554d-4c49-a3f2-bb5aae40ffcf",
       "timestamp": "2026-11-01T21:37:08.793Z",
@@ -18824,25 +18863,9 @@
       "userId": 8496742407,
       "userName": "PC",
       "summary": "Number Lookup 9555514470 (Not found)"
-    },
-    {
-      "id": "37d7f126-bcec-4d56-ae8d-9c1a7172f3db",
-      "timestamp": "2026-10-30T15:11:32.410Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8496742407,
-      "userName": "PC",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "130d83b2-fb2a-40ad-a6b5-596cfdbdf4ea",
-      "timestamp": "2026-10-30T14:48:37.590Z",
-      "type": "LOOKUP",
-      "userId": 8886423770,
-      "userName": "HANTA VIRUS",
-      "summary": "Number Lookup 9046639376 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813788,
+  "lastTelegramUpdateId": 168813796,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
