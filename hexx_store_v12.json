@@ -10327,15 +10327,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 4,
+      "totalLookups": 5,
       "referralCode": "HEX142093",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-28T16:25:26.917Z",
-      "lastActiveAt": "2026-11-02T18:53:35.303Z",
+      "lastActiveAt": "2026-11-02T18:58:05.317Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "3414340e-46f7-40eb-83ef-b6a1bdcaddc1",
+          "queryNumber": "8810508246",
+          "timestamp": "2026-11-02T18:58:05.724Z",
+          "source": "bot",
+          "userId": 8850142093,
+          "userName": "DWK",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8810508246",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "526faf19-c339-4bfc-bf36-aada8785cd54",
           "queryNumber": "9997743348",
@@ -10404,7 +10426,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 12504,
+      "lastBotMessageId": 12506,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-11-02",
       "liveLocationUsed": 0
@@ -16615,6 +16637,30 @@
       "history": [],
       "lastBotMessageId": 12499,
       "lastBotMessageHasPhoto": false
+    },
+    "7991147992": {
+      "id": 7991147992,
+      "firstName": "A",
+      "username": "Rustam000",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX147992",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T18:59:39.698Z",
+      "lastActiveAt": "2026-11-02T18:59:51.609Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12508,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-02"
     }
   },
   "orders": {
@@ -16839,6 +16885,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "3414340e-46f7-40eb-83ef-b6a1bdcaddc1",
+      "queryNumber": "8810508246",
+      "timestamp": "2026-11-02T18:58:05.724Z",
+      "source": "bot",
+      "userId": 8850142093,
+      "userName": "DWK",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8810508246",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "526faf19-c339-4bfc-bf36-aada8785cd54",
       "queryNumber": "9997743348",
@@ -19016,31 +19084,25 @@
         "lng": 88.36283,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
       }
-    },
-    {
-      "id": "a4ed7065-313a-427d-b679-e4332ccdf9fe",
-      "queryNumber": "7908030846",
-      "timestamp": "2026-10-31T04:50:07.361Z",
-      "source": "bot",
-      "userId": 1155764642,
-      "userName": "Akash",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7908030846",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "274db2f6-dcac-4267-8b65-c89816a236be",
+      "timestamp": "2026-11-02T18:59:40.348Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7991147992,
+      "userName": "A",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "b8ee6b83-0ef4-43d7-a335-72d2451fc7f3",
+      "timestamp": "2026-11-02T18:58:05.724Z",
+      "type": "LOOKUP",
+      "userId": 8850142093,
+      "userName": "DWK",
+      "summary": "Number Lookup 8810508246 (Not found)"
+    },
     {
       "id": "6ba6f188-5557-40fd-9ffe-abff36aa4e48",
       "timestamp": "2026-11-02T18:53:35.716Z",
@@ -20224,25 +20286,9 @@
       "userId": 1588517266,
       "userName": "Nivedita",
       "summary": "Number Lookup 9508857530 (Sampurna Nand Dobriyal)"
-    },
-    {
-      "id": "eeb57a86-ccdd-46fa-b50c-e1a964f4808a",
-      "timestamp": "2026-10-31T16:36:16.664Z",
-      "type": "LOOKUP",
-      "userId": 1588517266,
-      "userName": "Nivedita",
-      "summary": "Number Lookup 9508857530 (Not found)"
-    },
-    {
-      "id": "88838600-1f70-4889-9ea3-aac9fc89229b",
-      "timestamp": "2026-10-31T16:35:28.510Z",
-      "type": "BOT_MESSAGE",
-      "userId": 1588517266,
-      "userName": "Nivedita",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814054,
+  "lastTelegramUpdateId": 168814058,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
