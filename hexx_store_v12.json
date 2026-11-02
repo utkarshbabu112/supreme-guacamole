@@ -15283,7 +15283,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
