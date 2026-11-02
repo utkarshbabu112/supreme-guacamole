@@ -16926,6 +16926,29 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-02"
+    },
+    "8297161467": {
+      "id": 8297161467,
+      "firstName": "Gg",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX161467",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T21:52:05.300Z",
+      "lastActiveAt": "2026-11-02T21:52:48.699Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12566,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-02"
     }
   },
   "orders": {
@@ -19353,6 +19376,14 @@
   ],
   "logs": [
     {
+      "id": "2c336cd7-f7b6-406f-b7e9-7411ad2fb15c",
+      "timestamp": "2026-11-02T21:52:06.133Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8297161467,
+      "userName": "Gg",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "3cd8f36c-6443-4d1e-95d2-8ed19e30c456",
       "timestamp": "2026-11-02T21:18:46.847Z",
       "type": "BOT_MESSAGE",
@@ -20543,17 +20574,9 @@
       "userId": 8920167957,
       "userName": "chotta",
       "summary": "Number Lookup 8594029676 (Not found)"
-    },
-    {
-      "id": "961249cd-1e1d-43fa-9d52-e617d50b412a",
-      "timestamp": "2026-10-31T20:39:35.797Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8920167957,
-      "userName": "chotta",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814101,
+  "lastTelegramUpdateId": 168814107,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
