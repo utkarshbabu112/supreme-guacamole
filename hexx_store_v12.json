@@ -16794,6 +16794,30 @@
       "history": [],
       "lastBotMessageId": 12524,
       "lastBotMessageHasPhoto": false
+    },
+    "8435263328": {
+      "id": 8435263328,
+      "firstName": "divy🥂𝕂𝕣𝕚𝕤𝕙𝕟𝕒",
+      "username": "divyKrishnaaa",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX263328",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T20:02:59.898Z",
+      "lastActiveAt": "2026-11-02T20:04:55.749Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12541,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-02"
     }
   },
   "orders": {
@@ -19221,6 +19245,22 @@
   ],
   "logs": [
     {
+      "id": "69ed7391-e77e-4e71-9d31-6374fb1b061d",
+      "timestamp": "2026-11-02T20:03:49.031Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8435263328,
+      "userName": "divy🥂𝕂𝕣𝕚𝕤𝕙𝕟𝕒",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "81aa79cc-e3e6-4de4-8399-1ad04e92fe63",
+      "timestamp": "2026-11-02T20:03:00.578Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8435263328,
+      "userName": "divy🥂𝕂𝕣𝕚𝕤𝕙𝕟𝕒",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "8e7a5b88-8ce9-41b4-8cd5-5e293f381d03",
       "timestamp": "2026-11-02T19:49:45.717Z",
       "type": "LOOKUP",
@@ -20403,25 +20443,9 @@
       "userId": 6381082700,
       "userName": "SHOHan",
       "summary": "Created Auto-QR Order HEX7CM62700 (₹29 for 7 Days VIP)"
-    },
-    {
-      "id": "26e4f581-731b-44c1-b371-45e1136f8569",
-      "timestamp": "2026-10-31T19:15:34.330Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6381082700,
-      "userName": "SHOHan",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "c8cfaf21-051e-43d6-9a2b-3d7087a364b0",
-      "timestamp": "2026-10-31T18:31:33.390Z",
-      "type": "LOOKUP",
-      "userId": 672223865,
-      "userName": "A P",
-      "summary": "Number Lookup 9183394934 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814075,
+  "lastTelegramUpdateId": 168814085,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
