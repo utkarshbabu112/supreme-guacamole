@@ -16414,6 +16414,53 @@
       "forceJoinVerified": true,
       "lastLookupDate": "2026-11-02",
       "awaitingRedeemCode": false
+    },
+    "5547055438": {
+      "id": 5547055438,
+      "firstName": "Kartik",
+      "username": "K6R_Gamer",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX055438",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T18:20:07.494Z",
+      "lastActiveAt": "2026-11-02T18:20:26.709Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "7f124b65-8ae7-4ae2-a5de-8f348d03a6dc",
+          "queryNumber": "8076646001",
+          "timestamp": "2026-11-02T18:20:27.120Z",
+          "source": "bot",
+          "userId": 5547055438,
+          "userName": "Kartik",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8076646001",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 12472,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-02"
     }
   },
   "orders": {
@@ -16638,6 +16685,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "7f124b65-8ae7-4ae2-a5de-8f348d03a6dc",
+      "queryNumber": "8076646001",
+      "timestamp": "2026-11-02T18:20:27.120Z",
+      "source": "bot",
+      "userId": 5547055438,
+      "userName": "Kartik",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8076646001",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "5003538a-0c04-400e-ab01-755f61b94a66",
       "queryNumber": "9234251510",
@@ -18815,31 +18884,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "57a83fe8-ce2a-45a0-b279-3720b70dfe01",
-      "queryNumber": "8302105818",
-      "timestamp": "2026-10-30T22:18:22.293Z",
-      "source": "bot",
-      "userId": 7365188106,
-      "userName": "Hunai",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8302105818",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "24429ed0-bdee-45a2-8edd-6c055f1f2f0a",
+      "timestamp": "2026-11-02T18:20:27.121Z",
+      "type": "LOOKUP",
+      "userId": 5547055438,
+      "userName": "Kartik",
+      "summary": "Number Lookup 8076646001 (Not found)"
+    },
     {
       "id": "c80ec9ee-3100-48cd-af75-172a9117b3c8",
       "timestamp": "2026-11-02T18:04:21.887Z",
@@ -20031,17 +20086,9 @@
       "userId": 8213078100,
       "userName": "Lemon",
       "summary": "Number Lookup 7291961383 (Not found)"
-    },
-    {
-      "id": "f8464bc2-df1e-428e-8b93-472fc4e41631",
-      "timestamp": "2026-10-31T14:55:09.909Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8213078100,
-      "userName": "Lemon",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814031,
+  "lastTelegramUpdateId": 168814037,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
