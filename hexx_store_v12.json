@@ -16030,10 +16030,10 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-02T15:19:10.389Z",
-      "lastActiveAt": "2026-11-02T15:20:10.606Z",
+      "lastActiveAt": "2026-11-02T15:23:34.269Z",
       "isBanned": false,
       "history": [],
-      "lastBotMessageId": 12365,
+      "lastBotMessageId": 12387,
       "lastBotMessageHasPhoto": false
     }
   },
@@ -18462,6 +18462,62 @@
   ],
   "logs": [
     {
+      "id": "73617f1a-90c7-4fcb-8b14-01b6ac471771",
+      "timestamp": "2026-11-02T15:23:34.946Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8679566915,
+      "userName": "Rishabh",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "bfd789c6-9718-4147-958b-b19a13835a57",
+      "timestamp": "2026-11-02T15:23:32.111Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8679566915,
+      "userName": "Rishabh",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "5e276dbc-5d66-4d42-814c-ff532e0924e7",
+      "timestamp": "2026-11-02T15:23:29.133Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8679566915,
+      "userName": "Rishabh",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "dcf14003-2f0f-4169-b504-c66a8c3e633c",
+      "timestamp": "2026-11-02T15:23:17.815Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8679566915,
+      "userName": "Rishabh",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "d07f25b7-d113-4948-a24e-dc198cf8a4bb",
+      "timestamp": "2026-11-02T15:23:14.679Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8679566915,
+      "userName": "Rishabh",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "433baaab-5546-4581-8368-637375218224",
+      "timestamp": "2026-11-02T15:23:01.982Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8679566915,
+      "userName": "Rishabh",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "f051dec7-1b62-4fd4-be60-5bc63699d95a",
+      "timestamp": "2026-11-02T15:20:44.135Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8679566915,
+      "userName": "Rishabh",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "12244044-9b94-49fd-b397-0e75002b3a9f",
       "timestamp": "2026-11-02T15:20:11.396Z",
       "type": "BOT_MESSAGE",
@@ -19604,65 +19660,9 @@
       "userId": 8463673971,
       "userName": "⚡🄻🄴🄶🄴🄽🄳🄱🄾🅈⚡",
       "summary": "Number Lookup 9256833768 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "7d20b0a9-3bd0-442a-9599-6c6b8cee2b4a",
-      "timestamp": "2026-10-31T04:59:26.328Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8463673971,
-      "userName": "⚡🄻🄴🄶🄴🄽🄳🄱🄾🅈⚡",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "d1b0cc77-3697-4ae8-98c1-704c489dda49",
-      "timestamp": "2026-10-31T04:58:26.558Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8463673971,
-      "userName": "⚡🄻🄴🄶🄴🄽🄳🄱🄾🅈⚡",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "49a878f9-3e81-4f38-af12-8a294605463a",
-      "timestamp": "2026-10-31T04:55:11.410Z",
-      "type": "LOOKUP",
-      "userId": 8644932849,
-      "userName": "Vivan",
-      "summary": "Number Lookup 9332045545 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "df0e16c8-134f-4c75-af7e-94774bac9112",
-      "timestamp": "2026-10-31T04:54:32.668Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8644932849,
-      "userName": "Vivan",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "b7271f6e-1bac-4819-af1d-7ed4f60ba25b",
-      "timestamp": "2026-10-31T04:53:09.220Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8644932849,
-      "userName": "Vivan",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "e891d059-f1f1-49f3-9bac-3e8980a7224b",
-      "timestamp": "2026-10-31T04:51:49.090Z",
-      "type": "LOOKUP",
-      "userId": 6579218845,
-      "userName": "Pradeep",
-      "summary": "Number Lookup 9332045545 (Not found)"
-    },
-    {
-      "id": "c2bbaa00-d02a-4f60-b3ff-9d5651cbd59f",
-      "timestamp": "2026-10-31T04:50:46.408Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6579218845,
-      "userName": "Pradeep",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813945,
+  "lastTelegramUpdateId": 168813956,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
