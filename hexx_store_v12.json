@@ -1062,6 +1062,52 @@
       "lastBotMessageHasPhoto": false,
       "liveLocationUsed": 0
     },
+    "1084841311": {
+      "id": 1084841311,
+      "firstName": "meddy",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 2,
+      "referralCode": "HEX841311",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T19:49:04.577Z",
+      "lastActiveAt": "2026-11-02T19:49:45.363Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "1aa969cc-140d-40ac-b69c-7c261b3faa07",
+          "queryNumber": "8252945479",
+          "timestamp": "2026-11-02T19:49:45.717Z",
+          "source": "bot",
+          "userId": 1084841311,
+          "userName": "meddy",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8252945479",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 12531,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-02"
+    },
     "1087968824": {
       "id": 1087968824,
       "firstName": "Group",
@@ -16973,6 +17019,50 @@
   },
   "globalHistory": [
     {
+      "id": "1aa969cc-140d-40ac-b69c-7c261b3faa07",
+      "queryNumber": "8252945479",
+      "timestamp": "2026-11-02T19:49:45.717Z",
+      "source": "bot",
+      "userId": 1084841311,
+      "userName": "meddy",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8252945479",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "9ac3c10d-ed2c-4c3c-8009-051eaada950a",
+      "queryNumber": "8252945479",
+      "timestamp": "2026-11-02T19:49:29.931Z",
+      "source": "bot",
+      "userId": 1084841311,
+      "userName": "meddy",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8252945479",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
       "id": "129a9d00-f78c-4690-b10e-302282f6e99d",
       "queryNumber": "9872463487",
       "timestamp": "2026-11-02T19:01:01.638Z",
@@ -19127,53 +19217,33 @@
         "lng": 88.36283,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
       }
-    },
-    {
-      "id": "fa424dfa-8bed-4858-82ae-277e0adee93f",
-      "queryNumber": "7893776764",
-      "timestamp": "2026-10-31T05:29:50.259Z",
-      "source": "bot",
-      "userId": 8239306848,
-      "userName": "ˢᵃⁿᵈʸ🧃",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7893776764",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "b70bb28d-7d67-49ea-ac7a-7f699d19f2a9",
-      "queryNumber": "9836307000",
-      "timestamp": "2026-10-31T05:09:06.977Z",
-      "source": "bot",
-      "userId": 8644932849,
-      "userName": "Vivan",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9836307000",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "8e7a5b88-8ce9-41b4-8cd5-5e293f381d03",
+      "timestamp": "2026-11-02T19:49:45.717Z",
+      "type": "LOOKUP",
+      "userId": 1084841311,
+      "userName": "meddy",
+      "summary": "Number Lookup 8252945479 (Not found)"
+    },
+    {
+      "id": "fdcf8346-61e9-4614-9f4f-ebee5acacf9e",
+      "timestamp": "2026-11-02T19:49:29.931Z",
+      "type": "LOOKUP",
+      "userId": 1084841311,
+      "userName": "meddy",
+      "summary": "Number Lookup 8252945479 (Not found)"
+    },
+    {
+      "id": "28d097d9-106a-4e96-aabc-aed6a1042458",
+      "timestamp": "2026-11-02T19:49:05.523Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1084841311,
+      "userName": "meddy",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "b76a6205-99be-466c-99e2-ca86686b54a2",
       "timestamp": "2026-11-02T19:17:01.565Z",
@@ -20349,33 +20419,9 @@
       "userId": 672223865,
       "userName": "A P",
       "summary": "Number Lookup 9183394934 (Not found)"
-    },
-    {
-      "id": "17a2eb5e-c35a-47fb-81e6-f5e7858f8a7b",
-      "timestamp": "2026-10-31T18:29:57.249Z",
-      "type": "BOT_MESSAGE",
-      "userId": 672223865,
-      "userName": "A P",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "a8189d61-fff0-4f3e-9d92-0289509ff322",
-      "timestamp": "2026-10-31T18:19:20.726Z",
-      "type": "LOOKUP",
-      "userId": 8763661333,
-      "userName": "Vicky",
-      "summary": "Number Lookup 9259108998 (Not found)"
-    },
-    {
-      "id": "763ebffb-e81d-4680-ab9c-7be7c024cbb4",
-      "timestamp": "2026-10-31T17:55:20.203Z",
-      "type": "LOOKUP",
-      "userId": 8942218167,
-      "userName": "Aman",
-      "summary": "Number Lookup 6202768638 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814067,
+  "lastTelegramUpdateId": 168814075,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
