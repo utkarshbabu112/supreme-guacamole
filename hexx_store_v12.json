@@ -15607,6 +15607,29 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "liveLocationUsed": 0
+    },
+    "8596214239": {
+      "id": 8596214239,
+      "firstName": "😎",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX214239",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T12:04:11.571Z",
+      "lastActiveAt": "2026-11-02T12:04:29.519Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12284,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-02"
     }
   },
   "orders": {
@@ -18034,6 +18057,14 @@
   ],
   "logs": [
     {
+      "id": "de073058-24ab-49ae-919e-ee86b826a4c1",
+      "timestamp": "2026-11-02T12:04:13.282Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8596214239,
+      "userName": "😎",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "a7929b52-f43a-4c6e-ad8b-47108c1ef51e",
       "timestamp": "2026-11-02T11:12:58.037Z",
       "type": "LOOKUP",
@@ -19224,17 +19255,9 @@
       "userId": 8942218167,
       "userName": "Aman",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "dc9dbeea-68f3-491e-a79b-3ac07fe57d88",
-      "timestamp": "2026-10-30T18:24:27.834Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5659546750,
-      "userName": "Venzorã",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813872,
+  "lastTelegramUpdateId": 168813875,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
