@@ -16903,6 +16903,29 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-02",
       "liveLocationUsed": 0
+    },
+    "8312895365": {
+      "id": 8312895365,
+      "firstName": "Jaakko",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX895365",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T21:18:45.939Z",
+      "lastActiveAt": "2026-11-02T21:19:10.183Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12562,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-02"
     }
   },
   "orders": {
@@ -19330,6 +19353,14 @@
   ],
   "logs": [
     {
+      "id": "3cd8f36c-6443-4d1e-95d2-8ed19e30c456",
+      "timestamp": "2026-11-02T21:18:46.847Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8312895365,
+      "userName": "Jaakko",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "a49a5f7e-5d29-488f-85a8-a7bc3cf858bc",
       "timestamp": "2026-11-02T20:07:05.132Z",
       "type": "LOOKUP",
@@ -20520,17 +20551,9 @@
       "userId": 8920167957,
       "userName": "chotta",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "55d4f906-09cd-44bf-9c49-52ef6d925219",
-      "timestamp": "2026-10-31T20:11:37.149Z",
-      "type": "LOOKUP",
-      "userId": 5620489714,
-      "userName": "Steel / metal",
-      "summary": "Number Lookup 8369705141 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814089,
+  "lastTelegramUpdateId": 168814101,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
