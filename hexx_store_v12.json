@@ -1342,6 +1342,27 @@
       "lastLookupDate": "2026-10-30",
       "liveLocationUsed": 0
     },
+    "1274085762": {
+      "id": 1274085762,
+      "firstName": "sagar",
+      "username": "rs897643",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX085762",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T15:03:20.727Z",
+      "lastActiveAt": "2026-11-02T15:03:20.727Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12347,
+      "lastBotMessageHasPhoto": false
+    },
     "1300584668": {
       "id": 1300584668,
       "firstName": "gb",
@@ -18395,6 +18416,14 @@
   ],
   "logs": [
     {
+      "id": "90e742b2-614c-4cdb-8937-bfa01e3b8c2c",
+      "timestamp": "2026-11-02T15:03:21.460Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1274085762,
+      "userName": "sagar",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "242e2e65-63f3-49cd-807d-53b99241c422",
       "timestamp": "2026-11-02T14:57:01.487Z",
       "type": "BOT_MESSAGE",
@@ -19585,17 +19614,9 @@
       "userId": 1155764642,
       "userName": "Akash",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "cd0f4697-3837-441f-987e-d4d30d79c967",
-      "timestamp": "2026-10-31T02:08:56.815Z",
-      "type": "LOOKUP",
-      "userId": 8068089563,
-      "userName": "Queen",
-      "summary": "Number Lookup 7033839136 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168813930,
+  "lastTelegramUpdateId": 168813931,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
