@@ -15468,6 +15468,27 @@
       "forceJoinVerified": true,
       "lastLookupDate": "2026-11-02",
       "awaitingRedeemCode": false
+    },
+    "8402388230": {
+      "id": 8402388230,
+      "firstName": "R",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX388230",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T08:45:19.937Z",
+      "lastActiveAt": "2026-11-02T08:45:41.052Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12269,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true
     }
   },
   "orders": {
@@ -17895,6 +17916,14 @@
   ],
   "logs": [
     {
+      "id": "f335d36a-c714-4d9b-95d4-cbf20c45218c",
+      "timestamp": "2026-11-02T08:45:20.948Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8402388230,
+      "userName": "R",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "256b8392-072f-4728-9b4a-9f1dccaa0853",
       "timestamp": "2026-11-02T07:53:09.238Z",
       "type": "LOOKUP",
@@ -19085,17 +19114,9 @@
       "userId": 6040726375,
       "userName": "☠ Aʀʏᴀɴ ꧂",
       "summary": "Number Lookup 9372358075 (Not found)"
-    },
-    {
-      "id": "fc460ec3-0832-4d2c-b38f-e7e3c5cf9090",
-      "timestamp": "2026-10-30T17:23:05.743Z",
-      "type": "LOOKUP",
-      "userId": 8682880015,
-      "userName": "Alex",
-      "summary": "Number Lookup 6305384251 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813852,
+  "lastTelegramUpdateId": 168813858,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
