@@ -16728,6 +16728,26 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-02"
+    },
+    "8980254027": {
+      "id": 8980254027,
+      "firstName": "A",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX254027",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T19:17:00.611Z",
+      "lastActiveAt": "2026-11-02T19:17:00.611Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12524,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -19155,6 +19175,14 @@
   ],
   "logs": [
     {
+      "id": "b76a6205-99be-466c-99e2-ca86686b54a2",
+      "timestamp": "2026-11-02T19:17:01.565Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8980254027,
+      "userName": "A",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "a3e3353f-727f-411d-af98-31158c56c2de",
       "timestamp": "2026-11-02T19:01:01.638Z",
       "type": "LOOKUP",
@@ -20345,17 +20373,9 @@
       "userId": 8942218167,
       "userName": "Aman",
       "summary": "Number Lookup 6202768638 (Not found)"
-    },
-    {
-      "id": "607c5432-1592-4f32-affa-f7eb0a401baa",
-      "timestamp": "2026-10-31T17:38:56.282Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7116818444,
-      "userName": "MADHAV🔥",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814066,
+  "lastTelegramUpdateId": 168814067,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
