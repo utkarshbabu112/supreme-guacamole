@@ -1106,7 +1106,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     },
     "1087968824": {
       "id": 1087968824,
@@ -2132,7 +2133,8 @@
       "lastBotMessageId": 12551,
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     },
     "1810565747": {
       "id": 1810565747,
@@ -16272,7 +16274,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     },
     "8207121098": {
       "id": 8207121098,
@@ -16318,7 +16321,8 @@
       "lastBotMessageId": 12408,
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     },
     "9070503398": {
       "id": 9070503398,
@@ -16365,7 +16369,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     },
     "7188532626": {
       "id": 7188532626,
@@ -16455,7 +16460,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     },
     "7911961561": {
       "id": 7911961561,
@@ -16478,7 +16484,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     },
     "8040992311": {
       "id": 8040992311,
@@ -16524,7 +16531,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     },
     "7278682643": {
       "id": 7278682643,
@@ -16571,7 +16579,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "lastLookupDate": "2026-11-02",
-      "awaitingRedeemCode": false
+      "awaitingRedeemCode": false,
+      "liveLocationUsed": 0
     },
     "5547055438": {
       "id": 5547055438,
@@ -16618,7 +16627,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     },
     "6370515984": {
       "id": 6370515984,
@@ -16685,7 +16695,8 @@
       "lastBotMessageId": 12484,
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     },
     "7066160517": {
       "id": 7066160517,
@@ -16730,7 +16741,8 @@
       "lastBotMessageId": 12495,
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     },
     "7964788625": {
       "id": 7964788625,
@@ -16750,7 +16762,8 @@
       "isBanned": false,
       "history": [],
       "lastBotMessageId": 12499,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "7991147992": {
       "id": 7991147992,
@@ -16819,7 +16832,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     },
     "8980254027": {
       "id": 8980254027,
@@ -16839,7 +16853,8 @@
       "isBanned": false,
       "history": [],
       "lastBotMessageId": 12524,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "8435263328": {
       "id": 8435263328,
@@ -16886,7 +16901,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
