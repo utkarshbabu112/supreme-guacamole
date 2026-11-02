@@ -7263,14 +7263,14 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-27T00:50:23.609Z",
-      "lastActiveAt": "2026-10-27T01:22:21.833Z",
+      "lastActiveAt": "2026-11-02T13:52:34.725Z",
       "isBanned": false,
       "history": [],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10318,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 12314,
+      "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-27",
+      "lastLookupDate": "2026-11-02",
       "liveLocationUsed": 0
     },
     "8926917947": {
@@ -18239,6 +18239,14 @@
   ],
   "logs": [
     {
+      "id": "ccf0b97b-e909-402a-afd1-0464543d1a50",
+      "timestamp": "2026-11-02T13:52:31.446Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8875972491,
+      "userName": "RAIZEN",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "27c8abbc-5dee-460c-821d-06714d229acc",
       "timestamp": "2026-11-02T13:47:59.142Z",
       "type": "BOT_MESSAGE",
@@ -19429,17 +19437,9 @@
       "userId": 7365188106,
       "userName": "Hunai",
       "summary": "Number Lookup 8700791093 (Not found)"
-    },
-    {
-      "id": "0e8eb08a-e7d7-485a-a91f-f4202feb537b",
-      "timestamp": "2026-10-30T22:17:39.059Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7365188106,
-      "userName": "Hunai",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168813898,
+  "lastTelegramUpdateId": 168813901,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
