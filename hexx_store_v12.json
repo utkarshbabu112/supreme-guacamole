@@ -15947,6 +15947,27 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-02"
+    },
+    "6435349608": {
+      "id": 6435349608,
+      "firstName": "Shinchan",
+      "username": "Shinchanfansss",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX349608",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T14:56:04.782Z",
+      "lastActiveAt": "2026-11-02T14:57:38.585Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12345,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -18374,6 +18395,14 @@
   ],
   "logs": [
     {
+      "id": "242e2e65-63f3-49cd-807d-53b99241c422",
+      "timestamp": "2026-11-02T14:57:01.487Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6435349608,
+      "userName": "Shinchan",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "4d95dfc8-560a-4529-ae23-127e491bcceb",
       "timestamp": "2026-11-02T14:51:16.827Z",
       "type": "LOOKUP",
@@ -19564,17 +19593,9 @@
       "userId": 8068089563,
       "userName": "Queen",
       "summary": "Number Lookup 7033839136 (VODAFONE KOLKATA)"
-    },
-    {
-      "id": "f3eee8d0-be27-498c-b06a-211ba7bf4699",
-      "timestamp": "2026-10-31T02:07:56.741Z",
-      "type": "LOOKUP",
-      "userId": 8068089563,
-      "userName": "Queen",
-      "summary": "Number Lookup 9905640294 (VODAFONE KOLKATA)"
     }
   ],
-  "lastTelegramUpdateId": 168813917,
+  "lastTelegramUpdateId": 168813930,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
