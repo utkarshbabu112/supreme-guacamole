@@ -15557,6 +15557,28 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-02"
+    },
+    "8469020620": {
+      "id": 8469020620,
+      "firstName": ".",
+      "username": "BullyMaguire69",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX020620",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T10:35:27.716Z",
+      "lastActiveAt": "2026-11-02T10:35:59.004Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12278,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true
     }
   },
   "orders": {
@@ -17984,6 +18006,14 @@
   ],
   "logs": [
     {
+      "id": "05b6df50-1470-4615-bb10-72446b147ed4",
+      "timestamp": "2026-11-02T10:35:28.361Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8469020620,
+      "userName": ".",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "bc41849b-1585-4936-ba9e-2a026a68f0d0",
       "timestamp": "2026-11-02T10:25:37.654Z",
       "type": "LOOKUP",
@@ -19174,17 +19204,9 @@
       "userId": 5674634292,
       "userName": "Ť",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "0afce2e8-3232-44f0-8b75-5fac8fda53a8",
-      "timestamp": "2026-10-30T17:34:59.763Z",
-      "type": "LOOKUP",
-      "userId": 5319372657,
-      "userName": "MR",
-      "summary": "Number Lookup 8002963905 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813865,
+  "lastTelegramUpdateId": 168813867,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
