@@ -16276,6 +16276,28 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-02"
+    },
+    "7911961561": {
+      "id": 7911961561,
+      "firstName": "Delirante",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX961561",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T17:05:37.678Z",
+      "lastActiveAt": "2026-11-02T17:09:32.716Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12433,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false
     }
   },
   "orders": {
@@ -18703,6 +18725,14 @@
   ],
   "logs": [
     {
+      "id": "2932662e-6f70-4322-9f9a-c8a4fc690983",
+      "timestamp": "2026-11-02T17:05:38.342Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7911961561,
+      "userName": "Delirante",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "e8bb0da2-596b-4deb-b058-86a2b368656f",
       "timestamp": "2026-11-02T16:59:52.637Z",
       "type": "LOOKUP",
@@ -19893,17 +19923,9 @@
       "userId": 8763661333,
       "userName": "Vicky",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "790d2276-682b-4109-acc6-819eb2b18bd5",
-      "timestamp": "2026-10-31T09:48:22.057Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8138876724,
-      "userName": "Макс",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168813993,
+  "lastTelegramUpdateId": 168814002,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
