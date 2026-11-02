@@ -15822,15 +15822,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 1,
+      "totalLookups": 2,
       "referralCode": "HEX500535",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-02T14:23:19.858Z",
-      "lastActiveAt": "2026-11-02T14:24:50.570Z",
+      "lastActiveAt": "2026-11-02T14:25:34.663Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "43c73747-7455-4b1f-8d50-55042ec69d55",
+          "queryNumber": "8278259430",
+          "timestamp": "2026-11-02T14:25:35.053Z",
+          "source": "bot",
+          "userId": 6557500535,
+          "userName": "Vikas",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8278259430",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "fffb1aa3-c9bd-4b02-abc9-2314288fca21",
           "queryNumber": "8901350286",
@@ -15854,7 +15876,7 @@
           }
         }
       ],
-      "lastBotMessageId": 12320,
+      "lastBotMessageId": 12323,
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
@@ -16083,6 +16105,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "43c73747-7455-4b1f-8d50-55042ec69d55",
+      "queryNumber": "8278259430",
+      "timestamp": "2026-11-02T14:25:35.053Z",
+      "source": "bot",
+      "userId": 6557500535,
+      "userName": "Vikas",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8278259430",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "fffb1aa3-c9bd-4b02-abc9-2314288fca21",
       "queryNumber": "8901350286",
@@ -18260,31 +18304,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "5ff73bf8-bff0-4db2-875a-573d0f125392",
-      "queryNumber": "9555514470",
-      "timestamp": "2026-10-30T15:12:23.380Z",
-      "source": "bot",
-      "userId": 8496742407,
-      "userName": "PC",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9555514470",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "4f633e2d-32ba-4c60-930a-c72d2dd910fe",
+      "timestamp": "2026-11-02T14:25:35.053Z",
+      "type": "LOOKUP",
+      "userId": 6557500535,
+      "userName": "Vikas",
+      "summary": "Number Lookup 8278259430 (Not found)"
+    },
     {
       "id": "30433d63-0160-495c-9bdd-311a485ac1f0",
       "timestamp": "2026-11-02T14:24:51.013Z",
@@ -19476,17 +19506,9 @@
       "userId": 100773352,
       "userName": "A.",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "a67ed6bc-a340-432f-a455-450398ef81d9",
-      "timestamp": "2026-10-30T22:18:22.293Z",
-      "type": "LOOKUP",
-      "userId": 7365188106,
-      "userName": "Hunai",
-      "summary": "Number Lookup 8302105818 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168813906,
+  "lastTelegramUpdateId": 168813909,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
