@@ -16470,15 +16470,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 1,
+      "totalLookups": 2,
       "referralCode": "HEX515984",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-02T18:28:41.466Z",
-      "lastActiveAt": "2026-11-02T18:29:46.217Z",
+      "lastActiveAt": "2026-11-02T18:30:21.237Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "1fd20971-1057-4e13-9b21-264b56af741f",
+          "queryNumber": "6009884556",
+          "timestamp": "2026-11-02T18:30:21.665Z",
+          "source": "bot",
+          "userId": 6370515984,
+          "userName": "Jimmy",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "6009884556",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "33e1b3d4-8167-4e9d-a45d-891bfbef18fa",
           "queryNumber": "9077745256",
@@ -16502,7 +16524,7 @@
           }
         }
       ],
-      "lastBotMessageId": 12481,
+      "lastBotMessageId": 12484,
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "lastLookupDate": "2026-11-02"
@@ -16730,6 +16752,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "1fd20971-1057-4e13-9b21-264b56af741f",
+      "queryNumber": "6009884556",
+      "timestamp": "2026-11-02T18:30:21.665Z",
+      "source": "bot",
+      "userId": 6370515984,
+      "userName": "Jimmy",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "6009884556",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "33e1b3d4-8167-4e9d-a45d-891bfbef18fa",
       "queryNumber": "9077745256",
@@ -18907,31 +18951,17 @@
         "lng": 88.36283,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
       }
-    },
-    {
-      "id": "dbc747c4-79d3-4634-9802-fbf097ccc8be",
-      "queryNumber": "9905640294",
-      "timestamp": "2026-10-31T02:07:56.741Z",
-      "source": "bot",
-      "userId": 8068089563,
-      "userName": "Queen",
-      "resultSummary": {
-        "name": "VODAFONE KOLKATA",
-        "fatherName": "\"9836307000",
-        "mobile": "9905640294",
-        "altMobile": "QAISER ALAM",
-        "circle": "8/2/1B!DR BIRESH GUHA STREET!CIRCUS AVENUE!KOLKATA!West Bengal!700017",
-        "idNumber": "8337007000",
-        "email": "Not found",
-        "address": "FARAH SHAZIA, BIRESH GUHA STREET, CIRCUS AVENUE, West Bengal, 700017",
-        "totalRecords": 8,
-        "lat": 22.54163,
-        "lng": 88.36283,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BIRESH%20GUHA%20STREET%2C%20CIRCUS%20AVENUE%2C%20West%20Bengal%2C%20700017%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "fe21a597-cca1-43e4-926b-c52834d4a4f7",
+      "timestamp": "2026-11-02T18:30:21.665Z",
+      "type": "LOOKUP",
+      "userId": 6370515984,
+      "userName": "Jimmy",
+      "summary": "Number Lookup 6009884556 (Not found)"
+    },
     {
       "id": "530425ba-83ea-49b0-b032-1ebf1895c596",
       "timestamp": "2026-11-02T18:29:46.569Z",
@@ -20123,17 +20153,9 @@
       "userId": 683547197,
       "userName": "Rakesh",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "1a89faae-696e-417b-a3ba-1090afd7d76a",
-      "timestamp": "2026-10-31T15:01:50.549Z",
-      "type": "LOOKUP",
-      "userId": 8213078100,
-      "userName": "Lemon",
-      "summary": "Number Lookup 6378242627 (Sampurna Nand Dobriyal)"
     }
   ],
-  "lastTelegramUpdateId": 168814042,
+  "lastTelegramUpdateId": 168814044,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
