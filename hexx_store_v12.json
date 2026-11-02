@@ -15790,6 +15790,28 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-02"
+    },
+    "8295246762": {
+      "id": 8295246762,
+      "firstName": "🫶🏻",
+      "username": "happyvibe7",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX246762",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T13:47:58.068Z",
+      "lastActiveAt": "2026-11-02T13:48:07.394Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12312,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true
     }
   },
   "orders": {
@@ -18217,6 +18239,14 @@
   ],
   "logs": [
     {
+      "id": "27c8abbc-5dee-460c-821d-06714d229acc",
+      "timestamp": "2026-11-02T13:47:59.142Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8295246762,
+      "userName": "🫶🏻",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "611f321a-8b16-4a0c-bc1f-1372f2e0962b",
       "timestamp": "2026-11-02T12:53:59.782Z",
       "type": "LOOKUP",
@@ -19407,17 +19437,9 @@
       "userId": 7365188106,
       "userName": "Hunai",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "334eb07d-ce37-4e2d-b86e-ab4ecd7bc5ae",
-      "timestamp": "2026-10-30T22:17:09.063Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7365188106,
-      "userName": "Hunai",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168813895,
+  "lastTelegramUpdateId": 168813898,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
