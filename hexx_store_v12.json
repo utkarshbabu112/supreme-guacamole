@@ -2203,7 +2203,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-01"
+      "lastLookupDate": "2026-11-01",
+      "liveLocationUsed": 0
     },
     "6672896116": {
       "id": 6672896116,
