@@ -16528,6 +16528,27 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "lastLookupDate": "2026-11-02"
+    },
+    "7066160517": {
+      "id": 7066160517,
+      "firstName": "Madhuri",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX160517",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-02T18:48:38.621Z",
+      "lastActiveAt": "2026-11-02T18:49:33.294Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12493,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true
     }
   },
   "orders": {
@@ -18955,6 +18976,14 @@
   ],
   "logs": [
     {
+      "id": "704db077-d8d9-49d4-9dda-8eb0fac9bf2d",
+      "timestamp": "2026-11-02T18:48:39.672Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7066160517,
+      "userName": "Madhuri",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "fe21a597-cca1-43e4-926b-c52834d4a4f7",
       "timestamp": "2026-11-02T18:30:21.665Z",
       "type": "LOOKUP",
@@ -20145,17 +20174,9 @@
       "userId": 683547197,
       "userName": "Rakesh",
       "summary": "Number Lookup 7439080544 (Not found)"
-    },
-    {
-      "id": "3b2cb7db-96d2-47d6-bcbf-be3a5b723f4b",
-      "timestamp": "2026-10-31T15:12:13.566Z",
-      "type": "BOT_MESSAGE",
-      "userId": 683547197,
-      "userName": "Rakesh",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814044,
+  "lastTelegramUpdateId": 168814049,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
