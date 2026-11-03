@@ -556,6 +556,28 @@
       "lastLookupDate": "2026-10-29",
       "liveLocationUsed": 0
     },
+    "867652545": {
+      "id": 867652545,
+      "firstName": "𓆩 Saͥheͣnͫ LOGO Maker𓆪",
+      "username": "Realsahen",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX652545",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-03T18:55:24.173Z",
+      "lastActiveAt": "2026-11-03T18:55:37.658Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12866,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true
+    },
     "871179765": {
       "id": 871179765,
       "firstName": "Blue",
@@ -20817,6 +20839,14 @@
   ],
   "logs": [
     {
+      "id": "b4eda416-e289-4d7d-879a-853a66b261a9",
+      "timestamp": "2026-11-03T18:55:24.816Z",
+      "type": "BOT_MESSAGE",
+      "userId": 867652545,
+      "userName": "𓆩 Saͥheͣnͫ LOGO Maker𓆪",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "0cf494b2-cf34-4074-b5c9-e7833635eaa2",
       "timestamp": "2026-11-03T18:50:11.952Z",
       "type": "PAYMENT",
@@ -22007,17 +22037,9 @@
       "userId": 1274085762,
       "userName": "sagar",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "90e742b2-614c-4cdb-8937-bfa01e3b8c2c",
-      "timestamp": "2026-11-02T15:03:21.460Z",
-      "type": "BOT_MESSAGE",
-      "userId": 1274085762,
-      "userName": "sagar",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814396,
+  "lastTelegramUpdateId": 168814399,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
