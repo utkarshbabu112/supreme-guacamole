@@ -16975,7 +16975,8 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-03",
-      "liveCaptures": []
+      "liveCaptures": [],
+      "liveLocationUsed": 0
     },
     "8971496214": {
       "id": 8971496214,
@@ -17022,7 +17023,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "8834499372": {
       "id": 8834499372,
@@ -17069,7 +17071,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "8597679337": {
       "id": 8597679337,
@@ -17116,7 +17119,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "lastLookupDate": "2026-11-03",
-      "awaitingRedeemCode": false
+      "awaitingRedeemCode": false,
+      "liveLocationUsed": 0
     }
   },
   "orders": {
