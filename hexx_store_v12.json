@@ -17512,6 +17512,28 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-03"
+    },
+    "7381260048": {
+      "id": 7381260048,
+      "firstName": ".",
+      "username": "Adityax213",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX260048",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-03T11:21:14.685Z",
+      "lastActiveAt": "2026-11-03T11:21:23.415Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12673,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true
     }
   },
   "orders": {
@@ -19939,6 +19961,14 @@
   ],
   "logs": [
     {
+      "id": "080a8cdc-a546-44e4-9a49-f7e859568a6d",
+      "timestamp": "2026-11-03T11:21:15.428Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7381260048,
+      "userName": ".",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "4f5314d4-5dc9-46ed-9e45-eb64be2a58aa",
       "timestamp": "2026-11-03T11:15:42.786Z",
       "type": "LOOKUP",
@@ -21129,17 +21159,9 @@
       "userId": 9002926552,
       "userName": "Hh",
       "summary": "Number Lookup 8127247500 (Not found)"
-    },
-    {
-      "id": "77f507d4-0f80-4c04-8f11-1be96fad652a",
-      "timestamp": "2026-11-01T15:24:34.834Z",
-      "type": "LOOKUP",
-      "userId": 9002926552,
-      "userName": "Hh",
-      "summary": "Number Lookup 9878775701 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814213,
+  "lastTelegramUpdateId": 168814215,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
