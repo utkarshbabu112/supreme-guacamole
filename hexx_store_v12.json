@@ -601,7 +601,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "871179765": {
       "id": 871179765,
@@ -2458,7 +2459,8 @@
       "lastBotMessageHasPhoto": true,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "1903177860": {
       "id": 1903177860,
@@ -2694,7 +2696,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "6672896116": {
       "id": 6672896116,
@@ -18299,7 +18302,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "5838987397": {
       "id": 5838987397,
@@ -18320,7 +18324,8 @@
       "history": [],
       "lastBotMessageId": 12796,
       "lastBotMessageHasPhoto": false,
-      "forceJoinVerified": true
+      "forceJoinVerified": true,
+      "liveLocationUsed": 0
     },
     "6179621259": {
       "id": 6179621259,
@@ -18367,7 +18372,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "8584492545": {
       "id": 8584492545,
@@ -18391,7 +18397,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "5236551959": {
       "id": 5236551959,
@@ -18412,7 +18419,8 @@
       "history": [],
       "lastBotMessageId": 12823,
       "lastBotMessageHasPhoto": false,
-      "forceJoinVerified": true
+      "forceJoinVerified": true,
+      "liveLocationUsed": 0
     },
     "5532153550": {
       "id": 5532153550,
@@ -18458,7 +18466,8 @@
       "lastBotMessageId": 12834,
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "8847581073": {
       "id": 8847581073,
@@ -18505,7 +18514,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "lastLookupDate": "2026-11-03",
-      "awaitingRedeemCode": false
+      "awaitingRedeemCode": false,
+      "liveLocationUsed": 0
     },
     "9266671378": {
       "id": 9266671378,
@@ -18573,7 +18583,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "9212791808": {
       "id": 9212791808,
@@ -18596,7 +18607,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "8452551167": {
       "id": 8452551167,
@@ -18619,7 +18631,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "8741556964": {
       "id": 8741556964,
@@ -18687,7 +18700,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
@@ -18924,7 +18938,7 @@
       "lastImapScanAt": 0,
       "credits": 0,
       "days": 7,
-      "status": "PENDING",
+      "status": "EXPIRED",
       "paymentUrl": "https://hexx-locate.ai.studio/?order=HEXLW0H9817",
       "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXLW0H9817&tr=HEXLW0H9817",
       "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXLW0H9817&tr=HEXLW0H9817",
@@ -18948,7 +18962,7 @@
       "lastImapScanAt": 0,
       "credits": 0,
       "days": 7,
-      "status": "PENDING",
+      "status": "EXPIRED",
       "paymentUrl": "https://hexx-locate.ai.studio/?order=HEXMSAG2752",
       "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXMSAG2752&tr=HEXMSAG2752",
       "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXMSAG2752&tr=HEXMSAG2752",
