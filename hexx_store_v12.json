@@ -17023,6 +17023,53 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-03"
+    },
+    "8834499372": {
+      "id": 8834499372,
+      "firstName": "SUMIT YADAV",
+      "username": "sky_mood_001",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX499372",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-03T04:58:59.841Z",
+      "lastActiveAt": "2026-11-03T05:01:44.295Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "856cdb18-e041-4bf8-9404-d0a84837f95c",
+          "queryNumber": "9369399551",
+          "timestamp": "2026-11-03T05:01:44.878Z",
+          "source": "bot",
+          "userId": 8834499372,
+          "userName": "SUMIT YADAV",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9369399551",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 12601,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-03"
     }
   },
   "orders": {
@@ -17247,6 +17294,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "856cdb18-e041-4bf8-9404-d0a84837f95c",
+      "queryNumber": "9369399551",
+      "timestamp": "2026-11-03T05:01:44.878Z",
+      "source": "bot",
+      "userId": 8834499372,
+      "userName": "SUMIT YADAV",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9369399551",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "6a1030f5-9317-445f-bc98-446fec05a7d3",
       "queryNumber": "8082241605",
@@ -19424,31 +19493,25 @@
         "lng": 77.17436,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Molarband%20Extn%2060%20Futa%20Road%203%20Badarpur%2C%20South%20Delhi%2C%20Delhi%2C%20110044%2C%20India"
       }
-    },
-    {
-      "id": "2ae305af-ffae-41f9-b8dc-8c47c614ea4b",
-      "queryNumber": "9520830139",
-      "timestamp": "2026-10-31T10:04:11.159Z",
-      "source": "bot",
-      "userId": 8763661333,
-      "userName": "Vicky",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9520830139",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "d4067dc3-d018-44ad-a9c0-7bf22eb10ffa",
+      "timestamp": "2026-11-03T05:01:44.878Z",
+      "type": "LOOKUP",
+      "userId": 8834499372,
+      "userName": "SUMIT YADAV",
+      "summary": "Number Lookup 9369399551 (Not found)"
+    },
+    {
+      "id": "18a6e67f-6477-4e64-86c5-51c55c8ee914",
+      "timestamp": "2026-11-03T04:59:00.750Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8834499372,
+      "userName": "SUMIT YADAV",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "9dc9e359-ceef-4bf1-ac52-c40d0b7810fd",
       "timestamp": "2026-11-03T02:11:03.773Z",
@@ -20632,25 +20695,9 @@
       "userId": 8309238008,
       "userName": "lakshya",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "c9cd8f1e-22d5-431b-ac63-cc1847464d81",
-      "timestamp": "2026-11-01T03:38:20.816Z",
-      "type": "LOOKUP",
-      "userId": 8886423770,
-      "userName": "HANTA VIRUS",
-      "summary": "Number Lookup 7001987456 (Not found)"
-    },
-    {
-      "id": "6af5aa4a-c868-49b6-bccd-b7c2d303a486",
-      "timestamp": "2026-11-01T03:07:34.792Z",
-      "type": "LOOKUP",
-      "userId": 6247554367,
-      "userName": "Divya",
-      "summary": "Number Lookup 7025946828 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814133,
+  "lastTelegramUpdateId": 168814144,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
