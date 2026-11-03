@@ -17168,6 +17168,52 @@
       "lastLookupDate": "2026-11-03",
       "awaitingRedeemCode": false,
       "liveLocationUsed": 0
+    },
+    "8060964159": {
+      "id": 8060964159,
+      "firstName": "CATRIAN",
+      "username": "CATRIANNN",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX964159",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-03T07:29:47.418Z",
+      "lastActiveAt": "2026-11-03T07:30:17.996Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "a3b7d9bc-37de-4521-9ef0-32d0016b6dad",
+          "queryNumber": "7510742289",
+          "timestamp": "2026-11-03T07:30:18.364Z",
+          "source": "bot",
+          "userId": 8060964159,
+          "userName": "CATRIAN",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7510742289",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 12627,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "lastLookupDate": "2026-11-03"
     }
   },
   "orders": {
@@ -17392,6 +17438,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "a3b7d9bc-37de-4521-9ef0-32d0016b6dad",
+      "queryNumber": "7510742289",
+      "timestamp": "2026-11-03T07:30:18.364Z",
+      "source": "bot",
+      "userId": 8060964159,
+      "userName": "CATRIAN",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7510742289",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "7f84a11b-1b23-4503-bb2e-777cae56fa7f",
       "queryNumber": "9701196720",
@@ -19569,31 +19637,25 @@
         "lng": 77.17436,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Molarband%20Extn%2060%20Futa%20Road%203%20Badarpur%2C%20South%20Delhi%2C%20Delhi%2C%20110044%2C%20India"
       }
-    },
-    {
-      "id": "7de415f6-aa17-47d7-85f6-c9e3e7d0a435",
-      "queryNumber": "6378242627",
-      "timestamp": "2026-10-31T14:56:58.297Z",
-      "source": "bot",
-      "userId": 8213078100,
-      "userName": "Lemon",
-      "resultSummary": {
-        "name": "Sampurna Nand Dobriyal",
-        "fatherName": "B D Dobriyal",
-        "mobile": "6378242627",
-        "altMobile": "9876543210",
-        "circle": "AIRTEL DELHI",
-        "idNumber": "572783453594",
-        "email": "Not found",
-        "address": "Molarband Extn 60 Futa Road 3 Badarpur, South Delhi, Delhi, 110044",
-        "totalRecords": 8,
-        "lat": 28.49926,
-        "lng": 77.17436,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Molarband%20Extn%2060%20Futa%20Road%203%20Badarpur%2C%20South%20Delhi%2C%20Delhi%2C%20110044%2C%20India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "c9f28d59-dae6-481c-9f3c-4f5c88f8aa76",
+      "timestamp": "2026-11-03T07:30:18.364Z",
+      "type": "LOOKUP",
+      "userId": 8060964159,
+      "userName": "CATRIAN",
+      "summary": "Number Lookup 7510742289 (Not found)"
+    },
+    {
+      "id": "4ceb721b-cb96-4483-893b-7a2c8dbf9ddb",
+      "timestamp": "2026-11-03T07:29:48.193Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8060964159,
+      "userName": "CATRIAN",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "7b803c47-2514-4ead-a96b-502da23f87ab",
       "timestamp": "2026-11-03T06:04:35.224Z",
@@ -20777,25 +20839,9 @@
       "userId": 8038296433,
       "userName": "RAJ",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "e46b1c47-0aa1-4235-9715-fb1635edca62",
-      "timestamp": "2026-11-01T09:40:04.373Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8944683168,
-      "userName": "PETER",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "e149854d-a0f7-4308-b172-222aa8f78f34",
-      "timestamp": "2026-11-01T09:32:04.172Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5226078386,
-      "userName": "Radhe",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814168,
+  "lastTelegramUpdateId": 168814171,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
