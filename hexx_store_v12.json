@@ -8355,7 +8355,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-27T12:35:05.119Z",
-      "lastActiveAt": "2026-10-27T12:37:20.268Z",
+      "lastActiveAt": "2026-11-03T15:38:57.589Z",
       "isBanned": false,
       "history": [
         {
@@ -8404,10 +8404,10 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10470,
+      "lastBotMessageId": 10465,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-27",
+      "lastLookupDate": "2026-11-03",
       "liveLocationUsed": 0
     },
     "8924106617": {
@@ -17579,7 +17579,8 @@
       "lastBotMessageId": 12662,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "8709987363": {
       "id": 8709987363,
@@ -17625,7 +17626,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "7381260048": {
       "id": 7381260048,
@@ -17649,7 +17651,8 @@
       "lastBotMessageHasPhoto": true,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "6072202540": {
       "id": 6072202540,
@@ -17740,7 +17743,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "lastLookupDate": "2026-11-03",
-      "awaitingRedeemCode": false
+      "awaitingRedeemCode": false,
+      "liveLocationUsed": 0
     },
     "7968080825": {
       "id": 7968080825,
@@ -17786,7 +17790,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "6862857569": {
       "id": 6862857569,
@@ -17855,7 +17860,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "8204686451": {
       "id": 8204686451,
@@ -17945,7 +17951,8 @@
       "lastBotMessageHasPhoto": true,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "8843654177": {
       "id": 8843654177,
@@ -17992,7 +17999,8 @@
       "lastBotMessageHasPhoto": true,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "6663580930": {
       "id": 6663580930,
@@ -18016,7 +18024,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
@@ -20444,6 +20453,14 @@
   ],
   "logs": [
     {
+      "id": "25e32459-3d7d-4d86-b6bf-29bd18d366e4",
+      "timestamp": "2026-11-03T15:37:18.946Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8251808172,
+      "userName": "Sa",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "a243dcc3-f1fb-40f5-9706-ac68331d0c23",
       "timestamp": "2026-11-03T15:19:43.792Z",
       "type": "LOOKUP",
@@ -21634,17 +21651,9 @@
       "userId": 8952698097,
       "userName": "CLovely",
       "summary": "Number Lookup 6361287973 (Not found)"
-    },
-    {
-      "id": "e60696e2-a7e9-4de7-8593-1c348341878a",
-      "timestamp": "2026-11-02T07:11:45.509Z",
-      "type": "LOOKUP",
-      "userId": 8952698097,
-      "userName": "CLovely",
-      "summary": "Number Lookup 6361287973 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814313,
+  "lastTelegramUpdateId": 168814316,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
