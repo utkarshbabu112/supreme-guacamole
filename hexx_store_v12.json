@@ -17647,6 +17647,29 @@
       "forceJoinVerified": true,
       "lastLookupDate": "2026-11-03",
       "awaitingRedeemCode": false
+    },
+    "7968080825": {
+      "id": 7968080825,
+      "firstName": "aadarsh",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX080825",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-03T12:23:57.694Z",
+      "lastActiveAt": "2026-11-03T12:24:23.500Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12696,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-03"
     }
   },
   "orders": {
@@ -20074,6 +20097,14 @@
   ],
   "logs": [
     {
+      "id": "231ad559-c947-4ebb-9c96-49a5e4e3a6e5",
+      "timestamp": "2026-11-03T12:23:58.391Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7968080825,
+      "userName": "aadarsh",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "9e03ba4e-865a-458b-a65d-2ad53a6d0bae",
       "timestamp": "2026-11-03T12:18:42.831Z",
       "type": "LOOKUP",
@@ -21264,17 +21295,9 @@
       "userId": 9079180736,
       "userName": "Dhruva",
       "summary": "Number Lookup 9121410167 (Not found)"
-    },
-    {
-      "id": "528e6289-0b7a-40d7-a2cb-75c083b589b4",
-      "timestamp": "2026-11-01T16:10:03.351Z",
-      "type": "LOOKUP",
-      "userId": 9079180736,
-      "userName": "Dhruva",
-      "summary": "Number Lookup 7735617343 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814228,
+  "lastTelegramUpdateId": 168814232,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
