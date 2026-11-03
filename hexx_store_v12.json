@@ -18148,16 +18148,39 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "totalLookups": 1,
       "referralCode": "HEX621259",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-03T15:59:06.007Z",
-      "lastActiveAt": "2026-11-03T15:59:26.578Z",
+      "lastActiveAt": "2026-11-03T15:59:56.375Z",
       "isBanned": false,
-      "history": [],
-      "lastBotMessageId": 12802,
+      "history": [
+        {
+          "id": "3462001a-6c9d-4468-bc41-1d494cba5b1a",
+          "queryNumber": "9555778074",
+          "timestamp": "2026-11-03T15:59:56.901Z",
+          "source": "bot",
+          "userId": 6179621259,
+          "userName": "𝐏𝐀𝐏𝐏𝐔 𝐏𝐄𝐋𝐔 | ☕",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9555778074",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 12804,
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
@@ -18386,6 +18409,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "3462001a-6c9d-4468-bc41-1d494cba5b1a",
+      "queryNumber": "9555778074",
+      "timestamp": "2026-11-03T15:59:56.901Z",
+      "source": "bot",
+      "userId": 6179621259,
+      "userName": "𝐏𝐀𝐏𝐏𝐔 𝐏𝐄𝐋𝐔 | ☕",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9555778074",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "eda08729-2153-4d0c-9762-d73834253c7e",
       "queryNumber": "9815539884",
@@ -20563,31 +20608,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "4c7fd3c3-ca57-4985-982c-d6689f0ec86e",
-      "queryNumber": "8927182174",
-      "timestamp": "2026-11-01T14:51:40.711Z",
-      "source": "bot",
-      "userId": 5686848856,
-      "userName": "Ankit",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8927182174",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "e4e9dc91-e384-4755-9795-7ecd1d54d6cd",
+      "timestamp": "2026-11-03T15:59:56.901Z",
+      "type": "LOOKUP",
+      "userId": 6179621259,
+      "userName": "𝐏𝐀𝐏𝐏𝐔 𝐏𝐄𝐋𝐔 | ☕",
+      "summary": "Number Lookup 9555778074 (Not found)"
+    },
     {
       "id": "cbbc0390-9d32-43f4-9da6-a3c590ba31aa",
       "timestamp": "2026-11-03T15:59:06.789Z",
@@ -21779,17 +21810,9 @@
       "userId": 6001819818,
       "userName": "Ashwani",
       "summary": "Number Lookup 9334621245 (Not found)"
-    },
-    {
-      "id": "d2b35201-7263-43d1-a9ec-887c5eaeaba0",
-      "timestamp": "2026-11-02T10:25:03.960Z",
-      "type": "LOOKUP",
-      "userId": 6001819818,
-      "userName": "Ashwani",
-      "summary": "Number Lookup 8866132841 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814337,
+  "lastTelegramUpdateId": 168814338,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
