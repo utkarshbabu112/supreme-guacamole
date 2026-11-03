@@ -17550,12 +17550,14 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-03T11:21:14.685Z",
-      "lastActiveAt": "2026-11-03T11:21:23.415Z",
+      "lastActiveAt": "2026-11-03T12:44:20.297Z",
       "isBanned": false,
       "history": [],
       "lastBotMessageId": 12673,
       "lastBotMessageHasPhoto": false,
-      "forceJoinVerified": true
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-03"
     },
     "6072202540": {
       "id": 6072202540,
@@ -21320,7 +21322,7 @@
       "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814237,
+  "lastTelegramUpdateId": 168814238,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
