@@ -18597,6 +18597,29 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-03"
+    },
+    "8452551167": {
+      "id": 8452551167,
+      "firstName": "Adnan",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX551167",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-03T19:43:11.537Z",
+      "lastActiveAt": "2026-11-03T19:45:54.895Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12926,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-03"
     }
   },
   "orders": {
@@ -21071,6 +21094,14 @@
   ],
   "logs": [
     {
+      "id": "19772760-7be7-43a3-98ce-6234c9978cab",
+      "timestamp": "2026-11-03T19:43:12.530Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8452551167,
+      "userName": "Adnan",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "1f1e9fb6-1ecb-434b-a534-5fc3b47afdd6",
       "timestamp": "2026-11-03T19:18:53.383Z",
       "type": "PAYMENT",
@@ -22261,17 +22292,9 @@
       "userId": 6100822898,
       "userName": "Shyan",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "dcdb7c42-1abf-4786-8be9-595cddf40b5d",
-      "timestamp": "2026-11-02T15:47:36.936Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8207121098,
-      "userName": "🇫 🇴 🇽 🦊",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814469,
+  "lastTelegramUpdateId": 168814476,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
