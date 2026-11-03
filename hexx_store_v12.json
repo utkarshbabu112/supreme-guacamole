@@ -17258,6 +17258,27 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "lastLookupDate": "2026-11-03"
+    },
+    "7422247537": {
+      "id": 7422247537,
+      "firstName": "Kapil kushwaha",
+      "username": "Kushwahakapil",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX247537",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-03T08:16:51.486Z",
+      "lastActiveAt": "2026-11-03T08:16:51.486Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12633,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -19685,6 +19706,14 @@
   ],
   "logs": [
     {
+      "id": "23e83105-0c05-44f1-81c9-a6d812850d71",
+      "timestamp": "2026-11-03T08:16:52.208Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7422247537,
+      "userName": "Kapil kushwaha",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "526bddb7-184e-44d8-94fd-a3a040798d7e",
       "timestamp": "2026-11-03T08:03:30.680Z",
       "type": "LOOKUP",
@@ -20875,17 +20904,9 @@
       "userId": 6526528915,
       "userName": "Anshul",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "e7d5863d-3cd1-4e30-a2c9-7d90644ac24f",
-      "timestamp": "2026-11-01T10:51:35.998Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8601360889,
-      "userName": "abdo",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814173,
+  "lastTelegramUpdateId": 168814174,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
