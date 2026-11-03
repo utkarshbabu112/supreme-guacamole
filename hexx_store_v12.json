@@ -18749,6 +18749,30 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-03"
+    },
+    "7012727200": {
+      "id": 7012727200,
+      "firstName": ":/",
+      "username": "snickers9373",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX727200",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-03T23:15:56.801Z",
+      "lastActiveAt": "2026-11-03T23:16:47.712Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12965,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-03"
     }
   },
   "orders": {
@@ -21223,6 +21247,22 @@
   ],
   "logs": [
     {
+      "id": "8cb50454-6fb1-44ab-8d8f-a167602de6dc",
+      "timestamp": "2026-11-03T23:16:15.564Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7012727200,
+      "userName": ":/",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "30a76d99-cb3c-4eef-8ee0-c062116bb0bb",
+      "timestamp": "2026-11-03T23:15:57.782Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7012727200,
+      "userName": ":/",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "8eb01177-7b4b-48bf-96e9-ebd6d0d21a5c",
       "timestamp": "2026-11-03T21:13:19.972Z",
       "type": "LOOKUP",
@@ -22405,25 +22445,9 @@
       "userId": 8040992311,
       "userName": "monkey D",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "2932662e-6f70-4322-9f9a-c8a4fc690983",
-      "timestamp": "2026-11-02T17:05:38.342Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7911961561,
-      "userName": "Delirante",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "e8bb0da2-596b-4deb-b058-86a2b368656f",
-      "timestamp": "2026-11-02T16:59:52.637Z",
-      "type": "LOOKUP",
-      "userId": 7325683863,
-      "userName": "Shaxumye",
-      "summary": "Number Lookup 7051262495 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814499,
+  "lastTelegramUpdateId": 168814506,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
