@@ -17893,15 +17893,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 3,
+      "totalLookups": 4,
       "referralCode": "HEX686451",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-03T12:46:28.711Z",
-      "lastActiveAt": "2026-11-03T12:50:46.311Z",
+      "lastActiveAt": "2026-11-03T16:49:34.948Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "6e5d3049-8047-41dd-ae70-d97d9be6d4f1",
+          "queryNumber": "7805997371",
+          "timestamp": "2026-11-03T16:49:35.360Z",
+          "source": "bot",
+          "userId": 8204686451,
+          "userName": "Rashmi",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7805997371",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "07a40c17-6eab-44be-aec5-80b3ef808e27",
           "queryNumber": "9907055101",
@@ -17945,32 +17967,10 @@
             "lng": 77.209,
             "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
           }
-        },
-        {
-          "id": "ced45323-1b23-4f6b-994e-f5cab6c37411",
-          "queryNumber": "7805997371",
-          "timestamp": "2026-11-03T12:48:34.569Z",
-          "source": "bot",
-          "userId": 8204686451,
-          "userName": "Rashmi",
-          "resultSummary": {
-            "name": "Not found",
-            "fatherName": "Not found",
-            "mobile": "7805997371",
-            "altMobile": "Not found",
-            "circle": "New Delhi, Delhi",
-            "idNumber": "Not found",
-            "email": "Not found",
-            "address": "New Delhi, Delhi",
-            "totalRecords": 1,
-            "lat": 28.6139,
-            "lng": 77.209,
-            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-          }
         }
       ],
-      "lastBotMessageId": 12733,
-      "lastBotMessageHasPhoto": true,
+      "lastBotMessageId": 12808,
+      "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-03",
@@ -18409,6 +18409,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "6e5d3049-8047-41dd-ae70-d97d9be6d4f1",
+      "queryNumber": "7805997371",
+      "timestamp": "2026-11-03T16:49:35.360Z",
+      "source": "bot",
+      "userId": 8204686451,
+      "userName": "Rashmi",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7805997371",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "3462001a-6c9d-4468-bc41-1d494cba5b1a",
       "queryNumber": "9555778074",
@@ -20586,31 +20608,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "50f085e1-887b-42c8-92ee-f2206c1051a8",
-      "queryNumber": "9878775701",
-      "timestamp": "2026-11-01T15:24:34.834Z",
-      "source": "bot",
-      "userId": 9002926552,
-      "userName": "Hh",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9878775701",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "31c81eed-e222-47d4-8ae4-7279966ab913",
+      "timestamp": "2026-11-03T16:49:35.360Z",
+      "type": "LOOKUP",
+      "userId": 8204686451,
+      "userName": "Rashmi",
+      "summary": "Number Lookup 7805997371 (Not found)"
+    },
     {
       "id": "aea9432b-8081-4c52-b072-895d86890116",
       "timestamp": "2026-11-03T16:35:58.013Z",
@@ -21802,17 +21810,9 @@
       "userId": 8850142093,
       "userName": "DWK",
       "summary": "Number Lookup 9076105612 (Not found)"
-    },
-    {
-      "id": "05b6df50-1470-4615-bb10-72446b147ed4",
-      "timestamp": "2026-11-02T10:35:28.361Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8469020620,
-      "userName": ".",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814340,
+  "lastTelegramUpdateId": 168814341,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
