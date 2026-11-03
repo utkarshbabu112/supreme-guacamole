@@ -18702,6 +18702,30 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-03",
       "liveLocationUsed": 0
+    },
+    "8805131805": {
+      "id": 8805131805,
+      "firstName": "Rakesh Patidar",
+      "username": "rajat3784",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX131805",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-03T21:12:41.108Z",
+      "lastActiveAt": "2026-11-03T21:12:54.918Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12955,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-03"
     }
   },
   "orders": {
@@ -21176,6 +21200,14 @@
   ],
   "logs": [
     {
+      "id": "640350b5-3c2b-476f-ba8b-e0b58f960211",
+      "timestamp": "2026-11-03T21:12:42.103Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8805131805,
+      "userName": "Rakesh Patidar",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "cf4a521e-b643-4242-bfba-310c8702fff9",
       "timestamp": "2026-11-03T20:26:03.189Z",
       "type": "LOOKUP",
@@ -22366,17 +22398,9 @@
       "userId": 7188532626,
       "userName": "harish",
       "summary": "Number Lookup 7206600149 (Not found)"
-    },
-    {
-      "id": "671aba27-687e-480c-9440-c855909c178a",
-      "timestamp": "2026-11-02T16:12:57.060Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7188532626,
-      "userName": "harish",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814494,
+  "lastTelegramUpdateId": 168814497,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
