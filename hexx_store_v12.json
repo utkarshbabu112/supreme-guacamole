@@ -5555,7 +5555,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-26T08:09:51.275Z",
-      "lastActiveAt": "2026-11-03T15:57:26.667Z",
+      "lastActiveAt": "2026-11-03T16:35:57.433Z",
       "isBanned": false,
       "history": [
         {
@@ -5604,8 +5604,8 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 12800,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 12806,
+      "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-03",
       "liveLocationUsed": 0
@@ -20612,6 +20612,14 @@
   ],
   "logs": [
     {
+      "id": "aea9432b-8081-4c52-b072-895d86890116",
+      "timestamp": "2026-11-03T16:35:58.013Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6721538828,
+      "userName": "Nwiedijdjsh",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "e4e9dc91-e384-4755-9795-7ecd1d54d6cd",
       "timestamp": "2026-11-03T15:59:56.901Z",
       "type": "LOOKUP",
@@ -21802,17 +21810,9 @@
       "userId": 8469020620,
       "userName": ".",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "bc41849b-1585-4936-ba9e-2a026a68f0d0",
-      "timestamp": "2026-11-02T10:25:37.654Z",
-      "type": "LOOKUP",
-      "userId": 6001819818,
-      "userName": "Ashwani",
-      "summary": "Number Lookup 9334621245 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814338,
+  "lastTelegramUpdateId": 168814340,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
