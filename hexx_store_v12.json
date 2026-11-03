@@ -2391,6 +2391,28 @@
       "lastLookupDate": "2026-10-27",
       "liveLocationUsed": 0
     },
+    "1883602752": {
+      "id": 1883602752,
+      "firstName": "THE WINE 🍷",
+      "username": "Owner_CG",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX602752",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-03T19:16:31.190Z",
+      "lastActiveAt": "2026-11-03T19:16:38.279Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12911,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true
+    },
     "1903177860": {
       "id": 1903177860,
       "firstName": "मोह 🤍",
@@ -20978,6 +21000,14 @@
   ],
   "logs": [
     {
+      "id": "7b621269-8d3d-4770-8a1f-a343045b50d4",
+      "timestamp": "2026-11-03T19:16:31.799Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1883602752,
+      "userName": "THE WINE 🍷",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "c682d0d7-b3ba-4b78-a8e8-d0899f63610b",
       "timestamp": "2026-11-03T19:03:29.356Z",
       "type": "BOT_MESSAGE",
@@ -22168,17 +22198,9 @@
       "userId": 8679566915,
       "userName": "Rishabh",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "bfd789c6-9718-4147-958b-b19a13835a57",
-      "timestamp": "2026-11-02T15:23:32.111Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8679566915,
-      "userName": "Rishabh",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814455,
+  "lastTelegramUpdateId": 168814460,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
