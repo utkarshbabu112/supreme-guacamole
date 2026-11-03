@@ -18209,6 +18209,27 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-03"
+    },
+    "5236551959": {
+      "id": 5236551959,
+      "firstName": "S",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX551959",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-03T17:52:29.793Z",
+      "lastActiveAt": "2026-11-03T17:53:05.101Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12823,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true
     }
   },
   "orders": {
@@ -20636,6 +20657,22 @@
   ],
   "logs": [
     {
+      "id": "5349fd87-36b3-4023-9427-acf21978dc3f",
+      "timestamp": "2026-11-03T17:52:55.329Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5236551959,
+      "userName": "S",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "eaca9e75-c3a6-42c5-bd1f-90cc4069665c",
+      "timestamp": "2026-11-03T17:52:30.615Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5236551959,
+      "userName": "S",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "b4e13192-7099-4baf-ad4e-467d1df2c429",
       "timestamp": "2026-11-03T17:04:27.098Z",
       "type": "BOT_MESSAGE",
@@ -21818,25 +21855,9 @@
       "userId": 8930307241,
       "userName": "Void",
       "summary": "Number Lookup 8087928255 (Not found)"
-    },
-    {
-      "id": "1872331a-4c77-4892-8005-f307abd9ccea",
-      "timestamp": "2026-11-02T12:06:03.304Z",
-      "type": "LOOKUP",
-      "userId": 8930307241,
-      "userName": "Void",
-      "summary": "Number Lookup 8087928255 (Not found)"
-    },
-    {
-      "id": "80409e01-3c66-41d9-9d2c-2c0a82bd2e0a",
-      "timestamp": "2026-11-02T12:05:38.232Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8930307241,
-      "userName": "Void",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814356,
+  "lastTelegramUpdateId": 168814363,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
