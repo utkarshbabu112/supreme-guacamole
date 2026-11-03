@@ -16925,7 +16925,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     },
     "8297161467": {
       "id": 8297161467,
@@ -16948,7 +16949,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-02"
+      "lastLookupDate": "2026-11-02",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
