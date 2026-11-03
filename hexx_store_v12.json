@@ -2400,18 +2400,65 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "totalLookups": 2,
       "referralCode": "HEX602752",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-03T19:16:31.190Z",
-      "lastActiveAt": "2026-11-03T19:16:38.279Z",
+      "lastActiveAt": "2026-11-03T19:18:53.367Z",
       "isBanned": false,
-      "history": [],
-      "lastBotMessageId": 12911,
-      "lastBotMessageHasPhoto": false,
-      "forceJoinVerified": true
+      "history": [
+        {
+          "id": "9b4c91cc-ca99-4e76-9d32-2e5133d37ad8",
+          "queryNumber": "9031148781",
+          "timestamp": "2026-11-03T19:17:36.697Z",
+          "source": "bot",
+          "userId": 1883602752,
+          "userName": "THE WINE 🍷",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9031148781",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
+        {
+          "id": "2bf42b7e-f5a0-4f37-ac0b-7adddcd5b729",
+          "queryNumber": "9065634231",
+          "timestamp": "2026-11-03T19:17:15.747Z",
+          "source": "bot",
+          "userId": 1883602752,
+          "userName": "THE WINE 🍷",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9065634231",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 12918,
+      "lastBotMessageHasPhoto": true,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-03"
     },
     "1903177860": {
       "id": 1903177860,
@@ -16539,11 +16586,11 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-02T14:39:52.591Z",
-      "lastActiveAt": "2026-11-02T14:40:04.486Z",
+      "lastActiveAt": "2026-11-03T19:21:21.291Z",
       "isBanned": false,
       "history": [],
-      "lastBotMessageId": 2915,
-      "lastBotMessageHasPhoto": true,
+      "lastBotMessageId": 12920,
+      "lastBotMessageHasPhoto": false,
       "liveLocationUsed": 0
     },
     "5643551945": {
@@ -18794,9 +18841,77 @@
       "createdAt": "2026-11-03T18:50:11.921Z",
       "expiresAt": "2026-11-03T19:00:11.921Z",
       "botQrMessageId": 12864
+    },
+    "HEXMSAG2752": {
+      "orderId": "HEXMSAG2752",
+      "famOrderId": "HEXMSAG2752",
+      "userId": 1883602752,
+      "userName": "THE WINE 🍷",
+      "userUsername": "Owner_CG",
+      "planId": "plan_7d",
+      "planName": "1 Week Pass",
+      "amount": 29,
+      "payableAmount": "29",
+      "qrImageUrl": "https://hexx-locate.ai.studio/api/qr/HEXMSAG2752",
+      "qrDataUrl": "data:image/png;base64,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",
+      "lastImapScanAt": 0,
+      "credits": 0,
+      "days": 7,
+      "status": "PENDING",
+      "paymentUrl": "https://hexx-locate.ai.studio/?order=HEXMSAG2752",
+      "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXMSAG2752&tr=HEXMSAG2752",
+      "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXMSAG2752&tr=HEXMSAG2752",
+      "gatewaySource": "direct_gmail",
+      "createdAt": "2026-11-03T19:18:53.368Z",
+      "expiresAt": "2026-11-03T19:28:53.368Z",
+      "botQrMessageId": 12918
     }
   },
   "globalHistory": [
+    {
+      "id": "9b4c91cc-ca99-4e76-9d32-2e5133d37ad8",
+      "queryNumber": "9031148781",
+      "timestamp": "2026-11-03T19:17:36.697Z",
+      "source": "bot",
+      "userId": 1883602752,
+      "userName": "THE WINE 🍷",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9031148781",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "2bf42b7e-f5a0-4f37-ac0b-7adddcd5b729",
+      "queryNumber": "9065634231",
+      "timestamp": "2026-11-03T19:17:15.747Z",
+      "source": "bot",
+      "userId": 1883602752,
+      "userName": "THE WINE 🍷",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9065634231",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "110b3776-50ce-4c6a-914c-e5760604506f",
       "queryNumber": "8303565794",
@@ -20952,53 +21067,41 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "ee240e9d-6102-4f12-8817-9c6704fbe357",
-      "queryNumber": "9560322791",
-      "timestamp": "2026-11-01T21:46:31.095Z",
-      "source": "bot",
-      "userId": 2084837211,
-      "userName": "BHARDWAJ",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9560322791",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "1f04b37f-ac1e-468b-a1b5-342f9a2ec2eb",
-      "queryNumber": "9460081024",
-      "timestamp": "2026-11-01T21:45:56.378Z",
-      "source": "bot",
-      "userId": 2084837211,
-      "userName": "BHARDWAJ",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9460081024",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "1f1e9fb6-1ecb-434b-a534-5fc3b47afdd6",
+      "timestamp": "2026-11-03T19:18:53.383Z",
+      "type": "PAYMENT",
+      "userId": 1883602752,
+      "userName": "THE WINE 🍷",
+      "summary": "Created Auto-QR Order HEXMSAG2752 (₹29 for 7 Days VIP)"
+    },
+    {
+      "id": "815274d8-4877-4778-b087-09dfb0ba0fc7",
+      "timestamp": "2026-11-03T19:18:30.001Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1883602752,
+      "userName": "THE WINE 🍷",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "7826a38c-f27a-47e4-ae45-eefe0494e6fd",
+      "timestamp": "2026-11-03T19:17:36.697Z",
+      "type": "LOOKUP",
+      "userId": 1883602752,
+      "userName": "THE WINE 🍷",
+      "summary": "Number Lookup 9031148781 (Not found)"
+    },
+    {
+      "id": "0ef573ee-c2e0-4191-a194-3cd6b527c3df",
+      "timestamp": "2026-11-03T19:17:15.747Z",
+      "type": "LOOKUP",
+      "userId": 1883602752,
+      "userName": "THE WINE 🍷",
+      "summary": "Number Lookup 9065634231 (Not found)"
+    },
     {
       "id": "7b621269-8d3d-4770-8a1f-a343045b50d4",
       "timestamp": "2026-11-03T19:16:31.799Z",
@@ -22166,41 +22269,9 @@
       "userId": 8207121098,
       "userName": "🇫 🇴 🇽 🦊",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "d82c589e-af5d-4de0-950d-2781d4f86b1b",
-      "timestamp": "2026-11-02T15:47:07.641Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6100822898,
-      "userName": "Shyan",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "21e51a44-18bf-4106-9ebc-9278238240b2",
-      "timestamp": "2026-11-02T15:46:45.091Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6100822898,
-      "userName": "Shyan",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "bb833de8-d12a-45a5-86a3-28e9bf608327",
-      "timestamp": "2026-11-02T15:46:41.623Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6100822898,
-      "userName": "Shyan",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "73617f1a-90c7-4fcb-8b14-01b6ac471771",
-      "timestamp": "2026-11-02T15:23:34.946Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8679566915,
-      "userName": "Rishabh",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814460,
+  "lastTelegramUpdateId": 168814469,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
