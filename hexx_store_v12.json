@@ -18620,6 +18620,27 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-03"
+    },
+    "8741556964": {
+      "id": 8741556964,
+      "firstName": "Rahul",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX556964",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-03T20:22:47.500Z",
+      "lastActiveAt": "2026-11-03T20:22:51.720Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12930,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true
     }
   },
   "orders": {
@@ -21094,6 +21115,14 @@
   ],
   "logs": [
     {
+      "id": "92e6d49b-b6da-4a4b-8a08-7692c8bec691",
+      "timestamp": "2026-11-03T20:22:48.322Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8741556964,
+      "userName": "Rahul",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "19772760-7be7-43a3-98ce-6234c9978cab",
       "timestamp": "2026-11-03T19:43:12.530Z",
       "type": "BOT_MESSAGE",
@@ -22284,17 +22313,9 @@
       "userId": 6100822898,
       "userName": "Shyan",
       "summary": "Number Lookup 8240667425 (Not found)"
-    },
-    {
-      "id": "5ad4667a-02b9-417a-afb3-8f2e56a2acdb",
-      "timestamp": "2026-11-02T15:48:02.042Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6100822898,
-      "userName": "Shyan",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168814476,
+  "lastTelegramUpdateId": 168814479,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
