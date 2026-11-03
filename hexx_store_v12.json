@@ -7651,15 +7651,59 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 5,
+      "totalLookups": 7,
       "referralCode": "HEX119817",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-27T06:37:49.266Z",
-      "lastActiveAt": "2026-11-02T16:12:53.688Z",
+      "lastActiveAt": "2026-11-03T18:50:11.920Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "da127c68-0cde-4e0d-a30e-3b497dc2f876",
+          "queryNumber": "9213175217",
+          "timestamp": "2026-11-03T18:48:37.087Z",
+          "source": "bot",
+          "userId": 7639119817,
+          "userName": "Yadav ji",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9213175217",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
+        {
+          "id": "bcabb388-ccbf-4717-aa7d-2b749a8189ce",
+          "queryNumber": "7688973913",
+          "timestamp": "2026-11-03T18:48:28.568Z",
+          "source": "bot",
+          "userId": 7639119817,
+          "userName": "Yadav ji",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7688973913",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "2d403f30-4710-4a76-8e34-8b4ef6afea01",
           "queryNumber": "9785328734",
@@ -7728,9 +7772,9 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 12418,
-      "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-11-02",
+      "lastBotMessageId": 12864,
+      "lastBotMessageHasPhoto": true,
+      "lastLookupDate": "2026-11-03",
       "liveLocationUsed": 0,
       "awaitingRedeemCode": false
     },
@@ -18544,9 +18588,76 @@
       "createdAt": "2026-10-31T19:15:52.350Z",
       "expiresAt": "2026-10-31T19:25:52.350Z",
       "botQrMessageId": 12003
+    },
+    "HEXLW0H9817": {
+      "orderId": "HEXLW0H9817",
+      "famOrderId": "HEXLW0H9817",
+      "userId": 7639119817,
+      "userName": "Yadav ji",
+      "planId": "plan_7d",
+      "planName": "1 Week Pass",
+      "amount": 29,
+      "payableAmount": "29",
+      "qrImageUrl": "https://hexx-locate.ai.studio/api/qr/HEXLW0H9817",
+      "qrDataUrl": "data:image/png;base64,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",
+      "lastImapScanAt": 0,
+      "credits": 0,
+      "days": 7,
+      "status": "PENDING",
+      "paymentUrl": "https://hexx-locate.ai.studio/?order=HEXLW0H9817",
+      "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXLW0H9817&tr=HEXLW0H9817",
+      "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXLW0H9817&tr=HEXLW0H9817",
+      "gatewaySource": "direct_gmail",
+      "createdAt": "2026-11-03T18:50:11.921Z",
+      "expiresAt": "2026-11-03T19:00:11.921Z",
+      "botQrMessageId": 12864
     }
   },
   "globalHistory": [
+    {
+      "id": "da127c68-0cde-4e0d-a30e-3b497dc2f876",
+      "queryNumber": "9213175217",
+      "timestamp": "2026-11-03T18:48:37.087Z",
+      "source": "bot",
+      "userId": 7639119817,
+      "userName": "Yadav ji",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9213175217",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "bcabb388-ccbf-4717-aa7d-2b749a8189ce",
+      "queryNumber": "7688973913",
+      "timestamp": "2026-11-03T18:48:28.568Z",
+      "source": "bot",
+      "userId": 7639119817,
+      "userName": "Yadav ji",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7688973913",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "08f11d9c-dd15-45f2-a791-98707a418f1f",
       "queryNumber": "6438355270",
@@ -20702,53 +20813,49 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "32f84199-8ba8-4119-919f-74a2f51255a1",
-      "queryNumber": "9669094082",
-      "timestamp": "2026-11-01T19:18:52.448Z",
-      "source": "bot",
-      "userId": 8534285249,
-      "userName": "Mak",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9669094082",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "c41f757a-0564-419e-ac00-f1229628b919",
-      "queryNumber": "9450556310",
-      "timestamp": "2026-11-01T17:58:49.876Z",
-      "source": "bot",
-      "userId": 1059714438,
-      "userName": "Aripitjee",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9450556310",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "0cf494b2-cf34-4074-b5c9-e7833635eaa2",
+      "timestamp": "2026-11-03T18:50:11.952Z",
+      "type": "PAYMENT",
+      "userId": 7639119817,
+      "userName": "Yadav ji",
+      "summary": "Created Auto-QR Order HEXLW0H9817 (₹29 for 7 Days VIP)"
+    },
+    {
+      "id": "f7a4f364-edd2-4331-aff3-3df1a58b584a",
+      "timestamp": "2026-11-03T18:49:33.676Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7639119817,
+      "userName": "Yadav ji",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "87efd94e-55b5-4d39-86b0-435caf1b7bfd",
+      "timestamp": "2026-11-03T18:48:57.232Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7639119817,
+      "userName": "Yadav ji",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "ad17792c-5945-4190-9d6d-b9df9548b507",
+      "timestamp": "2026-11-03T18:48:37.087Z",
+      "type": "LOOKUP",
+      "userId": 7639119817,
+      "userName": "Yadav ji",
+      "summary": "Number Lookup 9213175217 (Not found)"
+    },
+    {
+      "id": "219047a9-0265-4aae-babe-7e9cfc14fe9e",
+      "timestamp": "2026-11-03T18:48:28.568Z",
+      "type": "LOOKUP",
+      "userId": 7639119817,
+      "userName": "Yadav ji",
+      "summary": "Number Lookup 7688973913 (Not found)"
+    },
     {
       "id": "606a93d3-8ca5-4a04-8c4c-37dc712f72e7",
       "timestamp": "2026-11-03T18:17:55.765Z",
@@ -21908,49 +22015,9 @@
       "userId": 1274085762,
       "userName": "sagar",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "242e2e65-63f3-49cd-807d-53b99241c422",
-      "timestamp": "2026-11-02T14:57:01.487Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6435349608,
-      "userName": "Shinchan",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "4d95dfc8-560a-4529-ae23-127e491bcceb",
-      "timestamp": "2026-11-02T14:51:16.827Z",
-      "type": "LOOKUP",
-      "userId": 5643551945,
-      "userName": "_______",
-      "summary": "Number Lookup 9279628160 (Not found)"
-    },
-    {
-      "id": "7e97847a-8676-4e4b-bf05-78dffc968616",
-      "timestamp": "2026-11-02T14:50:33.154Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5643551945,
-      "userName": "_______",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "4f633e2d-32ba-4c60-930a-c72d2dd910fe",
-      "timestamp": "2026-11-02T14:25:35.053Z",
-      "type": "LOOKUP",
-      "userId": 6557500535,
-      "userName": "Vikas",
-      "summary": "Number Lookup 8278259430 (Not found)"
-    },
-    {
-      "id": "30433d63-0160-495c-9bdd-311a485ac1f0",
-      "timestamp": "2026-11-02T14:24:51.013Z",
-      "type": "LOOKUP",
-      "userId": 6557500535,
-      "userName": "Vikas",
-      "summary": "Number Lookup 8901350286 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814384,
+  "lastTelegramUpdateId": 168814396,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
