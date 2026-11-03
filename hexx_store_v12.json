@@ -18185,6 +18185,27 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-03"
+    },
+    "8584492545": {
+      "id": 8584492545,
+      "firstName": "Harsh",
+      "username": "harshhubsdk",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX492545",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-03T17:04:26.469Z",
+      "lastActiveAt": "2026-11-03T17:04:26.469Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12816,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -20612,6 +20633,14 @@
   ],
   "logs": [
     {
+      "id": "b4e13192-7099-4baf-ad4e-467d1df2c429",
+      "timestamp": "2026-11-03T17:04:27.098Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8584492545,
+      "userName": "Harsh",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "f28e323e-e878-402a-a000-70602eb3910f",
       "timestamp": "2026-11-03T16:57:32.114Z",
       "type": "LOOKUP",
@@ -21802,17 +21831,9 @@
       "userId": 8930307241,
       "userName": "Void",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "3e165491-03ad-40fe-b28c-cb1eed2183b3",
-      "timestamp": "2026-11-02T12:05:09.340Z",
-      "type": "LOOKUP",
-      "userId": 8596214239,
-      "userName": "😎",
-      "summary": "Number Lookup 9166675446 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814350,
+  "lastTelegramUpdateId": 168814351,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
