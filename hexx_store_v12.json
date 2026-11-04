@@ -2823,8 +2823,8 @@
       "credits": 2,
       "liveLocationUsed": 1,
       "liveLocationLimit": 1,
-      "isPremium": true,
-      "premiumUntil": "2026-11-01T04:07:01.294Z",
+      "isPremium": false,
+      "premiumUntil": null,
       "lastPlanName": "1 Week Pass",
       "totalSpent": 29,
       "dailyLookupsUsed": 4,
@@ -2834,7 +2834,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:07:01.294Z",
-      "lastActiveAt": "2026-10-30T12:52:46.264Z",
+      "lastActiveAt": "2026-11-04T12:36:57.170Z",
       "isBanned": false,
       "isAdminUnlocked": true,
       "history": [
@@ -2950,8 +2950,8 @@
           }
         }
       ],
-      "lastBotMessageId": 11647,
-      "lastBotMessageHasPhoto": true,
+      "lastBotMessageId": 13197,
+      "lastBotMessageHasPhoto": false,
       "lookupMode": "info",
       "lastLookupDate": "2026-10-29",
       "activeTrackToken": "LOC611696TH",
@@ -23265,7 +23265,7 @@
       "summary": "Number Lookup 9835699448 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814673,
+  "lastTelegramUpdateId": 168814704,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
