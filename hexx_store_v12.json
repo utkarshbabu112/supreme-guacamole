@@ -19658,6 +19658,27 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-04"
+    },
+    "8614897424": {
+      "id": 8614897424,
+      "firstName": "Mohd",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX897424",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T13:19:39.963Z",
+      "lastActiveAt": "2026-11-04T13:20:00.930Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 13257,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -22155,6 +22176,14 @@
   ],
   "logs": [
     {
+      "id": "e1333c73-98f6-416f-9dc6-e87be9de37c9",
+      "timestamp": "2026-11-04T13:19:40.607Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8614897424,
+      "userName": "Mohd",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "2af5f3a9-e38b-473e-8b7a-48ca5249d7c2",
       "timestamp": "2026-11-04T13:15:05.004Z",
       "type": "LOOKUP",
@@ -23345,17 +23374,9 @@
       "userId": 8060964159,
       "userName": "CATRIAN",
       "summary": "Number Lookup 7510742289 (Not found)"
-    },
-    {
-      "id": "4ceb721b-cb96-4483-893b-7a2c8dbf9ddb",
-      "timestamp": "2026-11-03T07:29:48.193Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8060964159,
-      "userName": "CATRIAN",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814739,
+  "lastTelegramUpdateId": 168814741,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
