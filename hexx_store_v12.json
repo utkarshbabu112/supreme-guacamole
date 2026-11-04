@@ -19349,6 +19349,27 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-04"
+    },
+    "7864394864": {
+      "id": 7864394864,
+      "firstName": "@giftstarsin",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX394864",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T10:44:45.995Z",
+      "lastActiveAt": "2026-11-04T10:44:52.343Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 13093,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true
     }
   },
   "orders": {
@@ -21846,6 +21867,14 @@
   ],
   "logs": [
     {
+      "id": "6a5ca67c-003c-4eb6-9d93-0507f3bb041b",
+      "timestamp": "2026-11-04T10:44:46.643Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7864394864,
+      "userName": "@giftstarsin",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "4da5499c-f536-49f5-ae5e-6f3d503ad97e",
       "timestamp": "2026-11-04T10:38:04.220Z",
       "type": "LOOKUP",
@@ -23036,17 +23065,9 @@
       "userId": 1709861247,
       "userName": "محمد",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "f0a1c470-a6f4-45a6-8231-6592d0e41b7a",
-      "timestamp": "2026-11-02T20:05:31.030Z",
-      "type": "LOOKUP",
-      "userId": 8435263328,
-      "userName": "divy🥂𝕂𝕣𝕚𝕤𝕙𝕟𝕒",
-      "summary": "Number Lookup 8116753711 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814622,
+  "lastTelegramUpdateId": 168814625,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
