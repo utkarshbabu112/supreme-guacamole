@@ -18889,6 +18889,29 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-04"
+    },
+    "9138780424": {
+      "id": 9138780424,
+      "firstName": "Psycho",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX780424",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T05:59:32.245Z",
+      "lastActiveAt": "2026-11-04T05:59:54.918Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 13015,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-04"
     }
   },
   "orders": {
@@ -21386,6 +21409,14 @@
   ],
   "logs": [
     {
+      "id": "5491af33-5b69-4af3-a840-7e7bb24e1aef",
+      "timestamp": "2026-11-04T05:59:32.913Z",
+      "type": "BOT_MESSAGE",
+      "userId": 9138780424,
+      "userName": "Psycho",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "b4e8ed64-725b-4093-b832-d7bc5559dc50",
       "timestamp": "2026-11-04T05:45:21.811Z",
       "type": "PAYMENT",
@@ -22576,17 +22607,9 @@
       "userId": 6370515984,
       "userName": "Jimmy",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "24429ed0-bdee-45a2-8edd-6c055f1f2f0a",
-      "timestamp": "2026-11-02T18:20:27.121Z",
-      "type": "LOOKUP",
-      "userId": 5547055438,
-      "userName": "Kartik",
-      "summary": "Number Lookup 8076646001 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814552,
+  "lastTelegramUpdateId": 168814557,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
