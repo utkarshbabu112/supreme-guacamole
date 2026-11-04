@@ -19026,6 +19026,28 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "lastLookupDate": "2026-11-04"
+    },
+    "7954471110": {
+      "id": 7954471110,
+      "firstName": "Rakib",
+      "username": "Rakib_khan_0035",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX471110",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T08:09:11.952Z",
+      "lastActiveAt": "2026-11-04T08:09:23.650Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 13053,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true
     }
   },
   "orders": {
@@ -21523,6 +21545,14 @@
   ],
   "logs": [
     {
+      "id": "2bb87ef3-8748-4c5f-a1f3-b619a9e7b580",
+      "timestamp": "2026-11-04T08:09:12.937Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7954471110,
+      "userName": "Rakib",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "59d9241a-7083-48d5-8374-aa6d662cb65a",
       "timestamp": "2026-11-04T06:46:23.106Z",
       "type": "LOOKUP",
@@ -22713,17 +22743,9 @@
       "userId": 7991147992,
       "userName": "A",
       "summary": "Number Lookup 7470417472 (Not found)"
-    },
-    {
-      "id": "9fd89751-8c47-4c50-a5b3-36e7e9ccf425",
-      "timestamp": "2026-11-02T19:00:04.609Z",
-      "type": "LOOKUP",
-      "userId": 7991147992,
-      "userName": "A",
-      "summary": "Number Lookup 9872463487 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814584,
+  "lastTelegramUpdateId": 168814590,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
