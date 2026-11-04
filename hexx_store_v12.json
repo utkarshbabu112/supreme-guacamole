@@ -18748,7 +18748,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     },
     "7012727200": {
       "id": 7012727200,
@@ -18795,7 +18796,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-03"
+      "lastLookupDate": "2026-11-03",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
