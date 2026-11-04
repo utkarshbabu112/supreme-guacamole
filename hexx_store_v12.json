@@ -19865,6 +19865,30 @@
       "lastBotMessageId": 13303,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-11-04"
+    },
+    "5892051654": {
+      "id": 5892051654,
+      "firstName": "Surjyot",
+      "username": "surjyot7",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX051654",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T14:58:58.088Z",
+      "lastActiveAt": "2026-11-04T14:59:49.222Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13306,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-04"
     }
   },
   "orders": {
@@ -22362,6 +22386,14 @@
   ],
   "logs": [
     {
+      "id": "12695d86-f042-4c59-9943-de10992938f5",
+      "timestamp": "2026-11-04T14:58:58.851Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5892051654,
+      "userName": "Surjyot",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "a7996c7b-e3be-49bc-916f-08e0302c2af3",
       "timestamp": "2026-11-04T14:52:06.390Z",
       "type": "LOOKUP",
@@ -23552,17 +23584,9 @@
       "userId": 8709987363,
       "userName": "Ar",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "6171a60b-2541-411d-8ff8-e8f4546e9809",
-      "timestamp": "2026-11-03T09:42:59.929Z",
-      "type": "LOOKUP",
-      "userId": 1299527177,
-      "userName": "Something funny",
-      "summary": "Number Lookup 7505456036 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814793,
+  "lastTelegramUpdateId": 168814799,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
