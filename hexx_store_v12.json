@@ -12790,7 +12790,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-29T16:17:27.795Z",
-      "lastActiveAt": "2026-10-31T13:50:30.468Z",
+      "lastActiveAt": "2026-11-04T13:07:28.420Z",
       "isBanned": false,
       "history": [
         {
@@ -12839,9 +12839,9 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11913,
+      "lastBotMessageId": 11888,
       "lastBotMessageHasPhoto": true,
-      "lastLookupDate": "2026-10-31",
+      "lastLookupDate": "2026-11-04",
       "liveLocationUsed": 0,
       "awaitingRedeemCode": false,
       "lastPlanName": "1 Week Pass"
@@ -23287,7 +23287,7 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168814730,
+  "lastTelegramUpdateId": 168814732,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
