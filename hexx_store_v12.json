@@ -20380,6 +20380,27 @@
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-04"
+    },
+    "9186536337": {
+      "id": 9186536337,
+      "firstName": "CARBON",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX536337",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T18:52:56.598Z",
+      "lastActiveAt": "2026-11-04T18:53:29.032Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13395,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -22877,6 +22898,14 @@
   ],
   "logs": [
     {
+      "id": "e1de7931-3f7b-497b-8d4b-3ca2fa0d427b",
+      "timestamp": "2026-11-04T18:52:57.333Z",
+      "type": "BOT_MESSAGE",
+      "userId": 9186536337,
+      "userName": "CARBON",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "8b977661-af38-410b-b575-af0c9eeda3a5",
       "timestamp": "2026-11-04T18:40:06.710Z",
       "type": "BOT_MESSAGE",
@@ -24067,17 +24096,9 @@
       "userId": 6663580930,
       "userName": "M",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "747c17cf-33fa-44ce-9e34-84708478c58c",
-      "timestamp": "2026-11-03T14:41:36.774Z",
-      "type": "LOOKUP",
-      "userId": 8463673971,
-      "userName": "⚡🄻🄴🄶🄴🄽🄳🄱🄾🅈⚡",
-      "summary": "Number Lookup 9256833768 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814872,
+  "lastTelegramUpdateId": 168814879,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
