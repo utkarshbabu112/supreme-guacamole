@@ -19119,6 +19119,28 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-04"
+    },
+    "7082810536": {
+      "id": 7082810536,
+      "firstName": "Ansh",
+      "username": "Ansh995178",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX810536",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T08:39:15.385Z",
+      "lastActiveAt": "2026-11-04T08:39:27.935Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 13061,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true
     }
   },
   "orders": {
@@ -21616,6 +21638,14 @@
   ],
   "logs": [
     {
+      "id": "bbaef288-93fa-47a5-bdfa-81eb2add11dd",
+      "timestamp": "2026-11-04T08:39:16.034Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7082810536,
+      "userName": "Ansh",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "dda4f2de-6794-4d87-bd5d-3c32cc28a5b3",
       "timestamp": "2026-11-04T08:25:40.212Z",
       "type": "LOOKUP",
@@ -22806,17 +22836,9 @@
       "userId": 7991147992,
       "userName": "A",
       "summary": "Number Lookup 9872463487 (Not found)"
-    },
-    {
-      "id": "32ed80db-aa11-4d54-8771-e875a722f4a4",
-      "timestamp": "2026-11-02T19:00:55.850Z",
-      "type": "LOOKUP",
-      "userId": 7188532626,
-      "userName": "harish",
-      "summary": "Number Lookup 6350301756 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814597,
+  "lastTelegramUpdateId": 168814599,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
