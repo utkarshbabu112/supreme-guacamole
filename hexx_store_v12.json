@@ -19889,6 +19889,27 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-04"
+    },
+    "9217834561": {
+      "id": 9217834561,
+      "firstName": ".",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX834561",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T15:12:06.264Z",
+      "lastActiveAt": "2026-11-04T15:12:06.264Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 13311,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -22386,6 +22407,14 @@
   ],
   "logs": [
     {
+      "id": "091bfd41-9cc4-4e61-a8b5-3078329f83fc",
+      "timestamp": "2026-11-04T15:12:06.978Z",
+      "type": "BOT_MESSAGE",
+      "userId": 9217834561,
+      "userName": ".",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "12695d86-f042-4c59-9943-de10992938f5",
       "timestamp": "2026-11-04T14:58:58.851Z",
       "type": "BOT_MESSAGE",
@@ -23576,17 +23605,9 @@
       "userId": 8709987363,
       "userName": "Ar",
       "summary": "Number Lookup 9382323765 (Not found)"
-    },
-    {
-      "id": "34d7b00a-7563-44c2-91a9-54a8ae179c0f",
-      "timestamp": "2026-11-03T11:15:13.696Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8709987363,
-      "userName": "Ar",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814799,
+  "lastTelegramUpdateId": 168814801,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
