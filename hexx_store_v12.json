@@ -19750,6 +19750,30 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-04"
+    },
+    "6508916564": {
+      "id": 6508916564,
+      "firstName": "Hasan",
+      "username": "HasanHOmar14",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX916564",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T13:43:23.974Z",
+      "lastActiveAt": "2026-11-04T13:46:11.137Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13293,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-04"
     }
   },
   "orders": {
@@ -22247,6 +22271,14 @@
   ],
   "logs": [
     {
+      "id": "1406bc16-223b-4301-89e1-56eab5cfdbb1",
+      "timestamp": "2026-11-04T13:43:24.794Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6508916564,
+      "userName": "Hasan",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "53a30eed-bbb4-4751-9f83-a54f2ebc85d9",
       "timestamp": "2026-11-04T13:27:59.054Z",
       "type": "LOOKUP",
@@ -23437,17 +23469,9 @@
       "userId": 9101679522,
       "userName": "Sandhya",
       "summary": "Number Lookup 7247312401 (Not found)"
-    },
-    {
-      "id": "d072fa31-b13d-479f-a3e8-049c7836e283",
-      "timestamp": "2026-11-03T08:35:00.390Z",
-      "type": "LOOKUP",
-      "userId": 9101679522,
-      "userName": "Sandhya",
-      "summary": "Number Lookup 9926744867 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814768,
+  "lastTelegramUpdateId": 168814779,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
