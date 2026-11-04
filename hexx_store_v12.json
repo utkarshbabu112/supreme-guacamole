@@ -19547,6 +19547,27 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-04"
+    },
+    "8178559972": {
+      "id": 8178559972,
+      "firstName": "Ꮀållêñ",
+      "username": "WhoiisVector",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX559972",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T11:59:07.207Z",
+      "lastActiveAt": "2026-11-04T11:59:26.823Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 13151,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -22044,6 +22065,14 @@
   ],
   "logs": [
     {
+      "id": "921a1f7a-5363-4a57-aebb-7d478deef1b0",
+      "timestamp": "2026-11-04T11:59:07.997Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8178559972,
+      "userName": "Ꮀållêñ",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "143c0960-84cd-46e5-a6ff-60df6b0365f7",
       "timestamp": "2026-11-04T11:21:51.787Z",
       "type": "LOOKUP",
@@ -23234,17 +23263,9 @@
       "userId": 8597679337,
       "userName": "亗 Kɪɴɢ ʀɪᴛɪᴋ ࿐💓",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "d4067dc3-d018-44ad-a9c0-7bf22eb10ffa",
-      "timestamp": "2026-11-03T05:01:44.878Z",
-      "type": "LOOKUP",
-      "userId": 8834499372,
-      "userName": "SUMIT YADAV",
-      "summary": "Number Lookup 9369399551 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814666,
+  "lastTelegramUpdateId": 168814668,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
