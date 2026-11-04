@@ -3894,7 +3894,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-10-30T14:47:18.358Z",
+      "lastActiveAt": "2026-11-04T12:26:01.908Z",
       "isBanned": false,
       "history": [
         {
@@ -4078,7 +4078,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 11678,
+      "lastBotMessageId": 13157,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-27",
@@ -22065,6 +22065,14 @@
   ],
   "logs": [
     {
+      "id": "5ffb6514-eeb4-43a2-9314-871a253da184",
+      "timestamp": "2026-11-04T12:25:46.098Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "921a1f7a-5363-4a57-aebb-7d478deef1b0",
       "timestamp": "2026-11-04T11:59:07.997Z",
       "type": "BOT_MESSAGE",
@@ -23255,17 +23263,9 @@
       "userId": 8597679337,
       "userName": "亗 Kɪɴɢ ʀɪᴛɪᴋ ࿐💓",
       "summary": "Number Lookup 9835699448 (Not found)"
-    },
-    {
-      "id": "a0506f7c-f4f5-4215-ac71-5e8c0d676646",
-      "timestamp": "2026-11-03T05:28:37.204Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8597679337,
-      "userName": "亗 Kɪɴɢ ʀɪᴛɪᴋ ࿐💓",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814669,
+  "lastTelegramUpdateId": 168814673,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
