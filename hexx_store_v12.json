@@ -19543,7 +19543,8 @@
       "lastBotMessageHasPhoto": true,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "6534617119": {
       "id": 6534617119,
@@ -19590,7 +19591,8 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "8178559972": {
       "id": 8178559972,
@@ -19611,7 +19613,8 @@
       "isBanned": false,
       "history": [],
       "lastBotMessageId": 13153,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "6426380534": {
       "id": 6426380534,
@@ -19679,7 +19682,8 @@
       "lastBotMessageId": 13253,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "8614897424": {
       "id": 8614897424,
@@ -19747,7 +19751,8 @@
       "lastBotMessageId": 13280,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-11-04",
-      "awaitingRedeemCode": false
+      "awaitingRedeemCode": false,
+      "liveLocationUsed": 0
     },
     "5634972588": {
       "id": 5634972588,
@@ -19771,7 +19776,8 @@
       "lastBotMessageId": 13269,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "6508916564": {
       "id": 6508916564,
@@ -19795,7 +19801,8 @@
       "lastBotMessageId": 13293,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "8686045649": {
       "id": 8686045649,
@@ -19841,7 +19848,8 @@
       "lastBotMessageId": 13297,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "8065800332": {
       "id": 8065800332,
@@ -19886,7 +19894,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 13303,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "5892051654": {
       "id": 5892051654,
@@ -19910,7 +19919,8 @@
       "lastBotMessageId": 13306,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "9217834561": {
       "id": 9217834561,
@@ -19977,7 +19987,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 13320,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "8698255160": {
       "id": 8698255160,
@@ -20023,7 +20034,8 @@
       "lastBotMessageId": 13329,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "9104238983": {
       "id": 9104238983,
@@ -20089,6 +20101,30 @@
       ],
       "forceJoinVerified": true,
       "lastBotMessageId": 13343,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
+    },
+    "8865323842": {
+      "id": 8865323842,
+      "firstName": "UTKARSH",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX323842",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T15:46:01.956Z",
+      "lastActiveAt": "2026-11-04T15:46:23.592Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13345,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-04"
@@ -22589,6 +22625,14 @@
   ],
   "logs": [
     {
+      "id": "0c5fdee9-daec-46fd-a0d5-24d2fd6bc795",
+      "timestamp": "2026-11-04T15:46:02.842Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8865323842,
+      "userName": "UTKARSH",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "97d62329-7af0-454c-aeb5-af89987c6d02",
       "timestamp": "2026-11-04T15:23:29.958Z",
       "type": "LOOKUP",
@@ -23779,17 +23823,9 @@
       "userId": 8204686451,
       "userName": "Rashmi",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "5e10bb7f-e372-4fb4-872a-fdee8a57dea2",
-      "timestamp": "2026-11-03T12:45:45.410Z",
-      "type": "LOOKUP",
-      "userId": 6862857569,
-      "userName": "..",
-      "summary": "Number Lookup 9424812840 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814825,
+  "lastTelegramUpdateId": 168814832,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
