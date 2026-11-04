@@ -18864,6 +18864,30 @@
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
+    },
+    "9219225793": {
+      "id": 9219225793,
+      "firstName": "Anixxx",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX225793",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T05:44:48.208Z",
+      "lastActiveAt": "2026-11-04T05:45:21.772Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 13013,
+      "lastBotMessageHasPhoto": true,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-04"
     }
   },
@@ -19133,6 +19157,29 @@
       "createdAt": "2026-11-03T19:18:53.368Z",
       "expiresAt": "2026-11-03T19:28:53.368Z",
       "botQrMessageId": 12918
+    },
+    "HEX0FOT5793": {
+      "orderId": "HEX0FOT5793",
+      "famOrderId": "HEX0FOT5793",
+      "userId": 9219225793,
+      "userName": "Anixxx",
+      "planId": "plan_7d",
+      "planName": "1 Week Pass",
+      "amount": 29,
+      "payableAmount": "29",
+      "qrImageUrl": "https://hexx-locate.ai.studio/api/qr/HEX0FOT5793",
+      "qrDataUrl": "data:image/png;base64,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",
+      "lastImapScanAt": 0,
+      "credits": 0,
+      "days": 7,
+      "status": "PENDING",
+      "paymentUrl": "https://hexx-locate.ai.studio/?order=HEX0FOT5793",
+      "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX0FOT5793&tr=HEX0FOT5793",
+      "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEX0FOT5793&tr=HEX0FOT5793",
+      "gatewaySource": "direct_gmail",
+      "createdAt": "2026-11-04T05:45:21.773Z",
+      "expiresAt": "2026-11-04T05:55:21.773Z",
+      "botQrMessageId": 13013
     }
   },
   "globalHistory": [
@@ -21339,6 +21386,14 @@
   ],
   "logs": [
     {
+      "id": "b4e8ed64-725b-4093-b832-d7bc5559dc50",
+      "timestamp": "2026-11-04T05:45:21.811Z",
+      "type": "PAYMENT",
+      "userId": 9219225793,
+      "userName": "Anixxx",
+      "summary": "Created Auto-QR Order HEX0FOT5793 (₹29 for 7 Days VIP)"
+    },
+    {
       "id": "47c35808-543e-4aac-a015-4f2d3ff6ad5c",
       "timestamp": "2026-11-04T05:22:28.933Z",
       "type": "LOOKUP",
@@ -22529,17 +22584,9 @@
       "userId": 5547055438,
       "userName": "Kartik",
       "summary": "Number Lookup 8076646001 (Not found)"
-    },
-    {
-      "id": "c80ec9ee-3100-48cd-af75-172a9117b3c8",
-      "timestamp": "2026-11-02T18:04:21.887Z",
-      "type": "LOOKUP",
-      "userId": 7278682643,
-      "userName": "SARTHAK!!",
-      "summary": "Number Lookup 9234251510 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814530,
+  "lastTelegramUpdateId": 168814552,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
