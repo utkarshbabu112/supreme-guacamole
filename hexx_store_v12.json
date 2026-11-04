@@ -18820,6 +18820,29 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-03",
       "liveLocationUsed": 0
+    },
+    "7510059854": {
+      "id": 7510059854,
+      "firstName": ".",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX059854",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T05:12:00.768Z",
+      "lastActiveAt": "2026-11-04T05:13:11.837Z",
+      "isBanned": false,
+      "history": [],
+      "lastBotMessageId": 12990,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-04"
     }
   },
   "orders": {
@@ -21294,6 +21317,14 @@
   ],
   "logs": [
     {
+      "id": "23044a02-0fa5-4a5d-a81e-f87ef7e2cfbe",
+      "timestamp": "2026-11-04T05:12:01.666Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7510059854,
+      "userName": ".",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "3e40a16c-84c7-4b6d-a3ba-8886dd0ebc0f",
       "timestamp": "2026-11-04T02:48:40.646Z",
       "type": "LOOKUP",
@@ -22484,17 +22515,9 @@
       "userId": 7278682643,
       "userName": "SARTHAK!!",
       "summary": "Number Lookup 9234251510 (Not found)"
-    },
-    {
-      "id": "5b0b8140-cfbd-4802-9d71-71664deacc25",
-      "timestamp": "2026-11-02T18:03:08.197Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7278682643,
-      "userName": "SARTHAK!!",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814518,
+  "lastTelegramUpdateId": 168814525,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
