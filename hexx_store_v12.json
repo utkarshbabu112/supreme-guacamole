@@ -19369,19 +19369,19 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 3,
+      "totalLookups": 2,
       "referralCode": "HEX700753",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-04T10:28:11.984Z",
-      "lastActiveAt": "2026-11-04T10:53:13.858Z",
+      "lastActiveAt": "2026-11-04T10:38:03.868Z",
       "isBanned": false,
       "history": [
         {
-          "id": "62ec5b1c-4905-4a7a-b72a-00fe8a51da32",
+          "id": "3bb23700-a3cb-4c0b-8efd-71420fe6eee0",
           "queryNumber": "8303517822",
-          "timestamp": "2026-11-04T10:53:14.211Z",
+          "timestamp": "2026-11-04T10:38:04.220Z",
           "source": "bot",
           "userId": 6451700753,
           "userName": "Akshit",
@@ -19423,7 +19423,7 @@
           }
         }
       ],
-      "lastBotMessageId": 13121,
+      "lastBotMessageId": 13089,
       "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
@@ -19453,6 +19453,53 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-04",
       "liveLocationUsed": 0
+    },
+    "8386387439": {
+      "id": 8386387439,
+      "firstName": "🏆MADMAX 💀",
+      "username": "MADMAXSARKAR",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX387439",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T11:14:19.198Z",
+      "lastActiveAt": "2026-11-04T11:16:05.765Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "e3632bf0-0772-42a5-8fbd-1c8e6faddff0",
+          "queryNumber": "7891617731",
+          "timestamp": "2026-11-04T11:15:34.846Z",
+          "source": "bot",
+          "userId": 8386387439,
+          "userName": "🏆MADMAX 💀",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7891617731",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "lastBotMessageId": 13131,
+      "lastBotMessageHasPhoto": false,
+      "forceJoinVerified": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-04"
     }
   },
   "orders": {
@@ -19748,16 +19795,16 @@
   },
   "globalHistory": [
     {
-      "id": "62ec5b1c-4905-4a7a-b72a-00fe8a51da32",
-      "queryNumber": "8303517822",
-      "timestamp": "2026-11-04T10:53:14.211Z",
+      "id": "e3632bf0-0772-42a5-8fbd-1c8e6faddff0",
+      "queryNumber": "7891617731",
+      "timestamp": "2026-11-04T11:15:34.846Z",
       "source": "bot",
-      "userId": 6451700753,
-      "userName": "Akshit",
+      "userId": 8386387439,
+      "userName": "🏆MADMAX 💀",
       "resultSummary": {
         "name": "Not found",
         "fatherName": "Not found",
-        "mobile": "8303517822",
+        "mobile": "7891617731",
         "altMobile": "Not found",
         "circle": "New Delhi, Delhi",
         "idNumber": "Not found",
@@ -21950,12 +21997,28 @@
   ],
   "logs": [
     {
-      "id": "ea413cd0-18a0-431c-a70d-f953376352e0",
-      "timestamp": "2026-11-04T10:53:14.211Z",
+      "id": "c07d0121-c3ba-4902-b8fa-dcd086928112",
+      "timestamp": "2026-11-04T11:15:34.846Z",
       "type": "LOOKUP",
-      "userId": 6451700753,
-      "userName": "Akshit",
-      "summary": "Number Lookup 8303517822 (Not found)"
+      "userId": 8386387439,
+      "userName": "🏆MADMAX 💀",
+      "summary": "Number Lookup 7891617731 (Not found)"
+    },
+    {
+      "id": "27748a3f-bee4-4fad-828c-5b63c458c117",
+      "timestamp": "2026-11-04T11:15:28.812Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8386387439,
+      "userName": "🏆MADMAX 💀",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "9be812c0-93df-4e1c-8246-706e41076e35",
+      "timestamp": "2026-11-04T11:14:20.212Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8386387439,
+      "userName": "🏆MADMAX 💀",
+      "summary": "Force Join prompt shown on /start"
     },
     {
       "id": "25e57b90-bb31-42d3-8200-94d71d44e9c4",
@@ -23132,25 +23195,9 @@
       "userId": 8354887610,
       "userName": "Ankush",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "94d2a0f8-2866-4a16-8434-238dff1b3681",
-      "timestamp": "2026-11-03T02:09:26.320Z",
-      "type": "LOOKUP",
-      "userId": 8354887610,
-      "userName": "Ankush",
-      "summary": "Number Lookup 8700563975 (Not found)"
-    },
-    {
-      "id": "707f19cd-40d9-4399-a978-119df10739cb",
-      "timestamp": "2026-11-03T02:09:09.302Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8354887610,
-      "userName": "Ankush",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168814646,
+  "lastTelegramUpdateId": 168814655,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
