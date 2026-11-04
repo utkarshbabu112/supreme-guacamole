@@ -556,6 +556,52 @@
       "lastLookupDate": "2026-10-29",
       "liveLocationUsed": 0
     },
+    "793362713": {
+      "id": 793362713,
+      "firstName": "Dustin!",
+      "username": "dustibunST",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX362713",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T18:25:44.119Z",
+      "lastActiveAt": "2026-11-04T18:26:12.211Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "567285ff-b174-435e-b34f-7e3805b0e6c2",
+          "queryNumber": "8927202299",
+          "timestamp": "2026-11-04T18:26:12.572Z",
+          "source": "bot",
+          "userId": 793362713,
+          "userName": "Dustin!",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "8927202299",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13374,
+      "lastBotMessageHasPhoto": false,
+      "lastLookupDate": "2026-11-04"
+    },
     "867652545": {
       "id": 867652545,
       "firstName": "𓆩 Saͥheͣnͫ LOGO Maker𓆪",
@@ -20559,6 +20605,28 @@
   },
   "globalHistory": [
     {
+      "id": "567285ff-b174-435e-b34f-7e3805b0e6c2",
+      "queryNumber": "8927202299",
+      "timestamp": "2026-11-04T18:26:12.572Z",
+      "source": "bot",
+      "userId": 793362713,
+      "userName": "Dustin!",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "8927202299",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
       "id": "92f0ed3c-f098-4fe3-aaf1-a4408414c7bd",
       "queryNumber": "8441896260",
       "timestamp": "2026-11-04T16:57:13.394Z",
@@ -22735,31 +22803,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "6a1030f5-9317-445f-bc98-446fec05a7d3",
-      "queryNumber": "8082241605",
-      "timestamp": "2026-11-03T02:11:03.773Z",
-      "source": "bot",
-      "userId": 8971496214,
-      "userName": "Alfiya",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8082241605",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "62a9846c-ddab-448f-a60a-f7535276db31",
+      "timestamp": "2026-11-04T18:26:12.572Z",
+      "type": "LOOKUP",
+      "userId": 793362713,
+      "userName": "Dustin!",
+      "summary": "Number Lookup 8927202299 (Not found)"
+    },
+    {
+      "id": "b09f5970-a12b-4daf-a3e7-fdab273d6122",
+      "timestamp": "2026-11-04T18:25:44.851Z",
+      "type": "BOT_MESSAGE",
+      "userId": 793362713,
+      "userName": "Dustin!",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "83fd8f16-0c10-476c-8adf-c29aa970942a",
       "timestamp": "2026-11-04T17:50:04.219Z",
@@ -23943,25 +24005,9 @@
       "userId": 8843654177,
       "userName": "Samar",
       "summary": "Number Lookup 7303628895 (Not found)"
-    },
-    {
-      "id": "b8815190-4a75-4c01-b56a-0205697560e8",
-      "timestamp": "2026-11-03T13:54:56.678Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8843654177,
-      "userName": "Samar",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "542ac2b1-9b36-4365-aea0-6541643fa885",
-      "timestamp": "2026-11-03T13:48:52.666Z",
-      "type": "LOOKUP",
-      "userId": 7422247537,
-      "userName": "Kapil kushwaha",
-      "summary": "Number Lookup 9616332857 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814860,
+  "lastTelegramUpdateId": 168814864,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
