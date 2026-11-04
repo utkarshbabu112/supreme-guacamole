@@ -600,7 +600,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 13374,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "867652545": {
       "id": 867652545,
@@ -1086,7 +1087,8 @@
       "lastBotMessageId": 13369,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "1059714438": {
       "id": 1059714438,
@@ -1384,7 +1386,8 @@
       "lastBotMessageId": 13358,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "1191090848": {
       "id": 1191090848,
@@ -20309,7 +20312,8 @@
       "lastBotMessageId": 13352,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "8771049669": {
       "id": 8771049669,
@@ -20356,7 +20360,8 @@
       "lastBotMessageId": 13378,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "8624205666": {
       "id": 8624205666,
@@ -20379,7 +20384,8 @@
       "lastBotMessageId": 13385,
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "9186536337": {
       "id": 9186536337,
@@ -20400,7 +20406,8 @@
       "history": [],
       "forceJoinVerified": true,
       "lastBotMessageId": 13395,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "9029160105": {
       "id": 9029160105,
@@ -20445,7 +20452,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 13402,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
