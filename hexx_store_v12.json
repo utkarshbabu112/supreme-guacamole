@@ -20500,6 +20500,28 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-04"
+    },
+    "8483450523": {
+      "id": 8483450523,
+      "firstName": "P.B",
+      "username": "PARANORMALBOY7",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX450523",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T23:22:11.918Z",
+      "lastActiveAt": "2026-11-04T23:22:11.918Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 13410,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -22997,6 +23019,14 @@
   ],
   "logs": [
     {
+      "id": "4bda4603-5b8c-4a0c-a1e7-7846acc1142d",
+      "timestamp": "2026-11-04T23:22:12.932Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8483450523,
+      "userName": "P.B",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "d0559d9d-ddee-4321-ad73-9fc33e424764",
       "timestamp": "2026-11-04T22:56:33.784Z",
       "type": "LOOKUP",
@@ -24187,17 +24217,9 @@
       "userId": 8058055445,
       "userName": "Lucky",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "8318e3b3-df15-430b-bc91-bbedcf66001f",
-      "timestamp": "2026-11-03T15:40:06.514Z",
-      "type": "LOOKUP",
-      "userId": 8058055445,
-      "userName": "Lucky",
-      "summary": "Number Lookup 7081865578 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814896,
+  "lastTelegramUpdateId": 168814897,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
