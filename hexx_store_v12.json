@@ -20357,6 +20357,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-04"
+    },
+    "8624205666": {
+      "id": 8624205666,
+      "firstName": ".",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX205666",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T18:39:13.498Z",
+      "lastActiveAt": "2026-11-04T18:40:06.422Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13385,
+      "lastBotMessageHasPhoto": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-04"
     }
   },
   "orders": {
@@ -22854,6 +22877,30 @@
   ],
   "logs": [
     {
+      "id": "8b977661-af38-410b-b575-af0c9eeda3a5",
+      "timestamp": "2026-11-04T18:40:06.710Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8624205666,
+      "userName": ".",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "457b1333-7d63-4f74-be23-766322d6e5b5",
+      "timestamp": "2026-11-04T18:39:47.091Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8624205666,
+      "userName": ".",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "476068d0-eb87-43b3-b9e6-11bc5f9b11c7",
+      "timestamp": "2026-11-04T18:39:14.041Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8624205666,
+      "userName": ".",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "2d87cffd-8e8b-438e-9a46-0a7adfb82c73",
       "timestamp": "2026-11-04T18:34:33.883Z",
       "type": "LOOKUP",
@@ -24028,33 +24075,9 @@
       "userId": 8463673971,
       "userName": "⚡🄻🄴🄶🄴🄽🄳🄱🄾🅈⚡",
       "summary": "Number Lookup 9256833768 (Not found)"
-    },
-    {
-      "id": "d6384936-0ba2-480d-bf5e-b41feac7dfd9",
-      "timestamp": "2026-11-03T13:58:01.140Z",
-      "type": "LOOKUP",
-      "userId": 5867277215,
-      "userName": "Gautam",
-      "summary": "Number Lookup 7982607740 (Not found)"
-    },
-    {
-      "id": "e4f14c0d-c7dd-4ebd-9095-f125f1fd4cb7",
-      "timestamp": "2026-11-03T13:57:48.122Z",
-      "type": "LOOKUP",
-      "userId": 5867277215,
-      "userName": "Gautam",
-      "summary": "Number Lookup 7982607740 (Not found)"
-    },
-    {
-      "id": "6d38456d-7a91-4ee7-8192-c914e6ece3c6",
-      "timestamp": "2026-11-03T13:56:21.251Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8843654177,
-      "userName": "Samar",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168814868,
+  "lastTelegramUpdateId": 168814872,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
