@@ -19956,6 +19956,75 @@
       "lastBotMessageId": 13320,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-11-04"
+    },
+    "8698255160": {
+      "id": 8698255160,
+      "firstName": "Koke",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX255160",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T15:18:11.302Z",
+      "lastActiveAt": "2026-11-04T15:19:02.507Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "626a2ec5-cd5f-46bb-a66c-c05300ea99fc",
+          "queryNumber": "6389910839",
+          "timestamp": "2026-11-04T15:18:45.976Z",
+          "source": "bot",
+          "userId": 8698255160,
+          "userName": "Koke",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "6389910839",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13329,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-04"
+    },
+    "9104238983": {
+      "id": 9104238983,
+      "firstName": "Bb",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX238983",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T15:21:48.579Z",
+      "lastActiveAt": "2026-11-04T15:22:05.135Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13333,
+      "lastBotMessageHasPhoto": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-04"
     }
   },
   "orders": {
@@ -20250,6 +20319,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "626a2ec5-cd5f-46bb-a66c-c05300ea99fc",
+      "queryNumber": "6389910839",
+      "timestamp": "2026-11-04T15:18:45.976Z",
+      "source": "bot",
+      "userId": 8698255160,
+      "userName": "Koke",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "6389910839",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "feb1569c-4086-4fc7-b375-4cbf98e646a2",
       "queryNumber": "9771425886",
@@ -22427,31 +22518,41 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "52a0f823-86cc-45db-8787-146b3c60fab6",
-      "queryNumber": "7470417472",
-      "timestamp": "2026-11-02T19:00:26.631Z",
-      "source": "bot",
-      "userId": 7991147992,
-      "userName": "A",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7470417472",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "418bd4cd-d105-4d35-9c93-8c3de927b760",
+      "timestamp": "2026-11-04T15:22:00.504Z",
+      "type": "BOT_MESSAGE",
+      "userId": 9104238983,
+      "userName": "Bb",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "95e754b1-68c1-4b7a-ab65-a8564ccb8f5e",
+      "timestamp": "2026-11-04T15:21:49.350Z",
+      "type": "BOT_MESSAGE",
+      "userId": 9104238983,
+      "userName": "Bb",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "19151048-92dd-44ef-a728-706b443f3f82",
+      "timestamp": "2026-11-04T15:18:45.976Z",
+      "type": "LOOKUP",
+      "userId": 8698255160,
+      "userName": "Koke",
+      "summary": "Number Lookup 6389910839 (Not found)"
+    },
+    {
+      "id": "876de98f-4d53-4f51-94a3-bb610c050a9e",
+      "timestamp": "2026-11-04T15:18:11.973Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8698255160,
+      "userName": "Koke",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "1c4fe58e-d6cf-49b6-a115-1897cbbef1ea",
       "timestamp": "2026-11-04T15:16:28.552Z",
@@ -23619,41 +23720,9 @@
       "userId": 7968080825,
       "userName": "aadarsh",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "9e03ba4e-865a-458b-a65d-2ad53a6d0bae",
-      "timestamp": "2026-11-03T12:18:42.831Z",
-      "type": "LOOKUP",
-      "userId": 6072202540,
-      "userName": "Quitted",
-      "summary": "Number Lookup 9048384434 (Not found)"
-    },
-    {
-      "id": "49ef9e4d-ba9d-4c20-b2ea-c7a0d4d7ba1c",
-      "timestamp": "2026-11-03T12:18:20.332Z",
-      "type": "LOOKUP",
-      "userId": 6072202540,
-      "userName": "Quitted",
-      "summary": "Number Lookup 9048222520 (Not found)"
-    },
-    {
-      "id": "8121b6b9-b863-466c-a3be-50db4b7ae1e7",
-      "timestamp": "2026-11-03T12:17:58.273Z",
-      "type": "LOOKUP",
-      "userId": 6072202540,
-      "userName": "Quitted",
-      "summary": "Number Lookup 7594974160 (Not found)"
-    },
-    {
-      "id": "24c5549a-0115-4586-9a3f-d513cfacc1f7",
-      "timestamp": "2026-11-03T12:17:33.549Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6072202540,
-      "userName": "Quitted",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814806,
+  "lastTelegramUpdateId": 168814819,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
