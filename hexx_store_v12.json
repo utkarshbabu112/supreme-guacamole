@@ -1019,6 +1019,29 @@
       "lastLookupDate": "2026-10-25",
       "liveLocationUsed": 0
     },
+    "1038616755": {
+      "id": 1038616755,
+      "firstName": "Shokirov",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX616755",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-04T17:50:03.514Z",
+      "lastActiveAt": "2026-11-04T17:50:55.802Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13369,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-04"
+    },
     "1059714438": {
       "id": 1059714438,
       "firstName": "Aripitjee",
@@ -22738,6 +22761,14 @@
   ],
   "logs": [
     {
+      "id": "83fd8f16-0c10-476c-8adf-c29aa970942a",
+      "timestamp": "2026-11-04T17:50:04.219Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1038616755,
+      "userName": "Shokirov",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "ad4abe8f-ca4a-414d-94cb-1e0d673e4a71",
       "timestamp": "2026-11-04T16:57:13.395Z",
       "type": "LOOKUP",
@@ -23928,17 +23959,9 @@
       "userId": 7422247537,
       "userName": "Kapil kushwaha",
       "summary": "Number Lookup 9616332857 (Not found)"
-    },
-    {
-      "id": "4a14786d-79ff-4603-ae8e-4080f8ce3a8b",
-      "timestamp": "2026-11-03T13:47:51.686Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7422247537,
-      "userName": "Kapil kushwaha",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814852,
+  "lastTelegramUpdateId": 168814860,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
