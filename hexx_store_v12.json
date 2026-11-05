@@ -1740,6 +1740,28 @@
       "lastLookupDate": "2026-10-28",
       "liveLocationUsed": 0
     },
+    "1306945928": {
+      "id": 1306945928,
+      "firstName": "ORETZ [Support]",
+      "username": "stripexo",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX945928",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-05T00:01:40.013Z",
+      "lastActiveAt": "2026-11-05T00:01:40.013Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 13412,
+      "lastBotMessageHasPhoto": false
+    },
     "1340007569": {
       "id": 1340007569,
       "firstName": "Parth",
@@ -23019,6 +23041,14 @@
   ],
   "logs": [
     {
+      "id": "9b748371-af30-4db8-8c18-63c3d59bbfed",
+      "timestamp": "2026-11-05T00:01:41.025Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1306945928,
+      "userName": "ORETZ [Support]",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "4bda4603-5b8c-4a0c-a1e7-7846acc1142d",
       "timestamp": "2026-11-04T23:22:12.932Z",
       "type": "BOT_MESSAGE",
@@ -24209,17 +24239,9 @@
       "userId": 8058055445,
       "userName": "Lucky",
       "summary": "Number Lookup 8824750499 (Not found)"
-    },
-    {
-      "id": "c90f6ce1-c96d-49de-ad0b-be8e23b6b1b2",
-      "timestamp": "2026-11-03T15:41:49.883Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8058055445,
-      "userName": "Lucky",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168814897,
+  "lastTelegramUpdateId": 168814900,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
