@@ -1755,12 +1755,14 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-05T00:01:40.013Z",
-      "lastActiveAt": "2026-11-05T00:01:40.013Z",
+      "lastActiveAt": "2026-11-05T00:17:19.770Z",
       "isBanned": false,
       "history": [],
-      "forceJoinVerified": false,
+      "forceJoinVerified": true,
       "lastBotMessageId": 13412,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-05"
     },
     "1340007569": {
       "id": 1340007569,
@@ -24241,7 +24243,7 @@
       "summary": "Number Lookup 8824750499 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814900,
+  "lastTelegramUpdateId": 168814905,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
