@@ -21063,6 +21063,29 @@
       "forceJoinVerified": false,
       "lastBotMessageId": 13515,
       "lastBotMessageHasPhoto": false
+    },
+    "6383913557": {
+      "id": 6383913557,
+      "firstName": "Sbz",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX913557",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-05T11:30:47.371Z",
+      "lastActiveAt": "2026-11-05T11:32:12.234Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13517,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-05"
     }
   },
   "orders": {
@@ -23560,6 +23583,14 @@
   ],
   "logs": [
     {
+      "id": "59618607-963c-43f7-b47b-3ebe10180a3b",
+      "timestamp": "2026-11-05T11:30:48.478Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6383913557,
+      "userName": "Sbz",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "d1bcbe5e-1f41-4045-9b2f-2330c924f8ca",
       "timestamp": "2026-11-05T10:53:09.578Z",
       "type": "BOT_MESSAGE",
@@ -24750,17 +24781,9 @@
       "userId": 9266671378,
       "userName": "USER",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "5351db53-05c3-4b36-bc72-fa2b01ed567f",
-      "timestamp": "2026-11-03T19:00:23.337Z",
-      "type": "BOT_MESSAGE",
-      "userId": 2125516627,
-      "userName": "SawzZㅤ🥷🏽!!",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815008,
+  "lastTelegramUpdateId": 168815019,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
