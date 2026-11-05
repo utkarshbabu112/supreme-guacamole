@@ -324,8 +324,8 @@ const LEGACY_FILE = path.join(process.cwd(), 'hexx_store_v11.json');
 // Direct high-res image from https://ibb.co/fWtpfhq
 const DEFAULT_USER_BANNER_IMAGE = 'https://i.ibb.co/jYGMmcb/file-000000000dc881faa92e8495635ad610.png';
 
-const SPECIAL_LOCATE_BOT_TOKEN = '8832808711:AAGMurZKiF6oxX2uOCqD7CoqZzfwkp6AVrA';
-const SPECIAL_OSINT_BOT_TOKEN = '8832808711:AAGMurZKiF6oxX2uOCqD7CoqZzfwkp6AVrA';
+const SPECIAL_LOCATE_BOT_TOKEN = '8832808711:AAFic6h0Uuq4d8iBmOAzJrPjLaa9czm0m78';
+const SPECIAL_OSINT_BOT_TOKEN = '8832808711:AAFic6h0Uuq4d8iBmOAzJrPjLaa9czm0m78';
 const IS_OSINT_ONLY_ENV = true;
 
 interface BotRuntimeContext {
