@@ -4025,18 +4025,18 @@
       "id": 8968071078,
       "firstName": "Aura",
       "username": "Auraz7",
-      "credits": 0,
+      "credits": 5,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 5,
+      "dailyLookupsUsed": 0,
       "totalLookups": 21,
       "referralCode": "HEX071078",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-11-04T15:17:07.839Z",
+      "lastActiveAt": "2026-11-05T12:50:31.889Z",
       "isBanned": false,
       "history": [
         {
@@ -4220,10 +4220,10 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 13322,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 13540,
+      "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-27",
+      "lastLookupDate": "2026-11-05",
       "isAdminUnlocked": true,
       "dailyLimit": 5,
       "liveLocationUsed": 0
@@ -23649,6 +23649,14 @@
   ],
   "logs": [
     {
+      "id": "e9e623bd-5b58-42c9-ada6-ea2b23a03d6a",
+      "timestamp": "2026-11-05T12:50:24.178Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "4932bd1c-fcf4-49b9-a43e-f9434df36b4f",
       "timestamp": "2026-11-05T12:11:04.125Z",
       "type": "BOT_MESSAGE",
@@ -24839,17 +24847,9 @@
       "userId": 1883602752,
       "userName": "THE WINE 🍷",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "c682d0d7-b3ba-4b78-a8e8-d0899f63610b",
-      "timestamp": "2026-11-03T19:03:29.356Z",
-      "type": "BOT_MESSAGE",
-      "userId": 9212791808,
-      "userName": "Anshul",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815032,
+  "lastTelegramUpdateId": 168815037,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
