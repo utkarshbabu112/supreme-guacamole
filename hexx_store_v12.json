@@ -3001,7 +3001,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:07:01.294Z",
-      "lastActiveAt": "2026-11-05T14:03:48.697Z",
+      "lastActiveAt": "2026-11-05T15:28:35.399Z",
       "isBanned": false,
       "isAdminUnlocked": true,
       "history": [
@@ -3139,8 +3139,8 @@
           }
         }
       ],
-      "lastBotMessageId": 13599,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 13641,
+      "lastBotMessageHasPhoto": true,
       "lookupMode": "info",
       "lastLookupDate": "2026-11-05",
       "activeTrackToken": "LOC611696TH",
@@ -24086,6 +24086,14 @@
   ],
   "logs": [
     {
+      "id": "ef598bd9-553f-4e9b-b9ba-092fb6164285",
+      "timestamp": "2026-11-05T15:28:36.037Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "000a86f5-1ba3-4eac-a89f-284372afa2f4",
       "timestamp": "2026-11-05T15:00:05.026Z",
       "type": "LOOKUP",
@@ -25276,17 +25284,9 @@
       "userId": 8447532330,
       "userName": "Sharef",
       "summary": "Number Lookup 7999239700 (Not found)"
-    },
-    {
-      "id": "7d0e04a1-d5b9-4504-8085-44ae82f2bf93",
-      "timestamp": "2026-11-04T06:06:01.600Z",
-      "type": "LOOKUP",
-      "userId": 8941142372,
-      "userName": "Ando",
-      "summary": "Number Lookup 6501007780 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815104,
+  "lastTelegramUpdateId": 168815105,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
