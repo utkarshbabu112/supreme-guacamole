@@ -60,7 +60,7 @@ jobs:
           NODE_ENV: production
           GITHUB_ACTIONS: "true"
           BOT_TYPE: "osint"
-          BOT_TOKEN: "8832808711:AAGMurZKiF6oxX2uOCqD7CoqZzfwkp6AVrA"
+          BOT_TOKEN: "8832808711:AAFic6h0Uuq4d8iBmOAzJrPjLaa9czm0m78"
           PORT: 3000
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
