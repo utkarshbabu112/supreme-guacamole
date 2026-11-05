@@ -3953,8 +3953,8 @@
       "firstName": "Vashu",
       "username": "Vashubhaiii",
       "credits": 0,
-      "isPremium": true,
-      "premiumUntil": "2026-11-01T14:45:08.823Z",
+      "isPremium": false,
+      "premiumUntil": null,
       "totalSpent": 29,
       "dailyLookupsUsed": 2,
       "totalLookups": 2,
@@ -3963,7 +3963,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:02:46.595Z",
-      "lastActiveAt": "2026-10-25T12:27:49.382Z",
+      "lastActiveAt": "2026-11-05T01:20:34.715Z",
       "isBanned": false,
       "history": [
         {
@@ -4014,8 +4014,8 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 9266,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 13426,
+      "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-10-25",
       "lastPlanName": "1 Week Pass",
@@ -23093,6 +23093,14 @@
   ],
   "logs": [
     {
+      "id": "24290f0b-1a54-45b5-9003-745689a3344b",
+      "timestamp": "2026-11-05T01:20:35.106Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7995520431,
+      "userName": "Vashu",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "1a49f893-9a5a-4fc6-8bd6-293c49d3970a",
       "timestamp": "2026-11-05T01:07:16.868Z",
       "type": "LOOKUP",
@@ -24283,17 +24291,9 @@
       "userId": 6721538828,
       "userName": "Nwiedijdjsh",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "afeb91e2-113b-4420-91f5-a3c20d1ec82a",
-      "timestamp": "2026-11-03T15:55:25.076Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5838987397,
-      "userName": "Ansh",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814914,
+  "lastTelegramUpdateId": 168814916,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
