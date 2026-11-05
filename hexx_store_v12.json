@@ -21898,18 +21898,43 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "totalLookups": 2,
       "referralCode": "HEX825517",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-05T17:24:51.917Z",
-      "lastActiveAt": "2026-11-05T17:24:51.917Z",
+      "lastActiveAt": "2026-11-05T17:26:24.537Z",
       "isBanned": false,
-      "history": [],
-      "forceJoinVerified": false,
-      "lastBotMessageId": 13682,
-      "lastBotMessageHasPhoto": false
+      "history": [
+        {
+          "id": "fb3c758c-c847-4ab0-82e3-cc452bf1c334",
+          "queryNumber": "7041113686",
+          "timestamp": "2026-11-05T17:26:24.842Z",
+          "source": "bot",
+          "userId": 7244825517,
+          "userName": "Harmit",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "7041113686",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13687,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-05"
     }
   },
   "orders": {
@@ -22204,6 +22229,50 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "fb3c758c-c847-4ab0-82e3-cc452bf1c334",
+      "queryNumber": "7041113686",
+      "timestamp": "2026-11-05T17:26:24.842Z",
+      "source": "bot",
+      "userId": 7244825517,
+      "userName": "Harmit",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7041113686",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "e8515e74-0ed8-4ec5-8e72-13f464109b76",
+      "queryNumber": "7041113686",
+      "timestamp": "2026-11-05T17:25:52.038Z",
+      "source": "bot",
+      "userId": 7244825517,
+      "userName": "Harmit",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "7041113686",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "42431407-401f-404a-a733-fb469fc3497c",
       "queryNumber": "9572108713",
@@ -24359,53 +24428,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "2bf42b7e-f5a0-4f37-ac0b-7adddcd5b729",
-      "queryNumber": "9065634231",
-      "timestamp": "2026-11-03T19:17:15.747Z",
-      "source": "bot",
-      "userId": 1883602752,
-      "userName": "THE WINE 🍷",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9065634231",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "110b3776-50ce-4c6a-914c-e5760604506f",
-      "queryNumber": "8303565794",
-      "timestamp": "2026-11-03T19:02:16.183Z",
-      "source": "bot",
-      "userId": 9266671378,
-      "userName": "USER",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8303565794",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "5f73c352-893f-4172-b76a-1eca3fe270bf",
+      "timestamp": "2026-11-05T17:26:24.842Z",
+      "type": "LOOKUP",
+      "userId": 7244825517,
+      "userName": "Harmit",
+      "summary": "Number Lookup 7041113686 (Not found)"
+    },
+    {
+      "id": "313938a7-3d4e-4e29-8bd9-fe1e202978cb",
+      "timestamp": "2026-11-05T17:25:52.038Z",
+      "type": "LOOKUP",
+      "userId": 7244825517,
+      "userName": "Harmit",
+      "summary": "Number Lookup 7041113686 (Not found)"
+    },
     {
       "id": "764052ff-d70f-45f9-b5bc-edd9ecaf8474",
       "timestamp": "2026-11-05T17:24:53.033Z",
@@ -25589,25 +25630,9 @@
       "userId": 1833129260,
       "userName": "Drkw0lf",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "6a5ca67c-003c-4eb6-9d93-0507f3bb041b",
-      "timestamp": "2026-11-04T10:44:46.643Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7864394864,
-      "userName": "@giftstarsin",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "4da5499c-f536-49f5-ae5e-6f3d503ad97e",
-      "timestamp": "2026-11-04T10:38:04.220Z",
-      "type": "LOOKUP",
-      "userId": 6451700753,
-      "userName": "Akshit",
-      "summary": "Number Lookup 8303517822 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815143,
+  "lastTelegramUpdateId": 168815148,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
