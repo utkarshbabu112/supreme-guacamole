@@ -20761,6 +20761,27 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-05"
+    },
+    "8828933805": {
+      "id": 8828933805,
+      "firstName": "Mr cool",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX933805",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-05T07:17:20.680Z",
+      "lastActiveAt": "2026-11-05T07:17:20.813Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 13468,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -24458,7 +24479,7 @@
       "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168814958,
+  "lastTelegramUpdateId": 168814960,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
