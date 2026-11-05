@@ -21474,6 +21474,76 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-05"
+    },
+    "7744334146": {
+      "id": 7744334146,
+      "firstName": "Rockzy",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 3,
+      "referralCode": "HEX334146",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-05T14:54:35.385Z",
+      "lastActiveAt": "2026-11-05T14:55:24.611Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "8e45dedc-c6b3-44a4-8d35-8fa3d55502f9",
+          "queryNumber": "9885063337",
+          "timestamp": "2026-11-05T14:55:24.970Z",
+          "source": "bot",
+          "userId": 7744334146,
+          "userName": "Rockzy",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9885063337",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13633,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-05"
+    },
+    "6905427880": {
+      "id": 6905427880,
+      "firstName": "NOX",
+      "username": "noxff99",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX427880",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-05T14:59:07.350Z",
+      "lastActiveAt": "2026-11-05T14:59:20.434Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13635,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-05"
     }
   },
   "orders": {
@@ -21768,6 +21838,72 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "8e45dedc-c6b3-44a4-8d35-8fa3d55502f9",
+      "queryNumber": "9885063337",
+      "timestamp": "2026-11-05T14:55:24.970Z",
+      "source": "bot",
+      "userId": 7744334146,
+      "userName": "Rockzy",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9885063337",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "1fd288c0-3ab2-47d7-8a32-90f756f122a4",
+      "queryNumber": "9885063337",
+      "timestamp": "2026-11-05T14:55:13.073Z",
+      "source": "bot",
+      "userId": 7744334146,
+      "userName": "Rockzy",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9885063337",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "ff9a09c0-9a2f-43a3-a9fb-7b78a85a55a9",
+      "queryNumber": "9885063337",
+      "timestamp": "2026-11-05T14:55:03.411Z",
+      "source": "bot",
+      "userId": 7744334146,
+      "userName": "Rockzy",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9885063337",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "1c5e5bc8-e13e-4775-a810-f6835173b7f9",
       "queryNumber": "7441427304",
@@ -23901,75 +24037,49 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "6e5d3049-8047-41dd-ae70-d97d9be6d4f1",
-      "queryNumber": "7805997371",
-      "timestamp": "2026-11-03T16:49:35.360Z",
-      "source": "bot",
-      "userId": 8204686451,
-      "userName": "Rashmi",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7805997371",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "3462001a-6c9d-4468-bc41-1d494cba5b1a",
-      "queryNumber": "9555778074",
-      "timestamp": "2026-11-03T15:59:56.901Z",
-      "source": "bot",
-      "userId": 6179621259,
-      "userName": "𝐏𝐀𝐏𝐏𝐔 𝐏𝐄𝐋𝐔 | ☕",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9555778074",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "eda08729-2153-4d0c-9762-d73834253c7e",
-      "queryNumber": "9815539884",
-      "timestamp": "2026-11-03T15:57:27.180Z",
-      "source": "bot",
-      "userId": 6721538828,
-      "userName": "Nwiedijdjsh",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9815539884",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "34a5c3e4-b067-47a8-b251-b17dc15f3904",
+      "timestamp": "2026-11-05T14:59:08.036Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6905427880,
+      "userName": "NOX",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "c04947fd-5d74-4dad-aa41-587ac625b480",
+      "timestamp": "2026-11-05T14:55:24.970Z",
+      "type": "LOOKUP",
+      "userId": 7744334146,
+      "userName": "Rockzy",
+      "summary": "Number Lookup 9885063337 (Not found)"
+    },
+    {
+      "id": "37b77bfc-8a48-4cbb-b783-edc1d1813374",
+      "timestamp": "2026-11-05T14:55:13.073Z",
+      "type": "LOOKUP",
+      "userId": 7744334146,
+      "userName": "Rockzy",
+      "summary": "Number Lookup 9885063337 (Not found)"
+    },
+    {
+      "id": "bf7718b2-de37-4ad0-95e5-dd3cdd8a73f0",
+      "timestamp": "2026-11-05T14:55:03.411Z",
+      "type": "LOOKUP",
+      "userId": 7744334146,
+      "userName": "Rockzy",
+      "summary": "Number Lookup 9885063337 (Not found)"
+    },
+    {
+      "id": "28b21f3b-c5fa-47c4-936c-540e41efde2e",
+      "timestamp": "2026-11-05T14:54:36.039Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7744334146,
+      "userName": "Rockzy",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "586ee59c-3713-4c58-9f1e-653b8a12eee4",
       "timestamp": "2026-11-05T14:42:07.749Z",
@@ -25129,49 +25239,9 @@
       "userId": 8941142372,
       "userName": "Ando",
       "summary": "Number Lookup 6501007780 (Not found)"
-    },
-    {
-      "id": "20cbca89-6bf2-4e77-b410-d74b15144579",
-      "timestamp": "2026-11-04T06:04:46.945Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8941142372,
-      "userName": "Ando",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "5491af33-5b69-4af3-a840-7e7bb24e1aef",
-      "timestamp": "2026-11-04T05:59:32.913Z",
-      "type": "BOT_MESSAGE",
-      "userId": 9138780424,
-      "userName": "Psycho",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "b4e8ed64-725b-4093-b832-d7bc5559dc50",
-      "timestamp": "2026-11-04T05:45:21.811Z",
-      "type": "PAYMENT",
-      "userId": 9219225793,
-      "userName": "Anixxx",
-      "summary": "Created Auto-QR Order HEX0FOT5793 (₹29 for 7 Days VIP)"
-    },
-    {
-      "id": "47c35808-543e-4aac-a015-4f2d3ff6ad5c",
-      "timestamp": "2026-11-04T05:22:28.933Z",
-      "type": "LOOKUP",
-      "userId": 6247554367,
-      "userName": "Divya",
-      "summary": "Number Lookup 7904485925 (Not found)"
-    },
-    {
-      "id": "23044a02-0fa5-4a5d-a81e-f87ef7e2cfbe",
-      "timestamp": "2026-11-04T05:12:01.666Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7510059854,
-      "userName": ".",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815090,
+  "lastTelegramUpdateId": 168815102,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
