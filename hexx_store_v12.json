@@ -21641,6 +21641,28 @@
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-05"
+    },
+    "6297374588": {
+      "id": 6297374588,
+      "firstName": "Obito",
+      "username": "Maniac_Obito",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX374588",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-05T16:09:13.890Z",
+      "lastActiveAt": "2026-11-05T16:09:13.890Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 13654,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -24138,6 +24160,14 @@
   ],
   "logs": [
     {
+      "id": "4cad2333-90bd-495e-86d4-06f446cbd7ab",
+      "timestamp": "2026-11-05T16:09:14.614Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6297374588,
+      "userName": "Obito",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "153aa7e8-aba8-4296-8794-46d0245b5d55",
       "timestamp": "2026-11-05T16:00:48.305Z",
       "type": "LOOKUP",
@@ -25328,17 +25358,9 @@
       "userId": 6247554367,
       "userName": "Divya",
       "summary": "Number Lookup 7488932570 (Not found)"
-    },
-    {
-      "id": "5bf6729f-01c1-45a9-bc0d-9f6f5802c031",
-      "timestamp": "2026-11-04T06:46:19.252Z",
-      "type": "LOOKUP",
-      "userId": 6247554367,
-      "userName": "Divya",
-      "summary": "Number Lookup 7488932570 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815116,
+  "lastTelegramUpdateId": 168815117,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
