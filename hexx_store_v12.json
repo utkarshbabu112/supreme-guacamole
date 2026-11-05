@@ -1762,7 +1762,8 @@
       "lastBotMessageId": 13412,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-05"
+      "lastLookupDate": "2026-11-05",
+      "liveLocationUsed": 0
     },
     "1340007569": {
       "id": 1340007569,
@@ -20523,7 +20524,8 @@
       "lastBotMessageId": 13408,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04"
+      "lastLookupDate": "2026-11-04",
+      "liveLocationUsed": 0
     },
     "8483450523": {
       "id": 8483450523,
@@ -20545,7 +20547,8 @@
       "history": [],
       "forceJoinVerified": false,
       "lastBotMessageId": 13410,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     }
   },
   "orders": {
