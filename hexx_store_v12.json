@@ -21657,10 +21657,10 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-05T16:09:13.890Z",
-      "lastActiveAt": "2026-11-05T16:09:13.890Z",
+      "lastActiveAt": "2026-11-05T16:09:52.323Z",
       "isBanned": false,
       "history": [],
-      "forceJoinVerified": false,
+      "forceJoinVerified": true,
       "lastBotMessageId": 13654,
       "lastBotMessageHasPhoto": false
     }
@@ -25360,7 +25360,7 @@
       "summary": "Number Lookup 7488932570 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815117,
+  "lastTelegramUpdateId": 168815118,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
