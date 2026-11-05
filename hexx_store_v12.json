@@ -10275,7 +10275,7 @@
     "8678125218": {
       "id": 8678125218,
       "firstName": "Fih",
-      "credits": 2,
+      "credits": 4,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
@@ -10283,8 +10283,8 @@
       "totalLookups": 1,
       "referralCode": "HEX125218",
       "referredBy": null,
-      "referralCount": 0,
-      "referralCreditsEarned": 0,
+      "referralCount": 1,
+      "referralCreditsEarned": 2,
       "joinedAt": "2026-10-28T14:11:40.982Z",
       "lastActiveAt": "2026-10-28T14:12:11.305Z",
       "isBanned": false,
@@ -20713,7 +20713,8 @@
       "lastBotMessageId": 13453,
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-05"
+      "lastLookupDate": "2026-11-05",
+      "liveLocationUsed": 0
     },
     "7924140461": {
       "id": 7924140461,
@@ -20760,7 +20761,8 @@
       "lastBotMessageId": 13464,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-05"
+      "lastLookupDate": "2026-11-05",
+      "liveLocationUsed": 0
     },
     "8828933805": {
       "id": 8828933805,
@@ -20781,7 +20783,8 @@
       "history": [],
       "forceJoinVerified": false,
       "lastBotMessageId": 13468,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "8812742836": {
       "id": 8812742836,
@@ -20849,7 +20852,8 @@
       "lastBotMessageId": 13483,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-05"
+      "lastLookupDate": "2026-11-05",
+      "liveLocationUsed": 0
     },
     "8983229920": {
       "id": 8983229920,
@@ -20872,7 +20876,8 @@
       "lastBotMessageId": 13488,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-05"
+      "lastLookupDate": "2026-11-05",
+      "liveLocationUsed": 0
     },
     "5712852002": {
       "id": 5712852002,
@@ -20918,7 +20923,8 @@
       "lastBotMessageId": 13505,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-05"
+      "lastLookupDate": "2026-11-05",
+      "liveLocationUsed": 0
     },
     "5153480689": {
       "id": 5153480689,
@@ -20987,7 +20993,8 @@
       "lastBotMessageId": 13503,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-05"
+      "lastLookupDate": "2026-11-05",
+      "liveLocationUsed": 0
     },
     "7126633085": {
       "id": 7126633085,
@@ -21032,7 +21039,30 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 13513,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-11-05"
+      "lastLookupDate": "2026-11-05",
+      "liveLocationUsed": 0
+    },
+    "7456375776": {
+      "id": 7456375776,
+      "firstName": "X⁴",
+      "username": "Macareena",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX375776",
+      "referredBy": 8678125218,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-05T10:53:08.791Z",
+      "lastActiveAt": "2026-11-05T10:53:08.791Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 13515,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -23530,6 +23560,14 @@
   ],
   "logs": [
     {
+      "id": "d1bcbe5e-1f41-4045-9b2f-2330c924f8ca",
+      "timestamp": "2026-11-05T10:53:09.578Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7456375776,
+      "userName": "X⁴",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "de624c99-f668-45e2-a7f5-65e1e709fb83",
       "timestamp": "2026-11-05T10:21:09.836Z",
       "type": "LOOKUP",
@@ -24720,17 +24758,9 @@
       "userId": 2125516627,
       "userName": "SawzZㅤ🥷🏽!!",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "7ac2ed1b-722e-4a88-8b2c-07441485d290",
-      "timestamp": "2026-11-03T18:56:59.003Z",
-      "type": "LOOKUP",
-      "userId": 867652545,
-      "userName": "𓆩 Saͥheͣnͫ LOGO Maker𓆪",
-      "summary": "Number Lookup 8329132954 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815007,
+  "lastTelegramUpdateId": 168815008,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
