@@ -21131,6 +21131,27 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-05"
+    },
+    "8177132634": {
+      "id": 8177132634,
+      "firstName": "Raja",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX132634",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-05T12:10:34.542Z",
+      "lastActiveAt": "2026-11-05T12:11:03.431Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 13531,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -23628,6 +23649,22 @@
   ],
   "logs": [
     {
+      "id": "4932bd1c-fcf4-49b9-a43e-f9434df36b4f",
+      "timestamp": "2026-11-05T12:11:04.125Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8177132634,
+      "userName": "Raja",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "17a88127-b6b2-4bd6-8d01-10b880b2ba01",
+      "timestamp": "2026-11-05T12:10:35.568Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8177132634,
+      "userName": "Raja",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "d8334b4a-483b-4351-8d27-b6e52460d2b4",
       "timestamp": "2026-11-05T11:52:27.571Z",
       "type": "BOT_MESSAGE",
@@ -24810,25 +24847,9 @@
       "userId": 9212791808,
       "userName": "Anshul",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "9ca0e449-62ba-4023-8532-3ecc5ee5286c",
-      "timestamp": "2026-11-03T19:02:16.183Z",
-      "type": "LOOKUP",
-      "userId": 9266671378,
-      "userName": "USER",
-      "summary": "Number Lookup 8303565794 (Not found)"
-    },
-    {
-      "id": "858c0235-b909-4f29-9e02-8f273a977fd7",
-      "timestamp": "2026-11-03T19:02:05.920Z",
-      "type": "BOT_MESSAGE",
-      "userId": 9266671378,
-      "userName": "USER",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815030,
+  "lastTelegramUpdateId": 168815032,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
