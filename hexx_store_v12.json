@@ -21889,6 +21889,27 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-05"
+    },
+    "7244825517": {
+      "id": 7244825517,
+      "firstName": "Harmit",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX825517",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-05T17:24:51.917Z",
+      "lastActiveAt": "2026-11-05T17:24:51.917Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 13682,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -24386,6 +24407,14 @@
   ],
   "logs": [
     {
+      "id": "764052ff-d70f-45f9-b5bc-edd9ecaf8474",
+      "timestamp": "2026-11-05T17:24:53.033Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7244825517,
+      "userName": "Harmit",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "eb50fc1f-521e-4b8a-a7ba-c4cee784d9ec",
       "timestamp": "2026-11-05T16:42:25.157Z",
       "type": "LOOKUP",
@@ -25576,17 +25605,9 @@
       "userId": 6451700753,
       "userName": "Akshit",
       "summary": "Number Lookup 8303517822 (Not found)"
-    },
-    {
-      "id": "b2aad89f-c1aa-421a-aa5b-1de3badb615e",
-      "timestamp": "2026-11-04T10:29:06.708Z",
-      "type": "LOOKUP",
-      "userId": 6451700753,
-      "userName": "Akshit",
-      "summary": "Number Lookup 8299141348 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815142,
+  "lastTelegramUpdateId": 168815143,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
