@@ -20850,6 +20850,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-05"
+    },
+    "8983229920": {
+      "id": 8983229920,
+      "firstName": "ha_cker😈",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX229920",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-05T09:40:12.790Z",
+      "lastActiveAt": "2026-11-05T09:41:51.530Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13488,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-05"
     }
   },
   "orders": {
@@ -23347,6 +23370,14 @@
   ],
   "logs": [
     {
+      "id": "d7a81b2b-c70b-4a28-a3ab-bba421a4c375",
+      "timestamp": "2026-11-05T09:40:13.677Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8983229920,
+      "userName": "ha_cker😈",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "b96c3a89-a0b2-4fea-b02f-8670901b6611",
       "timestamp": "2026-11-05T08:29:49.314Z",
       "type": "LOOKUP",
@@ -24537,17 +24568,9 @@
       "userId": 5532153550,
       "userName": "Horus",
       "summary": "Number Lookup 9063455183 (Not found)"
-    },
-    {
-      "id": "0c75d542-ff2a-43d8-a1f7-9e5d5b88777e",
-      "timestamp": "2026-11-03T18:13:20.702Z",
-      "type": "LOOKUP",
-      "userId": 5532153550,
-      "userName": "Horus",
-      "summary": "Number Lookup 9063455183 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168814970,
+  "lastTelegramUpdateId": 168814986,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
