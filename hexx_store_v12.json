@@ -4314,7 +4314,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-11-06T01:14:22.760Z",
+      "lastActiveAt": "2026-11-06T01:27:56.468Z",
       "isBanned": false,
       "history": [
         {
@@ -4498,7 +4498,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 13785,
+      "lastBotMessageId": 13800,
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-05",
@@ -25086,6 +25086,46 @@
   ],
   "logs": [
     {
+      "id": "9488997a-4025-4b54-be35-c92a33898a81",
+      "timestamp": "2026-11-06T01:27:56.851Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "cdc8d409-dea6-4eb0-89ed-852e30210789",
+      "timestamp": "2026-11-06T01:27:56.766Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "1ac636af-2806-4559-92b8-eb2bea9347c6",
+      "timestamp": "2026-11-06T01:27:56.573Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "ca6bd785-d85e-4325-b98c-4a0b3290f282",
+      "timestamp": "2026-11-06T01:27:56.481Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "598ff1e6-c9fc-45ed-a36c-038b1eba6c07",
+      "timestamp": "2026-11-06T01:27:56.380Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "d06c308c-8864-47fa-aab2-bf1d230da59f",
       "timestamp": "2026-11-06T01:14:23.228Z",
       "type": "BOT_MESSAGE",
@@ -26244,49 +26284,9 @@
       "userId": 6451700753,
       "userName": "Akshit",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "6e7ba608-e664-4a29-978f-7e1a6be6b8b5",
-      "timestamp": "2026-11-04T15:22:50.940Z",
-      "type": "LOOKUP",
-      "userId": 9104238983,
-      "userName": "Bb",
-      "summary": "Number Lookup 7982231995 (Not found)"
-    },
-    {
-      "id": "418bd4cd-d105-4d35-9c93-8c3de927b760",
-      "timestamp": "2026-11-04T15:22:00.504Z",
-      "type": "BOT_MESSAGE",
-      "userId": 9104238983,
-      "userName": "Bb",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "95e754b1-68c1-4b7a-ab65-a8564ccb8f5e",
-      "timestamp": "2026-11-04T15:21:49.350Z",
-      "type": "BOT_MESSAGE",
-      "userId": 9104238983,
-      "userName": "Bb",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "19151048-92dd-44ef-a728-706b443f3f82",
-      "timestamp": "2026-11-04T15:18:45.976Z",
-      "type": "LOOKUP",
-      "userId": 8698255160,
-      "userName": "Koke",
-      "summary": "Number Lookup 6389910839 (Not found)"
-    },
-    {
-      "id": "876de98f-4d53-4f51-94a3-bb610c050a9e",
-      "timestamp": "2026-11-04T15:18:11.973Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8698255160,
-      "userName": "Koke",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815226,
+  "lastTelegramUpdateId": 168815236,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
