@@ -22748,6 +22748,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-06"
+    },
+    "8240368576": {
+      "id": 8240368576,
+      "firstName": "Gourav",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX368576",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-06T04:48:10.205Z",
+      "lastActiveAt": "2026-11-06T04:48:27.657Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13832,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-06"
     }
   },
   "orders": {
@@ -25245,6 +25268,14 @@
   ],
   "logs": [
     {
+      "id": "69956b4c-904b-4d2e-a4f2-26bb145d5450",
+      "timestamp": "2026-11-06T04:48:10.942Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8240368576,
+      "userName": "Gourav",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "8d61d505-1230-4c14-8f8c-7059facf3742",
       "timestamp": "2026-11-06T03:34:01.121Z",
       "type": "LOOKUP",
@@ -26435,17 +26466,9 @@
       "userId": 8771049669,
       "userName": "ΡⒶɴ",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "62a9846c-ddab-448f-a60a-f7535276db31",
-      "timestamp": "2026-11-04T18:26:12.572Z",
-      "type": "LOOKUP",
-      "userId": 793362713,
-      "userName": "Dustin!",
-      "summary": "Number Lookup 8927202299 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815260,
+  "lastTelegramUpdateId": 168815264,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
