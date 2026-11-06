@@ -3301,7 +3301,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:07:01.294Z",
-      "lastActiveAt": "2026-11-05T15:28:35.399Z",
+      "lastActiveAt": "2026-11-06T08:41:29.763Z",
       "isBanned": false,
       "isAdminUnlocked": true,
       "history": [
@@ -3439,7 +3439,7 @@
           }
         }
       ],
-      "lastBotMessageId": 13641,
+      "lastBotMessageId": 13845,
       "lastBotMessageHasPhoto": true,
       "lookupMode": "info",
       "lastLookupDate": "2026-11-05",
@@ -25363,6 +25363,14 @@
   ],
   "logs": [
     {
+      "id": "2736ff5a-18e3-4217-bd72-e188438be7e3",
+      "timestamp": "2026-11-06T08:41:30.259Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "233fd257-96cd-42d8-8b36-67bda5ecd94e",
       "timestamp": "2026-11-06T07:03:02.062Z",
       "type": "LOOKUP",
@@ -26553,17 +26561,9 @@
       "userId": 9186536337,
       "userName": "CARBON",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "8b977661-af38-410b-b575-af0c9eeda3a5",
-      "timestamp": "2026-11-04T18:40:06.710Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8624205666,
-      "userName": ".",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815274,
+  "lastTelegramUpdateId": 168815275,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
