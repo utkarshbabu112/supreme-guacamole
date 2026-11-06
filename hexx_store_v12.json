@@ -22679,7 +22679,8 @@
       "lastBotMessageId": 13818,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-06"
+      "lastLookupDate": "2026-11-06",
+      "liveLocationUsed": 0
     },
     "8861547006": {
       "id": 8861547006,
@@ -22747,7 +22748,8 @@
       "lastBotMessageId": 13830,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-06"
+      "lastLookupDate": "2026-11-06",
+      "liveLocationUsed": 0
     },
     "8240368576": {
       "id": 8240368576,
@@ -22770,7 +22772,8 @@
       "lastBotMessageId": 13832,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-06"
+      "lastLookupDate": "2026-11-06",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
