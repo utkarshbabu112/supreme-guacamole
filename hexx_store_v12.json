@@ -4314,7 +4314,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-11-06T01:27:56.468Z",
+      "lastActiveAt": "2026-11-06T02:09:23.226Z",
       "isBanned": false,
       "history": [
         {
@@ -4498,7 +4498,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 13800,
+      "lastBotMessageId": 13823,
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-05",
@@ -25177,6 +25177,22 @@
   ],
   "logs": [
     {
+      "id": "31f2f147-d71e-4bbd-951a-01594f4cad74",
+      "timestamp": "2026-11-06T02:09:23.699Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "0cbbf500-49d2-43e4-8ca5-899d9b89c1a2",
+      "timestamp": "2026-11-06T02:09:23.604Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "dfa49083-b9e6-4548-b5d0-fecfc84c1e18",
       "timestamp": "2026-11-06T01:53:54.234Z",
       "type": "LOOKUP",
@@ -26359,25 +26375,9 @@
       "userId": 8584492545,
       "userName": "Harsh",
       "summary": "Number Lookup 8441896260 (Not found)"
-    },
-    {
-      "id": "8e016613-757a-45c7-9a3b-6556ae1f0195",
-      "timestamp": "2026-11-04T16:56:59.379Z",
-      "type": "BOT_MESSAGE",
-      "userId": 1171154624,
-      "userName": "Anurag",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "423dbacb-aa75-49d1-8be6-179a74da810c",
-      "timestamp": "2026-11-04T16:31:39.234Z",
-      "type": "LOOKUP",
-      "userId": 8463673971,
-      "userName": "⚡🄻🄴🄶🄴🄽🄳🄱🄾🅈⚡",
-      "summary": "Number Lookup 9569504951 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815251,
+  "lastTelegramUpdateId": 168815254,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
