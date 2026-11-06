@@ -23329,6 +23329,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-06"
+    },
+    "7919964706": {
+      "id": 7919964706,
+      "firstName": "JustAnAcc",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX964706",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-06T16:58:47.718Z",
+      "lastActiveAt": "2026-11-06T16:58:56.134Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13914,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-06"
     }
   },
   "orders": {
@@ -25826,6 +25849,14 @@
   ],
   "logs": [
     {
+      "id": "eca2fc7f-db37-4181-b4f7-eeb890e6ca41",
+      "timestamp": "2026-11-06T16:58:48.763Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7919964706,
+      "userName": "JustAnAcc",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "11e7c8c5-7691-4d0a-ad8e-62acaa8bf366",
       "timestamp": "2026-11-06T16:37:24.514Z",
       "type": "LOOKUP",
@@ -27016,17 +27047,9 @@
       "userId": 7126633085,
       "userName": "Shivam",
       "summary": "Number Lookup 8546002025 (Not found)"
-    },
-    {
-      "id": "dff0ed26-52d1-4f6c-9cfa-bcd717ab1265",
-      "timestamp": "2026-11-05T10:19:44.227Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7126633085,
-      "userName": "Shivam",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815346,
+  "lastTelegramUpdateId": 168815349,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
