@@ -22981,6 +22981,30 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-06",
       "liveLocationUsed": 0
+    },
+    "8185898945": {
+      "id": 8185898945,
+      "firstName": "Yoʋʀ",
+      "username": "criminal459",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX898945",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-06T11:41:46.310Z",
+      "lastActiveAt": "2026-11-06T11:43:09.595Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13869,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-06"
     }
   },
   "orders": {
@@ -25478,6 +25502,22 @@
   ],
   "logs": [
     {
+      "id": "874b4064-7acd-402b-a472-79082b5ea92d",
+      "timestamp": "2026-11-06T11:42:00.830Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8185898945,
+      "userName": "Yoʋʀ",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "eec781e9-1503-4325-a7b3-08d0546535ad",
+      "timestamp": "2026-11-06T11:41:47.113Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8185898945,
+      "userName": "Yoʋʀ",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "3e54c6f6-0e50-4ca0-93c2-28a0e7245db6",
       "timestamp": "2026-11-06T11:30:52.104Z",
       "type": "LOOKUP",
@@ -26660,25 +26700,9 @@
       "userId": 6714281072,
       "userName": "Varun",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "24290f0b-1a54-45b5-9003-745689a3344b",
-      "timestamp": "2026-11-05T01:20:35.106Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7995520431,
-      "userName": "Vashu",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "1a49f893-9a5a-4fc6-8bd6-293c49d3970a",
-      "timestamp": "2026-11-05T01:07:16.868Z",
-      "type": "LOOKUP",
-      "userId": 8446718146,
-      "userName": "مستجد",
-      "summary": "Number Lookup 9908586128 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815300,
+  "lastTelegramUpdateId": 168815305,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
