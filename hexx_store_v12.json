@@ -3479,15 +3479,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 28,
+      "totalLookups": 30,
       "referralCode": "HEX554367",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:29:05.466Z",
-      "lastActiveAt": "2026-11-06T11:30:51.706Z",
+      "lastActiveAt": "2026-11-06T16:37:24.204Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "8ee54b1b-ea3c-40d0-9232-93d3fb2e0022",
+          "queryNumber": "9238884844",
+          "timestamp": "2026-11-06T16:37:24.514Z",
+          "source": "bot",
+          "userId": 6247554367,
+          "userName": "Divya",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9238884844",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "4143be31-e10f-4125-9e2e-1c30bc2b6206",
           "queryNumber": "7726098256",
@@ -3906,33 +3928,10 @@
             "lng": 85.2956,
             "mapsUrl": "https://www.google.com/maps/search/?api=1&query=s%2Fo%20hulash%20saw%2C%20Khambhwa%2C%20dharmpur%20khambhwa%2C%20dharampur%20Bishungarh%2C%20hazaribag%2C%20Jharkhand%2C%20825313%2C%20India"
           }
-        },
-        {
-          "id": "9af9d159-2774-4462-8544-fe36350b944e",
-          "queryNumber": "9939137060",
-          "timestamp": "2026-10-25T04:29:07.191Z",
-          "source": "bot",
-          "userId": 6247554367,
-          "userName": "Divya",
-          "resultSummary": {
-            "name": "Mukesh Kumar Saw",
-            "truecallerName": "Mukesh Sir",
-            "fatherName": "Hulash Saw",
-            "mobile": "9939137060",
-            "altMobile": "9939137060",
-            "circle": "JIO BHR&JHR",
-            "idNumber": "740384840307",
-            "email": "Not found",
-            "address": "S/O Hulash Saw, Khambhwa, NA, dharampur, Dharampur Bishungarh Hazaribag, NA, Jharkhand, 825313",
-            "totalRecords": 1,
-            "lat": 23.3481,
-            "lng": 85.3176,
-            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=S%2FO%20Hulash%20Saw%2C%20Khambhwa%2C%20NA%2C%20dharampur%2C%20Dharampur%20Bishungarh%20Hazaribag%2C%20NA%2C%20Jharkhand%2C%20825313%2C%20India"
-          }
         }
       ],
       "lastLookupDate": "2026-11-06",
-      "lastBotMessageId": 13863,
+      "lastBotMessageId": 13912,
       "lastBotMessageHasPhoto": false,
       "liveLocationUsed": 0,
       "forceJoinVerified": true
@@ -23625,6 +23624,50 @@
   },
   "globalHistory": [
     {
+      "id": "8ee54b1b-ea3c-40d0-9232-93d3fb2e0022",
+      "queryNumber": "9238884844",
+      "timestamp": "2026-11-06T16:37:24.514Z",
+      "source": "bot",
+      "userId": 6247554367,
+      "userName": "Divya",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9238884844",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "63a9420d-5924-4b90-99be-d098f29e8960",
+      "queryNumber": "9238884844",
+      "timestamp": "2026-11-06T16:37:21.318Z",
+      "source": "bot",
+      "userId": 6247554367,
+      "userName": "Divya",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9238884844",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
       "id": "c0a7d44d-e5bc-4e33-ac0f-cf0077875b15",
       "queryNumber": "9355762502",
       "timestamp": "2026-11-06T15:43:33.467Z",
@@ -25779,53 +25822,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "d0548f14-8981-4c97-9820-3b6d72f6e398",
-      "queryNumber": "8506800364",
-      "timestamp": "2026-11-04T15:23:29.958Z",
-      "source": "bot",
-      "userId": 9104238983,
-      "userName": "Bb",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8506800364",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "f7bc854b-7242-4672-b779-595bb68fab40",
-      "queryNumber": "8011023649",
-      "timestamp": "2026-11-04T15:23:26.343Z",
-      "source": "bot",
-      "userId": 6451700753,
-      "userName": "Akshit",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8011023649",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "11e7c8c5-7691-4d0a-ad8e-62acaa8bf366",
+      "timestamp": "2026-11-06T16:37:24.514Z",
+      "type": "LOOKUP",
+      "userId": 6247554367,
+      "userName": "Divya",
+      "summary": "Number Lookup 9238884844 (Not found)"
+    },
+    {
+      "id": "f6253ee4-a373-445a-ac5c-ae7956b8cab1",
+      "timestamp": "2026-11-06T16:37:21.319Z",
+      "type": "LOOKUP",
+      "userId": 6247554367,
+      "userName": "Divya",
+      "summary": "Number Lookup 9238884844 (Not found)"
+    },
     {
       "id": "1ab7a29b-7d9d-46f5-95e0-837238290e71",
       "timestamp": "2026-11-06T16:06:21.480Z",
@@ -27009,25 +27024,9 @@
       "userId": 7126633085,
       "userName": "Shivam",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "dbb85bd9-6c6c-4060-8aed-2573bce97706",
-      "timestamp": "2026-11-05T09:44:20.977Z",
-      "type": "LOOKUP",
-      "userId": 5712852002,
-      "userName": "Pk",
-      "summary": "Number Lookup 9804212931 (Not found)"
-    },
-    {
-      "id": "1e2cf437-d2be-4d30-983c-d4d86dedb2ce",
-      "timestamp": "2026-11-05T09:44:00.663Z",
-      "type": "LOOKUP",
-      "userId": 5153480689,
-      "userName": "Bablu",
-      "summary": "Number Lookup 7894359890 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815344,
+  "lastTelegramUpdateId": 168815346,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
