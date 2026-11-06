@@ -4384,7 +4384,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-11-06T02:09:23.226Z",
+      "lastActiveAt": "2026-11-06T11:12:20.656Z",
       "isBanned": false,
       "history": [
         {
@@ -4568,7 +4568,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 13823,
+      "lastBotMessageId": 13857,
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-05",
@@ -25434,6 +25434,14 @@
   ],
   "logs": [
     {
+      "id": "fb308931-09a4-4b8a-84d7-7ded5b662af4",
+      "timestamp": "2026-11-06T11:12:21.326Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "70e2042f-63f8-4e8d-a81c-8f4f3332472e",
       "timestamp": "2026-11-06T10:30:45.296Z",
       "type": "LOOKUP",
@@ -26624,17 +26632,9 @@
       "userId": 8777617494,
       "userName": "Simon",
       "summary": "Number Lookup 6392134962 (Not found)"
-    },
-    {
-      "id": "636ab72a-e7b1-4f89-a308-33f2ed9a8646",
-      "timestamp": "2026-11-04T22:55:57.413Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8777617494,
-      "userName": "Simon",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815290,
+  "lastTelegramUpdateId": 168815296,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
