@@ -22680,6 +22680,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-06"
+    },
+    "8861547006": {
+      "id": 8861547006,
+      "firstName": "Bharath",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX547006",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-06T03:31:24.710Z",
+      "lastActiveAt": "2026-11-06T03:31:42.689Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13825,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-06"
     }
   },
   "orders": {
@@ -25177,6 +25200,14 @@
   ],
   "logs": [
     {
+      "id": "df64919d-bada-4d6d-b54f-3b2eaddd369f",
+      "timestamp": "2026-11-06T03:31:25.441Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8861547006,
+      "userName": "Bharath",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "31f2f147-d71e-4bbd-951a-01594f4cad74",
       "timestamp": "2026-11-06T02:09:23.699Z",
       "type": "BOT_MESSAGE",
@@ -26367,17 +26398,9 @@
       "userId": 1038616755,
       "userName": "Shokirov",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "ad4abe8f-ca4a-414d-94cb-1e0d673e4a71",
-      "timestamp": "2026-11-04T16:57:13.395Z",
-      "type": "LOOKUP",
-      "userId": 8584492545,
-      "userName": "Harsh",
-      "summary": "Number Lookup 8441896260 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815254,
+  "lastTelegramUpdateId": 168815257,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
