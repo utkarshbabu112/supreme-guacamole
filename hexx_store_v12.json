@@ -23232,6 +23232,30 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-06"
+    },
+    "8924618147": {
+      "id": 8924618147,
+      "firstName": "SWÀRD",
+      "username": "Saltro000",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX618147",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-06T14:46:15.342Z",
+      "lastActiveAt": "2026-11-06T14:46:45.149Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13897,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-06"
     }
   },
   "orders": {
@@ -25729,6 +25753,14 @@
   ],
   "logs": [
     {
+      "id": "02d99261-f217-45fc-aa88-15ea8dc03bc1",
+      "timestamp": "2026-11-06T14:46:16.131Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8924618147,
+      "userName": "SWÀRD",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "de4e5223-8d29-4996-877b-7aedade79516",
       "timestamp": "2026-11-06T14:39:20.452Z",
       "type": "LOOKUP",
@@ -26919,17 +26951,9 @@
       "userId": 5712852002,
       "userName": "Pk",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "d7a81b2b-c70b-4a28-a3ab-bba421a4c375",
-      "timestamp": "2026-11-05T09:40:13.677Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8983229920,
-      "userName": "ha_cker😈",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815328,
+  "lastTelegramUpdateId": 168815334,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
