@@ -10648,7 +10648,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-28T13:58:16.772Z",
-      "lastActiveAt": "2026-10-28T13:59:48.688Z",
+      "lastActiveAt": "2026-11-06T19:40:18.865Z",
       "isBanned": false,
       "history": [
         {
@@ -10675,10 +10675,10 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10857,
+      "lastBotMessageId": 13926,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-10-28",
+      "lastLookupDate": "2026-11-06",
       "liveLocationUsed": 0
     },
     "5558968658": {
@@ -25896,6 +25896,14 @@
   ],
   "logs": [
     {
+      "id": "1c11125d-bb98-44e5-8529-1820c96f2c86",
+      "timestamp": "2026-11-06T19:40:04.842Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6722984342,
+      "userName": "Soul reap",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "41251f76-70e0-4dac-b8e7-ecd6c01b3f2f",
       "timestamp": "2026-11-06T18:00:20.008Z",
       "type": "LOOKUP",
@@ -27086,17 +27094,9 @@
       "userId": 7126633085,
       "userName": "Shivam",
       "summary": "Number Lookup 8546002025 (Not found)"
-    },
-    {
-      "id": "edf6420f-920e-4024-8b8e-01908e1f5894",
-      "timestamp": "2026-11-05T10:20:56.408Z",
-      "type": "LOOKUP",
-      "userId": 7126633085,
-      "userName": "Shivam",
-      "summary": "Number Lookup 8546002025 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815356,
+  "lastTelegramUpdateId": 168815359,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
