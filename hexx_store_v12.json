@@ -622,7 +622,8 @@
       "history": [],
       "forceJoinVerified": false,
       "lastBotMessageId": 13887,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "839020334": {
       "id": 839020334,
@@ -23070,7 +23071,8 @@
       "lastBotMessageId": 13869,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-06"
+      "lastLookupDate": "2026-11-06",
+      "liveLocationUsed": 0
     },
     "7630343176": {
       "id": 7630343176,
@@ -23139,7 +23141,8 @@
       "lastBotMessageId": 13881,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-06"
+      "lastLookupDate": "2026-11-06",
+      "liveLocationUsed": 0
     },
     "9050651761": {
       "id": 9050651761,
@@ -23185,7 +23188,8 @@
       "lastBotMessageId": 13885,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-06"
+      "lastLookupDate": "2026-11-06",
+      "liveLocationUsed": 0
     },
     "7433326048": {
       "id": 7433326048,
@@ -23231,7 +23235,8 @@
       "lastBotMessageId": 13893,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-06"
+      "lastLookupDate": "2026-11-06",
+      "liveLocationUsed": 0
     },
     "8924618147": {
       "id": 8924618147,
@@ -23253,6 +23258,30 @@
       "history": [],
       "forceJoinVerified": true,
       "lastBotMessageId": 13897,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-06",
+      "liveLocationUsed": 0
+    },
+    "5129277015": {
+      "id": 5129277015,
+      "firstName": "Cio",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX277015",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-06T15:36:08.510Z",
+      "lastActiveAt": "2026-11-06T15:36:27.499Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13899,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-06"
@@ -25753,6 +25782,14 @@
   ],
   "logs": [
     {
+      "id": "ad697dec-fb65-4df0-a6cd-3b19ba7db796",
+      "timestamp": "2026-11-06T15:36:09.368Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5129277015,
+      "userName": "Cio",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "02d99261-f217-45fc-aa88-15ea8dc03bc1",
       "timestamp": "2026-11-06T14:46:16.131Z",
       "type": "BOT_MESSAGE",
@@ -26943,17 +26980,9 @@
       "userId": 5153480689,
       "userName": "Bablu",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "a16d963d-bf19-4205-a0ae-4c7970c551f8",
-      "timestamp": "2026-11-05T09:42:26.129Z",
-      "type": "BOT_MESSAGE",
-      "userId": 5712852002,
-      "userName": "Pk",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815334,
+  "lastTelegramUpdateId": 168815338,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
