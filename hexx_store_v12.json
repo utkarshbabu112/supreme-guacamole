@@ -3301,7 +3301,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:07:01.294Z",
-      "lastActiveAt": "2026-11-06T08:41:29.763Z",
+      "lastActiveAt": "2026-11-06T09:04:31.325Z",
       "isBanned": false,
       "isAdminUnlocked": true,
       "history": [
@@ -3439,10 +3439,10 @@
           }
         }
       ],
-      "lastBotMessageId": 13845,
+      "lastBotMessageId": 13847,
       "lastBotMessageHasPhoto": true,
       "lookupMode": "info",
-      "lastLookupDate": "2026-11-05",
+      "lastLookupDate": "2026-11-06",
       "activeTrackToken": "LOC611696TH",
       "forceJoinVerified": true,
       "awaitingRedeemCode": false
@@ -25363,6 +25363,14 @@
   ],
   "logs": [
     {
+      "id": "b303025e-3951-4c53-b2f9-fdfbed34a0f4",
+      "timestamp": "2026-11-06T09:04:20.970Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "2736ff5a-18e3-4217-bd72-e188438be7e3",
       "timestamp": "2026-11-06T08:41:30.259Z",
       "type": "BOT_MESSAGE",
@@ -26553,17 +26561,9 @@
       "userId": 9029160105,
       "userName": "Parmeet",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "e1de7931-3f7b-497b-8d4b-3ca2fa0d427b",
-      "timestamp": "2026-11-04T18:52:57.333Z",
-      "type": "BOT_MESSAGE",
-      "userId": 9186536337,
-      "userName": "CARBON",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815275,
+  "lastTelegramUpdateId": 168815282,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
