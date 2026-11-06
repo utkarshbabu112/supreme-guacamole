@@ -603,6 +603,27 @@
       "lastLookupDate": "2026-11-04",
       "liveLocationUsed": 0
     },
+    "809722182": {
+      "id": 809722182,
+      "firstName": "Ravindra",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX722182",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-06T13:17:16.080Z",
+      "lastActiveAt": "2026-11-06T13:17:16.080Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 13887,
+      "lastBotMessageHasPhoto": false
+    },
     "839020334": {
       "id": 839020334,
       "firstName": "Serick",
@@ -25640,6 +25661,14 @@
   ],
   "logs": [
     {
+      "id": "fb6cc1b8-d2b5-4973-b55b-f123e2ce0e1f",
+      "timestamp": "2026-11-06T13:17:16.719Z",
+      "type": "BOT_MESSAGE",
+      "userId": 809722182,
+      "userName": "Ravindra",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "ec0b8aa1-2ae1-4b0d-ac1e-e9f4a15103b3",
       "timestamp": "2026-11-06T13:02:53.299Z",
       "type": "LOOKUP",
@@ -26830,17 +26859,9 @@
       "userId": 8812742836,
       "userName": "Saif",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "ba013991-e255-4495-95d7-8ed4039807fd",
-      "timestamp": "2026-11-05T06:24:23.866Z",
-      "type": "LOOKUP",
-      "userId": 7924140461,
-      "userName": "𝐏𝐫𝐢𝐧𝐜𝐞 𝐆𝐡𝐚𝐥𝐨𝐭",
-      "summary": "Number Lookup 7056190431 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815321,
+  "lastTelegramUpdateId": 168815322,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
