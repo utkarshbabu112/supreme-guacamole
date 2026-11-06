@@ -22774,6 +22774,29 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-06",
       "liveLocationUsed": 0
+    },
+    "8803989517": {
+      "id": 8803989517,
+      "firstName": "Shreekant mishra",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX989517",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-06T06:36:58.794Z",
+      "lastActiveAt": "2026-11-06T06:38:45.726Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13836,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-06"
     }
   },
   "orders": {
@@ -25271,6 +25294,14 @@
   ],
   "logs": [
     {
+      "id": "c1607969-e653-4c75-9b20-d913fe14b55d",
+      "timestamp": "2026-11-06T06:36:59.639Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8803989517,
+      "userName": "Shreekant mishra",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "69956b4c-904b-4d2e-a4f2-26bb145d5450",
       "timestamp": "2026-11-06T04:48:10.942Z",
       "type": "BOT_MESSAGE",
@@ -26461,17 +26492,9 @@
       "userId": 8771049669,
       "userName": "ΡⒶɴ",
       "summary": "Number Lookup 9303484886 (Not found)"
-    },
-    {
-      "id": "887c7bb9-978f-4558-974b-6f5467568ed2",
-      "timestamp": "2026-11-04T18:33:56.699Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8771049669,
-      "userName": "ΡⒶɴ",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815264,
+  "lastTelegramUpdateId": 168815268,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
