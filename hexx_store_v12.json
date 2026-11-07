@@ -25350,6 +25350,74 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-07"
+    },
+    "8254941340": {
+      "id": 8254941340,
+      "firstName": "i unknown man",
+      "credits": 0,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 2,
+      "referralCode": "HEX941340",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T16:12:08.126Z",
+      "lastActiveAt": "2026-11-07T16:14:22.385Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "378572dc-b44f-4974-9f93-056323a3fb1f",
+          "queryNumber": "9651417901",
+          "timestamp": "2026-11-07T16:13:37.515Z",
+          "source": "bot",
+          "userId": 8254941340,
+          "userName": "i unknown man",
+          "resultSummary": {
+            "name": "MONIRUL HASSAN SARDAR",
+            "fatherName": "BABURALI SARDAR",
+            "mobile": "9093614290",
+            "altMobile": "Not found",
+            "circle": "JIO WB",
+            "idNumber": "672459048432",
+            "email": "Not found",
+            "address": "RAMESWARPUR, KALUTALA HASNABAD, NORTH 24 PARGANAS, WEST BENGAL, 743426",
+            "totalRecords": 2,
+            "lat": 22.69268,
+            "lng": 88.66258,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KALUTALA%20HASNABAD%2C%20NORTH%2024%20PARGANAS%2C%20WEST%20BENGAL%2C%20743426%2C%20India"
+          }
+        },
+        {
+          "id": "6bf933dc-6c34-4575-95a5-bc8888fbd3d8",
+          "queryNumber": "8604372664",
+          "timestamp": "2026-11-07T16:12:59.995Z",
+          "source": "bot",
+          "userId": 8254941340,
+          "userName": "i unknown man",
+          "resultSummary": {
+            "name": "MONIRUL HASSAN SARDAR",
+            "fatherName": "BABURALI SARDAR",
+            "mobile": "9093614290",
+            "altMobile": "Not found",
+            "circle": "JIO WB",
+            "idNumber": "672459048432",
+            "email": "Not found",
+            "address": "RAMESWARPUR, KALUTALA HASNABAD, NORTH 24 PARGANAS, WEST BENGAL, 743426",
+            "totalRecords": 2,
+            "lat": 22.69268,
+            "lng": 88.66258,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KALUTALA%20HASNABAD%2C%20NORTH%2024%20PARGANAS%2C%20WEST%20BENGAL%2C%20743426%2C%20India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14262,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-07"
     }
   },
   "orders": {
@@ -25667,6 +25735,50 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "378572dc-b44f-4974-9f93-056323a3fb1f",
+      "queryNumber": "9651417901",
+      "timestamp": "2026-11-07T16:13:37.515Z",
+      "source": "bot",
+      "userId": 8254941340,
+      "userName": "i unknown man",
+      "resultSummary": {
+        "name": "MONIRUL HASSAN SARDAR",
+        "fatherName": "BABURALI SARDAR",
+        "mobile": "9093614290",
+        "altMobile": "Not found",
+        "circle": "JIO WB",
+        "idNumber": "672459048432",
+        "email": "Not found",
+        "address": "RAMESWARPUR, KALUTALA HASNABAD, NORTH 24 PARGANAS, WEST BENGAL, 743426",
+        "totalRecords": 2,
+        "lat": 22.69268,
+        "lng": 88.66258,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KALUTALA%20HASNABAD%2C%20NORTH%2024%20PARGANAS%2C%20WEST%20BENGAL%2C%20743426%2C%20India"
+      }
+    },
+    {
+      "id": "6bf933dc-6c34-4575-95a5-bc8888fbd3d8",
+      "queryNumber": "8604372664",
+      "timestamp": "2026-11-07T16:12:59.995Z",
+      "source": "bot",
+      "userId": 8254941340,
+      "userName": "i unknown man",
+      "resultSummary": {
+        "name": "MONIRUL HASSAN SARDAR",
+        "fatherName": "BABURALI SARDAR",
+        "mobile": "9093614290",
+        "altMobile": "Not found",
+        "circle": "JIO WB",
+        "idNumber": "672459048432",
+        "email": "Not found",
+        "address": "RAMESWARPUR, KALUTALA HASNABAD, NORTH 24 PARGANAS, WEST BENGAL, 743426",
+        "totalRecords": 2,
+        "lat": 22.69268,
+        "lng": 88.66258,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KALUTALA%20HASNABAD%2C%20NORTH%2024%20PARGANAS%2C%20WEST%20BENGAL%2C%20743426%2C%20India"
+      }
+    },
     {
       "id": "57a5b294-465c-4132-8416-d475a6652d94",
       "queryNumber": "9955944292",
@@ -27822,53 +27934,33 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "05bdf6dd-6a64-44ff-a02d-37b69a48de14",
-      "queryNumber": "8168410575",
-      "timestamp": "2026-11-05T18:21:45.893Z",
-      "source": "bot",
-      "userId": 1637750773,
-      "userName": "Jappan",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "8168410575",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "7ceb0a64-8d0a-4a8b-bd90-ed70b9f14a2a",
-      "queryNumber": "7870450472",
-      "timestamp": "2026-11-05T17:50:26.296Z",
-      "source": "bot",
-      "userId": 1941314678,
-      "userName": "Ali",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7870450472",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "41a46778-01d7-4479-bfac-c3831c9ff1b2",
+      "timestamp": "2026-11-07T16:13:37.515Z",
+      "type": "LOOKUP",
+      "userId": 8254941340,
+      "userName": "i unknown man",
+      "summary": "Number Lookup 9651417901 (MONIRUL HASSAN SARDAR)"
+    },
+    {
+      "id": "2f69b375-4ac8-4363-81ce-3de4c41a974f",
+      "timestamp": "2026-11-07T16:12:59.995Z",
+      "type": "LOOKUP",
+      "userId": 8254941340,
+      "userName": "i unknown man",
+      "summary": "Number Lookup 8604372664 (MONIRUL HASSAN SARDAR)"
+    },
+    {
+      "id": "290823a9-6d2a-46af-976f-5eb2a7fc0e37",
+      "timestamp": "2026-11-07T16:12:08.935Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8254941340,
+      "userName": "i unknown man",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "4215d296-2b90-4d41-a8e4-8a16114a6faa",
       "timestamp": "2026-11-07T15:50:12.935Z",
@@ -29044,33 +29136,9 @@
       "userId": 6905427880,
       "userName": "NOX",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "fb308931-09a4-4b8a-84d7-7ded5b662af4",
-      "timestamp": "2026-11-06T11:12:21.326Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "70e2042f-63f8-4e8d-a81c-8f4f3332472e",
-      "timestamp": "2026-11-06T10:30:45.296Z",
-      "type": "LOOKUP",
-      "userId": 8904077571,
-      "userName": ".",
-      "summary": "Number Lookup 8309781869 (Not found)"
-    },
-    {
-      "id": "d14c3375-a71f-409d-91c9-f5c564d6d67e",
-      "timestamp": "2026-11-06T10:28:59.554Z",
-      "type": "LOOKUP",
-      "userId": 8904077571,
-      "userName": ".",
-      "summary": "Number Lookup 9790077269 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815748,
+  "lastTelegramUpdateId": 168815755,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
