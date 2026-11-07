@@ -24087,6 +24087,28 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-07"
+    },
+    "8286130319": {
+      "id": 8286130319,
+      "firstName": "Andrie",
+      "username": "andrierieu",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX130319",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T09:17:05.612Z",
+      "lastActiveAt": "2026-11-07T09:17:05.612Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 14091,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -26584,6 +26606,14 @@
   ],
   "logs": [
     {
+      "id": "5a2119a5-c828-42e8-b8e7-15c63f31ea66",
+      "timestamp": "2026-11-07T09:17:06.581Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8286130319,
+      "userName": "Andrie",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "643ebef0-9e7c-441b-9477-6d9218857466",
       "timestamp": "2026-11-07T09:08:49.399Z",
       "type": "LOOKUP",
@@ -27774,17 +27804,9 @@
       "userId": 6383913557,
       "userName": "Sbz",
       "summary": "Number Lookup 7624922584 (Not found)"
-    },
-    {
-      "id": "5f73c352-893f-4172-b76a-1eca3fe270bf",
-      "timestamp": "2026-11-05T17:26:24.842Z",
-      "type": "LOOKUP",
-      "userId": 7244825517,
-      "userName": "Harmit",
-      "summary": "Number Lookup 7041113686 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815536,
+  "lastTelegramUpdateId": 168815537,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
