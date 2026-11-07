@@ -25152,6 +25152,29 @@
       "lastBotMessageId": 14222,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-11-07"
+    },
+    "9178111560": {
+      "id": 9178111560,
+      "firstName": "Pinkman",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX111560",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T14:15:08.948Z",
+      "lastActiveAt": "2026-11-07T14:16:10.540Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14228,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-07"
     }
   },
   "orders": {
@@ -27672,6 +27695,14 @@
   ],
   "logs": [
     {
+      "id": "1af11fc7-574d-4510-a8d3-b9920a086c6a",
+      "timestamp": "2026-11-07T14:15:09.637Z",
+      "type": "BOT_MESSAGE",
+      "userId": 9178111560,
+      "userName": "Pinkman",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "9e4575d8-f402-456e-9dbd-916e4200557d",
       "timestamp": "2026-11-07T14:01:56.798Z",
       "type": "LOOKUP",
@@ -28862,17 +28893,9 @@
       "userId": 8240368576,
       "userName": "Gourav",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "8d61d505-1230-4c14-8f8c-7059facf3742",
-      "timestamp": "2026-11-06T03:34:01.121Z",
-      "type": "LOOKUP",
-      "userId": 8861547006,
-      "userName": "Bharath",
-      "summary": "Number Lookup 9095944514 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815709,
+  "lastTelegramUpdateId": 168815721,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
