@@ -3324,7 +3324,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:07:01.294Z",
-      "lastActiveAt": "2026-11-06T09:04:31.325Z",
+      "lastActiveAt": "2026-11-07T03:01:57.336Z",
       "isBanned": false,
       "isAdminUnlocked": true,
       "history": [
@@ -3462,8 +3462,8 @@
           }
         }
       ],
-      "lastBotMessageId": 13847,
-      "lastBotMessageHasPhoto": true,
+      "lastBotMessageId": 13949,
+      "lastBotMessageHasPhoto": false,
       "lookupMode": "info",
       "lastLookupDate": "2026-11-06",
       "activeTrackToken": "LOC611696TH",
@@ -27261,7 +27261,7 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815390,
+  "lastTelegramUpdateId": 168815391,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
