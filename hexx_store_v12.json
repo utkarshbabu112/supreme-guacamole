@@ -25327,6 +25327,29 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-07",
       "liveLocationUsed": 0
+    },
+    "7151786525": {
+      "id": 7151786525,
+      "firstName": "Aaryan",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX786525",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T15:50:12.324Z",
+      "lastActiveAt": "2026-11-07T15:50:36.638Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14255,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-07"
     }
   },
   "orders": {
@@ -27847,6 +27870,14 @@
   ],
   "logs": [
     {
+      "id": "4215d296-2b90-4d41-a8e4-8a16114a6faa",
+      "timestamp": "2026-11-07T15:50:12.935Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7151786525,
+      "userName": "Aaryan",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "4ab417d8-fa4f-4797-9be9-e794bee92abb",
       "timestamp": "2026-11-07T15:38:36.223Z",
       "type": "BOT_MESSAGE",
@@ -29037,17 +29068,9 @@
       "userId": 8904077571,
       "userName": ".",
       "summary": "Number Lookup 9790077269 (Not found)"
-    },
-    {
-      "id": "e74b23d1-5117-4bea-a13d-2ed32594fc86",
-      "timestamp": "2026-11-06T10:28:06.147Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8904077571,
-      "userName": ".",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815744,
+  "lastTelegramUpdateId": 168815748,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
