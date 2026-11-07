@@ -9080,15 +9080,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 1,
-      "totalLookups": 2,
+      "totalLookups": 3,
       "referralCode": "HEX033728",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-27T08:38:29.283Z",
-      "lastActiveAt": "2026-10-27T09:17:52.794Z",
+      "lastActiveAt": "2026-11-07T07:18:52.081Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "fd8949dc-23bd-493c-a5d2-3638a53fcf2d",
+          "queryNumber": "9547654452",
+          "timestamp": "2026-11-07T07:18:53.046Z",
+          "source": "bot",
+          "userId": 5312033728,
+          "userName": "Su",
+          "resultSummary": {
+            "name": "MONIRUL HASSAN SARDAR",
+            "fatherName": "BABURALI SARDAR",
+            "mobile": "9093614290",
+            "altMobile": "Not found",
+            "circle": "JIO WB",
+            "idNumber": "672459048432",
+            "email": "Not found",
+            "address": "RAMESWARPUR, KALUTALA HASNABAD, NORTH 24 PARGANAS, WEST BENGAL, 743426",
+            "totalRecords": 2,
+            "lat": 22.69268,
+            "lng": 88.66258,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KALUTALA%20HASNABAD%2C%20NORTH%2024%20PARGANAS%2C%20WEST%20BENGAL%2C%20743426%2C%20India"
+          }
+        },
         {
           "id": "0854b2ed-c383-48bd-8bc3-ccb67a8cf3c8",
           "queryNumber": "7029935496",
@@ -9135,10 +9157,11 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 10416,
+      "lastBotMessageId": 14059,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-10-27",
-      "liveLocationUsed": 0
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0,
+      "awaitingRedeemCode": false
     },
     "6001338045": {
       "id": 6001338045,
@@ -24176,6 +24199,28 @@
   },
   "globalHistory": [
     {
+      "id": "fd8949dc-23bd-493c-a5d2-3638a53fcf2d",
+      "queryNumber": "9547654452",
+      "timestamp": "2026-11-07T07:18:53.046Z",
+      "source": "bot",
+      "userId": 5312033728,
+      "userName": "Su",
+      "resultSummary": {
+        "name": "MONIRUL HASSAN SARDAR",
+        "fatherName": "BABURALI SARDAR",
+        "mobile": "9093614290",
+        "altMobile": "Not found",
+        "circle": "JIO WB",
+        "idNumber": "672459048432",
+        "email": "Not found",
+        "address": "RAMESWARPUR, KALUTALA HASNABAD, NORTH 24 PARGANAS, WEST BENGAL, 743426",
+        "totalRecords": 2,
+        "lat": 22.69268,
+        "lng": 88.66258,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KALUTALA%20HASNABAD%2C%20NORTH%2024%20PARGANAS%2C%20WEST%20BENGAL%2C%20743426%2C%20India"
+      }
+    },
+    {
       "id": "255c825c-5a93-43e5-b556-aa929ed80121",
       "queryNumber": "8639321526",
       "timestamp": "2026-11-07T07:09:24.778Z",
@@ -26352,31 +26397,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "85acd363-13ff-4517-b01d-fa22e233f7e3",
-      "queryNumber": "9804212931",
-      "timestamp": "2026-11-05T09:44:20.977Z",
-      "source": "bot",
-      "userId": 5712852002,
-      "userName": "Pk",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9804212931",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "acae08b5-673e-414d-9c53-e14f6d9eaf65",
+      "timestamp": "2026-11-07T07:18:53.046Z",
+      "type": "LOOKUP",
+      "userId": 5312033728,
+      "userName": "Su",
+      "summary": "Number Lookup 9547654452 (MONIRUL HASSAN SARDAR)"
+    },
     {
       "id": "d20241c7-2d72-4037-a943-22752b156dac",
       "timestamp": "2026-11-07T07:09:24.778Z",
@@ -27568,17 +27599,9 @@
       "userId": 6502481272,
       "userName": "Gamer",
       "summary": "Number Lookup 8253032410 (Not found)"
-    },
-    {
-      "id": "4cad2333-90bd-495e-86d4-06f446cbd7ab",
-      "timestamp": "2026-11-05T16:09:14.614Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6297374588,
-      "userName": "Obito",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815496,
+  "lastTelegramUpdateId": 168815498,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
