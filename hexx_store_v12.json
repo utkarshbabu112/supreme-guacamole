@@ -23813,6 +23813,29 @@
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-07"
+    },
+    "7848285369": {
+      "id": 7848285369,
+      "firstName": "Phoenix",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX285369",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T07:03:37.008Z",
+      "lastActiveAt": "2026-11-07T07:04:49.506Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14052,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-07"
     }
   },
   "orders": {
@@ -27510,7 +27533,7 @@
       "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815487,
+  "lastTelegramUpdateId": 168815491,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
