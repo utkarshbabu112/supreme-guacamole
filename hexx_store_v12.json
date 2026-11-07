@@ -24378,6 +24378,29 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-07",
       "liveLocationUsed": 0
+    },
+    "8544251908": {
+      "id": 8544251908,
+      "firstName": "Blaze",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX251908",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T10:43:51.861Z",
+      "lastActiveAt": "2026-11-07T10:44:44.771Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14130,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-07"
     }
   },
   "orders": {
@@ -26875,6 +26898,14 @@
   ],
   "logs": [
     {
+      "id": "75ceb2b6-d57a-4e4e-9980-007f1552f0b5",
+      "timestamp": "2026-11-07T10:43:52.511Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8544251908,
+      "userName": "Blaze",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "a68b3963-dd53-4068-a065-b1a8b079e0b8",
       "timestamp": "2026-11-07T10:23:57.522Z",
       "type": "LOOKUP",
@@ -28065,17 +28096,9 @@
       "userId": 1637750773,
       "userName": "Jappan",
       "summary": "Number Lookup 9899456717 (Not found)"
-    },
-    {
-      "id": "aa97a3cc-6092-4258-ae21-66e2b3f975ad",
-      "timestamp": "2026-11-05T18:22:45.147Z",
-      "type": "LOOKUP",
-      "userId": 1637750773,
-      "userName": "Jappan",
-      "summary": "Number Lookup 8178397146 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815593,
+  "lastTelegramUpdateId": 168815597,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
