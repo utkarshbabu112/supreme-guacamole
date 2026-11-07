@@ -23587,7 +23587,8 @@
       "lastBotMessageId": 13961,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
