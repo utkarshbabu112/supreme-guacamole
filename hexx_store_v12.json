@@ -1716,7 +1716,8 @@
       "lastBotMessageId": 14200,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "1239628885": {
       "id": 1239628885,
@@ -1785,7 +1786,8 @@
       "lastBotMessageId": 14188,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "1254632312": {
       "id": 1254632312,
@@ -2181,7 +2183,8 @@
       "lastBotMessageId": 14207,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "1340007569": {
       "id": 1340007569,
@@ -3651,7 +3654,8 @@
       "lastBotMessageId": 14179,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "6672896116": {
       "id": 6672896116,
@@ -24786,7 +24790,8 @@
       "lastBotMessageId": 14130,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "8675064320": {
       "id": 8675064320,
@@ -24855,7 +24860,8 @@
       "lastBotMessageId": 14137,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "8879656113": {
       "id": 8879656113,
@@ -24901,7 +24907,8 @@
       "lastBotMessageId": 14147,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "8742831480": {
       "id": 8742831480,
@@ -24970,7 +24977,8 @@
       "lastBotMessageId": 14157,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "9196029077": {
       "id": 9196029077,
@@ -25037,7 +25045,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 14160,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "9181083707": {
       "id": 9181083707,
@@ -25105,7 +25114,8 @@
       "lastBotMessageId": 14210,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-11-07",
-      "awaitingRedeemCode": false
+      "awaitingRedeemCode": false,
+      "liveLocationUsed": 0
     },
     "5754544358": {
       "id": 5754544358,
@@ -25151,7 +25161,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 14222,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "9178111560": {
       "id": 9178111560,
@@ -25174,7 +25185,8 @@
       "lastBotMessageId": 14228,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "9040365599": {
       "id": 9040365599,
@@ -25220,7 +25232,8 @@
       "lastBotMessageId": 14232,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "7957969757": {
       "id": 7957969757,
@@ -25288,7 +25301,8 @@
       "lastBotMessageId": 14246,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
@@ -25595,7 +25609,7 @@
       "lastImapScanAt": 0,
       "credits": 0,
       "days": 7,
-      "status": "PENDING",
+      "status": "EXPIRED",
       "paymentUrl": "https://hexx-locate.ai.studio/?order=HEXGNCU3707",
       "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXGNCU3707&tr=HEXGNCU3707",
       "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=29&cu=INR&tn=HEXGNCU3707&tr=HEXGNCU3707",
