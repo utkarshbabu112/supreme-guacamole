@@ -3378,6 +3378,29 @@
       "lastLookupDate": "2026-11-03",
       "liveLocationUsed": 0
     },
+    "2127537128": {
+      "id": 2127537128,
+      "firstName": "Arunbabu😊😍",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX537128",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T12:23:14.732Z",
+      "lastActiveAt": "2026-11-07T12:23:26.595Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14171,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-07"
+    },
     "6672896116": {
       "id": 6672896116,
       "firstName": "UHTKARSH",
@@ -27238,6 +27261,14 @@
   ],
   "logs": [
     {
+      "id": "a4b81853-b41d-4d90-a05b-a9ebdfc4ffe1",
+      "timestamp": "2026-11-07T12:23:15.672Z",
+      "type": "BOT_MESSAGE",
+      "userId": 2127537128,
+      "userName": "Arunbabu😊😍",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "e4d867bd-83d3-4cd7-a23e-c565cda7130e",
       "timestamp": "2026-11-07T12:06:36.765Z",
       "type": "LOOKUP",
@@ -28428,17 +28459,9 @@
       "userId": 7384293186,
       "userName": "Rajan",
       "summary": "Number Lookup 9797684466 (Not found)"
-    },
-    {
-      "id": "8aabbf4a-c16a-4239-a979-76b9af9690e8",
-      "timestamp": "2026-11-06T00:13:39.847Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7384293186,
-      "userName": "Rajan",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815648,
+  "lastTelegramUpdateId": 168815652,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
