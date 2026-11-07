@@ -25053,7 +25053,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-07T13:03:34.942Z",
-      "lastActiveAt": "2026-11-07T13:08:19.291Z",
+      "lastActiveAt": "2026-11-07T13:12:03.481Z",
       "isBanned": false,
       "history": [
         {
@@ -25102,7 +25102,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 14211,
+      "lastBotMessageId": 14190,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-11-07",
       "awaitingRedeemCode": false
@@ -28803,7 +28803,7 @@
       "summary": "Number Lookup 6204610010 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815690,
+  "lastTelegramUpdateId": 168815691,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
