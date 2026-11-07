@@ -24900,6 +24900,27 @@
       "lastBotMessageId": 14160,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-11-07"
+    },
+    "9181083707": {
+      "id": 9181083707,
+      "firstName": "Veyronix",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX083707",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T13:03:34.942Z",
+      "lastActiveAt": "2026-11-07T13:03:34.942Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 14190,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -27397,6 +27418,14 @@
   ],
   "logs": [
     {
+      "id": "5b0ae5a2-d0f6-4e9e-a945-09e6badb4423",
+      "timestamp": "2026-11-07T13:03:35.882Z",
+      "type": "BOT_MESSAGE",
+      "userId": 9181083707,
+      "userName": "Veyronix",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "88a73e31-5901-442e-969d-6ed8fb6114b7",
       "timestamp": "2026-11-07T12:41:21.965Z",
       "type": "LOOKUP",
@@ -28587,17 +28616,9 @@
       "userId": 8968071078,
       "userName": "Aura",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "1ac636af-2806-4559-92b8-eb2bea9347c6",
-      "timestamp": "2026-11-06T01:27:56.573Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815666,
+  "lastTelegramUpdateId": 168815667,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
