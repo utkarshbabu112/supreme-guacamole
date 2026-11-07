@@ -21437,14 +21437,14 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-05T09:40:12.790Z",
-      "lastActiveAt": "2026-11-05T09:41:51.530Z",
+      "lastActiveAt": "2026-11-07T00:22:07.924Z",
       "isBanned": false,
       "history": [],
       "forceJoinVerified": true,
-      "lastBotMessageId": 13488,
+      "lastBotMessageId": 13945,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-05",
+      "lastLookupDate": "2026-11-07",
       "liveLocationUsed": 0
     },
     "5712852002": {
@@ -26061,6 +26061,14 @@
   ],
   "logs": [
     {
+      "id": "4c4542dc-a2f4-4301-b0ca-83c9fa3d8345",
+      "timestamp": "2026-11-07T00:20:19.696Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8983229920,
+      "userName": "ha_cker😈",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "305238a9-2535-4ca8-b21a-778321bbff1e",
       "timestamp": "2026-11-06T20:08:22.188Z",
       "type": "LOOKUP",
@@ -27251,17 +27259,9 @@
       "userId": 8968071078,
       "userName": "Aura",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "4932bd1c-fcf4-49b9-a43e-f9434df36b4f",
-      "timestamp": "2026-11-05T12:11:04.125Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8177132634,
-      "userName": "Raja",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815376,
+  "lastTelegramUpdateId": 168815389,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
