@@ -23789,6 +23789,30 @@
       "isBanned": false,
       "history": [],
       "lastPlanName": "7 Days Admin VIP"
+    },
+    "6843875784": {
+      "id": 6843875784,
+      "firstName": "Prime Yuviiii 👑",
+      "username": "yuviiiii2010",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX875784",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T06:45:18.855Z",
+      "lastActiveAt": "2026-11-07T06:45:24.783Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14048,
+      "lastBotMessageHasPhoto": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-07"
     }
   },
   "orders": {
@@ -26286,6 +26310,14 @@
   ],
   "logs": [
     {
+      "id": "59ef07b2-cdbd-4105-bddc-872a2ffd3a2e",
+      "timestamp": "2026-11-07T06:45:19.507Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6843875784,
+      "userName": "Prime Yuviiii 👑",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "1b699161-5115-4312-a193-21919eacf937",
       "timestamp": "2026-11-07T06:43:42.299Z",
       "type": "LOOKUP",
@@ -27476,17 +27508,9 @@
       "userId": 5275542134,
       "userName": "Pramod Kumar",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "ef598bd9-553f-4e9b-b9ba-092fb6164285",
-      "timestamp": "2026-11-05T15:28:36.037Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815485,
+  "lastTelegramUpdateId": 168815487,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
