@@ -4427,7 +4427,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T12:06:26.066Z",
-      "lastActiveAt": "2026-11-06T16:06:20.313Z",
+      "lastActiveAt": "2026-11-07T01:50:15.310Z",
       "isBanned": false,
       "history": [
         {
@@ -4611,7 +4611,7 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 13908,
+      "lastBotMessageId": 13947,
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-05",
@@ -26061,6 +26061,14 @@
   ],
   "logs": [
     {
+      "id": "ff89bc51-f72c-4a93-b383-182cf03c6c3e",
+      "timestamp": "2026-11-07T01:50:15.924Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8968071078,
+      "userName": "Aura",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "4c4542dc-a2f4-4301-b0ca-83c9fa3d8345",
       "timestamp": "2026-11-07T00:20:19.696Z",
       "type": "BOT_MESSAGE",
@@ -27251,17 +27259,9 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "e9e623bd-5b58-42c9-ada6-ea2b23a03d6a",
-      "timestamp": "2026-11-05T12:50:24.178Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815389,
+  "lastTelegramUpdateId": 168815390,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
