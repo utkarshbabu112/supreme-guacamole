@@ -25673,6 +25673,28 @@
       "lastBotMessageId": 14288,
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-11-07"
+    },
+    "8679181301": {
+      "id": 8679181301,
+      "firstName": "Ukey",
+      "username": "Physicality6",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX181301",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T18:20:30.382Z",
+      "lastActiveAt": "2026-11-07T18:20:52.340Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14292,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -28193,6 +28215,14 @@
   ],
   "logs": [
     {
+      "id": "0792fff0-b5c9-476a-b0f4-0c0224a60d29",
+      "timestamp": "2026-11-07T18:20:30.929Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8679181301,
+      "userName": "Ukey",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "f62b0a71-c7b7-4213-bbe5-5450b5eceec8",
       "timestamp": "2026-11-07T18:08:11.072Z",
       "type": "LOOKUP",
@@ -29383,17 +29413,9 @@
       "userId": 809722182,
       "userName": "Ravindra",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "ec0b8aa1-2ae1-4b0d-ac1e-e9f4a15103b3",
-      "timestamp": "2026-11-06T13:02:53.299Z",
-      "type": "LOOKUP",
-      "userId": 9050651761,
-      "userName": "Vihan",
-      "summary": "Number Lookup 6393914702 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815788,
+  "lastTelegramUpdateId": 168815791,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
