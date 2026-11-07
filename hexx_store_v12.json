@@ -24391,7 +24391,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-07T10:23:02.918Z",
-      "lastActiveAt": "2026-11-07T10:25:11.796Z",
+      "lastActiveAt": "2026-11-07T11:41:27.914Z",
       "isBanned": false,
       "history": [
         {
@@ -28212,7 +28212,7 @@
       "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815612,
+  "lastTelegramUpdateId": 168815615,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
