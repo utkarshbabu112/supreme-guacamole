@@ -2517,6 +2517,30 @@
       "lastLookupDate": "2026-11-04",
       "liveLocationUsed": 0
     },
+    "1443069638": {
+      "id": 1443069638,
+      "firstName": "Sabbir | Drops💧",
+      "username": "Sabbir_H98",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX069638",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T15:38:35.621Z",
+      "lastActiveAt": "2026-11-07T15:39:15.074Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14253,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-07"
+    },
     "1482397019": {
       "id": 1482397019,
       "firstName": "Jeet",
@@ -27823,6 +27847,14 @@
   ],
   "logs": [
     {
+      "id": "4ab417d8-fa4f-4797-9be9-e794bee92abb",
+      "timestamp": "2026-11-07T15:38:36.223Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1443069638,
+      "userName": "Sabbir | Drops💧",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "3265dd0c-ae2d-449e-aa4d-a292cef845bb",
       "timestamp": "2026-11-07T15:04:40.788Z",
       "type": "LOOKUP",
@@ -29013,17 +29045,9 @@
       "userId": 8904077571,
       "userName": ".",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "b303025e-3951-4c53-b2f9-fdfbed34a0f4",
-      "timestamp": "2026-11-06T09:04:20.970Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815739,
+  "lastTelegramUpdateId": 168815744,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
