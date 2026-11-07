@@ -23564,6 +23564,30 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-06",
       "liveLocationUsed": 0
+    },
+    "8350972711": {
+      "id": 8350972711,
+      "firstName": "Camilo",
+      "username": "ElpropositoBv",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX972711",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T05:22:27.355Z",
+      "lastActiveAt": "2026-11-07T05:22:41.130Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13957,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-07"
     }
   },
   "orders": {
@@ -26061,6 +26085,14 @@
   ],
   "logs": [
     {
+      "id": "70514acf-9a29-45bf-8f49-a000c7f8bf3e",
+      "timestamp": "2026-11-07T05:22:28.203Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8350972711,
+      "userName": "Camilo",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "95b62341-e28e-46df-8cd5-69b6ecbe48b4",
       "timestamp": "2026-11-07T05:04:23.393Z",
       "type": "BOT_MESSAGE",
@@ -27251,17 +27283,9 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "00e0aade-39b9-48aa-8f09-4a456a660881",
-      "timestamp": "2026-11-05T13:15:53.736Z",
-      "type": "LOOKUP",
-      "userId": 6383913557,
-      "userName": "Sbz",
-      "summary": "Number Lookup 7760123153 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815394,
+  "lastTelegramUpdateId": 168815397,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
