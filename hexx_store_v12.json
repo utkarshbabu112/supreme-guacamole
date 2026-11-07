@@ -23290,12 +23290,12 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-06T11:41:46.310Z",
-      "lastActiveAt": "2026-11-06T11:43:09.595Z",
+      "lastActiveAt": "2026-11-07T08:49:01.096Z",
       "isBanned": false,
       "history": [],
       "forceJoinVerified": true,
-      "lastBotMessageId": 13869,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 14087,
+      "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-06",
       "liveLocationUsed": 0
@@ -26585,6 +26585,14 @@
   ],
   "logs": [
     {
+      "id": "15c1d862-d37e-4f42-bfef-02f4038034a1",
+      "timestamp": "2026-11-07T08:49:01.658Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8185898945,
+      "userName": "Yoʋʀ",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "c1a1d2a4-fae4-4c4f-8e82-156d7d3ba008",
       "timestamp": "2026-11-07T08:17:38.701Z",
       "type": "LOOKUP",
@@ -27775,17 +27783,9 @@
       "userId": 7244825517,
       "userName": "Harmit",
       "summary": "Number Lookup 7041113686 (Not found)"
-    },
-    {
-      "id": "764052ff-d70f-45f9-b5bc-edd9ecaf8474",
-      "timestamp": "2026-11-05T17:24:53.033Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7244825517,
-      "userName": "Harmit",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815534,
+  "lastTelegramUpdateId": 168815535,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
