@@ -23635,6 +23635,27 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-07",
       "liveLocationUsed": 0
+    },
+    "9001682243": {
+      "id": 9001682243,
+      "firstName": "☀️🌕",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX682243",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T05:54:55.115Z",
+      "lastActiveAt": "2026-11-07T05:55:22.056Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 13967,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -26132,6 +26153,14 @@
   ],
   "logs": [
     {
+      "id": "6bc03692-d0bb-45ab-b4d1-85591a3de383",
+      "timestamp": "2026-11-07T05:54:55.750Z",
+      "type": "BOT_MESSAGE",
+      "userId": 9001682243,
+      "userName": "☀️🌕",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "15d6b5b4-088d-48e7-a4f1-380f1d96cfd3",
       "timestamp": "2026-11-07T05:46:14.749Z",
       "type": "LOOKUP",
@@ -27322,17 +27351,9 @@
       "userId": 6584335089,
       "userName": "Vipanshu Manoj",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "ab2c30c6-7676-4b55-9d02-54f73fffa02f",
-      "timestamp": "2026-11-05T13:32:10.991Z",
-      "type": "LOOKUP",
-      "userId": 839020334,
-      "userName": "Serick",
-      "summary": "Number Lookup 8477843905 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815407,
+  "lastTelegramUpdateId": 168815409,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
