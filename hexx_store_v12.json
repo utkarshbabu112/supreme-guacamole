@@ -3865,20 +3865,42 @@
       "id": 6247554367,
       "firstName": "Divya",
       "username": "Divyarani123a",
-      "credits": 1,
+      "credits": 0,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 1,
-      "totalLookups": 31,
+      "dailyLookupsUsed": 2,
+      "totalLookups": 32,
       "referralCode": "HEX554367",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:29:05.466Z",
-      "lastActiveAt": "2026-11-07T09:08:48.384Z",
+      "lastActiveAt": "2026-11-07T14:55:36.926Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "5f735576-d34b-49b7-96c5-e5b8839501f3",
+          "queryNumber": "7876846577",
+          "timestamp": "2026-11-07T14:54:52.464Z",
+          "source": "bot",
+          "userId": 6247554367,
+          "userName": "Divya",
+          "resultSummary": {
+            "name": "MONIRUL HASSAN SARDAR",
+            "fatherName": "BABURALI SARDAR",
+            "mobile": "9093614290",
+            "altMobile": "Not found",
+            "circle": "JIO WB",
+            "idNumber": "672459048432",
+            "email": "Not found",
+            "address": "RAMESWARPUR, KALUTALA HASNABAD, NORTH 24 PARGANAS, WEST BENGAL, 743426",
+            "totalRecords": 2,
+            "lat": 22.69268,
+            "lng": 88.66258,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KALUTALA%20HASNABAD%2C%20NORTH%2024%20PARGANAS%2C%20WEST%20BENGAL%2C%20743426%2C%20India"
+          }
+        },
         {
           "id": "7f6db565-3a7a-4549-b179-8d77a9b5158d",
           "queryNumber": "9537279389",
@@ -4296,32 +4318,10 @@
             "lng": 77.209,
             "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
           }
-        },
-        {
-          "id": "e5ee7a58-150f-4e6e-b49d-32c7c97d6cf9",
-          "queryNumber": "8277300809",
-          "timestamp": "2026-10-26T02:55:12.179Z",
-          "source": "bot",
-          "userId": 6247554367,
-          "userName": "Divya",
-          "resultSummary": {
-            "name": "Not found",
-            "fatherName": "Not found",
-            "mobile": "8277300809",
-            "altMobile": "Not found",
-            "circle": "New Delhi, Delhi",
-            "idNumber": "Not found",
-            "email": "Not found",
-            "address": "New Delhi, Delhi",
-            "totalRecords": 1,
-            "lat": 28.6139,
-            "lng": 77.209,
-            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-          }
         }
       ],
       "lastLookupDate": "2026-11-07",
-      "lastBotMessageId": 14089,
+      "lastBotMessageId": 14236,
       "lastBotMessageHasPhoto": false,
       "liveLocationUsed": 0,
       "forceJoinVerified": true
@@ -25539,6 +25539,28 @@
   },
   "globalHistory": [
     {
+      "id": "5f735576-d34b-49b7-96c5-e5b8839501f3",
+      "queryNumber": "7876846577",
+      "timestamp": "2026-11-07T14:54:52.464Z",
+      "source": "bot",
+      "userId": 6247554367,
+      "userName": "Divya",
+      "resultSummary": {
+        "name": "MONIRUL HASSAN SARDAR",
+        "fatherName": "BABURALI SARDAR",
+        "mobile": "9093614290",
+        "altMobile": "Not found",
+        "circle": "JIO WB",
+        "idNumber": "672459048432",
+        "email": "Not found",
+        "address": "RAMESWARPUR, KALUTALA HASNABAD, NORTH 24 PARGANAS, WEST BENGAL, 743426",
+        "totalRecords": 2,
+        "lat": 22.69268,
+        "lng": 88.66258,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KALUTALA%20HASNABAD%2C%20NORTH%2024%20PARGANAS%2C%20WEST%20BENGAL%2C%20743426%2C%20India"
+      }
+    },
+    {
       "id": "da11db7f-60ed-4071-b6d0-765efd1499bf",
       "queryNumber": "7388732776",
       "timestamp": "2026-11-07T14:22:55.747Z",
@@ -27715,31 +27737,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "556785a1-a873-42ad-bf5d-ef5b325308f7",
-      "queryNumber": "7457029986",
-      "timestamp": "2026-11-05T17:48:46.778Z",
-      "source": "bot",
-      "userId": 927929470,
-      "userName": "Examcart Live",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7457029986",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "3b15c544-228d-47de-aaf9-04d12f10271d",
+      "timestamp": "2026-11-07T14:54:52.464Z",
+      "type": "LOOKUP",
+      "userId": 6247554367,
+      "userName": "Divya",
+      "summary": "Number Lookup 7876846577 (MONIRUL HASSAN SARDAR)"
+    },
     {
       "id": "2267df33-3bd9-4de9-b969-02819a8bf68d",
       "timestamp": "2026-11-07T14:22:55.747Z",
@@ -28931,17 +28939,9 @@
       "userId": 1995644282,
       "userName": "S",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "5ae23f55-29b3-4f9f-a07a-f376d83bf33d",
-      "timestamp": "2026-11-06T06:53:31.928Z",
-      "type": "LOOKUP",
-      "userId": 1545684588,
-      "userName": "Shyam",
-      "summary": "Number Lookup 8797870556 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815725,
+  "lastTelegramUpdateId": 168815727,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
