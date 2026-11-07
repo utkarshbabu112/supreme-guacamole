@@ -24178,6 +24178,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-07"
+    },
+    "8465216330": {
+      "id": 8465216330,
+      "firstName": ".....",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX216330",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T10:04:38.240Z",
+      "lastActiveAt": "2026-11-07T10:05:05.988Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14106,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-07"
     }
   },
   "orders": {
@@ -26675,6 +26698,14 @@
   ],
   "logs": [
     {
+      "id": "dc3defa9-eadc-451b-80b7-080ec6aa5e5e",
+      "timestamp": "2026-11-07T10:04:38.841Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8465216330,
+      "userName": ".....",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "d946c74a-9993-416d-99c2-dd94fed72ee9",
       "timestamp": "2026-11-07T09:54:48.481Z",
       "type": "BOT_MESSAGE",
@@ -27865,17 +27896,9 @@
       "userId": 927929470,
       "userName": "Examcart Live",
       "summary": "Number Lookup 7457029986 (Not found)"
-    },
-    {
-      "id": "611ae8f2-cfff-4c62-bdaf-692d88014eef",
-      "timestamp": "2026-11-05T17:48:21.543Z",
-      "type": "LOOKUP",
-      "userId": 927929470,
-      "userName": "Examcart Live",
-      "summary": "Number Lookup 7310830546 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815556,
+  "lastTelegramUpdateId": 168815561,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
