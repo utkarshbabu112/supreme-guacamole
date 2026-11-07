@@ -25106,6 +25106,52 @@
       "lastBotMessageHasPhoto": false,
       "lastLookupDate": "2026-11-07",
       "awaitingRedeemCode": false
+    },
+    "5754544358": {
+      "id": 5754544358,
+      "firstName": "A",
+      "username": "Arun774535",
+      "credits": 1,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 1,
+      "totalLookups": 1,
+      "referralCode": "HEX544358",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-07T14:01:28.310Z",
+      "lastActiveAt": "2026-11-07T14:02:12.100Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "229f5e4b-5c7e-466b-8951-46de26add9df",
+          "queryNumber": "9550406668",
+          "timestamp": "2026-11-07T14:01:56.798Z",
+          "source": "bot",
+          "userId": 5754544358,
+          "userName": "A",
+          "resultSummary": {
+            "name": "MONIRUL HASSAN SARDAR",
+            "fatherName": "BABURALI SARDAR",
+            "mobile": "9093614290",
+            "altMobile": "Not found",
+            "circle": "JIO WB",
+            "idNumber": "672459048432",
+            "email": "Not found",
+            "address": "RAMESWARPUR, KALUTALA HASNABAD, NORTH 24 PARGANAS, WEST BENGAL, 743426",
+            "totalRecords": 2,
+            "lat": 22.69268,
+            "lng": 88.66258,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KALUTALA%20HASNABAD%2C%20NORTH%2024%20PARGANAS%2C%20WEST%20BENGAL%2C%20743426%2C%20India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14222,
+      "lastBotMessageHasPhoto": false,
+      "lastLookupDate": "2026-11-07"
     }
   },
   "orders": {
@@ -25423,6 +25469,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "229f5e4b-5c7e-466b-8951-46de26add9df",
+      "queryNumber": "9550406668",
+      "timestamp": "2026-11-07T14:01:56.798Z",
+      "source": "bot",
+      "userId": 5754544358,
+      "userName": "A",
+      "resultSummary": {
+        "name": "MONIRUL HASSAN SARDAR",
+        "fatherName": "BABURALI SARDAR",
+        "mobile": "9093614290",
+        "altMobile": "Not found",
+        "circle": "JIO WB",
+        "idNumber": "672459048432",
+        "email": "Not found",
+        "address": "RAMESWARPUR, KALUTALA HASNABAD, NORTH 24 PARGANAS, WEST BENGAL, 743426",
+        "totalRecords": 2,
+        "lat": 22.69268,
+        "lng": 88.66258,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KALUTALA%20HASNABAD%2C%20NORTH%2024%20PARGANAS%2C%20WEST%20BENGAL%2C%20743426%2C%20India"
+      }
+    },
     {
       "id": "c90a69b9-5eef-42d1-9e75-77f2bf04857e",
       "queryNumber": "9933946022",
@@ -27600,31 +27668,33 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "704d035f-d1c3-448b-ab71-ab8436f55bf9",
-      "queryNumber": "7624922584",
-      "timestamp": "2026-11-05T17:32:33.715Z",
-      "source": "bot",
-      "userId": 6383913557,
-      "userName": "Sbz",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "7624922584",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "9e4575d8-f402-456e-9dbd-916e4200557d",
+      "timestamp": "2026-11-07T14:01:56.798Z",
+      "type": "LOOKUP",
+      "userId": 5754544358,
+      "userName": "A",
+      "summary": "Number Lookup 9550406668 (MONIRUL HASSAN SARDAR)"
+    },
+    {
+      "id": "4d90e5cb-0e47-4c00-980e-73274e9adbc8",
+      "timestamp": "2026-11-07T14:01:44.769Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5754544358,
+      "userName": "A",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "9e27639f-289d-4de5-b2d7-2f2eafcc8e7f",
+      "timestamp": "2026-11-07T14:01:28.980Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5754544358,
+      "userName": "A",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "d0696d0f-4021-4611-bf97-2497b5114b10",
       "timestamp": "2026-11-07T13:25:10.626Z",
@@ -28800,33 +28870,9 @@
       "userId": 8861547006,
       "userName": "Bharath",
       "summary": "Number Lookup 9095944514 (Not found)"
-    },
-    {
-      "id": "6b615b06-45af-4da3-a8ce-b4697215e3db",
-      "timestamp": "2026-11-06T03:32:40.026Z",
-      "type": "LOOKUP",
-      "userId": 8861547006,
-      "userName": "Bharath",
-      "summary": "Number Lookup 8870640854 (Not found)"
-    },
-    {
-      "id": "df64919d-bada-4d6d-b54f-3b2eaddd369f",
-      "timestamp": "2026-11-06T03:31:25.441Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8861547006,
-      "userName": "Bharath",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "31f2f147-d71e-4bbd-951a-01594f4cad74",
-      "timestamp": "2026-11-06T02:09:23.699Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815705,
+  "lastTelegramUpdateId": 168815709,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
