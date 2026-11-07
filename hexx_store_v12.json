@@ -2539,7 +2539,8 @@
       "lastBotMessageId": 14253,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "1482397019": {
       "id": 1482397019,
@@ -3420,7 +3421,8 @@
       "lastBotMessageId": 14279,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "1987664153": {
       "id": 1987664153,
@@ -25418,7 +25420,8 @@
       "lastBotMessageId": 14255,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "8254941340": {
       "id": 8254941340,
@@ -25486,7 +25489,8 @@
       "lastBotMessageId": 14262,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "7857095858": {
       "id": 7857095858,
@@ -25533,7 +25537,8 @@
       "lastBotMessageId": 14269,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "6625951872": {
       "id": 6625951872,
@@ -25580,7 +25585,8 @@
       "lastBotMessageId": 14273,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "8862938193": {
       "id": 8862938193,
@@ -25604,7 +25610,8 @@
       "lastBotMessageId": 14281,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "7741173292": {
       "id": 7741173292,
@@ -25672,7 +25679,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 14288,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "8679181301": {
       "id": 8679181301,
@@ -25694,7 +25702,8 @@
       "history": [],
       "forceJoinVerified": true,
       "lastBotMessageId": 14292,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "liveLocationUsed": 0
     },
     "6863188440": {
       "id": 6863188440,
@@ -25762,7 +25771,8 @@
       "lastBotMessageId": 14299,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "8680014184": {
       "id": 8680014184,
@@ -25778,7 +25788,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-07T19:21:23.122Z",
-      "lastActiveAt": "2026-11-07T19:24:00.469Z",
+      "lastActiveAt": "2026-11-07T20:22:55.307Z",
       "isBanned": false,
       "history": [
         {
@@ -25805,10 +25815,11 @@
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 14316,
-      "lastBotMessageHasPhoto": true,
+      "lastBotMessageId": 14327,
+      "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "6922789849": {
       "id": 6922789849,
@@ -25854,7 +25865,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 14321,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     },
     "5306139200": {
       "id": 5306139200,
@@ -25900,7 +25912,8 @@
       "forceJoinVerified": true,
       "lastBotMessageId": 14325,
       "lastBotMessageHasPhoto": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
@@ -29667,7 +29680,7 @@
       "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815825,
+  "lastTelegramUpdateId": 168815827,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
