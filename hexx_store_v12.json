@@ -26403,6 +26403,28 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-08"
+    },
+    "7658609835": {
+      "id": 7658609835,
+      "firstName": "CaptnRon86",
+      "username": "CaptnRon86",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX609835",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-08T07:51:14.757Z",
+      "lastActiveAt": "2026-11-08T07:51:14.757Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 14414,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -28995,6 +29017,14 @@
   ],
   "logs": [
     {
+      "id": "24c3b8a9-aab5-4ac4-b092-e1925fbe5cd5",
+      "timestamp": "2026-11-08T07:51:15.668Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7658609835,
+      "userName": "CaptnRon86",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "f59dab06-48d4-4d15-bef4-5a105d154a13",
       "timestamp": "2026-11-08T07:31:27.880Z",
       "type": "LOOKUP",
@@ -30185,17 +30215,9 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "849adc30-d2d4-4169-b47b-c0fe05123ca4",
-      "timestamp": "2026-11-07T06:32:35.274Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815902,
+  "lastTelegramUpdateId": 168815903,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
