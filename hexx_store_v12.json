@@ -3772,7 +3772,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:07:01.294Z",
-      "lastActiveAt": "2026-11-08T04:57:13.099Z",
+      "lastActiveAt": "2026-11-08T08:50:47.683Z",
       "isBanned": false,
       "isAdminUnlocked": true,
       "history": [
@@ -3954,7 +3954,7 @@
           }
         }
       ],
-      "lastBotMessageId": 14379,
+      "lastBotMessageId": 14444,
       "lastBotMessageHasPhoto": false,
       "lookupMode": "info",
       "lastLookupDate": "2026-11-08",
@@ -29155,6 +29155,14 @@
   ],
   "logs": [
     {
+      "id": "0b7bae03-dce2-4382-986e-792483589cc0",
+      "timestamp": "2026-11-08T08:50:25.502Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "af2fba18-ec0d-4ee0-a831-adca6c1a9b76",
       "timestamp": "2026-11-08T08:37:28.412Z",
       "type": "LOOKUP",
@@ -30345,17 +30353,9 @@
       "userId": 7848285369,
       "userName": "Phoenix",
       "summary": "Number Lookup 8639321526 (MONIRUL HASSAN SARDAR)"
-    },
-    {
-      "id": "780a8592-61af-427e-8aeb-543827f6cb02",
-      "timestamp": "2026-11-07T07:05:57.393Z",
-      "type": "LOOKUP",
-      "userId": 7848285369,
-      "userName": "Phoenix",
-      "summary": "Number Lookup 6301003428 (MONIRUL HASSAN SARDAR)"
     }
   ],
-  "lastTelegramUpdateId": 168815924,
+  "lastTelegramUpdateId": 168815929,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
