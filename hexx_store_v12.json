@@ -26450,6 +26450,28 @@
       "lastBotMessageHasPhoto": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-08"
+    },
+    "8393952791": {
+      "id": 8393952791,
+      "firstName": "SHIVA",
+      "username": "itz_shiva_777",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX952791",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-08T08:31:27.861Z",
+      "lastActiveAt": "2026-11-08T08:31:35.345Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14424,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -29042,6 +29064,14 @@
   ],
   "logs": [
     {
+      "id": "e2b885fb-3546-4a67-a1ef-51137721b426",
+      "timestamp": "2026-11-08T08:31:28.875Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8393952791,
+      "userName": "SHIVA",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "555830f2-c8f2-4f48-badd-a255b48b5284",
       "timestamp": "2026-11-08T07:54:17.081Z",
       "type": "BOT_MESSAGE",
@@ -30232,17 +30262,9 @@
       "userId": 725273376,
       "userName": "rahul497407",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "00e5edf3-dffb-4758-96d0-7b5955aa9d5e",
-      "timestamp": "2026-11-07T06:35:24.767Z",
-      "type": "LOOKUP",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Number Lookup 8676972045 (MONIRUL HASSAN SARDAR)"
     }
   ],
-  "lastTelegramUpdateId": 168815908,
+  "lastTelegramUpdateId": 168815910,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
