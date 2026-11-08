@@ -26632,6 +26632,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-08"
+    },
+    "7388779243": {
+      "id": 7388779243,
+      "firstName": ".",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX779243",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-08T09:46:11.938Z",
+      "lastActiveAt": "2026-11-08T09:46:41.202Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14459,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-08"
     }
   },
   "orders": {
@@ -29224,6 +29247,14 @@
   ],
   "logs": [
     {
+      "id": "0bd92808-58f1-457a-8cde-12983d92a2a1",
+      "timestamp": "2026-11-08T09:46:12.881Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7388779243,
+      "userName": ".",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "60cf2606-fe5a-42a7-a859-5b3dbff38434",
       "timestamp": "2026-11-08T09:08:35.493Z",
       "type": "LOOKUP",
@@ -30414,17 +30445,9 @@
       "userId": 8248589840,
       "userName": "NANDI",
       "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "960ca7f8-3b6d-4152-a5b7-f7c3e7055a64",
-      "timestamp": "2026-11-07T07:27:03.125Z",
-      "type": "BOT_MESSAGE",
-      "userId": 7910437928,
-      "userName": "Biku",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815946,
+  "lastTelegramUpdateId": 168815950,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
