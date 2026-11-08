@@ -26647,11 +26647,11 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-08T09:46:11.938Z",
-      "lastActiveAt": "2026-11-08T09:46:41.202Z",
+      "lastActiveAt": "2026-11-08T09:50:16.552Z",
       "isBanned": false,
       "history": [],
       "forceJoinVerified": true,
-      "lastBotMessageId": 14459,
+      "lastBotMessageId": 14463,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-08"
@@ -29247,6 +29247,14 @@
   ],
   "logs": [
     {
+      "id": "9ff09b3f-9a64-4aa3-b127-5c809366076f",
+      "timestamp": "2026-11-08T09:49:38.664Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7388779243,
+      "userName": ".",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "0bd92808-58f1-457a-8cde-12983d92a2a1",
       "timestamp": "2026-11-08T09:46:12.881Z",
       "type": "BOT_MESSAGE",
@@ -30437,17 +30445,9 @@
       "userId": 8248589840,
       "userName": "NANDI",
       "summary": "Number Lookup 6297244279 (MONIRUL HASSAN SARDAR)"
-    },
-    {
-      "id": "fec1f739-c01f-41bf-b800-0141e406202b",
-      "timestamp": "2026-11-07T07:30:45.032Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8248589840,
-      "userName": "NANDI",
-      "summary": "Force Join prompt shown on /start"
     }
   ],
-  "lastTelegramUpdateId": 168815950,
+  "lastTelegramUpdateId": 168815957,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
