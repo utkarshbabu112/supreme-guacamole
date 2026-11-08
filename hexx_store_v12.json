@@ -26112,12 +26112,14 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-08T04:23:39.167Z",
-      "lastActiveAt": "2026-11-08T04:23:39.167Z",
+      "lastActiveAt": "2026-11-08T05:26:59.863Z",
       "isBanned": false,
       "history": [],
-      "forceJoinVerified": false,
+      "forceJoinVerified": true,
       "lastBotMessageId": 14350,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-08"
     },
     "6783862138": {
       "id": 6783862138,
@@ -26166,6 +26168,30 @@
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-08",
       "lastPlanName": "1 Year Pass"
+    },
+    "5317672182": {
+      "id": 5317672182,
+      "firstName": "§77779999333§",
+      "username": "Forjadordelfuego",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX672182",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-08T05:24:42.338Z",
+      "lastActiveAt": "2026-11-08T05:26:32.315Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14387,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-08"
     }
   },
   "orders": {
@@ -28758,6 +28784,14 @@
   ],
   "logs": [
     {
+      "id": "ee0b88f7-de43-42ab-be79-ec87a4422870",
+      "timestamp": "2026-11-08T05:24:43.356Z",
+      "type": "BOT_MESSAGE",
+      "userId": 5317672182,
+      "userName": "§77779999333§",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "a50d2570-4135-4aa7-813d-82ba1cfbb790",
       "timestamp": "2026-11-08T04:57:14.554Z",
       "type": "LOOKUP",
@@ -29948,17 +29982,9 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Number Lookup 9093614290 (Not found)"
-    },
-    {
-      "id": "c75586f4-8016-46cb-b0bf-c3fd6d56a47f",
-      "timestamp": "2026-11-07T06:21:18.288Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815863,
+  "lastTelegramUpdateId": 168815877,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
