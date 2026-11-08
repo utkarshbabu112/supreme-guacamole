@@ -26460,18 +26460,43 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 0,
+      "totalLookups": 1,
       "referralCode": "HEX952791",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-08T08:31:27.861Z",
-      "lastActiveAt": "2026-11-08T08:31:35.345Z",
+      "lastActiveAt": "2026-11-08T08:36:38.689Z",
       "isBanned": false,
-      "history": [],
+      "history": [
+        {
+          "id": "25878833-d650-4791-8204-357167535260",
+          "queryNumber": "9501702902",
+          "timestamp": "2026-11-08T08:32:02.378Z",
+          "source": "bot",
+          "userId": 8393952791,
+          "userName": "SHIVA",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9501702902",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 14424,
-      "lastBotMessageHasPhoto": false
+      "lastBotMessageId": 14430,
+      "lastBotMessageHasPhoto": true,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-08"
     }
   },
   "orders": {
@@ -26861,6 +26886,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "25878833-d650-4791-8204-357167535260",
+      "queryNumber": "9501702902",
+      "timestamp": "2026-11-08T08:32:02.378Z",
+      "source": "bot",
+      "userId": 8393952791,
+      "userName": "SHIVA",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9501702902",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "68d4f37b-f5ce-40c0-b9f2-96da0478a307",
       "queryNumber": "6149743564",
@@ -29038,31 +29085,33 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "8170ab95-04b3-4e58-bd40-22cda72d823f",
-      "queryNumber": "6368282049",
-      "timestamp": "2026-11-06T12:50:22.591Z",
-      "source": "bot",
-      "userId": 7630343176,
-      "userName": "You",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "6368282049",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "58c5ac00-d8ea-40c1-aa26-72dc8996bbed",
+      "timestamp": "2026-11-08T08:36:02.074Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8393952791,
+      "userName": "SHIVA",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "7bcf62fe-8523-48c5-9cc5-8fd6d14f209f",
+      "timestamp": "2026-11-08T08:32:36.634Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8393952791,
+      "userName": "SHIVA",
+      "summary": "Started bot (/start)"
+    },
+    {
+      "id": "34b6d437-3dd4-4f08-a177-1fae00822ea3",
+      "timestamp": "2026-11-08T08:32:02.378Z",
+      "type": "LOOKUP",
+      "userId": 8393952791,
+      "userName": "SHIVA",
+      "summary": "Number Lookup 9501702902 (Not found)"
+    },
     {
       "id": "e2b885fb-3546-4a67-a1ef-51137721b426",
       "timestamp": "2026-11-08T08:31:28.875Z",
@@ -30238,33 +30287,9 @@
       "userId": 8783397948,
       "userName": "Saurabh",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "afa1e5b6-dccb-4c29-afce-0ab0053f088f",
-      "timestamp": "2026-11-07T06:39:13.037Z",
-      "type": "LOOKUP",
-      "userId": 8800049547,
-      "userName": "Goutam Shroff",
-      "summary": "Number Lookup 8944957799 (MONIRUL HASSAN SARDAR)"
-    },
-    {
-      "id": "e178824c-35d2-4ea5-aa49-1aa752879f1c",
-      "timestamp": "2026-11-07T06:38:44.562Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8800049547,
-      "userName": "Goutam Shroff",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "2dcfab42-8c3d-4834-a46e-6241b7e3cf31",
-      "timestamp": "2026-11-07T06:37:33.535Z",
-      "type": "BOT_MESSAGE",
-      "userId": 725273376,
-      "userName": "rahul497407",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815910,
+  "lastTelegramUpdateId": 168815918,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
