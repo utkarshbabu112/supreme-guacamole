@@ -26655,6 +26655,52 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-08"
+    },
+    "8753511590": {
+      "id": 8753511590,
+      "firstName": "Haseeb",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 1,
+      "referralCode": "HEX511590",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-08T09:55:18.874Z",
+      "lastActiveAt": "2026-11-08T09:56:31.684Z",
+      "isBanned": false,
+      "history": [
+        {
+          "id": "fa5758e1-4f12-4f60-b1df-ef4ee703905d",
+          "queryNumber": "9691385669",
+          "timestamp": "2026-11-08T09:56:33.251Z",
+          "source": "bot",
+          "userId": 8753511590,
+          "userName": "Haseeb",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9691385669",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        }
+      ],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14467,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-08"
     }
   },
   "orders": {
@@ -27044,6 +27090,28 @@
     }
   },
   "globalHistory": [
+    {
+      "id": "fa5758e1-4f12-4f60-b1df-ef4ee703905d",
+      "queryNumber": "9691385669",
+      "timestamp": "2026-11-08T09:56:33.251Z",
+      "source": "bot",
+      "userId": 8753511590,
+      "userName": "Haseeb",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9691385669",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
     {
       "id": "8c24e450-aca8-43a8-81ad-4415cce619fd",
       "queryNumber": "9690061054",
@@ -29221,31 +29289,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "63a9420d-5924-4b90-99be-d098f29e8960",
-      "queryNumber": "9238884844",
-      "timestamp": "2026-11-06T16:37:21.318Z",
-      "source": "bot",
-      "userId": 6247554367,
-      "userName": "Divya",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9238884844",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "e746375a-2855-4bbb-ba63-015e7e2c706b",
+      "timestamp": "2026-11-08T09:56:33.251Z",
+      "type": "LOOKUP",
+      "userId": 8753511590,
+      "userName": "Haseeb",
+      "summary": "Number Lookup 9691385669 (Not found)"
+    },
+    {
+      "id": "598a2fa3-925b-4ffb-9411-5a8c79607075",
+      "timestamp": "2026-11-08T09:55:19.541Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8753511590,
+      "userName": "Haseeb",
+      "summary": "Force Join prompt shown on /start"
+    },
     {
       "id": "9ff09b3f-9a64-4aa3-b127-5c809366076f",
       "timestamp": "2026-11-08T09:49:38.664Z",
@@ -30429,25 +30491,9 @@
       "userId": 8248589840,
       "userName": "NANDI",
       "summary": "Number Lookup 7909011062 (MONIRUL HASSAN SARDAR)"
-    },
-    {
-      "id": "550b6d27-7737-4ef6-b8c2-a8b19db66ea3",
-      "timestamp": "2026-11-07T07:31:55.801Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8248589840,
-      "userName": "NANDI",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "1ac372fc-9f46-4758-b002-4553edba91a5",
-      "timestamp": "2026-11-07T07:31:03.937Z",
-      "type": "LOOKUP",
-      "userId": 8248589840,
-      "userName": "NANDI",
-      "summary": "Number Lookup 6297244279 (MONIRUL HASSAN SARDAR)"
     }
   ],
-  "lastTelegramUpdateId": 168815957,
+  "lastTelegramUpdateId": 168815961,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
