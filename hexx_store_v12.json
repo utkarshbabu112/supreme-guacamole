@@ -26312,6 +26312,52 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-08"
+    },
+    "6185976734": {
+      "id": 6185976734,
+      "firstName": "DARK",
+      "username": "GHOST_GMR",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX976734",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-08T07:24:40.425Z",
+      "lastActiveAt": "2026-11-08T07:24:46.195Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14403,
+      "lastBotMessageHasPhoto": false
+    },
+    "7543063908": {
+      "id": 7543063908,
+      "firstName": "@",
+      "username": "frakl",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX063908",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-08T07:25:55.260Z",
+      "lastActiveAt": "2026-11-08T07:26:12.341Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14405,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-08"
     }
   },
   "orders": {
@@ -28904,6 +28950,22 @@
   ],
   "logs": [
     {
+      "id": "05507d8d-2ee7-41dd-a6b6-5de3ba3dcdc0",
+      "timestamp": "2026-11-08T07:25:55.904Z",
+      "type": "BOT_MESSAGE",
+      "userId": 7543063908,
+      "userName": "@",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
+      "id": "8b26ce3c-465b-404e-a4a8-8f83b504e30e",
+      "timestamp": "2026-11-08T07:24:41.080Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6185976734,
+      "userName": "DARK",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "b4ae3f72-eb42-4b5e-939e-13ebd4fb233b",
       "timestamp": "2026-11-08T07:19:34.759Z",
       "type": "LOOKUP",
@@ -30086,25 +30148,9 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Number Lookup 9708395593 (MONIRUL HASSAN SARDAR)"
-    },
-    {
-      "id": "a00dabff-fa76-4a77-a480-0a324754db68",
-      "timestamp": "2026-11-07T06:30:09.193Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "a41c7966-dc47-4ba8-a084-406f17c59917",
-      "timestamp": "2026-11-07T06:29:47.118Z",
-      "type": "LOOKUP",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Number Lookup 9093614290 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815890,
+  "lastTelegramUpdateId": 168815898,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
