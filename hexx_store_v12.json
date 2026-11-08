@@ -20849,7 +20849,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-04T11:14:19.198Z",
-      "lastActiveAt": "2026-11-04T11:16:39.685Z",
+      "lastActiveAt": "2026-11-08T06:05:53.614Z",
       "isBanned": false,
       "history": [
         {
@@ -20879,7 +20879,7 @@
       "lastBotMessageHasPhoto": true,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-04",
+      "lastLookupDate": "2026-11-08",
       "liveLocationUsed": 0
     },
     "6534617119": {
@@ -30036,7 +30036,7 @@
       "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815883,
+  "lastTelegramUpdateId": 168815884,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
