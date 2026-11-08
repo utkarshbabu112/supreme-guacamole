@@ -20843,15 +20843,37 @@
       "premiumUntil": null,
       "totalSpent": 0,
       "dailyLookupsUsed": 0,
-      "totalLookups": 1,
+      "totalLookups": 2,
       "referralCode": "HEX387439",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-04T11:14:19.198Z",
-      "lastActiveAt": "2026-11-08T06:05:53.614Z",
+      "lastActiveAt": "2026-11-08T06:06:25.071Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "61296a27-ca33-4e91-a019-9a6a7d42c2b8",
+          "queryNumber": "9389530723",
+          "timestamp": "2026-11-08T06:06:26.397Z",
+          "source": "bot",
+          "userId": 8386387439,
+          "userName": "🏆MADMAX 💀",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9389530723",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "e3632bf0-0772-42a5-8fbd-1c8e6faddff0",
           "queryNumber": "7891617731",
@@ -20875,8 +20897,8 @@
           }
         }
       ],
-      "lastBotMessageId": 13139,
-      "lastBotMessageHasPhoto": true,
+      "lastBotMessageId": 14395,
+      "lastBotMessageHasPhoto": false,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-08",
@@ -26634,6 +26656,28 @@
   },
   "globalHistory": [
     {
+      "id": "61296a27-ca33-4e91-a019-9a6a7d42c2b8",
+      "queryNumber": "9389530723",
+      "timestamp": "2026-11-08T06:06:26.397Z",
+      "source": "bot",
+      "userId": 8386387439,
+      "userName": "🏆MADMAX 💀",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9389530723",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
       "id": "597b4007-464c-4e5c-aa62-85491ff34ffd",
       "queryNumber": "7059160702",
       "timestamp": "2026-11-08T05:28:09.671Z",
@@ -28810,31 +28854,17 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "f189eaea-b88b-4d8b-bd96-ec44328306e8",
-      "queryNumber": "9790077269",
-      "timestamp": "2026-11-06T10:28:59.554Z",
-      "source": "bot",
-      "userId": 8904077571,
-      "userName": ".",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9790077269",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "8daaa90a-92f8-4498-a812-b903b0958849",
+      "timestamp": "2026-11-08T06:06:26.397Z",
+      "type": "LOOKUP",
+      "userId": 8386387439,
+      "userName": "🏆MADMAX 💀",
+      "summary": "Number Lookup 9389530723 (Not found)"
+    },
     {
       "id": "de32d45c-3fca-4a7b-b157-4e098208a8ac",
       "timestamp": "2026-11-08T05:54:19.834Z",
@@ -30026,17 +30056,9 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "eba316a9-d9b9-4885-9e03-1a7c7dd3b39a",
-      "timestamp": "2026-11-07T06:27:53.877Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815884,
+  "lastTelegramUpdateId": 168815885,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
