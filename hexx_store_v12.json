@@ -26118,6 +26118,31 @@
       "forceJoinVerified": false,
       "lastBotMessageId": 14350,
       "lastBotMessageHasPhoto": false
+    },
+    "6783862138": {
+      "id": 6783862138,
+      "firstName": "Rakesh",
+      "username": "uttamshk",
+      "credits": 2,
+      "isPremium": true,
+      "premiumUntil": "2027-11-08T04:47:01.285Z",
+      "totalSpent": 119,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX862138",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-08T04:46:18.034Z",
+      "lastActiveAt": "2026-11-08T04:47:05.595Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14355,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-08",
+      "lastPlanName": "1 Year Pass"
     }
   },
   "orders": {
@@ -26478,6 +26503,32 @@
       "createdAt": "2026-11-07T19:23:09.169Z",
       "expiresAt": "2026-11-07T19:33:09.169Z",
       "botQrMessageId": 14310
+    },
+    "HEXO45Y2138": {
+      "orderId": "HEXO45Y2138",
+      "famOrderId": "HEXO45Y2138",
+      "userId": 6783862138,
+      "userName": "Rakesh",
+      "userUsername": "uttamshk",
+      "planId": "plan_365d",
+      "planName": "1 Year Pass",
+      "amount": 119,
+      "payableAmount": "119",
+      "qrImageUrl": "https://hexx-locate.ai.studio/api/qr/HEXO45Y2138",
+      "qrDataUrl": "data:image/png;base64,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",
+      "lastImapScanAt": 0,
+      "credits": 0,
+      "days": 365,
+      "status": "PAID",
+      "paymentUrl": "https://hexx-locate.ai.studio/?order=HEXO45Y2138",
+      "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=119&cu=INR&tn=HEXO45Y2138&tr=HEXO45Y2138",
+      "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=119&cu=INR&tn=HEXO45Y2138&tr=HEXO45Y2138",
+      "gatewaySource": "direct_gmail",
+      "createdAt": "2026-11-08T04:46:28.630Z",
+      "expiresAt": "2026-11-08T04:56:28.630Z",
+      "botQrMessageId": 14353,
+      "utr": "GMAIL_815",
+      "paidAt": "2026-11-08T04:47:01.285Z"
     }
   },
   "globalHistory": [
@@ -28684,6 +28735,30 @@
   ],
   "logs": [
     {
+      "id": "ef33fa66-bf4d-4a9b-9c0a-dd61e6752ce5",
+      "timestamp": "2026-11-08T04:47:01.285Z",
+      "type": "PAYMENT",
+      "userId": 6783862138,
+      "userName": "Rakesh",
+      "summary": "Order HEXO45Y2138 PAID (365 Days VIP, Rs.119)"
+    },
+    {
+      "id": "8680981d-cd0f-4a6d-8c65-6e29a7d9e3c3",
+      "timestamp": "2026-11-08T04:46:28.660Z",
+      "type": "PAYMENT",
+      "userId": 6783862138,
+      "userName": "Rakesh",
+      "summary": "Created Auto-QR Order HEXO45Y2138 (₹119 for 365 Days VIP)"
+    },
+    {
+      "id": "d07be20b-2ce4-4cfe-a70b-f03fae0d2be5",
+      "timestamp": "2026-11-08T04:46:18.962Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6783862138,
+      "userName": "Rakesh",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "59b097f9-a39a-43a7-9ba9-a4e39967d250",
       "timestamp": "2026-11-08T04:23:40.095Z",
       "type": "BOT_MESSAGE",
@@ -29858,35 +29933,12 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "549476e3-2dad-412b-901a-bd6f5d2bd4a0",
-      "timestamp": "2026-11-07T03:54:07.962Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "ff89bc51-f72c-4a93-b383-182cf03c6c3e",
-      "timestamp": "2026-11-07T01:50:15.924Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8968071078,
-      "userName": "Aura",
-      "summary": "Started bot (/start)"
-    },
-    {
-      "id": "4c4542dc-a2f4-4301-b0ca-83c9fa3d8345",
-      "timestamp": "2026-11-07T00:20:19.696Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8983229920,
-      "userName": "ha_cker😈",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815846,
+  "lastTelegramUpdateId": 168815851,
   "usedEmailIds": [
     "gmail_739",
-    "gmail_754"
+    "gmail_754",
+    "gmail_815"
   ]
 }
