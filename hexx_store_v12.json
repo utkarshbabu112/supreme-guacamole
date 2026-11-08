@@ -26917,6 +26917,29 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-08"
+    },
+    "8916489978": {
+      "id": 8916489978,
+      "firstName": "Ywa",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX489978",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-08T11:43:35.930Z",
+      "lastActiveAt": "2026-11-08T11:45:46.518Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14502,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-08"
     }
   },
   "orders": {
@@ -29509,6 +29532,14 @@
   ],
   "logs": [
     {
+      "id": "628c4f48-ebc1-429f-8e8f-2c82d7f8a4dc",
+      "timestamp": "2026-11-08T11:43:36.568Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8916489978,
+      "userName": "Ywa",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "0c274b43-5653-4b40-833e-01698f72900f",
       "timestamp": "2026-11-08T11:43:09.188Z",
       "type": "LOOKUP",
@@ -30699,17 +30730,9 @@
       "userId": 8619839521,
       "userName": "Ch.Raj",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "b5e5db5b-a8a8-4767-b93e-6b883fbbb986",
-      "timestamp": "2026-11-07T10:14:26.905Z",
-      "type": "LOOKUP",
-      "userId": 8619839521,
-      "userName": "Ch.Raj",
-      "summary": "Number Lookup 9959889619 (MONIRUL HASSAN SARDAR)"
     }
   ],
-  "lastTelegramUpdateId": 168815989,
+  "lastTelegramUpdateId": 168815995,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
