@@ -361,7 +361,7 @@ function getActiveBotUsername(): string {
 const defaultState: AppState = {
   config: {
     botName: 'HEX OSINT',
-    botUsername: 'HexxOsint_bot',
+    botUsername: 'Heexosint_bot',
     botToken: process.env.BOT_TOKEN || SPECIAL_OSINT_BOT_TOKEN,
     miniAppUrl: 'https://hexx-locate.ai.studio',
     websiteUrl: 'https://hexx-locate.ai.studio',
