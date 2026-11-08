@@ -25981,7 +25981,8 @@
       "lastBotMessageId": 14334,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07"
+      "lastLookupDate": "2026-11-07",
+      "liveLocationUsed": 0
     }
   },
   "orders": {
@@ -26334,7 +26335,7 @@
       "lastImapScanAt": 0,
       "credits": 0,
       "days": 365,
-      "status": "PENDING",
+      "status": "EXPIRED",
       "paymentUrl": "https://hexx-locate.ai.studio/?order=HEXJOC14184",
       "upiIntentUrl": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=119&cu=INR&tn=HEXJOC14184&tr=HEXJOC14184",
       "qrPayload": "upi://pay?pa=8252464080%40fam&pn=Number%20To%20Location%20Bot&am=119&cu=INR&tn=HEXJOC14184&tr=HEXJOC14184",
