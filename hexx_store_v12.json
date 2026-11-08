@@ -3841,7 +3841,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:07:01.294Z",
-      "lastActiveAt": "2026-11-08T09:59:36.617Z",
+      "lastActiveAt": "2026-11-08T10:13:01.350Z",
       "isBanned": false,
       "isAdminUnlocked": true,
       "history": [
@@ -4023,7 +4023,7 @@
           }
         }
       ],
-      "lastBotMessageId": 14469,
+      "lastBotMessageId": 14478,
       "lastBotMessageHasPhoto": true,
       "lookupMode": "info",
       "lastLookupDate": "2026-11-08",
@@ -29361,6 +29361,14 @@
   ],
   "logs": [
     {
+      "id": "c0db13c8-3d34-4f84-9afe-c4dd99cd5520",
+      "timestamp": "2026-11-08T10:12:58.391Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "413c3606-869f-48bb-b16e-bfa858af312c",
       "timestamp": "2026-11-08T10:04:11.562Z",
       "type": "LOOKUP",
@@ -30551,17 +30559,9 @@
       "userId": 6247554367,
       "userName": "Divya",
       "summary": "Number Lookup 9537279389 (MONIRUL HASSAN SARDAR)"
-    },
-    {
-      "id": "15c1d862-d37e-4f42-bfef-02f4038034a1",
-      "timestamp": "2026-11-07T08:49:01.658Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8185898945,
-      "userName": "Yoʋʀ",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815968,
+  "lastTelegramUpdateId": 168815971,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
