@@ -20849,7 +20849,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-04T11:14:19.198Z",
-      "lastActiveAt": "2026-11-08T06:06:25.071Z",
+      "lastActiveAt": "2026-11-08T06:14:21.335Z",
       "isBanned": false,
       "history": [
         {
@@ -20897,8 +20897,8 @@
           }
         }
       ],
-      "lastBotMessageId": 14395,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 14397,
+      "lastBotMessageHasPhoto": true,
       "forceJoinVerified": true,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-08",
@@ -28858,6 +28858,14 @@
   ],
   "logs": [
     {
+      "id": "432f1f4b-6cc1-47cc-99ef-b5183b6a152a",
+      "timestamp": "2026-11-08T06:14:21.712Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8386387439,
+      "userName": "🏆MADMAX 💀",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "8daaa90a-92f8-4498-a812-b903b0958849",
       "timestamp": "2026-11-08T06:06:26.397Z",
       "type": "LOOKUP",
@@ -30048,17 +30056,9 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Number Lookup 9708398593 (Not found)"
-    },
-    {
-      "id": "2d66b244-b9ab-4b75-b3f2-d4b6a4657ca1",
-      "timestamp": "2026-11-07T06:29:16.643Z",
-      "type": "BOT_MESSAGE",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Started bot (/start)"
     }
   ],
-  "lastTelegramUpdateId": 168815885,
+  "lastTelegramUpdateId": 168815886,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
