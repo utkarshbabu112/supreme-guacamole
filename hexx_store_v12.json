@@ -3841,7 +3841,7 @@
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-10-25T04:07:01.294Z",
-      "lastActiveAt": "2026-11-08T08:54:24.098Z",
+      "lastActiveAt": "2026-11-08T09:59:36.617Z",
       "isBanned": false,
       "isAdminUnlocked": true,
       "history": [
@@ -4023,8 +4023,8 @@
           }
         }
       ],
-      "lastBotMessageId": 14449,
-      "lastBotMessageHasPhoto": false,
+      "lastBotMessageId": 14469,
+      "lastBotMessageHasPhoto": true,
       "lookupMode": "info",
       "lastLookupDate": "2026-11-08",
       "activeTrackToken": "LOC611696TH",
@@ -29293,6 +29293,14 @@
   ],
   "logs": [
     {
+      "id": "d9809fdb-afa0-43e8-bb0d-99c23437d0a3",
+      "timestamp": "2026-11-08T09:59:37.110Z",
+      "type": "BOT_MESSAGE",
+      "userId": 6672896116,
+      "userName": "UHTKARSH",
+      "summary": "Started bot (/start)"
+    },
+    {
       "id": "e746375a-2855-4bbb-ba63-015e7e2c706b",
       "timestamp": "2026-11-08T09:56:33.251Z",
       "type": "LOOKUP",
@@ -30483,17 +30491,9 @@
       "userId": 7433326048,
       "userName": "V",
       "summary": "Number Lookup 7501597033 (MONIRUL HASSAN SARDAR)"
-    },
-    {
-      "id": "520f0bc9-129b-4e6d-b99f-09ffdd09d525",
-      "timestamp": "2026-11-07T07:33:09.271Z",
-      "type": "LOOKUP",
-      "userId": 8248589840,
-      "userName": "NANDI",
-      "summary": "Number Lookup 7909011062 (MONIRUL HASSAN SARDAR)"
     }
   ],
-  "lastTelegramUpdateId": 168815961,
+  "lastTelegramUpdateId": 168815962,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
