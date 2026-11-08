@@ -24653,20 +24653,42 @@
       "id": 7539825594,
       "firstName": "Mr op",
       "username": "Robin19150",
-      "credits": 0,
+      "credits": 2,
       "isPremium": false,
       "premiumUntil": null,
       "totalSpent": 0,
-      "dailyLookupsUsed": 2,
-      "totalLookups": 2,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 4,
       "referralCode": "HEX825594",
       "referredBy": null,
       "referralCount": 0,
       "referralCreditsEarned": 0,
       "joinedAt": "2026-11-07T08:16:22.413Z",
-      "lastActiveAt": "2026-11-07T09:23:13.648Z",
+      "lastActiveAt": "2026-11-08T10:26:19.169Z",
       "isBanned": false,
       "history": [
+        {
+          "id": "2b001615-8f00-4426-a0c9-9665af18fbe1",
+          "queryNumber": "9970973644",
+          "timestamp": "2026-11-08T10:26:20.585Z",
+          "source": "bot",
+          "userId": 7539825594,
+          "userName": "Mr op",
+          "resultSummary": {
+            "name": "Not found",
+            "fatherName": "Not found",
+            "mobile": "9970973644",
+            "altMobile": "Not found",
+            "circle": "New Delhi, Delhi",
+            "idNumber": "Not found",
+            "email": "Not found",
+            "address": "New Delhi, Delhi",
+            "totalRecords": 1,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+          }
+        },
         {
           "id": "904cc7c4-8229-42b1-bb9a-cb6f1b5dfba6",
           "queryNumber": "8081103644",
@@ -24688,35 +24710,13 @@
             "lng": 88.66258,
             "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KALUTALA%20HASNABAD%2C%20NORTH%2024%20PARGANAS%2C%20WEST%20BENGAL%2C%20743426%2C%20India"
           }
-        },
-        {
-          "id": "757eb3e4-1626-4d70-9d11-3bd3c20b88e5",
-          "queryNumber": "9970973644",
-          "timestamp": "2026-11-07T08:17:38.701Z",
-          "source": "bot",
-          "userId": 7539825594,
-          "userName": "Mr op",
-          "resultSummary": {
-            "name": "MONIRUL HASSAN SARDAR",
-            "fatherName": "BABURALI SARDAR",
-            "mobile": "9093614290",
-            "altMobile": "Not found",
-            "circle": "JIO WB",
-            "idNumber": "672459048432",
-            "email": "Not found",
-            "address": "RAMESWARPUR, KALUTALA HASNABAD, NORTH 24 PARGANAS, WEST BENGAL, 743426",
-            "totalRecords": 2,
-            "lat": 22.69268,
-            "lng": 88.66258,
-            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KALUTALA%20HASNABAD%2C%20NORTH%2024%20PARGANAS%2C%20WEST%20BENGAL%2C%20743426%2C%20India"
-          }
         }
       ],
       "forceJoinVerified": true,
-      "lastBotMessageId": 14096,
+      "lastBotMessageId": 14483,
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
-      "lastLookupDate": "2026-11-07",
+      "lastLookupDate": "2026-11-08",
       "liveLocationUsed": 0
     },
     "8286130319": {
@@ -27159,6 +27159,50 @@
   },
   "globalHistory": [
     {
+      "id": "2b001615-8f00-4426-a0c9-9665af18fbe1",
+      "queryNumber": "9970973644",
+      "timestamp": "2026-11-08T10:26:20.585Z",
+      "source": "bot",
+      "userId": 7539825594,
+      "userName": "Mr op",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9970973644",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
+      "id": "77d19a02-e51f-49f2-936f-c4269e2426f8",
+      "queryNumber": "9970973644",
+      "timestamp": "2026-11-08T10:25:50.964Z",
+      "source": "bot",
+      "userId": 7539825594,
+      "userName": "Mr op",
+      "resultSummary": {
+        "name": "Not found",
+        "fatherName": "Not found",
+        "mobile": "9970973644",
+        "altMobile": "Not found",
+        "circle": "New Delhi, Delhi",
+        "idNumber": "Not found",
+        "email": "Not found",
+        "address": "New Delhi, Delhi",
+        "totalRecords": 1,
+        "lat": 28.6139,
+        "lng": 77.209,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
+      }
+    },
+    {
       "id": "f6747ada-8392-4910-b307-2cacbb833e77",
       "queryNumber": "7878100274",
       "timestamp": "2026-11-08T10:04:11.562Z",
@@ -29313,53 +29357,25 @@
         "lng": 77.209,
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
       }
-    },
-    {
-      "id": "f0b7af23-5724-4392-9b0e-92892ed2ca53",
-      "queryNumber": "9716717889",
-      "timestamp": "2026-11-06T19:59:26.779Z",
-      "source": "bot",
-      "userId": 7678379747,
-      "userName": "Sathi",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9716717889",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
-    },
-    {
-      "id": "1ddfbfa2-714b-4897-86d6-458085ff2e67",
-      "queryNumber": "9414718533",
-      "timestamp": "2026-11-06T19:53:49.229Z",
-      "source": "bot",
-      "userId": 8887416230,
-      "userName": "Deepak",
-      "resultSummary": {
-        "name": "Not found",
-        "fatherName": "Not found",
-        "mobile": "9414718533",
-        "altMobile": "Not found",
-        "circle": "New Delhi, Delhi",
-        "idNumber": "Not found",
-        "email": "Not found",
-        "address": "New Delhi, Delhi",
-        "totalRecords": 1,
-        "lat": 28.6139,
-        "lng": 77.209,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=India"
-      }
     }
   ],
   "logs": [
+    {
+      "id": "f3e081d3-5baa-4064-9333-8c49fcbec006",
+      "timestamp": "2026-11-08T10:26:20.585Z",
+      "type": "LOOKUP",
+      "userId": 7539825594,
+      "userName": "Mr op",
+      "summary": "Number Lookup 9970973644 (Not found)"
+    },
+    {
+      "id": "08307213-9044-4457-a124-dd774c53e2f7",
+      "timestamp": "2026-11-08T10:25:50.964Z",
+      "type": "LOOKUP",
+      "userId": 7539825594,
+      "userName": "Mr op",
+      "summary": "Number Lookup 9970973644 (Not found)"
+    },
     {
       "id": "c0db13c8-3d34-4f84-9afe-c4dd99cd5520",
       "timestamp": "2026-11-08T10:12:58.391Z",
@@ -30543,25 +30559,9 @@
       "userId": 8286130319,
       "userName": "Andrie",
       "summary": "Number Lookup 8501747845 (MONIRUL HASSAN SARDAR)"
-    },
-    {
-      "id": "5a2119a5-c828-42e8-b8e7-15c63f31ea66",
-      "timestamp": "2026-11-07T09:17:06.581Z",
-      "type": "BOT_MESSAGE",
-      "userId": 8286130319,
-      "userName": "Andrie",
-      "summary": "Force Join prompt shown on /start"
-    },
-    {
-      "id": "643ebef0-9e7c-441b-9477-6d9218857466",
-      "timestamp": "2026-11-07T09:08:49.399Z",
-      "type": "LOOKUP",
-      "userId": 6247554367,
-      "userName": "Divya",
-      "summary": "Number Lookup 9537279389 (MONIRUL HASSAN SARDAR)"
     }
   ],
-  "lastTelegramUpdateId": 168815971,
+  "lastTelegramUpdateId": 168815974,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
