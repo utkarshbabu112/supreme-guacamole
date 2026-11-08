@@ -1529,6 +1529,30 @@
       "awaitingRedeemCode": false,
       "liveLocationUsed": 0
     },
+    "1156273765": {
+      "id": 1156273765,
+      "firstName": ".",
+      "username": "blanders78",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX273765",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-08T05:54:18.711Z",
+      "lastActiveAt": "2026-11-08T05:55:10.082Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": true,
+      "lastBotMessageId": 14393,
+      "lastBotMessageHasPhoto": false,
+      "awaitingRedeemCode": false,
+      "lastLookupDate": "2026-11-08"
+    },
     "1171154624": {
       "id": 1171154624,
       "firstName": "Anurag",
@@ -28812,6 +28836,14 @@
   ],
   "logs": [
     {
+      "id": "de32d45c-3fca-4a7b-b157-4e098208a8ac",
+      "timestamp": "2026-11-08T05:54:19.834Z",
+      "type": "BOT_MESSAGE",
+      "userId": 1156273765,
+      "userName": ".",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "990b09de-9a1c-42ab-a93c-be257282b4da",
       "timestamp": "2026-11-08T05:28:09.671Z",
       "type": "LOOKUP",
@@ -30002,17 +30034,9 @@
       "userId": 6672896116,
       "userName": "UHTKARSH",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "06e10a53-deca-43c4-be1f-a343c4fdb78c",
-      "timestamp": "2026-11-07T06:21:40.068Z",
-      "type": "LOOKUP",
-      "userId": 6672896116,
-      "userName": "UHTKARSH",
-      "summary": "Number Lookup 9708398593 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815878,
+  "lastTelegramUpdateId": 168815883,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754",
