@@ -26097,6 +26097,27 @@
       "lastBotMessageHasPhoto": false,
       "awaitingRedeemCode": false,
       "lastLookupDate": "2026-11-08"
+    },
+    "8302423432": {
+      "id": 8302423432,
+      "firstName": "7896321450",
+      "credits": 2,
+      "isPremium": false,
+      "premiumUntil": null,
+      "totalSpent": 0,
+      "dailyLookupsUsed": 0,
+      "totalLookups": 0,
+      "referralCode": "HEX423432",
+      "referredBy": null,
+      "referralCount": 0,
+      "referralCreditsEarned": 0,
+      "joinedAt": "2026-11-08T04:23:39.167Z",
+      "lastActiveAt": "2026-11-08T04:23:39.167Z",
+      "isBanned": false,
+      "history": [],
+      "forceJoinVerified": false,
+      "lastBotMessageId": 14350,
+      "lastBotMessageHasPhoto": false
     }
   },
   "orders": {
@@ -28663,6 +28684,14 @@
   ],
   "logs": [
     {
+      "id": "59b097f9-a39a-43a7-9ba9-a4e39967d250",
+      "timestamp": "2026-11-08T04:23:40.095Z",
+      "type": "BOT_MESSAGE",
+      "userId": 8302423432,
+      "userName": "7896321450",
+      "summary": "Force Join prompt shown on /start"
+    },
+    {
       "id": "a2e0b5e6-dcab-4bc2-aa35-83493a92ade3",
       "timestamp": "2026-11-08T02:14:39.325Z",
       "type": "LOOKUP",
@@ -29853,17 +29882,9 @@
       "userId": 8983229920,
       "userName": "ha_cker😈",
       "summary": "Started bot (/start)"
-    },
-    {
-      "id": "305238a9-2535-4ca8-b21a-778321bbff1e",
-      "timestamp": "2026-11-06T20:08:22.188Z",
-      "type": "LOOKUP",
-      "userId": 7570417922,
-      "userName": "Sachin",
-      "summary": "Number Lookup 8290999944 (Not found)"
     }
   ],
-  "lastTelegramUpdateId": 168815845,
+  "lastTelegramUpdateId": 168815846,
   "usedEmailIds": [
     "gmail_739",
     "gmail_754"
